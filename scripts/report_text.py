@@ -5,7 +5,7 @@ or results/full/judge_agreement.md; the tables themselves are read from those fi
 """
 
 # Set this to the public repository's address, then run  python scripts/build_report.py
-REPO_URL = ""
+REPO_URL = "https://github.com/SushovitNanda/nis2-legal-grounding-eval"
 
 TITLE = "Grounded or Guessing? What the Legal Text Does to LLM Compliance Advice on Portugal's NIS 2 Transposition"
 

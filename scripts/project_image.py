@@ -59,7 +59,7 @@ def main() -> int:
         ax.set_title(title, loc="left", fontsize=19, color=INK, pad=14)
     fig.text(0.05, 0.075, "4 models  ·  22 expert-written questions  ·  792 answers  ·  two LLM judges validated "
                           "against a legal professional", fontsize=15, color=INK2)
-    fig.text(0.05, 0.035, "Apart Research AI x Epistemics sprint  ·  github.com/SushovitNanda/Legal-grounding-eval",
+    fig.text(0.05, 0.035, "Apart Research AI x Epistemics sprint  ·  github.com/SushovitNanda/nis2-legal-grounding-eval",
              fontsize=13, color=MUTED)
     out = ROOT / "Report" / "project-image.png"
     fig.savefig(out, dpi=100, facecolor=SURFACE)
