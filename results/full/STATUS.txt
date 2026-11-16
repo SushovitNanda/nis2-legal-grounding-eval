@@ -1,0 +1,13 @@
+Status at Sun 15 Nov 16:27:19   (target per cell: 66 = 22 questions x 3 repetitions)
+
+answers generated           C0    C1    C2
+qwen3.5-397b                66    66    66
+qwen3.8-27b                 66    66    66
+gemma-4-31b-it              66    66    66
+deepseek-v4-flash           66    66    66
+gemma-4-26b-a4b-it          66    66    66
+
+total answers: 1010
+graded by qwen3.8-27b: 1010
+graded by gemma-4-31b-it: 1010
+generation finished: True

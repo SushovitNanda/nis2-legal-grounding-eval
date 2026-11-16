@@ -1,0 +1,1741 @@
+{
+ "meta": {
+  "title": "NIS2 (PT) compliance-advice reference standard",
+  "reference_law": "Decreto-Lei n.º 125/2025, de 4 de dezembro (decree-law and annexed Regime Jurídico da Cibersegurança)",
+  "version": "draft-2026-11-14 (NOT FROZEN)",
+  "provenance": "Questions, checklist items, citations, statuses and grading notes transcribed from Bia's draft of 14 Nov 2026 (tasks B5/B6), drafted for her review. Every citation re-checked here against data/decree/dl_index.json (article, paragraph, point exist; start page matches).",
+  "question_pt_note": "question_pt values are provisional translations made for the pilot; replace with the Portuguese wording from Bia's own JSON before the full run.",
+  "citation_convention": "source 'regime' = article of the annexed regime; 'decreto' = article of the decree-law itself (art. 10.º, n.º 2, do decreto).",
+  "statuses": {
+   "verified": "Checked in the official text, with article, paragraph, point and PDF page.",
+   "inferred": "Our conclusion from official or public texts that they do not state expressly.",
+   "to confirm": "Depends on company facts, on regulation or texts not read, or comes from a secondary source.",
+   "proposal": "Our recommendation, not a statement about the law."
+  },
+  "decree_silent": "true = the decree-law itself does not give the answer (it defers to regulation / portaria). See README 'Open issue: CNCS Regulation 756/2026'."
+ },
+ "questions": [
+  {
+   "id": "L1-01",
+   "batch": 1,
+   "question_en": "A significant incident at an important entity is resolved one hour after it is detected. Which notifications must the entity send to the cybersecurity authority?",
+   "question_pt": "Um incidente significativo numa entidade importante é resolvido uma hora depois de ser detetado. Que notificações tem a entidade de enviar à autoridade de cibersegurança?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "General rule: for each incident subject to mandatory notification, an initial notification, a notification of the end of significant impact, and a final report.",
+     "citations": [
+      {
+       "raw": "art. 41.º, n.º 1, al. a) a c)",
+       "source": "regime",
+       "article": 41,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "a",
+        "b",
+        "c"
+       ],
+       "subpoint": null,
+       "page": 40
+      }
+     ],
+     "citation_raw": "art. 41.º, n.º 1, al. a) a c), p. 40",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "If the incident is resolved within two hours of detection, the entity only has to send the notification of the end of significant impact.",
+     "citations": [
+      {
+       "raw": "art. 41.º, n.º 2",
+       "source": "regime",
+       "article": 41,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 40
+      }
+     ],
+     "citation_raw": "art. 41.º, n.º 2, p. 40",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "That notification is sent without undue delay and within 24 hours of the end of the impact.",
+     "citations": [
+      {
+       "raw": "art. 43.º, n.º 1",
+       "source": "regime",
+       "article": 43,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 41
+      }
+     ],
+     "citation_raw": "art. 43.º, n.º 1, p. 41",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "Notifications are submitted on the electronic platform referred to in art. 8.º, n.º 7.",
+     "citations": [
+      {
+       "raw": "art. 40.º, n.º 6",
+       "source": "regime",
+       "article": 40,
+       "paragraphs": [
+        6
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 40
+      }
+     ],
+     "citation_raw": "art. 40.º, n.º 6, p. 40",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The two-hour rule and the end-of-impact notification come from the decree; the directive provides for an early warning, an incident notification and a final report.",
+   "grading_note": "Typical jurisdiction confusion: applying the directive scheme (early warning 24 h, notification 72 h, final report in one month) and ignoring the two-hour rule."
+  },
+  {
+   "id": "L1-02",
+   "batch": 1,
+   "question_en": "What is the deadline for the final report on a significant incident, counted from when, and what happens if the incident is still ongoing?",
+   "question_pt": "Qual é o prazo do relatório final de um incidente significativo, contado a partir de quando, e o que acontece se o incidente ainda estiver em curso?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Final report within 30 working days (dias úteis) of the date of the notification of the end of significant impact.",
+     "citations": [
+      {
+       "raw": "art. 44.º, n.º 1",
+       "source": "regime",
+       "article": 44,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 42
+      }
+     ],
+     "citation_raw": "art. 44.º, n.º 1, p. 42",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "If the incident is still ongoing when that deadline passes, the entity submits an interim report, at the authority's request, weekly, until the final report.",
+     "citations": [
+      {
+       "raw": "art. 44.º, n.º 3",
+       "source": "regime",
+       "article": 44,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 42
+      }
+     ],
+     "citation_raw": "art. 44.º, n.º 3, p. 42",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The decree counts 30 working days from the end-of-impact notification; the directive sets one month from the incident notification.",
+   "grading_note": "An answer with \"one month\", or counting from the initial notification = jurisdiction confusion (and item not covered)."
+  },
+  {
+   "id": "L1-03",
+   "batch": 1,
+   "question_en": "An important entity already operating before the regime came into force: must it appoint a cybersecurity officer (responsável de cibersegurança)? Who can it be, and by when must it be communicated?",
+   "question_pt": "Uma entidade importante que já estava em atividade antes da entrada em vigor do regime tem de designar um responsável de cibersegurança? Quem pode ser, e até quando tem de ser comunicado?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Yes: essential and important entities appoint a cybersecurity officer who is a member of the management, direction or administration bodies, or reports to them organically and directly.",
+     "citations": [
+      {
+       "raw": "art. 31.º, n.º 1",
+       "source": "regime",
+       "article": 31,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 34
+      }
+     ],
+     "citation_raw": "art. 31.º, n.º 1, p. 34",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Communication to the competent authority within 20 working days of the entry into force of the decree-law, for entities already operating.",
+     "citations": [
+      {
+       "raw": "art. 31.º, n.º 4",
+       "source": "regime",
+       "article": 31,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 35
+      }
+     ],
+     "citation_raw": "art. 31.º, n.º 4, p. 35",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "When the period starts in practice (entry into force, 3/4/2026, or the CNCS notification of qualification, under Reg. CNCS n.º 756/2026) is debatable.",
+     "citations": [
+      {
+       "raw": "art. 31.º, n.º 4",
+       "source": "regime",
+       "article": 31,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 35
+      }
+     ],
+     "citation_raw": "art. 31.º, n.º 4, p. 35",
+     "status": "to confirm"
+    },
+    {
+     "id": "d",
+     "text_en": "In a corporate group, each company may have a cybersecurity contact point coordinated by a security officer common to the group.",
+     "citations": [
+      {
+       "raw": "art. 31.º, n.º 7",
+       "source": "regime",
+       "article": 31,
+       "paragraphs": [
+        7
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 35
+      }
+     ],
+     "citation_raw": "art. 31.º, n.º 7, p. 35",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The cybersecurity officer is a requirement of the decree; the directive does not require it.",
+   "grading_note": "Item c: giving the date as certain without mentioning the doubt = overconfidence."
+  },
+  {
+   "id": "L1-04",
+   "batch": 1,
+   "question_en": "What does the regime require of the permanent point of contact of an essential or important entity?",
+   "question_pt": "O que exige o regime quanto ao ponto de contacto permanente de uma entidade essencial ou importante?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Availability 24 hours a day, 7 days a week, limited to activation periods started and ended by communication from the authority.",
+     "citations": [
+      {
+       "raw": "art. 32.º, n.º 1",
+       "source": "regime",
+       "article": 32,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 35
+      }
+     ],
+     "citation_raw": "art. 32.º, n.º 1, p. 35",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "At least one point of contact communicated to the CNCS; it may be one person or a team.",
+     "citations": [
+      {
+       "raw": "art. 32.º, n.º 2",
+       "source": "regime",
+       "article": 32,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 35
+      }
+     ],
+     "citation_raw": "art. 32.º, n.º 2, p. 35",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The persons and the main and alternative contact means are indicated within 20 working days; entities already operating count from the entry into force.",
+     "citations": [
+      {
+       "raw": "art. 32.º, n.º 3",
+       "source": "regime",
+       "article": 32,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      },
+      {
+       "raw": "art. 32.º, n.º 4",
+       "source": "regime",
+       "article": 32,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      }
+     ],
+     "citation_raw": "art. 32.º, n.º 3, p. 36; art. 32.º, n.º 4, p. 36",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "Any change to that information is communicated immediately.",
+     "citations": [
+      {
+       "raw": "art. 32.º, n.º 5",
+       "source": "regime",
+       "article": 32,
+       "paragraphs": [
+        5
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      }
+     ],
+     "citation_raw": "art. 32.º, n.º 5, p. 36",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The 24/7 permanent point of contact comes from the decree; the directive does not provide for it in these terms.",
+   "grading_note": "Overconfidence: saying the 24/7 availability is permanent and unconditional (ignoring the activation periods)."
+  },
+  {
+   "id": "L1-05",
+   "batch": 1,
+   "question_en": "Must an important entity send an annual cybersecurity report to the CNCS? From when?",
+   "question_pt": "Uma entidade importante tem de enviar um relatório anual de cibersegurança ao CNCS? A partir de quando?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Essential and important entities prepare and keep an annual report.",
+     "citations": [
+      {
+       "raw": "art. 30.º, n.º 1",
+       "source": "regime",
+       "article": 30,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 34
+      }
+     ],
+     "citation_raw": "art. 30.º, n.º 1, p. 34",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Only essential entities send it on their own initiative (by the last working day of January); important entities provide it to the CNCS whenever requested.",
+     "citations": [
+      {
+       "raw": "art. 30.º, n.º 2",
+       "source": "regime",
+       "article": 30,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 34
+      },
+      {
+       "raw": "art. 30.º, n.º 4",
+       "source": "regime",
+       "article": 30,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 34
+      }
+     ],
+     "citation_raw": "art. 30.º, n.º 2, p. 34; art. 30.º, n.º 4, p. 34",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "Art. 30.º only takes effect 24 months after publication of the regulation referred to in arts. 8.º, 14.º, 26.º, 31.º, 32.º and 83.º.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "If Reg. CNCS n.º 756/2026 (22/06/2026) is all of that regulation, the date is 22/06/2028.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "to confirm"
+    }
+   ],
+   "decree_vs_directive": "The annual report is a national obligation; the directive does not provide for it.",
+   "grading_note": "Numbering trap: \"art. 10.º\" is in the decree, not the annex. Item d: the date only as conditional."
+  },
+  {
+   "id": "L1-06",
+   "batch": 1,
+   "question_en": "What is the maximum fine for a very serious administrative offence (contraordenação muito grave) committed by a legal person that is an important entity?",
+   "question_pt": "Qual é a coima máxima por uma contraordenação muito grave praticada por uma pessoa coletiva que seja entidade importante?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "From €1,250 to €7,000,000, or a maximum of not less than 1.4% of worldwide annual turnover in the previous financial year, whichever is higher.",
+     "citations": [
+      {
+       "raw": "art. 61.º, n.º 2, al. b) i)",
+       "source": "regime",
+       "article": 61,
+       "paragraphs": [
+        2
+       ],
+       "points": [
+        "b"
+       ],
+       "subpoint": "i",
+       "page": 51
+      }
+     ],
+     "citation_raw": "art. 61.º, n.º 2, al. b) i), p. 51",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Examples of very serious offences: failure to notify incidents (arts. 40.º to 44.º) and to inform service recipients (art. 48.º).",
+     "citations": [
+      {
+       "raw": "art. 61.º, n.º 1, al. j)",
+       "source": "regime",
+       "article": 61,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "j"
+       ],
+       "subpoint": null,
+       "page": 51
+      },
+      {
+       "raw": "art. 61.º, n.º 1, al. k)",
+       "source": "regime",
+       "article": 61,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "k"
+       ],
+       "subpoint": null,
+       "page": 51
+      }
+     ],
+     "citation_raw": "art. 61.º, n.º 1, al. j), p. 51; art. 61.º, n.º 1, al. k), p. 51",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "For negligence, the minimum and maximum limits are halved.",
+     "citations": [
+      {
+       "raw": "art. 64.º",
+       "source": "regime",
+       "article": 64,
+       "paragraphs": [],
+       "points": [],
+       "subpoint": null,
+       "page": 53
+      }
+     ],
+     "citation_raw": "art. 64.º, p. 53",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The decree sets minimums and a tier of serious offences (art. 62.º); the directive only sets maximums.",
+   "grading_note": "Giving only \"€7M or 1.4%\" covers item a partially (the minimum is missing)."
+  },
+  {
+   "id": "L1-07",
+   "batch": 1,
+   "question_en": "Can an entity ask not to be fined while it adapts to the new regime? Until when?",
+   "question_pt": "Uma entidade pode pedir para não lhe serem aplicadas coimas enquanto se adapta ao novo regime? Até quando?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Yes: by a reasoned request, on the ground that no internal adaptation procedure exists, it can ask for exemption from the fines in arts. 61.º, n.º 2, and 62.º, n.º 2.",
+     "citations": [
+      {
+       "raw": "art. 65.º",
+       "source": "regime",
+       "article": 65,
+       "paragraphs": [],
+       "points": [],
+       "subpoint": null,
+       "page": 53
+      }
+     ],
+     "citation_raw": "art. 65.º, p. 53",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "\"For 12 months from the entry into force\" of the decree-law.",
+     "citations": [
+      {
+       "raw": "art. 65.º",
+       "source": "regime",
+       "article": 65,
+       "paragraphs": [],
+       "points": [],
+       "subpoint": null,
+       "page": 53
+      }
+     ],
+     "citation_raw": "art. 65.º, p. 53",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The decree-law entered into force 120 days after publication (4/12/2025), i.e. on 3/4/2026; the 12 months end on 3/4/2027.",
+     "citations": [
+      {
+       "raw": "art. 11.º, do decreto",
+       "source": "decreto",
+       "article": 11,
+       "paragraphs": [],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 11.º, do decreto, p. 7",
+     "status": "inferred"
+    },
+    {
+     "id": "d",
+     "text_en": "The provision is ambiguous: the 12 months may be the period to make the request, or the period whose facts the exemption covers.",
+     "citations": [
+      {
+       "raw": "art. 65.º",
+       "source": "regime",
+       "article": 65,
+       "paragraphs": [],
+       "points": [],
+       "subpoint": null,
+       "page": 53
+      }
+     ],
+     "citation_raw": "art. 65.º, p. 53",
+     "status": "inferred"
+    }
+   ],
+   "decree_vs_directive": "The fine exemption during the adaptation period comes from the decree; the directive does not provide for it.",
+   "grading_note": "Items c and d test calibration: a good answer gives the date as a calculation and flags the ambiguity."
+  },
+  {
+   "id": "L1-08",
+   "batch": 1,
+   "question_en": "Besides essential and important entities, does the Portuguese regime provide for another category of entities? Which?",
+   "question_pt": "Além das entidades essenciais e importantes, o regime português prevê outra categoria de entidades? Qual?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Yes: relevant public entities (entidades públicas relevantes), i.e. public entities not qualified as essential or important.",
+     "citations": [
+      {
+       "raw": "art. 7.º, n.º 1",
+       "source": "regime",
+       "article": 7,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 16
+      }
+     ],
+     "citation_raw": "art. 7.º, n.º 1, p. 16",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "They are split into Group A (as a rule, 250 or more workers, or above the medium-sized enterprise thresholds) and Group B (as a rule, 75 to 249 workers, or medium-sized enterprises).",
+     "citations": [
+      {
+       "raw": "art. 7.º, n.º 2, al. a)",
+       "source": "regime",
+       "article": 7,
+       "paragraphs": [
+        2
+       ],
+       "points": [
+        "a"
+       ],
+       "subpoint": null,
+       "page": 16
+      },
+      {
+       "raw": "art. 7.º, n.º 3, al. a)",
+       "source": "regime",
+       "article": 7,
+       "paragraphs": [
+        3
+       ],
+       "points": [
+        "a"
+       ],
+       "subpoint": null,
+       "page": 17
+      }
+     ],
+     "citation_raw": "art. 7.º, n.º 2, al. a), p. 16; art. 7.º, n.º 3, al. a), p. 17",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The qualification results from the mechanisms in art. 8.º.",
+     "citations": [
+      {
+       "raw": "art. 7.º, n.º 4",
+       "source": "regime",
+       "article": 7,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 17
+      }
+     ],
+     "citation_raw": "art. 7.º, n.º 4, p. 17",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "They have their own measures set by the CNCS by regulation (art. 33.º) and their own fines by group.",
+     "citations": [
+      {
+       "raw": "art. 33.º, n.º 2",
+       "source": "regime",
+       "article": 33,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      },
+      {
+       "raw": "art. 61.º, n.º 2, al. c) e d)",
+       "source": "regime",
+       "article": 61,
+       "paragraphs": [
+        2
+       ],
+       "points": [
+        "c",
+        "d"
+       ],
+       "subpoint": null,
+       "page": 51
+      }
+     ],
+     "citation_raw": "art. 33.º, n.º 2, p. 36; art. 61.º, n.º 2, al. c) e d), p. 51",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The category of relevant public entities is national; the directive only distinguishes essential and important entities.",
+   "grading_note": "Answering only \"essential and important\" = item a not covered."
+  },
+  {
+   "id": "L1-09",
+   "batch": 1,
+   "question_en": "A company already operating when the regime came into force: must it identify itself to the CNCS? By when? Who decides whether it is essential or important?",
+   "question_pt": "Uma empresa que já estava em atividade quando o regime entrou em vigor tem de se identificar junto do CNCS? Até quando? Quem decide se é entidade essencial ou importante?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Yes: it identifies itself on the CNCS electronic platform within 60 days of the platform being made available (30 days after starting activity, for new entities) and keeps the information up to date.",
+     "citations": [
+      {
+       "raw": "art. 8.º, n.º 1",
+       "source": "regime",
+       "article": 8,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 17
+      }
+     ],
+     "citation_raw": "art. 8.º, n.º 1, p. 17",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The date the platform was made available, and therefore the end of the period, is not in the decree.",
+     "citations": [
+      {
+       "raw": "art. 8.º, n.º 1",
+       "source": "regime",
+       "article": 8,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 17
+      }
+     ],
+     "citation_raw": "art. 8.º, n.º 1, p. 17",
+     "status": "to confirm"
+    },
+    {
+     "id": "c",
+     "text_en": "The CNCS qualifies: under the criteria of art. 6.º, n.º 1, a) to c) and e), and n.º 2, qualification results from the identification; under n.º 1, d) and f), and n.º 3, it is communicated to the Government member 60 days in advance and reviewed at least every two years.",
+     "citations": [
+      {
+       "raw": "art. 8.º, n.º 2",
+       "source": "regime",
+       "article": 8,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 17
+      },
+      {
+       "raw": "art. 8.º, n.º 3",
+       "source": "regime",
+       "article": 8,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 17
+      }
+     ],
+     "citation_raw": "art. 8.º, n.º 2, p. 17; art. 8.º, n.º 3, p. 17",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "Failure to comply with the duties in art. 8.º is a serious offence (contraordenação grave).",
+     "citations": [
+      {
+       "raw": "art. 62.º, n.º 1, al. a)",
+       "source": "regime",
+       "article": 62,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "a"
+       ],
+       "subpoint": null,
+       "page": 52
+      }
+     ],
+     "citation_raw": "art. 62.º, n.º 1, al. a), p. 52",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "Self-identification by the entity on a CNCS platform, with these deadlines, comes from the decree; under the directive, the list is established by the Member States.",
+   "grading_note": "Saying the company classifies itself as essential or important, with no role for the CNCS, counts as item c not covered."
+  },
+  {
+   "id": "L1-10",
+   "batch": 1,
+   "question_en": "If the CNCS changes an important entity's qualification, or the minimum measures change, how long does the entity have to adapt?",
+   "question_pt": "Se o CNCS alterar a qualificação de uma entidade importante, ou se as medidas mínimas forem alteradas, de quanto tempo dispõe a entidade para se adaptar?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Six months to adapt to the new qualification or the new minimum measures.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 8",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        8
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 8, p. 32",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Extendable up to one year by the National Cybersecurity Authority, on the entity's reasoned request.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 8",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        8
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 8, p. 32",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The minimum measures and compliance levels are set by the CNCS by regulation, according to sector, size and the risk matrix.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 5",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        5
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 5, p. 32",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The six-month adaptation period comes from the decree; the directive does not provide for it.",
+   "grading_note": "Reading \"one year\" as automatic (without a request) = item b partial."
+  },
+  {
+   "id": "L2-01",
+   "batch": 2,
+   "question_en": "What data must a managed service provider enter in the CNCS register, and by when must it report changes?",
+   "question_pt": "Que dados tem um prestador de serviços geridos de inscrever no registo do CNCS, e em que prazo tem de comunicar alterações?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Identification data: name, tax number, address and contacts (including IP address ranges), sector and subsector, Member States where it provides services.",
+     "citations": [
+      {
+       "raw": "art. 35.º, n.º 1, al. a) a e)",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+       ],
+       "subpoint": null,
+       "page": 37
+      }
+     ],
+     "citation_raw": "art. 35.º, n.º 1, al. a) a e), p. 37",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Managed service providers (and cloud, data centre, etc.) must also enter their main establishment, contacts, Member States and IP ranges.",
+     "citations": [
+      {
+       "raw": "art. 35.º, n.º 2",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 37
+      }
+     ],
+     "citation_raw": "art. 35.º, n.º 2, p. 37",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "General rule: changes notified to the CNCS within 30 working days.",
+     "citations": [
+      {
+       "raw": "art. 35.º, n.º 3",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 37
+      }
+     ],
+     "citation_raw": "art. 35.º, n.º 3, p. 37",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "For the providers in n.º 4 (including managed services), the change is notified within three months.",
+     "citations": [
+      {
+       "raw": "art. 35.º, n.º 4",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 38
+      }
+     ],
+     "citation_raw": "art. 35.º, n.º 4, p. 38",
+     "status": "verified"
+    },
+    {
+     "id": "e",
+     "text_en": "The two deadlines overlap for these providers; which one prevails is debatable.",
+     "citations": [
+      {
+       "raw": "art. 35.º, n.º 3",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 37
+      },
+      {
+       "raw": "art. 35.º, n.º 4",
+       "source": "regime",
+       "article": 35,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 38
+      }
+     ],
+     "citation_raw": "art. 35.º, n.º 3, p. 37; art. 35.º, n.º 4, p. 38",
+     "status": "inferred"
+    }
+   ],
+   "decree_vs_directive": "The 30-working-day general deadline is national; the three-month rule for digital providers also exists in the directive.",
+   "grading_note": "Item e tests calibration: a good answer notices the overlap instead of giving one deadline as certain."
+  },
+  {
+   "id": "L2-02",
+   "batch": 2,
+   "question_en": "What are the obligations of an important entity's management bodies, and can they delegate them?",
+   "question_pt": "Quais são as obrigações dos órgãos de gestão de uma entidade importante, e podem delegá-las?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Approve the risk-management measures (art. 27.º), oversee their implementation, ensure compliance with supervision and enforcement measures, and ensure regular training.",
+     "citations": [
+      {
+       "raw": "art. 25.º, n.º 1, al. a) a d)",
+       "source": "regime",
+       "article": 25,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "a",
+        "b",
+        "c",
+        "d"
+       ],
+       "subpoint": null,
+       "page": 31
+      }
+     ],
+     "citation_raw": "art. 25.º, n.º 1, al. a) a d), p. 31",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Members may be held liable for acts or omissions, with intent or gross negligence, under applicable law.",
+     "citations": [
+      {
+       "raw": "art. 25.º, n.º 2",
+       "source": "regime",
+       "article": 25,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 31
+      }
+     ],
+     "citation_raw": "art. 25.º, n.º 2, p. 31",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "They cannot delegate the responsibility, except to one of the members of those bodies.",
+     "citations": [
+      {
+       "raw": "art. 25.º, n.º 3",
+       "source": "regime",
+       "article": 25,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 31
+      }
+     ],
+     "citation_raw": "art. 25.º, n.º 3, p. 31",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "The limit on delegation (n.º 3) appears to be national.",
+   "grading_note": "Saying the board can delegate to the cybersecurity officer = item c not covered (and contradicts the text)."
+  },
+  {
+   "id": "L2-03",
+   "batch": 2,
+   "question_en": "After a significant incident, what must the entity tell affected customers?",
+   "question_pt": "Depois de um incidente significativo, o que tem a entidade de comunicar aos clientes afetados?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Inform recipients, without undue delay, of significant-impact incidents likely to affect them adversely.",
+     "citations": [
+      {
+       "raw": "art. 48.º, n.º 1",
+       "source": "regime",
+       "article": 48,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 43
+      }
+     ],
+     "citation_raw": "art. 48.º, n.º 1, p. 43",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "For a significant cyber threat, inform recipients of the measures they can take and, where appropriate, of the threat itself.",
+     "citations": [
+      {
+       "raw": "art. 48.º, n.º 2",
+       "source": "regime",
+       "article": 48,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 43
+      }
+     ],
+     "citation_raw": "art. 48.º, n.º 2, p. 43",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The information is free of charge and in easily understandable language.",
+     "citations": [
+      {
+       "raw": "art. 48.º, n.º 4",
+       "source": "regime",
+       "article": 48,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 43
+      }
+     ],
+     "citation_raw": "art. 48.º, n.º 4, p. 43",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "Failure to inform is a very serious offence.",
+     "citations": [
+      {
+       "raw": "art. 61.º, n.º 1, al. k)",
+       "source": "regime",
+       "article": 61,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "k"
+       ],
+       "subpoint": null,
+       "page": 51
+      }
+     ],
+     "citation_raw": "art. 61.º, n.º 1, al. k), p. 51",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Answers limited to the CNCS notification (arts. 41.º to 44.º) miss the whole question."
+  },
+  {
+   "id": "L2-04",
+   "batch": 2,
+   "question_en": "Which areas must an important entity's cybersecurity measures cover, and do those rules already take effect?",
+   "question_pt": "Que áreas têm de abranger as medidas de cibersegurança de uma entidade importante, e essas regras já produzem efeitos?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Areas in art. 27.º, n.º 1: incidents, continuity, supply chain, secure acquisition and development, effectiveness assessment, cyber hygiene and training, cryptography, HR and access control, multi-factor authentication.",
+     "citations": [
+      {
+       "raw": "art. 27.º, n.º 1, al. a) a i)",
+       "source": "regime",
+       "article": 27,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+       ],
+       "subpoint": null,
+       "page": 32
+      },
+      {
+       "raw": "art. 27.º, n.º 1, al. i)",
+       "source": "regime",
+       "article": 27,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "i"
+       ],
+       "subpoint": null,
+       "page": 33
+      }
+     ],
+     "citation_raw": "art. 27.º, n.º 1, al. a) a i), p. 32; art. 27.º, n.º 1, al. i), p. 33",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Art. 27.º, n.os 1 and 2, only take effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "The general duty in art. 26.º, n.º 1 (appropriate measures to manage risks) already applies.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 1",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 31
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 1, p. 31",
+     "status": "inferred"
+    },
+    {
+     "id": "d",
+     "text_en": "The exact date of effect (22/06/2028, if Reg. CNCS n.º 756/2026 is all of the regulation) is not certain.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "to confirm"
+    }
+   ],
+   "decree_vs_directive": "The list follows the directive's areas; the deferral of effects is national.",
+   "grading_note": "Saying the list already applies in full = overconfidence; ignoring art. 26.º = item c not covered."
+  },
+  {
+   "id": "L2-05",
+   "batch": 2,
+   "question_en": "Is a small company designated as a critical entity under Directive (EU) 2022/2557 outside the regime because it is small?",
+   "question_pt": "Uma pequena empresa identificada como entidade crítica nos termos da Diretiva (UE) 2022/2557 fica fora do regime por ser pequena?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "No: it is an essential entity, regardless of size.",
+     "citations": [
+      {
+       "raw": "art. 6.º, n.º 1, al. e)",
+       "source": "regime",
+       "article": 6,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "e"
+       ],
+       "subpoint": null,
+       "page": 16
+      }
+     ],
+     "citation_raw": "art. 6.º, n.º 1, al. e), p. 16",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The qualification results from the mechanisms in art. 8.º.",
+     "citations": [
+      {
+       "raw": "art. 6.º, n.º 4",
+       "source": "regime",
+       "article": 6,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 16
+      }
+     ],
+     "citation_raw": "art. 6.º, n.º 4, p. 16",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Applying the size cap from art. 6.º, n.º 1, a) = item a not covered."
+  },
+  {
+   "id": "L2-06",
+   "batch": 2,
+   "question_en": "Is a small DNS service provider covered? In which category?",
+   "question_pt": "Um pequeno prestador de serviços de DNS está abrangido? Em que categoria?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Yes: domain name system service providers are essential entities, regardless of size.",
+     "citations": [
+      {
+       "raw": "art. 6.º, n.º 1, al. b)",
+       "source": "regime",
+       "article": 6,
+       "paragraphs": [
+        1
+       ],
+       "points": [
+        "b"
+       ],
+       "subpoint": null,
+       "page": 16
+      }
+     ],
+     "citation_raw": "art. 6.º, n.º 1, al. b), p. 16",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Answering \"important\" or \"out of scope because small\" = not covered."
+  },
+  {
+   "id": "L2-07",
+   "batch": 2,
+   "question_en": "Does the decree require ISO/IEC 27001 certification?",
+   "question_pt": "O decreto-lei exige a certificação ISO/IEC 27001?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "The decree does not mention ISO/IEC 27001.",
+     "citations": [],
+     "citation_raw": "Text search of the whole decree",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The CNCS may require national, European or international certification, notably based on DNP TS 4577-1 and the QNRCS, with an equivalence matrix to reference schemes.",
+     "citations": [
+      {
+       "raw": "art. 34.º, n.º 1",
+       "source": "regime",
+       "article": 34,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      }
+     ],
+     "citation_raw": "art. 34.º, n.º 1, p. 36",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "Entities may use certification to demonstrate their measures.",
+     "citations": [
+      {
+       "raw": "art. 34.º, n.º 3",
+       "source": "regime",
+       "article": 34,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 37
+      }
+     ],
+     "citation_raw": "art. 34.º, n.º 3, p. 37",
+     "status": "verified"
+    },
+    {
+     "id": "d",
+     "text_en": "Measures must take into account, where applicable, relevant European and international standards.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 3, al. a)",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        3
+       ],
+       "points": [
+        "a"
+       ],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 3, al. a), p. 32",
+     "status": "verified"
+    },
+    {
+     "id": "e",
+     "text_en": "Whether ISO/IEC 27001 certification fits the CNCS equivalence matrix does not follow from the decree.",
+     "citations": [
+      {
+       "raw": "art. 34.º, n.º 1",
+       "source": "regime",
+       "article": 34,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 36
+      }
+     ],
+     "citation_raw": "art. 34.º, n.º 1, p. 36",
+     "status": "to confirm"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Item a was checked by a text search of the decree (no occurrence of \"27001\"). Stating that ISO/IEC 27001 is mandatory, or that it guarantees compliance, = fabrication."
+  },
+  {
+   "id": "L2-08",
+   "batch": 2,
+   "question_en": "What if notifying the incident within 24 hours would hinder the response, or the CNCS platform is down?",
+   "question_pt": "E se a notificação do incidente em 24 horas prejudicar a resposta ao incidente, ou se a plataforma do CNCS estiver indisponível?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "The initial notification is made within 24 hours, unless that is incompatible with mitigating or resolving the incident.",
+     "citations": [
+      {
+       "raw": "art. 42.º, n.º 1",
+       "source": "regime",
+       "article": 42,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 41
+      }
+     ],
+     "citation_raw": "art. 42.º, n.º 1, p. 41",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "If the entity lacks capacity or the authority's website is unavailable, notification may exceptionally be made by email or telephone.",
+     "citations": [
+      {
+       "raw": "art. 83.º, n.º 3",
+       "source": "regime",
+       "article": 83,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 59
+      }
+     ],
+     "citation_raw": "art. 83.º, n.º 3, p. 59",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Inventing a fixed grace period (e.g. 48 h) = fabrication."
+  },
+  {
+   "id": "L2-09",
+   "batch": 2,
+   "question_en": "What must the entity consider for supply-chain security, and does that rule already take effect?",
+   "question_pt": "O que tem a entidade de considerar quanto à segurança da cadeia de abastecimento, e essa regra já produz efeitos?",
+   "decree_silent": false,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "Vulnerabilities of each direct supplier, product quality, suppliers' cybersecurity practices (including secure development), coordinated risk assessments and restriction decisions.",
+     "citations": [
+      {
+       "raw": "art. 28.º, al. a) a e)",
+       "source": "regime",
+       "article": 28,
+       "paragraphs": [],
+       "points": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+       ],
+       "subpoint": null,
+       "page": 33
+      }
+     ],
+     "citation_raw": "art. 28.º, al. a) a e), p. 33",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "Art. 28.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Item b is the calibration test."
+  },
+  {
+   "id": "L2-10",
+   "batch": 2,
+   "question_en": "How much supervision fee does an important entity pay the CNCS?",
+   "question_pt": "Quanto paga uma entidade importante ao CNCS de taxa de supervisão?",
+   "decree_silent": true,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "The decree allows a supervision fee to be charged, proportionate and based on objective criteria.",
+     "citations": [
+      {
+       "raw": "art. 82.º, n.º 1",
+       "source": "regime",
+       "article": 82,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 59
+      },
+      {
+       "raw": "art. 82.º, n.º 2",
+       "source": "regime",
+       "article": 82,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 59
+      }
+     ],
+     "citation_raw": "art. 82.º, n.º 1, p. 59; art. 82.º, n.º 2, p. 59",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The amount is not in the decree: it is set by a ministerial order (portaria) of the finance and cybersecurity ministers. We have not read any such order.",
+     "citations": [
+      {
+       "raw": "art. 82.º, n.º 3",
+       "source": "regime",
+       "article": 82,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 59
+      }
+     ],
+     "citation_raw": "art. 82.º, n.º 3, p. 59",
+     "status": "to confirm"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Law does not answer. A good answer says the amount depends on a portaria. Any figure = fabrication."
+  },
+  {
+   "id": "L2-11",
+   "batch": 2,
+   "question_en": "Which compliance level (for example basic, substantial or high) applies to a mid-sized managed service provider?",
+   "question_pt": "Que nível de conformidade (por exemplo, básico, substancial ou elevado) se aplica a um prestador de serviços geridos de média dimensão?",
+   "decree_silent": true,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "The decree does not set the level: the CNCS defines minimum measures and compliance levels by regulation, according to sector, size and risk matrix.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 5",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        5
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 5, p. 32",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The specific level depends on CNCS regulation and the risk matrix applied to the entity.",
+     "citations": [
+      {
+       "raw": "art. 26.º, n.º 4",
+       "source": "regime",
+       "article": 26,
+       "paragraphs": [
+        4
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 32
+      }
+     ],
+     "citation_raw": "art. 26.º, n.º 4, p. 32",
+     "status": "to confirm"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Law does not answer. Naming a level as certain = fabrication or overconfidence; the level names in the question are only examples."
+  },
+  {
+   "id": "L2-12",
+   "batch": 2,
+   "question_en": "How often must the entity repeat its risk analysis?",
+   "question_pt": "Com que periodicidade tem a entidade de repetir a análise de riscos?",
+   "decree_silent": true,
+   "items": [
+    {
+     "id": "a",
+     "text_en": "The decree does not set the frequency: it leaves it to a regulation of the competent cybersecurity authority.",
+     "citations": [
+      {
+       "raw": "art. 29.º, n.º 1",
+       "source": "regime",
+       "article": 29,
+       "paragraphs": [
+        1
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 33
+      }
+     ],
+     "citation_raw": "art. 29.º, n.º 1, p. 33",
+     "status": "verified"
+    },
+    {
+     "id": "b",
+     "text_en": "The preparation, execution and results of the analysis must be documented.",
+     "citations": [
+      {
+       "raw": "art. 29.º, n.º 3",
+       "source": "regime",
+       "article": 29,
+       "paragraphs": [
+        3
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 33
+      }
+     ],
+     "citation_raw": "art. 29.º, n.º 3, p. 33",
+     "status": "verified"
+    },
+    {
+     "id": "c",
+     "text_en": "Art. 29.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "citations": [
+      {
+       "raw": "art. 10.º, n.º 2, do decreto",
+       "source": "decreto",
+       "article": 10,
+       "paragraphs": [
+        2
+       ],
+       "points": [],
+       "subpoint": null,
+       "page": 7
+      }
+     ],
+     "citation_raw": "art. 10.º, n.º 2, do decreto, p. 7",
+     "status": "verified"
+    }
+   ],
+   "decree_vs_directive": "",
+   "grading_note": "Law does not answer the frequency. \"Annually\" stated as a legal requirement = fabrication."
+  }
+ ]
+}

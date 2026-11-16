@@ -1,0 +1,113 @@
+{
+  "api": {
+    "base_url": "https://api.prod.adaptionlabs.ai/api/v1",
+    "docs": "https://docs.adaptionlabs.ai/inference-stacks/models/ (read 14 Nov 2026)"
+  },
+  "_selection_rule": "3-4 test models from different families, one large + one small of the same family, judge from a family that is not tested and fixed for all scoring.",
+  "_pricing_note": "context = max input+output tokens; in/out = credits per 1M tokens as listed in the Adaption docs on 14 Nov 2026. NOT verified by a live call - run `python -m nis2eval smoke`.",
+  "_cutoff_note": "Smoke test, 14 Nov 2026 (results/smoke.json). training_cutoff_self_reported is what the model answered when asked; self-reports are unreliable (deepseek-v4-flash said October 2024 in one run and June 2024 in the next). training_cutoff is from a web search on 14 Nov 2026 and only gemma's comes from a model card: three models are dated before the decree, qwen3.8-27b is unknown. Open the vendor model cards before the report quotes any of these. knows_decree is the smoke probe 'what is DL 125/2025': all four said they did not know it, so C0 is read as 'does the model say so'. The decree fits every model: 52-56k input tokens.",
+  "test_models": [
+    {
+      "id": "qwen3.5-397b",
+      "family": "qwen",
+      "size": "large",
+      "context": 131072,
+      "in": 0.55,
+      "out": 3.5,
+      "training_cutoff": "2025-04",
+      "training_cutoff_source": "one third-party API listing; not confirmed on the Qwen model card. Released Feb 2026.",
+      "training_cutoff_self_reported": "January 2024",
+      "knows_decree": false
+    },
+    {
+      "id": "qwen3.8-27b",
+      "family": "qwen",
+      "size": "small",
+      "context": 262144,
+      "in": 0.039,
+      "out": 1.25,
+      "training_cutoff": null,
+      "training_cutoff_source": "not published. Released Aug 2026, so it may postdate the decree (4 Dec 2025).",
+      "training_cutoff_self_reported": "2026",
+      "knows_decree": false
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "family": "gemma",
+      "size": "mid",
+      "context": 256000,
+      "in": 0.09,
+      "out": 0.34,
+      "training_cutoff": "2025-01",
+      "training_cutoff_source": "model card as reproduced by NVIDIA (build.nvidia.com/google/gemma-4-31b-it/modelcard)",
+      "training_cutoff_self_reported": "October 2023",
+      "knows_decree": false
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "family": "deepseek",
+      "size": "mid",
+      "context": 1048576,
+      "in": 0.045,
+      "out": 0.14,
+      "training_cutoff": "2025-05",
+      "training_cutoff_source": "secondary listings (DataLearner, Gradually.ai); DeepSeek has not published it, and the hosted id may point to a later checkpoint.",
+      "training_cutoff_self_reported": "June 2024 / October 2024",
+      "knows_decree": false
+    }
+  ],
+  "judge": {
+    "id": "qwen3.8-27b",
+    "family": "qwen",
+    "context": 262144
+  },
+  "_judge_note": "History. Planned: glm-5.2 (a family not under test). 14 Nov: glm-5.2 answered 504 all afternoon, so the pilot was graded by deepseek-v4-flash, which is also a test model. 15 Nov 03:47 IST: deepseek-v4-flash started answering HTTP 502 (provider failure). glm-5.2 answered short calls again but refused judge-sized calls with HTTP 429 even with nothing else running (04:20 to 04:27 IST). The full run is therefore graded by the two models that stayed up and cache the decree: qwen3.8-27b (main, scores.csv) and gemma-4-31b-it (second, scores.gemma-4-31b-it.csv). Both are test models; each analysis is also produced without the judge's own answers. The 86 full-run judgments deepseek made before it failed are kept (scores.deepseek-v4-flash.csv).",
+  "fallbacks": {
+    "judge": "gemma-4-31b-it",
+    "test": [
+      "gemma-4-26b-a4b-it",
+      "glm-5.3-flash"
+    ]
+  },
+  "_fallback_note": "The API lists the id as glm-5.3-flash (the docs say glm-53-flash). On 14 Nov 2026 both GLM models answered 504 to most calls, streamed or not.",
+  "_output_budget_note": "All hosted models reason before answering and reasoning tokens count against max_output_tokens (qwen3.5-397b spent 2,000+ on a one-line question), so the budgets are well above the expected answer length. Check the `incomplete` field of answers.jsonl after each run.",
+  "_reasoning_note": "The API's default reasoning effort is xhigh (accepted values: xhigh, medium, low, none). At xhigh qwen3.8-27b spent all 12,000 output tokens reasoning and returned no answer in 6 of 9 dry-run calls; at medium it answered in about a minute. One setting for all test models: medium. Note that gemma-4-31b-it did not reason at all when the setting was omitted (dry run) and does reason at medium (pilot: about 600-2,300 reasoning tokens per answer), so for that model medium is more reasoning than its default, not less. The judge also runs at medium: at xhigh glm-5.3-flash spent about 10,000 reasoning tokens on one judgment.",
+  "_rate_limit_note": "Measured 15 Nov 2026: one limit per account for all keys and models (four keys did not raise it). It follows prompt size: about 15 short calls a minute pass; calls carrying the 50,000-token decree are refused above roughly 3 a minute. The client paces itself by input tokens per minute (NIS2_TPM) and adjusts on HTTP 429. Sixteen short calls at once on four keys were all accepted, so it is not a cap on calls in flight.",
+  "generation": {
+    "temperature": 0.7,
+    "max_output_tokens": 12000,
+    "reasoning_effort": "medium"
+  },
+  "judge_generation": {
+    "temperature": 0.0,
+    "max_output_tokens": 12000,
+    "reasoning_effort": "medium"
+  },
+  "concurrency": 4,
+  "extra_test_models": [
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "family": "gemma",
+      "note": "supplementary; run after the core result was complete"
+    }
+  ],
+  "second_judge": {
+    "id": "gemma-4-31b-it",
+    "family": "gemma",
+    "note": "Grades C0, C1, C2 a second time. Also a test model: analyses are also produced without its own answers."
+  },
+  "previous_judge": {
+    "id": "deepseek-v4-flash",
+    "family": "deepseek",
+    "context": 1048576,
+    "in": 0.045,
+    "out": 0.14
+  },
+  "dropped_test_models": [
+    {
+      "id": "glm-5.3-flash",
+      "family": "glm",
+      "note": "Tried as a supplementary model on 15 Nov and dropped. At the common settings (reasoning effort 'medium', 12,000 output tokens) it returned no answer in 35 of 53 calls: the budget went on reasoning. With a 32,000 and a 64,000 budget it answered after 16,149 and 45,234 reasoning tokens (102 s and 265 s); at effort 'low' it did not reason at all. Its 18 answers are in answers.jsonl and are not analysed."
+    }
+  ]
+}

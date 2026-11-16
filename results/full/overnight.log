@@ -1,0 +1,1491 @@
+Sun 02:40:58  === overnight run started ===
+Sun 02:40:58  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (keys 1,2,3)
+Sun 02:40:58  [grade] nis2eval score --run full --judge deepseek-v4-flash --concurrency 4   (keys 4)
+Sun 02:40:58  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 02:41:01  [grade]   50 answers, 24 already judged, 26 to judge with deepseek-v4-flash
+Sun 02:41:03  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:41:04  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:41:04  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:41:29  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:41:30  [gen]     (429 rate limit on key 3 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:41:34  [gen]     (429 rate limit on key 1 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:41:38  [gen]     (429 rate limit on key 2 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:41:38  [gen]     (429 rate limit on key 2 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:42:13  [gen]     25/792  ok=16 skipped=9 error=0
+Sun 02:49:06  === overnight run started ===
+Sun 02:49:06  [grade] nis2eval score --run full --judge deepseek-v4-flash --concurrency 4   (keys 4)
+Sun 02:49:06  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (keys 1,2,3)
+Sun 02:49:06  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 02:49:06  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 02:49:09  [grade]   66 answers, 25 already judged, 41 to judge with deepseek-v4-flash
+Sun 02:49:11  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:50:54  [gen]     50/792  ok=24 skipped=26 error=0
+Sun 02:51:04  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:51:39  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:00  [gen]     75/792  ok=43 skipped=32 error=0
+Sun 02:52:09  [gen]     (429 rate limit on key 3 of 3, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:17  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:33  [gen]     (429 rate limit on key 2 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:52:33  [gen]     (429 rate limit on key 1 of 3, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:33  [gen]     (429 rate limit on key 1 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:52:33  [gen]     (429 rate limit on key 2 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:52:35  [gen]     (429 rate limit on key 3 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:52:41  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:42  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:52:42  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:53:05  [gen]     (429 rate limit on key 2 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:53:31  [gen]     (429 rate limit on key 1 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:53:53  [gen]     (429 rate limit on key 3 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:53:54  [gen]     (429 rate limit on key 3 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:53:55  [gen]     (429 rate limit on key 3 of 3, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:53:55  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:53:55  [gen]     (429 rate limit on key 3 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:53:56  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:53:56  [gen]     (429 rate limit on key 2 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:54:22  [gen]     (429 rate limit on key 1 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:54:48  [gen]     (429 rate limit on key 2 of 3, model qwen3.8-27b; that key rests 60 s)
+Sun 02:55:00  [grade]     (429 rate limit on key 1 of 1, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:55:12  [gen]     (429 rate limit on key 3 of 3, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:55:13  [gen]     (429 rate limit on key 3 of 3, model qwen3.5-397b; that key rests 60 s)
+Sun 02:55:13  [gen]     (429 rate limit on key 3 of 3, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:55:17  [gen]     100/792  ok=66 skipped=34 error=0
+Sun 02:55:47  === overnight run started ===
+Sun 02:55:47  [grade] nis2eval score --run full --judge deepseek-v4-flash --concurrency 4   (5 requests a minute)
+Sun 02:55:47  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (10 requests a minute)
+Sun 02:55:47  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 02:55:47  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 02:55:47  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 02:55:47  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 02:55:47  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 02:55:49  [grade]   132 answers, 35 already judged, 97 to judge with deepseek-v4-flash
+Sun 02:55:51  [grade]     (429 rate limit on key 1 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:55:55  [gen]     (429 rate limit on key 4 of 4, model qwen3.5-397b; that key rests 60 s)
+Sun 02:56:01  [gen]     (429 rate limit on key 2 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:56:07  [gen]     (429 rate limit on key 3 of 4, model qwen3.8-27b; that key rests 60 s)
+Sun 02:56:18  [grade]     (429 rate limit on key 3 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:56:20  [gen]     (429 rate limit on key 1 of 4, model qwen3.5-397b; that key rests 60 s)
+Sun 02:56:45  [grade]     (429 rate limit on key 4 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:56:49  [gen]     (429 rate limit on key 1 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:56:54  [gen]     (429 rate limit on key 1 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:57:08  [grade]     (429 rate limit on key 2 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:57:08  [gen]     (429 rate limit on key 2 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:57:24  [gen]     (429 rate limit on key 4 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:57:42  [gen]     (429 rate limit on key 3 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:57:46  [gen]     (429 rate limit on key 1 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:58:01  [gen]     (429 rate limit on key 4 of 4, model qwen3.8-27b; that key rests 60 s)
+Sun 02:58:18  [gen]     (429 rate limit on key 2 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 02:58:24  [gen]     (429 rate limit on key 3 of 4, model qwen3.5-397b; that key rests 60 s)
+Sun 02:58:28  [gen]     (429 rate limit on key 1 of 4, model qwen3.5-397b; that key rests 60 s)
+Sun 02:58:52  [gen]     (429 rate limit on key 1 of 4, model qwen3.8-27b; that key rests 60 s)
+Sun 02:58:58  [gen]     (429 rate limit on key 1 of 4, model qwen3.5-397b; that key rests 60 s)
+Sun 02:59:06  [gen]     (429 rate limit on key 4 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:59:12  [gen]     (429 rate limit on key 2 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 02:59:20  [gen]     (429 rate limit on key 1 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 03:00:10  [gen]     (429 rate limit on key 4 of 4, model gemma-4-31b-it; that key rests 60 s)
+Sun 03:00:19  [grade]     (429 rate limit on key 1 of 4, model deepseek-v4-flash; that key rests 60 s)
+Sun 03:00:28  [gen]     (429 rate limit on key 1 of 4, model qwen3.8-27b; that key rests 60 s)
+Sun 03:02:32  === overnight run started ===
+Sun 03:02:32  [grade] nis2eval score --run full --judge deepseek-v4-flash --concurrency 4   (starting pace 80k tokens a minute)
+Sun 03:02:32  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 240k tokens a minute)
+Sun 03:02:32  [gen]   !! 50 stored answers were given to an earlier wording of their question; asking again
+Sun 03:02:32  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 03:02:34  [grade]   154 answers, 30 already judged, 124 to judge with deepseek-v4-flash
+Sun 03:02:36  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 60k tokens a minute)
+Sun 03:03:25  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 45k tokens a minute)
+Sun 03:03:33  [gen]     25/792  ok=9 skipped=16 error=0
+Sun 03:03:44  [gen]     50/792  ok=13 skipped=37 error=0
+Sun 03:03:44  [gen]     75/792  ok=13 skipped=62 error=0
+Sun 03:04:30  [gen]     100/792  ok=24 skipped=76 error=0
+Sun 03:09:18  === overnight run started ===
+Sun 03:09:18  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 240k tokens a minute)
+Sun 03:09:18  [grade] nis2eval score --run full --judge deepseek-v4-flash --limit 60 --concurrency 4   (starting pace 80k tokens a minute)
+Sun 03:09:18  [gen]   !! 10 stored answers were given to an earlier wording of their question; asking again
+Sun 03:09:18  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 03:09:18  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 03:09:18  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 03:09:18  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 03:09:18  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 03:09:20  [grade]   158 answers, 31 already judged, 127 to judge with deepseek-v4-flash
+Sun 03:09:20  [grade]     this pass: the first 60
+Sun 03:09:50  [gen]     125/792  ok=1 skipped=124 error=0
+Sun 03:11:01  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 60k tokens a minute)
+Sun 03:11:08  [gen]     (429 rate limit, model qwen3.8-27b; pace now 207k tokens a minute)
+Sun 03:14:43  === overnight run started ===
+Sun 03:14:43  [gen] nis2eval run --run full --reps 1 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 200k tokens a minute)
+Sun 03:14:43  [grade] nis2eval score --run full --judge deepseek-v4-flash --limit 60 --concurrency 4   (starting pace 40k tokens a minute)
+Sun 03:14:44  [gen]   !! 8 stored answers were given to an earlier wording of their question; asking again
+Sun 03:14:44  [gen]   264 calls (base conditions: C0, C1, C2)
+Sun 03:14:44  [gen]     25/264  ok=0 skipped=25 error=0
+Sun 03:14:44  [gen]     50/264  ok=0 skipped=50 error=0
+Sun 03:14:44  [gen]     75/264  ok=0 skipped=75 error=0
+Sun 03:14:44  [gen]     100/264  ok=0 skipped=100 error=0
+Sun 03:14:44  [gen]     125/264  ok=0 skipped=125 error=0
+Sun 03:14:46  [grade]   175 answers, 34 already judged, 141 to judge with deepseek-v4-flash
+Sun 03:14:46  [grade]     this pass: the first 60
+Sun 03:15:23  [gen]     (429 rate limit, model gemma-4-31b-it; pace now 150k tokens a minute)
+Sun 03:18:02  [gen]     150/264  ok=7 skipped=143 error=0
+Sun 03:23:36  [gen]     175/264  ok=24 skipped=151 error=0
+Sun 03:24:08  [gen]     (429 rate limit, model gemma-4-31b-it; pace now 226k tokens a minute)
+Sun 03:27:21  [gen]     (429 rate limit, model qwen3.5-397b; pace now 224k tokens a minute)
+Sun 03:27:32  [gen]     (429 rate limit, model qwen3.8-27b; pace now 168k tokens a minute)
+Sun 03:30:16  [gen]     200/264  ok=49 skipped=151 error=0
+Sun 03:31:50  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 120k tokens a minute)
+Sun 03:34:26  [gen]     (429 rate limit, model qwen3.8-27b; pace now 254k tokens a minute)
+Sun 03:35:23  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 190k tokens a minute)
+Sun 03:35:32  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 119k tokens a minute)
+Sun 03:35:54  [grade]     judged 25/60 (errors: 0)
+Sun 03:36:00  [gen]     225/264  ok=74 skipped=151 error=0
+Sun 03:40:28  [gen]     250/264  ok=94 skipped=156 error=0
+Sun 03:42:57  [gen]     264/264  ok=105 skipped=159 error=0
+Sun 03:42:57  [gen]   {'ok': 105, 'skipped': 159, 'error': 0} -> results\full\answers.jsonl
+Sun 03:42:57  [gen] nis2eval blind --run full --n 25
+Sun 03:42:58  [gen]   25 answers -> results\full\blind/blind_answers.md and grading_sheet.csv (send these two; keep KEY_do_not_send.json)
+Sun 03:42:58  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 200k tokens a minute)
+Sun 03:42:58  [gen]   !! 8 stored answers were given to an earlier wording of their question; asking again
+Sun 03:42:58  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 03:42:58  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 03:42:58  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 03:42:58  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 03:42:58  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 03:42:58  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 03:42:58  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 03:42:58  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 03:42:58  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 03:42:58  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 03:42:58  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 03:43:50  [gen]     275/792  ok=8 skipped=267 error=0
+Sun 03:45:46  [gen]     300/792  ok=32 skipped=268 error=0
+Sun 03:47:37  [gen]     325/792  ok=57 skipped=268 error=0
+Sun 03:48:48  [grade]     judged 50/60 (errors: 0)
+Sun 03:49:27  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 347k tokens a minute)
+Sun 03:49:31  [gen]     350/792  ok=82 skipped=268 error=0
+Sun 03:50:22  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 120k tokens a minute)
+Sun 03:51:24  [gen]     (429 rate limit, model gemma-4-31b-it; pace now 299k tokens a minute)
+Sun 03:51:33  [gen]     (429 rate limit, model qwen3.5-397b; pace now 224k tokens a minute)
+Sun 03:51:42  [gen]     (429 rate limit, model qwen3.8-27b; pace now 168k tokens a minute)
+Sun 03:51:53  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 104k tokens a minute)
+Sun 03:54:02  [gen]     (429 rate limit, model qwen3.8-27b; pace now 167k tokens a minute)
+Sun 03:54:12  [grade]     (429 rate limit, model deepseek-v4-flash; pace now 89k tokens a minute)
+Sun 03:56:50  [gen]     375/792  ok=106 skipped=268 error=1
+Sun 03:57:24  [grade]     judged 60/60 (errors: 0)
+Sun 03:57:24  [grade]   scores.csv: 89 answers; item_scores.csv: 297 item marks -> results\full
+Sun 03:57:24  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 60 --concurrency 4 --conditions C0,C1,C2   (starting pace 40k tokens a minute)
+Sun 03:57:26  [grade]   383 answers, 0 already judged, 383 to judge with qwen3.8-27b
+Sun 03:57:26  [grade]     this pass: the first 60
+Sun 04:02:27  [gen]     (429 rate limit, model qwen3.8-27b; pace now 333k tokens a minute)
+Sun 04:04:20  [gen]     (429 rate limit, model qwen3.5-397b; pace now 287k tokens a minute)
+Sun 04:04:51  [gen]     (429 rate limit, model qwen3.8-27b; pace now 215k tokens a minute)
+Sun 04:05:35  [grade]     (429 rate limit, model qwen3.8-27b; pace now 52k tokens a minute)
+Sun 04:05:44  [gen]     (429 rate limit, model qwen3.5-397b; pace now 162k tokens a minute)
+Sun 04:05:58  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 121k tokens a minute)
+Sun 04:09:22  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 120k tokens a minute)
+Sun 04:12:35  [gen]     400/792  ok=131 skipped=268 error=1
+Sun 04:14:25  [grade]     (429 rate limit, model qwen3.8-27b; pace now 69k tokens a minute)
+Sun 04:16:45  [grade]     (429 rate limit, model qwen3.8-27b; pace now 68k tokens a minute)
+Sun 04:16:55  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 181k tokens a minute)
+Sun 04:27:33  === overnight run started ===
+Sun 04:27:35  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 04:27:38  [grade]   410 answers, 18 already judged, 392 to judge with qwen3.8-27b
+Sun 04:27:38  [grade]     this pass: the first 40
+Sun 04:27:50  [gen] not answering now, left for later: ['deepseek-v4-flash']
+Sun 04:27:50  [gen] nis2eval run --run full --reps 1 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:27:51  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:27:51  [gen]   198 calls (base conditions: C0, C1, C2)
+Sun 04:27:51  [gen]     25/198  ok=0 skipped=25 error=0
+Sun 04:27:51  [gen]     50/198  ok=0 skipped=50 error=0
+Sun 04:27:51  [gen]     75/198  ok=0 skipped=75 error=0
+Sun 04:27:51  [gen]     100/198  ok=0 skipped=100 error=0
+Sun 04:27:51  [gen]     125/198  ok=0 skipped=125 error=0
+Sun 04:27:51  [gen]     150/198  ok=0 skipped=150 error=0
+Sun 04:27:51  [gen]     175/198  ok=0 skipped=175 error=0
+Sun 04:27:51  [gen]     198/198  ok=0 skipped=198 error=0
+Sun 04:27:51  [gen]   {'ok': 0, 'skipped': 198, 'error': 0} -> results\full\answers.jsonl
+Sun 04:27:51  [gen] nis2eval blind --run full --n 25
+Sun 04:27:51  [gen]   blind sample already drawn in results\full\blind; left as it is (pass --force to draw a new one)
+Sun 04:28:06  [gen] not answering now, left for later: ['deepseek-v4-flash']
+Sun 04:28:06  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:28:06  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:28:06  [gen]   594 calls (base conditions: C0, C1, C2)
+Sun 04:28:06  [gen]     25/594  ok=0 skipped=25 error=0
+Sun 04:28:06  [gen]     50/594  ok=0 skipped=50 error=0
+Sun 04:28:06  [gen]     75/594  ok=0 skipped=75 error=0
+Sun 04:28:06  [gen]     100/594  ok=0 skipped=100 error=0
+Sun 04:28:06  [gen]     125/594  ok=0 skipped=125 error=0
+Sun 04:28:06  [gen]     150/594  ok=0 skipped=150 error=0
+Sun 04:28:06  [gen]     175/594  ok=0 skipped=175 error=0
+Sun 04:28:06  [gen]     200/594  ok=0 skipped=200 error=0
+Sun 04:28:06  [gen]     225/594  ok=0 skipped=225 error=0
+Sun 04:28:06  [gen]     250/594  ok=0 skipped=250 error=0
+Sun 04:28:06  [gen]     275/594  ok=0 skipped=275 error=0
+Sun 04:28:06  [gen]     300/594  ok=0 skipped=300 error=0
+Sun 04:33:40  [gen]     325/594  ok=14 skipped=311 error=0
+Sun 04:35:03  === overnight run started ===
+Sun 04:35:05  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 04:35:07  [grade]   427 answers, 30 already judged, 397 to judge with qwen3.8-27b
+Sun 04:35:07  [grade]     this pass: the first 40
+Sun 04:35:13  [gen] nis2eval run --run full --reps 1 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:35:13  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:35:13  [gen]   264 calls (base conditions: C0, C1, C2)
+Sun 04:35:13  [gen]     25/264  ok=0 skipped=25 error=0
+Sun 04:35:13  [gen]     50/264  ok=0 skipped=50 error=0
+Sun 04:35:13  [gen]     75/264  ok=0 skipped=75 error=0
+Sun 04:35:13  [gen]     100/264  ok=0 skipped=100 error=0
+Sun 04:35:13  [gen]     125/264  ok=0 skipped=125 error=0
+Sun 04:35:13  [gen]     150/264  ok=0 skipped=150 error=0
+Sun 04:35:13  [gen]     175/264  ok=0 skipped=175 error=0
+Sun 04:35:13  [gen]     200/264  ok=0 skipped=200 error=0
+Sun 04:35:13  [gen]     225/264  ok=0 skipped=225 error=0
+Sun 04:35:13  [gen]     250/264  ok=0 skipped=250 error=0
+Sun 04:35:13  [gen]     264/264  ok=0 skipped=264 error=0
+Sun 04:35:13  [gen]   {'ok': 0, 'skipped': 264, 'error': 0} -> results\full\answers.jsonl
+Sun 04:35:13  [gen] nis2eval blind --run full --n 25
+Sun 04:35:14  [gen]   blind sample already drawn in results\full\blind; left as it is (pass --force to draw a new one)
+Sun 04:35:29  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:35:29  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:35:29  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 04:35:29  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 04:35:29  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 04:35:29  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 04:35:29  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 04:35:29  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 04:35:29  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 04:35:29  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 04:35:29  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 04:35:29  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 04:35:29  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 04:35:29  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 04:35:29  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 04:35:29  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 04:35:29  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 04:35:29  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 04:35:29  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 04:36:29  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 112k tokens a minute)
+Sun 04:38:23  [gen]     425/792  ok=6 skipped=419 error=0
+Sun 04:43:36  === overnight run started ===
+Sun 04:43:38  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 04:43:39  [grade]   445 answers, 43 already judged, 402 to judge with qwen3.8-27b
+Sun 04:43:39  [grade]     this pass: the first 40
+Sun 04:43:46  [gen] nis2eval run --run full --reps 1 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:43:46  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:43:46  [gen]   264 calls (base conditions: C0, C1, C2)
+Sun 04:43:46  [gen]     25/264  ok=0 skipped=25 error=0
+Sun 04:43:46  [gen]     50/264  ok=0 skipped=50 error=0
+Sun 04:43:46  [gen]     75/264  ok=0 skipped=75 error=0
+Sun 04:43:46  [gen]     100/264  ok=0 skipped=100 error=0
+Sun 04:43:46  [gen]     125/264  ok=0 skipped=125 error=0
+Sun 04:43:46  [gen]     150/264  ok=0 skipped=150 error=0
+Sun 04:43:46  [gen]     175/264  ok=0 skipped=175 error=0
+Sun 04:43:46  [gen]     200/264  ok=0 skipped=200 error=0
+Sun 04:43:46  [gen]     225/264  ok=0 skipped=225 error=0
+Sun 04:43:46  [gen]     250/264  ok=0 skipped=250 error=0
+Sun 04:43:46  [gen]     264/264  ok=0 skipped=264 error=0
+Sun 04:43:46  [gen]   {'ok': 0, 'skipped': 264, 'error': 0} -> results\full\answers.jsonl
+Sun 04:43:46  [gen] nis2eval blind --run full --n 25
+Sun 04:43:46  [gen]   blind sample already drawn in results\full\blind; left as it is (pass --force to draw a new one)
+Sun 04:43:56  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 04:43:56  [gen]   !! 3 stored answers were given to an earlier wording of their question; asking again
+Sun 04:43:56  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 04:43:56  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 04:43:56  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 04:43:56  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 04:43:56  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 04:43:56  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 04:43:56  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 04:43:56  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 04:43:56  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 04:43:56  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 04:43:56  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 04:43:56  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 04:43:56  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 04:43:56  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 04:43:56  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 04:43:56  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 04:43:56  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 04:43:56  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 04:49:02  [gen]     450/792  ok=12 skipped=438 error=0
+Sun 04:51:58  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 129k tokens a minute)
+Sun 04:53:08  [gen]     (429 rate limit, model deepseek-v4-flash; pace now 97k tokens a minute)
+Sun 04:57:19  [gen]     475/792  ok=37 skipped=438 error=0
+Sun 04:58:37  [grade]     judged 25/40 (errors: 0)
+Sun 05:07:48  [gen]     500/792  ok=62 skipped=438 error=0
+Sun 05:08:31  [grade]     judged 40/40 (errors: 0)
+Sun 05:08:31  [grade]   scores.csv: 83 answers; item_scores.csv: 275 item marks -> results\full
+Sun 05:08:31  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 05:08:33  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 05:08:35  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 05:08:37  [grade]   508 answers, 83 already judged, 425 to judge with qwen3.8-27b
+Sun 05:08:37  [grade]     this pass: the first 40
+Sun 05:18:04  [gen]     525/792  ok=86 skipped=439 error=0
+Sun 05:20:48  [gen]     550/792  ok=108 skipped=442 error=0
+Sun 05:22:52  [gen]     575/792  ok=133 skipped=442 error=0
+Sun 05:24:33  [gen]     600/792  ok=157 skipped=442 error=1
+Sun 05:24:37  [grade]     judged 25/40 (errors: 0)
+Sun 05:29:40  [gen]     625/792  ok=182 skipped=442 error=1
+Sun 05:33:34  [grade]     judged 40/40 (errors: 0)
+Sun 05:33:35  [grade]   scores.csv: 120 answers; item_scores.csv: 382 item marks -> results\full
+Sun 05:33:35  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 05:33:36  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 05:33:38  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 05:33:40  [grade]   631 answers, 120 already judged, 511 to judge with qwen3.8-27b
+Sun 05:33:40  [grade]     this pass: the first 40
+Sun 05:42:33  [gen]     650/792  ok=207 skipped=442 error=1
+Sun 05:49:47  [grade]     judged 25/40 (errors: 0)
+Sun 05:54:55  [gen]     675/792  ok=232 skipped=442 error=1
+Sun 06:00:21  [grade]     judged 40/40 (errors: 0)
+Sun 06:00:22  [grade]   scores.csv: 160 answers; item_scores.csv: 528 item marks -> results\full
+Sun 06:00:22  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 06:00:24  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 06:00:26  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 06:00:28  [grade]   684 answers, 160 already judged, 524 to judge with qwen3.8-27b
+Sun 06:00:28  [grade]     this pass: the first 40
+Sun 06:08:22  [gen]     700/792  ok=257 skipped=442 error=1
+Sun 06:11:51  [gen]     (429 rate limit, model qwen3.5-397b; pace now 89k tokens a minute)
+Sun 06:15:24  [grade]     judged 25/40 (errors: 0)
+Sun 06:16:16  [grade]     (429 rate limit, model qwen3.8-27b; pace now 86k tokens a minute)
+Sun 06:20:59  [gen]     725/792  ok=281 skipped=442 error=2
+Sun 06:27:07  [grade]     judged 40/40 (errors: 0)
+Sun 06:27:08  [grade]   scores.csv: 200 answers; item_scores.csv: 647 item marks -> results\full
+Sun 06:27:08  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 06:27:09  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 06:27:11  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 06:27:13  [grade]   735 answers, 200 already judged, 535 to judge with qwen3.8-27b
+Sun 06:27:13  [grade]     this pass: the first 40
+Sun 06:29:14  [grade]     (429 rate limit, model qwen3.8-27b; pace now 75k tokens a minute)
+Sun 06:32:01  [gen]     750/792  ok=305 skipped=442 error=3
+Sun 06:43:29  [grade]     (429 rate limit, model qwen3.8-27b; pace now 69k tokens a minute)
+Sun 06:45:30  [gen]     775/792  ok=330 skipped=442 error=3
+Sun 06:47:40  [grade]     judged 25/40 (errors: 0)
+Sun 06:54:23  [gen]     792/792  ok=347 skipped=442 error=3
+Sun 06:54:23  [gen]   {'ok': 347, 'skipped': 442, 'error': 3} -> results\full\answers.jsonl
+Sun 06:54:23  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 06:54:24  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 06:54:24  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 06:54:24  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 06:54:24  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 06:54:24  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 06:54:24  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 06:54:24  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 06:54:24  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 06:54:24  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 06:54:24  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 06:54:24  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 06:54:24  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 06:54:24  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 06:54:24  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 06:54:24  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 06:54:24  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 06:54:24  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 06:54:24  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 06:54:24  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 06:54:24  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 06:54:24  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 06:54:24  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 06:54:24  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 06:54:24  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 06:54:24  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 06:54:24  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 06:54:24  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 06:54:24  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 06:54:24  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 06:54:24  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 06:54:24  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 06:54:24  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 06:55:52  [gen]     792/792  ok=3 skipped=789 error=0
+Sun 06:55:52  [gen]   {'ok': 3, 'skipped': 789, 'error': 0} -> results\full\answers.jsonl
+Sun 06:56:01  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 06:56:02  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 06:56:02  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 06:56:02  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 06:56:02  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 06:56:02  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 06:56:02  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 06:56:02  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 06:56:02  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 06:56:02  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 06:56:02  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 06:56:02  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 06:56:02  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 06:56:02  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 06:56:02  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 06:56:02  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 06:56:02  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 06:56:02  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 06:56:02  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 06:56:02  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 06:56:02  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 06:56:02  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 06:56:02  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 06:56:02  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 06:56:02  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 06:56:02  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 06:56:02  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 06:56:02  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 06:56:02  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 06:56:02  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 06:56:02  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 06:56:02  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 06:56:02  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 06:56:02  [gen]     792/792  ok=0 skipped=792 error=0
+Sun 06:56:02  [gen]   {'ok': 0, 'skipped': 792, 'error': 0} -> results\full\answers.jsonl
+Sun 06:56:02  [gen] waiting: qwen3.8-27b still has 558 of 792 answers to grade before generation goes on
+Sun 06:59:42  [grade]     judged 40/40 (errors: 0)
+Sun 06:59:42  [grade]   scores.csv: 240 answers; item_scores.csv: 791 item marks -> results\full
+Sun 06:59:42  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 06:59:43  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 06:59:45  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 06:59:47  [grade]   792 answers, 240 already judged, 552 to judge with qwen3.8-27b
+Sun 06:59:47  [grade]     this pass: the first 40
+Sun 07:01:31  [grade]     (429 rate limit, model qwen3.8-27b; pace now 188k tokens a minute)
+Sun 07:08:46  [grade]     judged 25/40 (errors: 0)
+Sun 07:11:08  [gen] waiting: qwen3.8-27b still has 519 of 792 answers to grade before generation goes on
+Sun 07:13:21  [grade]     judged 40/40 (errors: 0)
+Sun 07:13:21  [grade]   scores.csv: 280 answers; item_scores.csv: 909 item marks -> results\full
+Sun 07:13:22  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 07:13:23  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 07:13:25  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 07:13:26  [grade]   792 answers, 280 already judged, 512 to judge with qwen3.8-27b
+Sun 07:13:26  [grade]     this pass: the first 40
+Sun 07:20:18  [grade]     judged 25/40 (errors: 0)
+Sun 07:23:26  [grade]     judged 40/40 (errors: 0)
+Sun 07:23:27  [grade]   scores.csv: 320 answers; item_scores.csv: 1059 item marks -> results\full
+Sun 07:23:27  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 07:23:28  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 07:23:30  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 07:23:32  [grade]   792 answers, 320 already judged, 472 to judge with qwen3.8-27b
+Sun 07:23:32  [grade]     this pass: the first 40
+Sun 07:26:14  [gen] waiting: qwen3.8-27b still has 466 of 792 answers to grade before generation goes on
+Sun 07:30:27  [grade]     judged 25/40 (errors: 0)
+Sun 07:31:02  [grade]     (429 rate limit, model qwen3.8-27b; pace now 281k tokens a minute)
+Sun 07:33:51  [grade]     judged 40/40 (errors: 0)
+Sun 07:33:52  [grade]   scores.csv: 360 answers; item_scores.csv: 1168 item marks -> results\full
+Sun 07:33:52  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 07:33:53  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 07:33:55  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 07:33:57  [grade]   792 answers, 360 already judged, 432 to judge with qwen3.8-27b
+Sun 07:33:57  [grade]     this pass: the first 40
+Sun 07:40:54  [grade]     judged 25/40 (errors: 0)
+Sun 07:41:14  [grade]     (429 rate limit, model qwen3.8-27b; pace now 281k tokens a minute)
+Sun 07:41:22  [gen] waiting: qwen3.8-27b still has 405 of 792 answers to grade before generation goes on
+Sun 07:41:50  [grade]     (429 rate limit, model qwen3.8-27b; pace now 211k tokens a minute)
+Sun 07:44:44  [grade]     judged 40/40 (errors: 0)
+Sun 07:44:45  [grade]   scores.csv: 400 answers; item_scores.csv: 1312 item marks -> results\full
+Sun 07:44:45  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 07:44:46  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 07:44:48  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 07:44:50  [grade]   792 answers, 400 already judged, 392 to judge with qwen3.8-27b
+Sun 07:44:50  [grade]     this pass: the first 40
+Sun 07:50:55  [grade]     (429 rate limit, model qwen3.8-27b; pace now 246k tokens a minute)
+Sun 07:51:58  [grade]     judged 25/40 (errors: 0)
+Sun 07:55:57  [grade]     judged 40/40 (errors: 0)
+Sun 07:55:58  [grade]   scores.csv: 440 answers; item_scores.csv: 1425 item marks -> results\full
+Sun 07:55:58  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 07:55:59  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 07:56:01  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 07:56:03  [grade]   792 answers, 440 already judged, 352 to judge with qwen3.8-27b
+Sun 07:56:03  [grade]     this pass: the first 40
+Sun 07:56:29  [gen] waiting: qwen3.8-27b still has 352 of 792 answers to grade before generation goes on
+Sun 07:58:02  [grade]     (429 rate limit, model qwen3.8-27b; pace now 201k tokens a minute)
+Sun 08:04:57  [grade]     (429 rate limit, model qwen3.8-27b; pace now 185k tokens a minute)
+Sun 08:05:14  [grade]     judged 25/40 (errors: 0)
+Sun 08:10:26  [grade]     judged 40/40 (errors: 0)
+Sun 08:10:27  [grade]   scores.csv: 480 answers; item_scores.csv: 1565 item marks -> results\full
+Sun 08:10:27  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 08:10:29  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 08:10:30  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 08:10:32  [grade]   792 answers, 480 already judged, 312 to judge with qwen3.8-27b
+Sun 08:10:32  [grade]     this pass: the first 40
+Sun 08:11:36  [gen] waiting: qwen3.8-27b still has 311 of 792 answers to grade before generation goes on
+Sun 08:18:22  [grade]     judged 25/40 (errors: 0)
+Sun 08:21:06  [grade]     judged 40/40 (errors: 0)
+Sun 08:21:07  [grade]   scores.csv: 520 answers; item_scores.csv: 1695 item marks -> results\full
+Sun 08:21:07  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 08:21:08  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 08:21:10  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 08:21:12  [grade]   792 answers, 520 already judged, 272 to judge with qwen3.8-27b
+Sun 08:21:12  [grade]     this pass: the first 40
+Sun 08:26:44  [gen] waiting: qwen3.8-27b still has 255 of 792 answers to grade before generation goes on
+Sun 08:28:05  [grade]     judged 25/40 (errors: 0)
+Sun 08:29:12  [grade]     (429 rate limit, model qwen3.8-27b; pace now 281k tokens a minute)
+Sun 08:31:29  [grade]     judged 40/40 (errors: 0)
+Sun 08:31:31  [grade]   scores.csv: 560 answers; item_scores.csv: 1820 item marks -> results\full
+Sun 08:31:31  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 08:31:32  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 08:31:34  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 08:31:37  [grade]   792 answers, 560 already judged, 232 to judge with qwen3.8-27b
+Sun 08:31:37  [grade]     this pass: the first 40
+Sun 08:33:23  [grade]     (429 rate limit, model qwen3.8-27b; pace now 188k tokens a minute)
+Sun 08:38:56  [grade]     (429 rate limit, model qwen3.8-27b; pace now 172k tokens a minute)
+Sun 08:41:20  [grade]     judged 25/40 (errors: 0)
+Sun 08:41:50  [gen] waiting: qwen3.8-27b still has 206 of 792 answers to grade before generation goes on
+Sun 08:46:23  [grade]     judged 40/40 (errors: 0)
+Sun 08:46:24  [grade]   scores.csv: 600 answers; item_scores.csv: 1950 item marks -> results\full
+Sun 08:46:24  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 08:46:26  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 08:46:27  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 08:46:29  [grade]   792 answers, 600 already judged, 192 to judge with qwen3.8-27b
+Sun 08:46:29  [grade]     this pass: the first 40
+Sun 08:48:37  [grade]     (429 rate limit, model qwen3.8-27b; pace now 201k tokens a minute)
+Sun 08:55:21  [grade]     judged 25/40 (errors: 0)
+Sun 08:56:58  [gen] waiting: qwen3.8-27b still has 161 of 792 answers to grade before generation goes on
+Sun 08:57:58  [grade]     (429 rate limit, model qwen3.8-27b; pace now 185k tokens a minute)
+Sun 08:59:37  [grade]     judged 40/40 (errors: 0)
+Sun 08:59:38  [grade]   scores.csv: 640 answers; item_scores.csv: 2072 item marks -> results\full
+Sun 08:59:39  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 08:59:40  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 08:59:42  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 08:59:43  [grade]   792 answers, 640 already judged, 152 to judge with qwen3.8-27b
+Sun 08:59:43  [grade]     this pass: the first 40
+Sun 09:04:59  [grade]     (429 rate limit, model qwen3.8-27b; pace now 246k tokens a minute)
+Sun 09:07:03  [grade]     judged 25/40 (errors: 0)
+Sun 09:08:29  [grade]     (429 rate limit, model qwen3.8-27b; pace now 211k tokens a minute)
+Sun 09:09:31  [grade]     (429 rate limit, model qwen3.8-27b; pace now 158k tokens a minute)
+Sun 09:12:05  [gen] waiting: qwen3.8-27b still has 113 of 792 answers to grade before generation goes on
+Sun 09:12:06  [grade]     judged 40/40 (errors: 0)
+Sun 09:12:07  [grade]   scores.csv: 680 answers; item_scores.csv: 2209 item marks -> results\full
+Sun 09:12:07  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 09:12:09  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 09:12:11  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 09:12:12  [grade]   792 answers, 680 already judged, 112 to judge with qwen3.8-27b
+Sun 09:12:12  [grade]     this pass: the first 40
+Sun 09:13:04  [grade]     (429 rate limit, model qwen3.8-27b; pace now 188k tokens a minute)
+Sun 09:13:53  [grade]     (429 rate limit, model qwen3.8-27b; pace now 141k tokens a minute)
+Sun 09:22:51  [grade]     judged 25/40 (errors: 0)
+Sun 09:27:12  [gen] waiting: qwen3.8-27b still has 75 of 792 answers to grade before generation goes on
+Sun 09:28:11  [grade]     judged 40/40 (errors: 0)
+Sun 09:28:12  [grade]   scores.csv: 720 answers; item_scores.csv: 2328 item marks -> results\full
+Sun 09:28:12  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 09:28:14  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 09:28:15  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 09:28:17  [grade]   792 answers, 720 already judged, 72 to judge with qwen3.8-27b
+Sun 09:28:17  [grade]     this pass: the first 40
+Sun 09:29:43  [grade]     (429 rate limit, model qwen3.8-27b; pace now 201k tokens a minute)
+Sun 09:36:30  [grade]     judged 25/40 (errors: 0)
+Sun 09:40:26  [grade]     judged 40/40 (errors: 0)
+Sun 09:40:28  [grade]   scores.csv: 760 answers; item_scores.csv: 2474 item marks -> results\full
+Sun 09:40:28  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 09:40:30  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 09:40:31  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 09:40:33  [grade]   792 answers, 760 already judged, 32 to judge with qwen3.8-27b
+Sun 09:42:19  [gen] waiting: qwen3.8-27b still has 28 of 792 answers to grade before generation goes on
+Sun 09:45:44  [grade]     (429 rate limit, model qwen3.8-27b; pace now 246k tokens a minute)
+Sun 09:46:35  [grade]     (429 rate limit, model qwen3.8-27b; pace now 184k tokens a minute)
+Sun 09:47:42  [grade]     judged 25/32 (errors: 0)
+Sun 09:48:02  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 09:48:02  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 09:48:02  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 09:48:02  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 09:48:02  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 09:48:02  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 09:48:02  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 09:48:02  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 09:48:02  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 09:48:02  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 09:48:02  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 09:48:02  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 09:48:02  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 09:48:02  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 09:48:02  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 09:48:02  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 09:48:02  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 09:48:02  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 09:48:02  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 09:48:02  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 09:48:02  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 09:48:02  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 09:48:02  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 09:48:02  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 09:48:02  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 09:48:02  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 09:48:02  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 09:48:02  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 09:48:02  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 09:48:02  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 09:48:02  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 09:48:02  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 09:48:02  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 09:48:02  [gen]     792/792  ok=0 skipped=792 error=0
+Sun 09:48:02  [gen]   {'ok': 0, 'skipped': 792, 'error': 0} -> results\full\answers.jsonl
+Sun 09:48:02  [result] nis2eval score --run full --judge qwen3.8-27b --tables-only
+Sun 09:48:03  [result]   scores.csv: 786 answers; item_scores.csv: 2535 item marks -> results\full
+Sun 09:48:03  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4
+Sun 09:48:04  [result]   analysis written to results\full\analysis-core4 (1 figures)
+Sun 09:48:04  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,gemma-4-31b-it,deepseek-v4-flash --tag core-without-judge-model
+Sun 09:48:06  [result]   analysis written to results\full\analysis-core-without-judge-model (1 figures)
+Sun 09:48:06  [gen] MAIN RESULT READY: results/full/analysis-core4 and analysis-core-without-judge-model
+Sun 09:48:06  [gen] waiting: gemma-4-31b-it still has 792 of 792 answers to grade before generation goes on
+Sun 09:49:48  [grade]     judged 32/32 (errors: 0)
+Sun 09:49:50  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 09:49:52  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 09:49:54  [grade]   792 answers, 0 already judged, 792 to judge with gemma-4-31b-it
+Sun 09:49:54  [grade]     this pass: the first 40
+Sun 09:51:08  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 201k tokens a minute)
+Sun 09:57:33  [grade]     judged 25/40 (errors: 0)
+Sun 10:03:19  [gen] waiting: gemma-4-31b-it still has 759 of 792 answers to grade before generation goes on
+Sun 10:04:55  [grade]     judged 40/40 (errors: 7)
+Sun 10:04:56  [grade]   scores.gemma-4-31b-it.csv: 33 answers; item_scores.gemma-4-31b-it.csv: 90 item marks -> results\full
+Sun 10:04:56  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:04:58  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:04:58  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:04:58  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:04:58  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:00  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:00  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:00  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:00  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:02  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:02  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:03  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:03  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:04  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:05  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:05  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:05  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:06  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:07  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:07  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:07  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:08  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:09  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:09  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:09  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:10  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:11  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:11  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:11  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:13  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:13  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:13  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:13  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:15  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:15  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:15  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:15  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:17  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:17  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:17  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:17  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:19  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:19  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:19  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:19  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:21  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:21  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:21  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:21  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:23  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:23  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:23  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:23  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:25  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:25  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:25  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:25  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:27  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:27  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:27  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:27  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:29  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:29  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:29  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:29  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:31  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:31  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:31  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:31  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:33  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:33  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:33  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:33  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:35  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:35  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:35  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:35  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:37  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:37  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:37  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:37  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:39  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:39  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:40  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:40  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:41  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:41  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:42  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:42  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:43  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:43  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:44  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:44  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:45  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:45  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:46  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:46  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:47  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:47  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:48  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:48  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:49  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:49  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:49  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:49  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:51  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:52  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:05:53  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:05:53  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:05:58  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:05:59  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:00  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:00  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:05  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:06  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:07  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:07  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:15  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:16  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:17  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:17  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:23  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:24  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:25  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:25  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:34  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:35  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:37  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:37  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:44  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:45  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:46  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:46  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:53  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:55  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:56  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:56  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:57  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:57  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:58  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:58  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:06:59  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:06:59  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:06:59  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:06:59  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:01  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:01  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:01  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:01  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:03  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:03  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:03  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:03  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:04  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:05  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:05  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:05  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:06  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:06  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:06  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:06  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:08  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:08  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:08  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:08  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:09  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:09  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:10  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:10  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:11  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:11  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:11  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:11  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:12  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:13  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:13  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:13  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:14  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:14  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:14  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:14  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:16  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:16  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:16  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:16  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:17  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:18  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:18  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:18  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:19  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:19  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:19  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:19  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:20  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:21  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:21  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:21  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:22  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:22  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:22  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:22  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:24  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:24  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:24  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:24  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:25  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:26  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:26  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:26  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:27  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:27  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:27  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:27  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:29  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:29  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:29  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:29  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:30  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:31  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:31  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:31  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:32  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:32  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:32  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:32  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:34  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:34  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:34  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:34  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:35  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:36  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:36  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:36  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:37  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:37  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:37  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:37  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:39  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:39  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:39  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:39  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:40  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:41  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:41  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:41  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:42  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:42  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:42  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:42  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:44  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:44  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:44  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:44  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:45  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:45  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:46  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:46  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:47  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:47  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:47  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:47  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:49  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:49  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:49  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:49  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:50  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:51  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:51  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:51  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:52  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:52  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:53  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:53  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:54  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:54  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:54  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:55  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:56  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:56  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:57  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:57  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:07:58  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:07:58  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:07:58  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:07:58  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:00  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:00  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:00  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:00  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:01  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:02  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:02  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:02  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:03  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:04  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:04  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:04  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:05  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:05  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:06  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:06  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:07  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:07  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:07  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:07  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:09  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:09  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:09  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:09  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:10  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:11  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:11  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:11  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:12  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:13  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:13  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:13  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:14  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:14  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:15  [grade] gemma-4-31b-it is not answering; skipped this round
+Sun 10:08:15  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:08:16  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:08:16  [grade] qwen3.8-27b is not answering; skipped this round
+Sun 10:08:26  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 10:08:35  [grade]   792 answers, 33 already judged, 759 to judge with gemma-4-31b-it
+Sun 10:08:35  [grade]     this pass: the first 40
+Sun 10:15:15  [grade]     judged 25/40 (errors: 0)
+Sun 10:18:04  [grade]     judged 40/40 (errors: 0)
+Sun 10:18:05  [grade]   scores.gemma-4-31b-it.csv: 73 answers; item_scores.gemma-4-31b-it.csv: 236 item marks -> results\full
+Sun 10:18:05  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:18:06  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:18:08  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 10:18:10  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 10:18:10  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 10:18:12  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 10:18:14  [grade]   792 answers, 73 already judged, 719 to judge with gemma-4-31b-it
+Sun 10:18:14  [grade]     this pass: the first 40
+Sun 10:18:26  [gen] waiting: gemma-4-31b-it still has 719 of 792 answers to grade before generation goes on
+Sun 10:24:41  [grade]     judged 25/40 (errors: 0)
+Sun 10:25:29  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 263k tokens a minute)
+Sun 10:28:05  [grade]     judged 40/40 (errors: 0)
+Sun 10:28:05  [grade]   scores.gemma-4-31b-it.csv: 113 answers; item_scores.gemma-4-31b-it.csv: 367 item marks -> results\full
+Sun 10:28:06  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:28:07  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:28:09  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 10:28:11  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 10:28:11  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 10:28:13  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 10:28:15  [grade]   792 answers, 113 already judged, 679 to judge with gemma-4-31b-it
+Sun 10:28:15  [grade]     this pass: the first 40
+Sun 10:33:33  [gen] waiting: gemma-4-31b-it still has 659 of 792 answers to grade before generation goes on
+Sun 10:34:22  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 263k tokens a minute)
+Sun 10:35:04  [grade]     judged 25/40 (errors: 0)
+Sun 10:38:23  [grade]     judged 40/40 (errors: 0)
+Sun 10:38:23  [grade]   scores.gemma-4-31b-it.csv: 153 answers; item_scores.gemma-4-31b-it.csv: 499 item marks -> results\full
+Sun 10:38:23  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:38:25  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:38:26  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 10:38:28  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 10:38:29  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 10:38:31  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 10:38:33  [grade]   792 answers, 153 already judged, 639 to judge with gemma-4-31b-it
+Sun 10:38:33  [grade]     this pass: the first 40
+Sun 10:40:48  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 201k tokens a minute)
+Sun 10:47:31  [grade]     judged 25/40 (errors: 0)
+Sun 10:48:41  [gen] waiting: gemma-4-31b-it still has 610 of 792 answers to grade before generation goes on
+Sun 10:51:25  [grade]     judged 40/40 (errors: 0)
+Sun 10:51:25  [grade]   scores.gemma-4-31b-it.csv: 193 answers; item_scores.gemma-4-31b-it.csv: 628 item marks -> results\full
+Sun 10:51:26  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 10:51:27  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 10:51:29  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 10:51:31  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 10:51:31  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 10:51:33  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 10:51:35  [grade]   792 answers, 193 already judged, 599 to judge with gemma-4-31b-it
+Sun 10:51:35  [grade]     this pass: the first 40
+Sun 10:58:02  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 263k tokens a minute)
+Sun 10:58:03  [grade]     judged 25/40 (errors: 0)
+Sun 11:01:45  [grade]     judged 40/40 (errors: 0)
+Sun 11:01:46  [grade]   scores.gemma-4-31b-it.csv: 233 answers; item_scores.gemma-4-31b-it.csv: 765 item marks -> results\full
+Sun 11:01:46  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:01:47  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:01:49  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:01:51  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:01:51  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:01:53  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:01:55  [grade]   792 answers, 233 already judged, 559 to judge with gemma-4-31b-it
+Sun 11:01:55  [grade]     this pass: the first 40
+Sun 11:03:50  [gen] waiting: gemma-4-31b-it still has 555 of 792 answers to grade before generation goes on
+Sun 11:08:41  [grade]     judged 25/40 (errors: 0)
+Sun 11:11:25  [grade]     judged 40/40 (errors: 0)
+Sun 11:11:25  [grade]   scores.gemma-4-31b-it.csv: 273 answers; item_scores.gemma-4-31b-it.csv: 895 item marks -> results\full
+Sun 11:11:26  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:11:27  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:11:29  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:11:31  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:11:31  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:11:33  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:11:35  [grade]   792 answers, 273 already judged, 519 to judge with gemma-4-31b-it
+Sun 11:11:35  [grade]     this pass: the first 40
+Sun 11:18:16  [grade]     judged 25/40 (errors: 0)
+Sun 11:19:00  [gen] waiting: gemma-4-31b-it still has 490 of 792 answers to grade before generation goes on
+Sun 11:20:59  [grade]     judged 40/40 (errors: 0)
+Sun 11:20:59  [grade]   scores.gemma-4-31b-it.csv: 313 answers; item_scores.gemma-4-31b-it.csv: 1032 item marks -> results\full
+Sun 11:20:59  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:21:01  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:21:03  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:21:04  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:21:05  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:21:07  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:21:09  [grade]   792 answers, 313 already judged, 479 to judge with gemma-4-31b-it
+Sun 11:21:09  [grade]     this pass: the first 40
+Sun 11:27:44  [grade]     judged 25/40 (errors: 0)
+Sun 11:30:37  [grade]     judged 40/40 (errors: 0)
+Sun 11:30:38  [grade]   scores.gemma-4-31b-it.csv: 353 answers; item_scores.gemma-4-31b-it.csv: 1147 item marks -> results\full
+Sun 11:30:38  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:30:39  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:30:41  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:30:43  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:30:43  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:30:45  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:30:47  [grade]   792 answers, 353 already judged, 439 to judge with gemma-4-31b-it
+Sun 11:30:47  [grade]     this pass: the first 40
+Sun 11:34:08  [gen] waiting: gemma-4-31b-it still has 427 of 792 answers to grade before generation goes on
+Sun 11:36:53  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 263k tokens a minute)
+Sun 11:37:31  [grade]     judged 25/40 (errors: 0)
+Sun 11:40:54  [grade]     judged 40/40 (errors: 0)
+Sun 11:40:54  [grade]   scores.gemma-4-31b-it.csv: 393 answers; item_scores.gemma-4-31b-it.csv: 1284 item marks -> results\full
+Sun 11:40:54  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:40:56  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:40:57  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:40:59  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:41:00  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:41:04  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:41:06  [grade]   792 answers, 393 already judged, 399 to judge with gemma-4-31b-it
+Sun 11:41:06  [grade]     this pass: the first 40
+Sun 11:47:31  [grade]     judged 25/40 (errors: 0)
+Sun 11:48:34  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 281k tokens a minute)
+Sun 11:48:46  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 211k tokens a minute)
+Sun 11:49:16  [gen] waiting: gemma-4-31b-it still has 368 of 792 answers to grade before generation goes on
+Sun 11:51:36  [grade]     judged 40/40 (errors: 0)
+Sun 11:51:37  [grade]   scores.gemma-4-31b-it.csv: 433 answers; item_scores.gemma-4-31b-it.csv: 1404 item marks -> results\full
+Sun 11:51:37  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 11:51:38  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 11:51:40  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 11:51:42  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 11:51:43  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 11:51:45  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 11:51:46  [grade]   792 answers, 433 already judged, 359 to judge with gemma-4-31b-it
+Sun 11:51:46  [grade]     this pass: the first 40
+Sun 11:58:12  [grade]     judged 25/40 (errors: 0)
+Sun 12:01:02  [grade]     judged 40/40 (errors: 0)
+Sun 12:01:02  [grade]   scores.gemma-4-31b-it.csv: 473 answers; item_scores.gemma-4-31b-it.csv: 1538 item marks -> results\full
+Sun 12:01:03  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:01:04  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:01:06  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:01:08  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:01:08  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:01:10  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:01:12  [grade]   792 answers, 473 already judged, 319 to judge with gemma-4-31b-it
+Sun 12:01:12  [grade]     this pass: the first 40
+Sun 12:04:24  [gen] waiting: gemma-4-31b-it still has 309 of 792 answers to grade before generation goes on
+Sun 12:07:50  [grade]     judged 25/40 (errors: 0)
+Sun 12:10:34  [grade]     judged 40/40 (errors: 0)
+Sun 12:10:35  [grade]   scores.gemma-4-31b-it.csv: 513 answers; item_scores.gemma-4-31b-it.csv: 1675 item marks -> results\full
+Sun 12:10:35  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:10:36  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:10:38  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:10:40  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:10:41  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:10:43  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:10:45  [grade]   792 answers, 513 already judged, 279 to judge with gemma-4-31b-it
+Sun 12:10:45  [grade]     this pass: the first 40
+Sun 12:17:19  [grade]     judged 25/40 (errors: 0)
+Sun 12:19:35  [gen] waiting: gemma-4-31b-it still has 242 of 792 answers to grade before generation goes on
+Sun 12:20:08  [grade]     judged 40/40 (errors: 0)
+Sun 12:20:10  [grade]   scores.gemma-4-31b-it.csv: 553 answers; item_scores.gemma-4-31b-it.csv: 1794 item marks -> results\full
+Sun 12:20:10  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:20:11  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:20:13  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:20:15  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:20:15  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:20:17  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:20:19  [grade]   792 answers, 553 already judged, 239 to judge with gemma-4-31b-it
+Sun 12:20:19  [grade]     this pass: the first 40
+Sun 12:27:04  [grade]     judged 25/40 (errors: 0)
+Sun 12:28:33  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 301k tokens a minute)
+Sun 12:29:56  [grade]     judged 40/40 (errors: 0)
+Sun 12:29:57  [grade]   scores.gemma-4-31b-it.csv: 593 answers; item_scores.gemma-4-31b-it.csv: 1927 item marks -> results\full
+Sun 12:29:57  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:29:58  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:30:00  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:30:02  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:30:03  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:30:05  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:30:07  [grade]   792 answers, 593 already judged, 199 to judge with gemma-4-31b-it
+Sun 12:30:07  [grade]     this pass: the first 40
+Sun 12:34:43  [gen] waiting: gemma-4-31b-it still has 184 of 792 answers to grade before generation goes on
+Sun 12:36:21  [grade]     judged 25/40 (errors: 0)
+Sun 12:39:20  [grade]     judged 40/40 (errors: 0)
+Sun 12:39:21  [grade]   scores.gemma-4-31b-it.csv: 633 answers; item_scores.gemma-4-31b-it.csv: 2048 item marks -> results\full
+Sun 12:39:21  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:39:23  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:39:25  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:39:27  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:39:28  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:39:30  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:39:32  [grade]   792 answers, 633 already judged, 159 to judge with gemma-4-31b-it
+Sun 12:39:32  [grade]     this pass: the first 40
+Sun 12:46:08  [grade]     judged 25/40 (errors: 0)
+Sun 12:49:01  [grade]     judged 40/40 (errors: 0)
+Sun 12:49:02  [grade]   scores.gemma-4-31b-it.csv: 673 answers; item_scores.gemma-4-31b-it.csv: 2196 item marks -> results\full
+Sun 12:49:02  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 12:49:03  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 12:49:05  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 12:49:07  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 12:49:08  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 12:49:10  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 12:49:11  [grade]   792 answers, 673 already judged, 119 to judge with gemma-4-31b-it
+Sun 12:49:11  [grade]     this pass: the first 40
+Sun 12:49:50  [gen] waiting: gemma-4-31b-it still has 117 of 792 answers to grade before generation goes on
+Sun 12:53:25  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 230k tokens a minute)
+Sun 12:56:09  [grade]     judged 25/40 (errors: 0)
+Sun 13:00:02  [grade]     judged 40/40 (errors: 0)
+Sun 13:00:03  [grade]   scores.gemma-4-31b-it.csv: 713 answers; item_scores.gemma-4-31b-it.csv: 2302 item marks -> results\full
+Sun 13:00:03  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 13:00:05  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 13:00:06  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 13:00:08  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 13:00:09  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 13:00:11  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 13:00:13  [grade]   792 answers, 713 already judged, 79 to judge with gemma-4-31b-it
+Sun 13:00:13  [grade]     this pass: the first 40
+Sun 13:04:59  [gen] waiting: gemma-4-31b-it still has 63 of 792 answers to grade before generation goes on
+Sun 13:05:59  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 246k tokens a minute)
+Sun 13:06:49  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 184k tokens a minute)
+Sun 13:07:46  [grade]     judged 25/40 (errors: 0)
+Sun 13:12:29  [grade]     judged 40/40 (errors: 0)
+Sun 13:12:30  [grade]   scores.gemma-4-31b-it.csv: 753 answers; item_scores.gemma-4-31b-it.csv: 2452 item marks -> results\full
+Sun 13:12:31  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 13:12:32  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 13:12:34  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 13:12:36  [grade]   792 answers, 792 already judged, 0 to judge with qwen3.8-27b
+Sun 13:12:37  [grade]   scores.csv: 792 answers; item_scores.csv: 2556 item marks -> results\full
+Sun 13:12:39  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 13:12:41  [grade]   792 answers, 753 already judged, 39 to judge with gemma-4-31b-it
+Sun 13:19:19  [grade]     judged 25/39 (errors: 0)
+Sun 13:20:07  [gen] waiting: gemma-4-31b-it still has 10 of 792 answers to grade before generation goes on
+Sun 13:21:07  [result] nis2eval score --run full --judge gemma-4-31b-it --tables-only
+Sun 13:21:08  [result]   scores.gemma-4-31b-it.csv: 786 answers; item_scores.gemma-4-31b-it.csv: 2536 item marks -> results\full
+Sun 13:21:08  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4 --judge gemma-4-31b-it
+Sun 13:21:09  [result]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core4 (1 figures)
+Sun 13:21:10  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,deepseek-v4-flash --tag core-without-judge-model --judge gemma-4-31b-it
+Sun 13:21:11  [result]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core-without-judge-model (1 figures)
+Sun 13:21:11  [gen] SECOND JUDGE READY: results/full/judge_agreement.md and analysis-judge-gemma-4-31b-it-*
+Sun 13:21:14  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models gemma-4-26b-a4b-it,glm-5.3-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:21:15  [gen]   396 calls (base conditions: C0, C1, C2)
+Sun 13:21:26  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 301k tokens a minute)
+Sun 13:21:51  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 226k tokens a minute)
+Sun 13:22:38  [grade]     judged 39/39 (errors: 0)
+Sun 13:22:39  [grade]   scores.gemma-4-31b-it.csv: 792 answers; item_scores.gemma-4-31b-it.csv: 2556 item marks -> results\full
+Sun 13:22:39  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 13:22:41  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 13:22:42  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 13:22:44  [grade]   804 answers, 792 already judged, 12 to judge with qwen3.8-27b
+Sun 13:23:05  [gen]     25/396  ok=17 skipped=0 error=8
+Sun 13:24:52  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 129k tokens a minute)
+Sun 13:26:04  [gen]     50/396  ok=28 skipped=0 error=22
+Sun 13:28:04  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 111k tokens a minute)
+Sun 13:30:15  [grade]     judged 12/12 (errors: 0)
+Sun 13:30:16  [grade]   scores.csv: 804 answers; item_scores.csv: 2600 item marks -> results\full
+Sun 13:30:18  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 4 --conditions C0,C1,C2   (starting pace 100k tokens a minute)
+Sun 13:30:20  [grade]   828 answers, 792 already judged, 36 to judge with gemma-4-31b-it
+Sun 13:37:51  [gen]     75/396  ok=49 skipped=0 error=26
+Sun 13:44:52  [grade]     judged 25/36 (errors: 0)
+Sun 13:49:09  [gen]     100/396  ok=70 skipped=0 error=30
+Sun 13:51:51  [grade]     judged 36/36 (errors: 0)
+Sun 13:51:52  [grade]   scores.gemma-4-31b-it.csv: 828 answers; item_scores.gemma-4-31b-it.csv: 2677 item marks -> results\full
+Sun 13:51:52  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 13:51:53  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 13:51:55  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 13:51:57  [grade]   865 answers, 804 already judged, 61 to judge with qwen3.8-27b
+Sun 13:51:57  [grade]     this pass: the first 40
+Sun 13:52:38  [grade]     (429 rate limit, model qwen3.8-27b; pace now 75k tokens a minute)
+Sun 13:53:18  [grade]     (429 rate limit, model qwen3.8-27b; pace now 56k tokens a minute)
+Sun 13:57:16  === overnight run started ===
+Sun 13:57:17  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 13:57:19  [grade]   874 answers, 809 already judged, 65 to judge with qwen3.8-27b
+Sun 13:57:19  [grade]     this pass: the first 40
+Sun 13:57:26  [gen] nis2eval run --run full --reps 1 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:57:26  [gen]   264 calls (base conditions: C0, C1, C2)
+Sun 13:57:26  [gen]     25/264  ok=0 skipped=25 error=0
+Sun 13:57:26  [gen]     50/264  ok=0 skipped=50 error=0
+Sun 13:57:26  [gen]     75/264  ok=0 skipped=75 error=0
+Sun 13:57:26  [gen]     100/264  ok=0 skipped=100 error=0
+Sun 13:57:26  [gen]     125/264  ok=0 skipped=125 error=0
+Sun 13:57:26  [gen]     150/264  ok=0 skipped=150 error=0
+Sun 13:57:26  [gen]     175/264  ok=0 skipped=175 error=0
+Sun 13:57:26  [gen]     200/264  ok=0 skipped=200 error=0
+Sun 13:57:26  [gen]     225/264  ok=0 skipped=225 error=0
+Sun 13:57:26  [gen]     250/264  ok=0 skipped=250 error=0
+Sun 13:57:26  [gen]     264/264  ok=0 skipped=264 error=0
+Sun 13:57:26  [gen]   {'ok': 0, 'skipped': 264, 'error': 0} -> results\full\answers.jsonl
+Sun 13:57:26  [gen] nis2eval blind --run full --n 25
+Sun 13:57:26  [gen]   blind sample already drawn in results\full\blind; left as it is (pass --force to draw a new one)
+Sun 13:57:34  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:57:35  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 13:57:35  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 13:57:35  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 13:57:35  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 13:57:35  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 13:57:35  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 13:57:35  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 13:57:35  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 13:57:35  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 13:57:35  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 13:57:35  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 13:57:35  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 13:57:35  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 13:57:35  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 13:57:35  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 13:57:35  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 13:57:35  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 13:57:35  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 13:57:35  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 13:57:35  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 13:57:35  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 13:57:35  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 13:57:35  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 13:57:35  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 13:57:35  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 13:57:35  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 13:57:35  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 13:57:35  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 13:57:35  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 13:57:35  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 13:57:35  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 13:57:35  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 13:57:35  [gen]     792/792  ok=0 skipped=792 error=0
+Sun 13:57:35  [gen]   {'ok': 0, 'skipped': 792, 'error': 0} -> results\full\answers.jsonl
+Sun 13:57:43  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:57:44  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 13:57:44  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 13:57:44  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 13:57:44  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 13:57:44  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 13:57:44  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 13:57:44  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 13:57:44  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 13:57:44  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 13:57:44  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 13:57:44  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 13:57:44  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 13:57:44  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 13:57:44  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 13:57:44  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 13:57:44  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 13:57:44  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 13:57:44  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 13:57:44  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 13:57:44  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 13:57:44  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 13:57:44  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 13:57:44  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 13:57:44  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 13:57:44  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 13:57:44  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 13:57:44  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 13:57:44  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 13:57:44  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 13:57:44  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 13:57:44  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 13:57:44  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 13:57:44  [gen]     792/792  ok=0 skipped=792 error=0
+Sun 13:57:44  [gen]   {'ok': 0, 'skipped': 792, 'error': 0} -> results\full\answers.jsonl
+Sun 13:57:52  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:57:52  [gen]   792 calls (base conditions: C0, C1, C2)
+Sun 13:57:52  [gen]     25/792  ok=0 skipped=25 error=0
+Sun 13:57:52  [gen]     50/792  ok=0 skipped=50 error=0
+Sun 13:57:52  [gen]     75/792  ok=0 skipped=75 error=0
+Sun 13:57:52  [gen]     100/792  ok=0 skipped=100 error=0
+Sun 13:57:52  [gen]     125/792  ok=0 skipped=125 error=0
+Sun 13:57:52  [gen]     150/792  ok=0 skipped=150 error=0
+Sun 13:57:52  [gen]     175/792  ok=0 skipped=175 error=0
+Sun 13:57:52  [gen]     200/792  ok=0 skipped=200 error=0
+Sun 13:57:52  [gen]     225/792  ok=0 skipped=225 error=0
+Sun 13:57:52  [gen]     250/792  ok=0 skipped=250 error=0
+Sun 13:57:52  [gen]     275/792  ok=0 skipped=275 error=0
+Sun 13:57:52  [gen]     300/792  ok=0 skipped=300 error=0
+Sun 13:57:52  [gen]     325/792  ok=0 skipped=325 error=0
+Sun 13:57:52  [gen]     350/792  ok=0 skipped=350 error=0
+Sun 13:57:52  [gen]     375/792  ok=0 skipped=375 error=0
+Sun 13:57:52  [gen]     400/792  ok=0 skipped=400 error=0
+Sun 13:57:52  [gen]     425/792  ok=0 skipped=425 error=0
+Sun 13:57:52  [gen]     450/792  ok=0 skipped=450 error=0
+Sun 13:57:52  [gen]     475/792  ok=0 skipped=475 error=0
+Sun 13:57:52  [gen]     500/792  ok=0 skipped=500 error=0
+Sun 13:57:52  [gen]     525/792  ok=0 skipped=525 error=0
+Sun 13:57:52  [gen]     550/792  ok=0 skipped=550 error=0
+Sun 13:57:52  [gen]     575/792  ok=0 skipped=575 error=0
+Sun 13:57:52  [gen]     600/792  ok=0 skipped=600 error=0
+Sun 13:57:52  [gen]     625/792  ok=0 skipped=625 error=0
+Sun 13:57:52  [gen]     650/792  ok=0 skipped=650 error=0
+Sun 13:57:52  [gen]     675/792  ok=0 skipped=675 error=0
+Sun 13:57:52  [gen]     700/792  ok=0 skipped=700 error=0
+Sun 13:57:52  [gen]     725/792  ok=0 skipped=725 error=0
+Sun 13:57:52  [gen]     750/792  ok=0 skipped=750 error=0
+Sun 13:57:52  [gen]     775/792  ok=0 skipped=775 error=0
+Sun 13:57:52  [gen]     792/792  ok=0 skipped=792 error=0
+Sun 13:57:52  [gen]   {'ok': 0, 'skipped': 792, 'error': 0} -> results\full\answers.jsonl
+Sun 13:57:52  [result] nis2eval score --run full --judge qwen3.8-27b --tables-only
+Sun 13:57:53  [result]   scores.csv: 809 answers; item_scores.csv: 2616 item marks -> results\full
+Sun 13:57:53  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4
+Sun 13:57:54  [result]   analysis written to results\full\analysis-core4 (1 figures)
+Sun 13:57:55  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,gemma-4-31b-it,deepseek-v4-flash --tag core-without-judge-model
+Sun 13:57:56  [result]   analysis written to results\full\analysis-core-without-judge-model (1 figures)
+Sun 13:57:56  [gen] MAIN RESULT READY: results/full/analysis-core4 and analysis-core-without-judge-model
+Sun 13:57:56  [result] nis2eval score --run full --judge gemma-4-31b-it --tables-only
+Sun 13:57:57  [result]   scores.gemma-4-31b-it.csv: 828 answers; item_scores.gemma-4-31b-it.csv: 2677 item marks -> results\full
+Sun 13:57:57  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4 --judge gemma-4-31b-it
+Sun 13:57:59  [result]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core4 (1 figures)
+Sun 13:57:59  [result] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,deepseek-v4-flash --tag core-without-judge-model --judge gemma-4-31b-it
+Sun 13:58:00  [result]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core-without-judge-model (1 figures)
+Sun 13:58:00  [gen] SECOND JUDGE READY: results/full/judge_agreement.md and analysis-judge-gemma-4-31b-it-*
+Sun 13:58:02  [gen] nis2eval run --run full --reps 3 --conditions C0,C1,C2 --models gemma-4-26b-a4b-it --concurrency 12   (starting pace 150k tokens a minute)
+Sun 13:58:02  [gen]   198 calls (base conditions: C0, C1, C2)
+Sun 13:58:02  [gen]     25/198  ok=0 skipped=25 error=0
+Sun 13:58:02  [gen]     50/198  ok=0 skipped=50 error=0
+Sun 13:58:09  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 112k tokens a minute)
+Sun 13:58:59  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 84k tokens a minute)
+Sun 13:59:00  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 63k tokens a minute)
+Sun 13:59:00  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 47k tokens a minute)
+Sun 13:59:01  [gen]     (429 rate limit, model gemma-4-26b-a4b-it; pace now 36k tokens a minute)
+Sun 13:59:13  [gen]     75/198  ok=13 skipped=62 error=0
+Sun 14:12:08  [grade]     judged 25/40 (errors: 0)
+Sun 14:19:39  [gen]     100/198  ok=38 skipped=62 error=0
+Sun 14:21:02  [grade]     judged 40/40 (errors: 0)
+Sun 14:21:03  [grade]   scores.csv: 849 answers; item_scores.csv: 2740 item marks -> results\full
+Sun 14:21:03  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 14:21:05  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 14:21:07  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 14:21:08  [grade]   912 answers, 849 already judged, 63 to judge with qwen3.8-27b
+Sun 14:21:08  [grade]     this pass: the first 40
+Sun 14:36:03  [grade]     judged 25/40 (errors: 0)
+Sun 14:40:10  [gen]     125/198  ok=63 skipped=62 error=0
+Sun 14:44:32  [grade]     judged 40/40 (errors: 0)
+Sun 14:44:32  [grade]   scores.csv: 889 answers; item_scores.csv: 2870 item marks -> results\full
+Sun 14:44:33  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 14:44:34  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 14:44:36  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 14:44:37  [grade]   944 answers, 889 already judged, 55 to judge with qwen3.8-27b
+Sun 14:44:37  [grade]     this pass: the first 40
+Sun 14:45:03  [gen]     150/198  ok=88 skipped=62 error=0
+Sun 14:58:49  [gen]     175/198  ok=113 skipped=62 error=0
+Sun 14:59:16  [grade]     judged 25/40 (errors: 0)
+Sun 15:07:53  [grade]     judged 40/40 (errors: 0)
+Sun 15:07:54  [grade]   scores.csv: 929 answers; item_scores.csv: 2995 item marks -> results\full
+Sun 15:07:54  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 15:07:56  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 15:07:57  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 4   (starting pace 100k tokens a minute)
+Sun 15:07:59  [grade]   1003 answers, 929 already judged, 74 to judge with qwen3.8-27b
+Sun 15:07:59  [grade]     this pass: the first 40
+Sun 15:11:44  [gen]     198/198  ok=136 skipped=62 error=0
+Sun 15:11:44  [gen]   {'ok': 136, 'skipped': 62, 'error': 0} -> results\full\answers.jsonl
+Sun 15:11:44  [gen] waiting: qwen3.8-27b still has 77 of 198 answers to grade before generation goes on
+Sun 15:23:17  [grade]     judged 25/40 (errors: 0)
+Sun 15:26:53  [gen] waiting: qwen3.8-27b still has 50 of 198 answers to grade before generation goes on
+Sun 15:31:28  [grade]     judged 40/40 (errors: 0)
+Sun 15:31:29  [grade]   scores.csv: 969 answers; item_scores.csv: 3122 item marks -> results\full
+Sun 15:31:29  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 15:31:31  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 15:31:34  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 15:31:36  [grade]   1010 answers, 969 already judged, 41 to judge with qwen3.8-27b
+Sun 15:31:36  [grade]     this pass: the first 40
+Sun 15:38:10  [grade]     judged 25/40 (errors: 0)
+Sun 15:39:21  [grade]     (429 rate limit, model qwen3.8-27b; pace now 281k tokens a minute)
+Sun 15:40:29  [gen] waiting: gemma-4-31b-it still has 169 of 198 answers to grade before generation goes on
+Sun 15:41:20  [grade]     judged 40/40 (errors: 0)
+Sun 15:41:21  [grade]   scores.csv: 1009 answers; item_scores.csv: 3251 item marks -> results\full
+Sun 15:41:22  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 15:41:23  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 15:41:27  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 15:41:28  [grade]   1010 answers, 1009 already judged, 1 to judge with qwen3.8-27b
+Sun 15:41:59  [grade]     judged 1/1 (errors: 0)
+Sun 15:42:00  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 15:42:02  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 15:42:04  [grade]   1010 answers, 828 already judged, 182 to judge with gemma-4-31b-it
+Sun 15:42:04  [grade]     this pass: the first 40
+Sun 15:47:58  [grade]     (429 rate limit, model gemma-4-31b-it; pace now 263k tokens a minute)
+Sun 15:48:48  [grade]     judged 25/40 (errors: 0)
+Sun 15:52:32  [grade]     judged 40/40 (errors: 0)
+Sun 15:52:33  [grade]   scores.gemma-4-31b-it.csv: 868 answers; item_scores.gemma-4-31b-it.csv: 2803 item marks -> results\full
+Sun 15:52:33  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 15:52:34  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 15:52:38  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 15:52:40  [grade]   1010 answers, 1010 already judged, 0 to judge with qwen3.8-27b
+Sun 15:52:40  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 15:52:42  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 15:52:44  [grade]   1010 answers, 868 already judged, 142 to judge with gemma-4-31b-it
+Sun 15:52:44  [grade]     this pass: the first 40
+Sun 15:55:35  [gen] waiting: gemma-4-31b-it still has 134 of 198 answers to grade before generation goes on
+Sun 15:59:21  [grade]     judged 25/40 (errors: 0)
+Sun 16:02:01  [grade]     judged 40/40 (errors: 0)
+Sun 16:02:02  [grade]   scores.gemma-4-31b-it.csv: 908 answers; item_scores.gemma-4-31b-it.csv: 2928 item marks -> results\full
+Sun 16:02:02  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 16:02:04  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 16:02:07  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 16:02:09  [grade]   1010 answers, 1010 already judged, 0 to judge with qwen3.8-27b
+Sun 16:02:10  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 16:02:12  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 16:02:14  [grade]   1010 answers, 908 already judged, 102 to judge with gemma-4-31b-it
+Sun 16:02:14  [grade]     this pass: the first 40
+Sun 16:08:47  [grade]     judged 25/40 (errors: 0)
+Sun 16:10:41  [gen] waiting: gemma-4-31b-it still has 67 of 198 answers to grade before generation goes on
+Sun 16:11:31  [grade]     judged 40/40 (errors: 0)
+Sun 16:11:33  [grade]   scores.gemma-4-31b-it.csv: 948 answers; item_scores.gemma-4-31b-it.csv: 3056 item marks -> results\full
+Sun 16:11:33  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 16:11:34  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 16:11:38  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 16:11:39  [grade]   1010 answers, 1010 already judged, 0 to judge with qwen3.8-27b
+Sun 16:11:40  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 16:11:42  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 16:11:44  [grade]   1010 answers, 948 already judged, 62 to judge with gemma-4-31b-it
+Sun 16:11:44  [grade]     this pass: the first 40
+Sun 16:18:07  [grade]     judged 25/40 (errors: 0)
+Sun 16:20:51  [grade]     judged 40/40 (errors: 0)
+Sun 16:20:52  [grade]   scores.gemma-4-31b-it.csv: 988 answers; item_scores.gemma-4-31b-it.csv: 3183 item marks -> results\full
+Sun 16:20:52  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 16:20:54  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 16:20:57  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 16:20:59  [grade]   1010 answers, 1010 already judged, 0 to judge with qwen3.8-27b
+Sun 16:21:00  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 16:21:02  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 16:21:04  [grade]   1010 answers, 988 already judged, 22 to judge with gemma-4-31b-it
+Sun 16:25:49  [gen] generation track finished
+Sun 16:26:49  [grade]     judged 22/22 (errors: 0)
+Sun 16:26:50  [grade]   scores.gemma-4-31b-it.csv: 1010 answers; item_scores.gemma-4-31b-it.csv: 3254 item marks -> results\full
+Sun 16:26:51  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 16:26:52  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 16:26:56  [grade] nis2eval score --run full --judge qwen3.8-27b --limit 40 --concurrency 8   (starting pace 250k tokens a minute)
+Sun 16:26:58  [grade]   1010 answers, 1010 already judged, 0 to judge with qwen3.8-27b
+Sun 16:26:58  [grade]   scores.csv: 1010 answers; item_scores.csv: 3254 item marks -> results\full
+Sun 16:27:01  [grade] nis2eval score --run full --judge gemma-4-31b-it --limit 40 --concurrency 8 --conditions C0,C1,C2   (starting pace 250k tokens a minute)
+Sun 16:27:03  [grade]   1010 answers, 1010 already judged, 0 to judge with gemma-4-31b-it
+Sun 16:27:03  [grade]   scores.gemma-4-31b-it.csv: 1010 answers; item_scores.gemma-4-31b-it.csv: 3254 item marks -> results\full
+Sun 16:27:04  [grade] nis2eval analyze --run full --boot 500 --conditions C0,C1,C2 --tag interim
+Sun 16:27:05  [grade]   analysis written to results\full\analysis-interim (1 figures)
+Sun 16:27:05  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash,gemma-4-26b-a4b-it --tag all-models
+Sun 16:27:07  [final]   analysis written to results\full\analysis-all-models (1 figures)
+Sun 16:27:07  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4
+Sun 16:27:08  [final]   analysis written to results\full\analysis-core4 (1 figures)
+Sun 16:27:08  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,gemma-4-31b-it,deepseek-v4-flash --tag core-without-judge-model
+Sun 16:27:10  [final]   analysis written to results\full\analysis-core-without-judge-model (1 figures)
+Sun 16:27:10  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,gemma-4-31b-it,deepseek-v4-flash,gemma-4-26b-a4b-it --tag all-without-judge-model
+Sun 16:27:11  [final]   analysis written to results\full\analysis-all-without-judge-model (1 figures)
+Sun 16:27:11  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash,gemma-4-26b-a4b-it --tag all-models --judge gemma-4-31b-it
+Sun 16:27:13  [final]   analysis written to results\full\analysis-judge-gemma-4-31b-it-all-models (1 figures)
+Sun 16:27:13  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag core4 --judge gemma-4-31b-it
+Sun 16:27:14  [final]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core4 (1 figures)
+Sun 16:27:14  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,deepseek-v4-flash --tag core-without-judge-model --judge gemma-4-31b-it
+Sun 16:27:16  [final]   analysis written to results\full\analysis-judge-gemma-4-31b-it-core-without-judge-model (1 figures)
+Sun 16:27:16  [final] nis2eval analyze --run full --conditions C0,C1,C2 --models qwen3.5-397b,qwen3.8-27b,deepseek-v4-flash,gemma-4-26b-a4b-it --tag all-without-judge-model --judge gemma-4-31b-it
+Sun 16:27:17  [final]   analysis written to results\full\analysis-judge-gemma-4-31b-it-all-without-judge-model (1 figures)
+Sun 16:27:17  [final] nis2eval analyze --run full --conditions C0,C0p,C1,C1p --models qwen3.5-397b,qwen3.8-27b,gemma-4-31b-it,deepseek-v4-flash --tag pushback
+Sun 16:27:18  [final]   analysis written to results\full\analysis-pushback (1 figures)
+Sun 16:27:19  [final] done

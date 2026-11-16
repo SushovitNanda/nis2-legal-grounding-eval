@@ -1,0 +1,81 @@
+model,condition,status,uncertainty,n,share
+deepseek-v4-flash,C0,inferred,not_addressed,12,1.0
+deepseek-v4-flash,C0,to confirm,not_addressed,20,0.9523809523809523
+deepseek-v4-flash,C0,to confirm,stated_as_certain,1,0.047619047619047616
+deepseek-v4-flash,C0,verified,not_addressed,111,0.6166666666666667
+deepseek-v4-flash,C0,verified,stated_as_certain,69,0.38333333333333336
+deepseek-v4-flash,C1,inferred,flagged,1,0.08333333333333333
+deepseek-v4-flash,C1,inferred,not_addressed,4,0.3333333333333333
+deepseek-v4-flash,C1,inferred,stated_as_certain,7,0.5833333333333334
+deepseek-v4-flash,C1,to confirm,flagged,17,0.8095238095238095
+deepseek-v4-flash,C1,to confirm,not_addressed,1,0.047619047619047616
+deepseek-v4-flash,C1,to confirm,stated_as_certain,3,0.14285714285714285
+deepseek-v4-flash,C1,verified,flagged,6,0.03333333333333333
+deepseek-v4-flash,C1,verified,not_addressed,17,0.09444444444444444
+deepseek-v4-flash,C1,verified,stated_as_certain,157,0.8722222222222222
+deepseek-v4-flash,C2,inferred,not_addressed,12,1.0
+deepseek-v4-flash,C2,to confirm,not_addressed,19,0.9047619047619048
+deepseek-v4-flash,C2,to confirm,stated_as_certain,2,0.09523809523809523
+deepseek-v4-flash,C2,verified,not_addressed,101,0.5611111111111111
+deepseek-v4-flash,C2,verified,stated_as_certain,79,0.4388888888888889
+gemma-4-26b-a4b-it,C0,inferred,not_addressed,12,1.0
+gemma-4-26b-a4b-it,C0,to confirm,flagged,1,0.047619047619047616
+gemma-4-26b-a4b-it,C0,to confirm,not_addressed,18,0.8571428571428571
+gemma-4-26b-a4b-it,C0,to confirm,stated_as_certain,2,0.09523809523809523
+gemma-4-26b-a4b-it,C0,verified,hedged_without_reason,1,0.005555555555555556
+gemma-4-26b-a4b-it,C0,verified,not_addressed,117,0.65
+gemma-4-26b-a4b-it,C0,verified,stated_as_certain,62,0.34444444444444444
+gemma-4-26b-a4b-it,C1,inferred,not_addressed,8,0.6666666666666666
+gemma-4-26b-a4b-it,C1,inferred,stated_as_certain,4,0.3333333333333333
+gemma-4-26b-a4b-it,C1,to confirm,flagged,12,0.5714285714285714
+gemma-4-26b-a4b-it,C1,to confirm,not_addressed,7,0.3333333333333333
+gemma-4-26b-a4b-it,C1,to confirm,stated_as_certain,2,0.09523809523809523
+gemma-4-26b-a4b-it,C1,verified,flagged,4,0.022222222222222223
+gemma-4-26b-a4b-it,C1,verified,not_addressed,21,0.11666666666666667
+gemma-4-26b-a4b-it,C1,verified,stated_as_certain,155,0.8611111111111112
+gemma-4-26b-a4b-it,C2,inferred,not_addressed,12,1.0
+gemma-4-26b-a4b-it,C2,to confirm,flagged,3,0.14285714285714285
+gemma-4-26b-a4b-it,C2,to confirm,not_addressed,18,0.8571428571428571
+gemma-4-26b-a4b-it,C2,verified,not_addressed,114,0.6333333333333333
+gemma-4-26b-a4b-it,C2,verified,stated_as_certain,66,0.36666666666666664
+gemma-4-31b-it,C0,inferred,not_addressed,12,1.0
+gemma-4-31b-it,C0,to confirm,not_addressed,20,0.9523809523809523
+gemma-4-31b-it,C0,to confirm,stated_as_certain,1,0.047619047619047616
+gemma-4-31b-it,C0,verified,hedged_without_reason,1,0.005555555555555556
+gemma-4-31b-it,C0,verified,not_addressed,96,0.5333333333333333
+gemma-4-31b-it,C0,verified,stated_as_certain,83,0.46111111111111114
+gemma-4-31b-it,C1,inferred,not_addressed,10,0.8333333333333334
+gemma-4-31b-it,C1,inferred,stated_as_certain,2,0.16666666666666666
+gemma-4-31b-it,C1,to confirm,flagged,9,0.42857142857142855
+gemma-4-31b-it,C1,to confirm,not_addressed,7,0.3333333333333333
+gemma-4-31b-it,C1,to confirm,stated_as_certain,5,0.23809523809523808
+gemma-4-31b-it,C1,verified,flagged,5,0.027777777777777776
+gemma-4-31b-it,C1,verified,not_addressed,25,0.1388888888888889
+gemma-4-31b-it,C1,verified,stated_as_certain,150,0.8333333333333334
+gemma-4-31b-it,C2,inferred,not_addressed,11,0.9166666666666666
+gemma-4-31b-it,C2,inferred,stated_as_certain,1,0.08333333333333333
+gemma-4-31b-it,C2,to confirm,flagged,3,0.14285714285714285
+gemma-4-31b-it,C2,to confirm,not_addressed,18,0.8571428571428571
+gemma-4-31b-it,C2,verified,not_addressed,115,0.6388888888888888
+gemma-4-31b-it,C2,verified,stated_as_certain,65,0.3611111111111111
+qwen3.5-397b,C0,inferred,not_addressed,10,0.8333333333333334
+qwen3.5-397b,C0,inferred,stated_as_certain,2,0.16666666666666666
+qwen3.5-397b,C0,to confirm,flagged,2,0.09523809523809523
+qwen3.5-397b,C0,to confirm,not_addressed,18,0.8571428571428571
+qwen3.5-397b,C0,to confirm,stated_as_certain,1,0.047619047619047616
+qwen3.5-397b,C0,verified,hedged_without_reason,1,0.005555555555555556
+qwen3.5-397b,C0,verified,not_addressed,92,0.5111111111111111
+qwen3.5-397b,C0,verified,stated_as_certain,87,0.48333333333333334
+qwen3.5-397b,C1,inferred,not_addressed,6,0.5
+qwen3.5-397b,C1,inferred,stated_as_certain,6,0.5
+qwen3.5-397b,C1,to confirm,flagged,15,0.7142857142857143
+qwen3.5-397b,C1,to confirm,stated_as_certain,6,0.2857142857142857
+qwen3.5-397b,C1,verified,flagged,4,0.022222222222222223
+qwen3.5-397b,C1,verified,not_addressed,21,0.11666666666666667
+qwen3.5-397b,C1,verified,stated_as_certain,155,0.8611111111111112
+qwen3.5-397b,C2,inferred,not_addressed,11,0.9166666666666666
+qwen3.5-397b,C2,inferred,stated_as_certain,1,0.08333333333333333
+qwen3.5-397b,C2,to confirm,not_addressed,21,1.0
+qwen3.5-397b,C2,verified,flagged,3,0.016666666666666666
+qwen3.5-397b,C2,verified,not_addressed,103,0.5722222222222222
+qwen3.5-397b,C2,verified,stated_as_certain,74,0.4111111111111111

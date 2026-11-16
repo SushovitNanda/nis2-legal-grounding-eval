@@ -1,0 +1,3082 @@
+UNOFFICIAL ENGLISH TRANSLATION of Decreto-Lei n.º 125/2025, de 4 de dezembro. Produced with AI, not reviewed by a translator or a lawyer. Only the Portuguese text published in the Diário da República is official.
+
+/2025, of 4 December), published in the Diário da República (the official journal of the Portuguese Republic), 1st
+age number of the source PDF.
+d paragraph or a point), with the Portuguese text as published on the left and the proposed English translation
+he published text; it has not been reviewed by a translator or by a lawyer. Only the Portuguese text published in
+e original (“1 — ”, “a)”, “i)”). In cross-references, Portuguese “artigo” = Article, “n.º” = paragraph, “alínea” =
+elf; the Annex to the Decree-Law, which contains the legal regime for cybersecurity, has its own numbering
+pographical errors or repetitions, the translation follows them literally, without correcting them.
+English (proposed translation)
+S PRESIDENCY OF THE COUNCIL OF MINISTERS
+Decree-Law No. 125/2025, of 4 December
+destinadas a Summary: Transposes Directive (EU) 2022/2555, on measures for a high common
+level of cybersecurity across the Union.
+, transpondo a This Decree-Law approves the legal regime for cybersecurity, transposing Directive
+e 14 de (EU) 2022/2555, of the European Parliament and of the Council, of 14 December
+de 2022, intended to ensure a high common level of cybersecurity across the Union.
+m matéria de The preservation of cybersecurity plays a crucial role in matters of national and
+dos agentes international security, in the functioning of the State and of economic operators, as
+o processo de well as in building citizens’ trust in the process of digital modernisation of the
+Public Administration.
+tividades The transposition into the digital environment of essential functions of institutional
+ifica o reforço do activities and of the personal and professional lives of citizens justifies the
+do em harmonia strengthening of the regulatory and organisational framework for cybersecurity,
+carried out in harmony with the whole area and in defence against common cyber
+threats.
+gravidade This legislative initiative arises from the awareness not only of the pressing
+o potencial seriousness posed by multiple cyber threats, but also of the high disruptive
+rioso um reforço potential of their hostile actions against digital assets, making it imperative to
+dicionar a strengthen national capacity for the prevention of acts that may compromise
+s funcionais e national security and interest, as well as the multiple functional and productive
+dynamics of Portuguese society.
+Indeed, in view of the notable increase in the quantity and sophistication of threats,
+as well as the growing use of, and dependence on, information and communication
+technologies throughout society, it appears indispensable to ensure that
+cybersecurity becomes widespread in the organisational culture of the Portuguese
+business fabric and in the entities, bodies and services that make up the Public
+Administration.
+In fact, the increase in the occurrence of cybersecurity incidents may compromise
+national security and interest, entail danger to human life and losses of a financial
+nature, as well as compromise the confidentiality, integrity and availability of the
+information, networks and information systems of the Public Administration, of
+critical infrastructure operators, of operators of essential services and of digital
+service providers. In view of these threats and considering the provisions of the
+Directive to be transposed, the regime approved by this Decree-Law significantly
+expands the set of entities covered by the regime, prioritising, on the one hand, the
+widespread prevention of cybersecurity risks, but grading the regulatory
+requirements according to the size of the entity and the importance of its activity,
+as well as favouring the proportionality of the applicable measures. Its scope of
+application covers a significant part of the Public Administration, adapting the
+regime to the size and type of the public entity concerned. It should also be noted
+that, as permitted by the Directive to be transposed, the regime approved by this
+Decree-Law excludes from its scope of application public entities in the fields of
+national security, public security, defence and intelligence services, including
+entities with criminal investigation responsibilities and criminal police bodies.
+Among the relevant aspects of the regime approved by this Decree-Law is also the
+deepening of three fundamental instruments for public cybersecurity policies: the
+National Cyberspace Security Strategy, defining the national strategic priorities
+and objectives in matters of cybersecurity; the National Plan for Response to
+Large-Scale Cybersecurity Crises and Incidents, regulating and improving the
+management of this type of incident; and the National Cybersecurity Reference
+Framework, which will bring together and allow the dissemination of norms,
+standards and good practices in the management of Cybersecurity.
+Furthermore, the institutional framework of the regime approved by this Decree-
+Law is broadened in relation to the previous regime, as required by the Directive to
+be transposed. Accordingly, the National Cybersecurity Centre (CNCS) strengthens
+its role as national cybersecurity authority, with particular note also of the
+establishment of “sectoral” and “special” supervisory authorities, which exercise
+supervision over specific sectors of the economy, thereby ensuring stability in the
+supervision of each of the sectors covered, as well as relieving the cross-cutting
+tasks entrusted to the CNCS.
+At the inter-administrative level, the proposed model establishes an architecture of
+convergence, cooperation and interoperability between the various national
+entities competent in matters of cybersecurity and of internal and external security,
+fostering, in particular, the cross-cutting nature of flows of relevant information
+and the sharing of tactical contributions in incident response between the national
+entities competent in matters of cybersecurity, with a view to maximising
+Portuguese public capabilities for the prevention, early detection, mitigation,
+repression and accountability of cyber threats.
+The strengthening of cooperation with the private sector is another of the axes of
+the institutional design provided for in the regime approved by this Decree-Law,
+fostering collaboration between the competent authorities and private parties in
+the various relevant matters.
+As regards the risk-management model provided for in the regime approved by this
+Decree-Law, it consists of setting pre-defined risk standards, applicable to each
+sector and type of entity, and of applying corresponding prevention measures, with
+the addition of an analysis of residual risk. This model makes it possible to relieve
+the authorities of a case-by-case analysis of the risk of each entity covered, while
+also making it easier for the entities covered to know the category in which they
+fall and, thus, the minimum measures they must adopt.
+In these terms, the proposed model introduces simplicity, predictability and a
+better match between the mandatory measures and the threat landscape
+applicable to each sector of activity.
+On the other hand, the model fosters the creation of a market for cybersecurity
+certification, which will have economic utility and will make it possible to
+generalise a presumption of conformity of entities.
+Finally, as regards the supervisory model provided for in the regime approved by
+this Decree-Law, it, reflecting the provisions of the Directive to be transposed,
+provides for a dual regime, differentiating the treatment to be given to essential
+and important entities according to the cybersecurity risks associated with each
+category, in compliance, once again, with the principle of proportionality.
+This Decree-Law thus has as its objective the establishment of the new legal
+framework applicable in matters of cybersecurity, without prejudice to the fact that
+the entry into force of this regime necessarily implies a significant strengthening of
+the capacity of the CNCS and a new reflection on its institutional framework.
+This Decree-Law was submitted to public consultation between 22 November and
+31 December 2024.
+The self-governing bodies of the Autonomous Regions, the National Cybersecurity
+Centre, the Portuguese Bar Association, the Superior Council of the Public
+Prosecution Service, the National Data Protection Commission and the Commission
+for Access to Administrative Documents were heard.
+Thus:
+In the use of the legislative authorisation granted by Article 1 of Law No. 59/2025,
+of 22 October, and pursuant to points (a) and (b) of paragraph 1 of Article 198 of
+the Constitution, the Government decrees the following:
+Article 1
+Subject matter
+1 — This Decree-Law approves the legal regime for cybersecurity, transposing into
+the domestic legal order Directive (EU) 2022/2555, of the European Parliament and
+of the Council, of 14 December 2022, on measures for a high common level of
+cybersecurity across the Union, amending Regulation (EU) No 910/2014 and
+Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 1
+Directive).
+2 — This Decree-Law further provides for:
+a) The implementation, in the domestic legal order, of the obligations arising from
+Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019, on ENISA (the European Union Agency for Cybersecurity) and on
+information and communications technology cybersecurity certification and
+repealing Regulation (EU) No 526/2013 (Cybersecurity Act), implementing a
+national cybersecurity certification framework;
+b) The ninth amendment to the Internal Security Law, approved by Law No.
+53/2008, of 29 August, as currently worded;
+c) The second amendment to the Cybercrime Law, approved by Law No. 109/2009,
+15 September, amended by Law No. 79/2021, of 24 November;
+d) The second amendment to the Electronic Communications Law, approved by
+Law No. 16/2022, of 16 August, amended by Decree-Law No. 114/2024, of 20
+December.
+3 — The provisions of this Decree-Law are without prejudice to the measures and
+the legal framework in force intended to safeguard the essential functions of the
+State, namely the measures and provisions concerning the preservation of national
+security and interest, the production of intelligence for the internal and external
+security of the Portuguese State, the protection of State secrets and classified
+information, and also to safeguard the maintenance of public order and to allow the
+investigation, detection and repression of criminal offences, without prejudice to
+the provisions of Articles 7 and 8
+Article 2
+Legal regime for cybersecurity
+The legal regime for cybersecurity is approved, in annex to this Decree-Law, of
+which it forms an integral part.
+Article 3
+Amendment to Law No. 53/2008, of 29 August
+Article 16 of the Internal Security Law, approved by Law No. 53/2008, of 29
+August, as currently worded, is amended to read as follows:
+“Article 16
+[...]
+1 — [...]
+2 — [...]
+3 — [...]
+4 — The Secretary-General of the Internal Security System is responsible for
+convening, under the terms of Article 25-A, a crisis unit following the assignment of
+a high threat level by the Security Intelligence Service, or an equivalent national
+alert level for Cybersecurity, or when informed by the National Cybersecurity
+Centre or by any competent entity, namely security forces and services, of the
+occurrence of a significant cyber threat or of a crisis or incident liable to be
+considered large-scale.”
+Article 4
+Amendment to Law No. 109/2009, of 15 September
+Article 2 of the Cybercrime Law, approved by Law No. 109/2009, of 15 September,
+as currently worded, is amended to read as follows:
+“Article 2
+[...] [...]
+a) [...]
+b) [...]
+c) [...]
+d) [...]
+e) [...]
+f) [...]
+g) [...]
+h) ‘Vulnerability’ means a weakness, susceptibility or flaw affecting network and
+information systems, information or communication technology products or
+services, which can be exploited by a cyber threat, defined within the meaning of
+point 8 of Article 2 of Regulation (EU) 2019/881, of the European Parliament and of
+the Council, of 17 April 2019.”
+Article 5
+Amendment to Law No. 16/2022, of 16 August
+Article 13 of the Electronic Communications Law, approved by Law No. 16/2022, of
+16 August, as currently worded, is amended to read as follows:
+“Article 13
+[...]
+1 — [...]
+2 — Notwithstanding the provisions of the preceding paragraph, Article 177, point
+(q) of paragraph 3 of Article 178, Article 179, Article 180, Article 181, Article 182
+and Article 183 of the Electronic Communications Law, approved in annex to this
+Law, enter into force on the day following that of its publication.”
+Article 6
+Addition to Law No. 53/2008, of 29 August
+Article 25-A is added to the Internal Security Law, approved by Law No. 53/2008,
+of 29 August, as currently worded, with the following wording:
+“Article 25-A
+Crisis unit
+1 — The crisis unit referred to in paragraph 4 of Article 16 is composed of
+representatives of the Judiciary Police, the Security Intelligence Service, the
+Strategic Defence Intelligence Service, the National Cybersecurity Centre and the
+Cyber Defence Operations Command, or of other entities with relevance by reason
+of the subject matter.
+2 — The crisis unit referred to in the preceding paragraph aims to ensure, in a
+coordinated manner and without prejudice to the powers legally assigned to each
+entity, the conduct of cybersecurity crises with an impact on internal security and,
+in situations of occurrences with a transnational impact, to guarantee functional
+interoperability with counterpart entities of the European Union.”
+Article 7
+Addition to Law No. 109/2009, of 15 September
+Article 8-A is added to the Cybercrime Law, approved by Law No. 109/2009, of 15
+September, as currently worded, with the following wording:
+“Article 8-A
+Acts not punishable on grounds of public cybersecurity interest
+1 — Facts liable to constitute the crimes of unlawful access and unlawful
+interception provided for, respectively, in Articles 6 and 7 are not punishable if the
+following circumstances are cumulatively met:
+a) The agent acts with the sole intention of identifying the existence of
+vulnerabilities in an information system, information and communication
+technology products and services, which have not been created by the agent or by
+a third party on whom the agent depends, and with the purpose of contributing,
+through their disclosure, to the security of cyberspace;
+b) The agent does not act with the purpose of obtaining an economic advantage or
+a promise of economic advantage arising from the agent’s action, without prejudice
+to the remuneration that the agent obtains in return for the agent’s professional
+activity;
+c) The agent communicates, immediately after the action, any vulnerabilities
+identified to the owner or to the person designated by the owner to manage the
+information system, information and communication technology product or service,
+and to the holder of any data obtained that are protected under the legislation
+applicable in matters of personal data protection, namely the General Data
+Protection Regulation (GDPR), approved by Regulation (EU) 2016/679, of the
+European Parliament and of the Council, of 27 April 2016, Law No. 26/2016, of 22
+August, as currently worded, Law No. 58/2019, of 8 August, and Law No. 59/2019,
+of 8 August;
+d) The agent’s conduct is proportionate to its purposes and strictly limited by them,
+confined to the actions necessary to identify the vulnerabilities and not causing:
+i) A disruption or interruption of the functioning of the system or service
+concerned;
+ii) The deletion or deterioration of computer data or their unauthorised copying;
+iii) Any prejudicial, damaging or harmful effect on the person or entity affected,
+directly or indirectly, or on any third parties, excluding the effects corresponding to
+the unlawful access or unlawful interception itself, under the terms provided for in
+Articles 6 and 7, and also those that would already result, with high probability,
+from the vulnerability detected itself or from its exploitation;
+e) The agent’s conduct does not constitute a breach of personal data protected
+under the legislation applicable in matters of personal data protection, namely
+Regulation (EU) 2016/679, of the European Parliament and of the Council, of 27
+April 2016, Law No. 58/2019, of 8 August, and Law No. 59/2019, of 8 August.
+2 — The communication provided for in point (c) of the preceding paragraph must
+also be made to the national cybersecurity authority, which forwards it to the
+Judiciary Police whenever it is of criminal relevance.
+3 — For the purposes of determining the proportionality of the agent’s conduct,
+account shall be taken of whether it was necessary for the detection of the
+vulnerability and whether the extent of the systems or computer data accessed,
+consulted and/or copied was required by the interest in contributing to the security
+of cyberspace, the use of the following practices being expressly prohibited:
+a) Denial-of-service (DoS) or distributed denial-of-service (DDoS) mechanisms;
+b) Social engineering, defined as the act of deceiving persons responsible for or
+users of information systems with a view to the disclosure of sensitive or
+confidential information;
+c) ‘Phishing’ and variants;
+d) Theft or larceny of passwords or other sensitive information;
+e) Wilful deletion or alteration of computer data;
+f) Wilful infliction of damage on the information system;
+g) Installation and distribution of malicious software.
+4 — Without prejudice to the rules applicable in matters of data protection,
+computer data that are communicated to the owner or to the person in charge of
+managing the information system, information and communication technology
+product and service, or to the national cybersecurity authority must be deleted
+within 10 days counted from the moment the vulnerability is corrected, their secret
+nature having to be guaranteed throughout the procedure.
+5 — Likewise not punishable are facts committed with the consent of the owner or
+administrator of an information system, information and communication technology
+product or service, without prejudice to the duty to notify any vulnerabilities
+identified to the national coordinating authority in charge of responding to
+cybersecurity incidents of any vulnerabilities identified, under the terms provided
+for in the legal regime for cybersecurity.”
+Article 8
+Transitional provision
+1 — The entry into force of this Decree-Law does not affect the validity of the
+decisions taken by the Security Assessment Commission under the previous
+regime, which continue to produce effects for a period of 180 days after the date of
+entry into force of this Decree-Law, during which a new security assessment must
+be carried out.
+2 — On the basis of the new security assessment referred to in the preceding
+paragraph, and under the regime approved in annex to this Decree-Law, the
+member of the Government responsible for the area of cybersecurity may decide on
+the renewal, modification or replacement of the decisions adopted by the Security
+Assessment Commission under the previous regime.
+3 — The regulations and acts adopted by the National Communications Authority in
+matters of security and integrity of networks and services, which have been
+adopted under Law No. 5/2004, of 10 February, Law No. 16/2022, of 18 August,
+and Decree-Law No. 65/2021, of 30 July, and which are not incompatible with the
+provisions of this Decree-Law, remain in force until their replacement or revocation
+by the competent entities.
+Article 9
+Repealing provision
+The following are repealed:
+a) Article 2-A of Decree-Law No. 3/2012, of 16 January, as currently worded, which
+approves the organic structure of the National Security Office;
+b) The legal regime for the security of cyberspace, approved by Law No. 46/2018,
+of 13 August;
+c) The regulations of the legal regime for the security of cyberspace, approved by
+Decree-Law No. 65/2021, of 30 July;
+d) Articles 59 to 65 and points (m) to (t) of paragraph 3 of Article 178 of the
+Electronic Communications Law, approved by Law No. 16/2022, of 16 August, as
+currently worded.
+Article 10
+Production of effects
+1 — The provisions of point (d) of Article 9 produce effects after the replacement or
+revocation, by the competent entities, of the regulations and acts adopted by
+ANACOM in matters of security and integrity of networks and services, under Law
+No. 5/2004, of 10 February, Law No. 16/2022, of 18 August, and Decree-Law No.
+65/2021, of 30 July, and which are not incompatible with the provisions of this
+Decree-Law.
+2 — The provisions of paragraphs 1 and 2 of Article 27, Articles 28 to 30, Article 33
+and points (b), (c) and (f) of paragraph 1 of Article 61 of the legal regime for
+cybersecurity, approved in annex to this Decree-Law, produce effects 24 months
+after the publication of the regulations referred to in Articles 8, 14, 26, 31, 32 and
+83 of the said regime.
+Article 11
+Entry into force
+This Decree-Law enters into force 120 days after its publication.
+Seen and approved in the Council of Ministers of 5 November 2025. — Luís
+Montenegro — Paulo Artur dos Santos de Castro de Campos Rangel — Joaquim
+Miranda Sarmento — António Leitão Amaro — Manuel Castro Almeida.
+Promulgated on 28 November 2025.
+Let it be published.
+The President of the Republic, MARCELO REBELO DE SOUSA.
+Countersigned on 28 November 2025.
+The Prime Minister, Luís Montenegro.
+ANNEX
+(referred to in Article 2)
+Legal regime for cybersecurity
+CHAPTER I
+General provisions
+Article 1
+Subject matter
+1 — This Decree-Law establishes the legal regime for cybersecurity, transposing
+into the domestic legal order Directive (EU) 2022/2555, of the European
+Parliament and of the Council, of 14 December 2022, on measures for a high
+common level of cybersecurity across the Union, amending Regulation (EU) No
+910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148
+(NIS 1 Directive).
+2 — The provisions of this Decree-Law are without prejudice to compliance with
+the provisions of the legislation applicable in matters of:
+a) Criminal investigation proceedings by the judicial authorities and by the
+competent criminal police bodies, namely by the Public Prosecution Service and by
+the Judiciary Police;
+b) Proceedings within the respective exclusive competences of the Security
+Intelligence Service and of the Strategic Defence Intelligence Service in matters of
+producing intelligence concerning the safeguarding of national independence,
+national interests, the external and internal security of the Portuguese State, and
+the prevention of sabotage, terrorism, espionage and the commission of acts which,
+by their nature, may alter or destroy the constitutionally established rule of law;
+c) Protection of personal data, namely within the scope of the General Data
+Protection Regulation (GDPR), approved by Regulation (EU) 2016/679, of the
+European Parliament and of the Council, of 27 April 2016, Law No. 26/2016, of 22
+August, as currently worded, Law No. 58/2019, of 8 August, and Law No. 59/2019,
+of 8 August;
+d) Processing of personal data and protection of privacy in the electronic
+communications sector, namely within the scope of the provisions of Law No.
+41/2004, of 18 August, as currently worded;
+e) Identification and designation of national and European critical infrastructures,
+namely within the scope of Decree-Law No. 20/2022, of 28 January;
+f) Combating the sexual abuse and sexual exploitation of children and child
+pornography, namely within the scope of Law No. 103/2015, of 24 August;
+g) Protection of users of essential public services, namely within the scope of Law
+No. 23/96, of 26 July, as currently worded;
+h) Security and emergency in the electronic communications sector, namely within
+the scope of the provisions of the Electronic Communications Law, approved by
+Law No. 16/2022, of 16 August, as currently worded;
+i) State Secrets and Classified Information, namely within the scope of the
+provisions of Organic Law No. 2/2014, of 6 August, amended by Law No. 1/2015, of
+8 January.
+Article 2
+Definitions
+For the purposes of this Decree-Law, the following definitions apply:
+a) “Asset” means every information and communication system, the equipment and
+the other physical and logical resources managed or held by the entity, which
+support, directly or indirectly, one or more services;
+b) “Competent cybersecurity authority” means the National Cybersecurity Centre
+(CNCS) or, where applicable, the competent national sectoral cybersecurity
+authority under point (a) of paragraph 2 of Article 15, without prejudice to the
+reservations of exclusive competence of public entities with responsibilities in
+matters of criminal investigation, production of intelligence and cyber defence;
+c) “Cyber threat” means a cyber threat within the meaning of point 8 of Article 2 of
+Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019;
+d) “Significant cyber threat” means a cyber threat which, based on its technical
+characteristics, can be considered liable to have a severe impact on the network
+and information systems of an entity or of the users of the entities’ services,
+causing considerable material or non-material damage;
+e) “Cybersecurity” means cybersecurity within the meaning of point 1 of Article 2
+of Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019;
+f) “Entity” means a legal person created and recognised as such under the national
+law of its place of establishment, which may, acting under its own name, exercise
+rights and be subject to obligations;
+g) “Entities competent in the field of cyberspace security” means the Cyber
+Defence Operations Command of the General Staff of the Armed Forces, the
+Judiciary Police, the Security Intelligence Service and the Strategic Defence
+Intelligence Service;
+h) “Entity providing domain name registration services” means a registrar or an
+agent acting on behalf of registrars, such as a privacy or proxy registration service
+provider or reseller;
+i) “Technical specification” means a technical specification within the meaning of
+point 4 of Article 2 of Regulation (EU) No 1025/2012, of the European Parliament
+and of the Council, of 25 October 2012;
+j) “Incident” means an event compromising the availability, authenticity, integrity
+or confidentiality of stored, transmitted or processed data or of the services offered
+by, or accessible via, network and information systems;
+k) “Large-scale cybersecurity crisis or incident” means an incident which causes a
+level of disruption that exceeds the response capacity of the Portuguese State,
+which has a significant impact on at least two Member States of the European
+Union, or which, owing to its reach and systemic impact, calls for urgent cross-
+sectoral coordination;
+l) “Significant incident” means an incident which:
+i) Causes, or is liable to cause, severe operational disruption of the services or
+financial loss for the entity concerned;
+ii) Affects, or is liable to affect, other natural or legal persons by causing
+considerable material or non-material damage;
+m) “Risk matrix” means the reference framework establishing the risk values for
+the set of risk scenarios that bear on a sector and subsector of activity, considering
+the common assets and the main threats and vulnerabilities;
+n) “Cybersecurity risk-management measures or cybersecurity measures” means
+measures of a technical, operational and organisational scope, aimed at managing
+the risks posed to the security of the network and information systems used in their
+operations or in the provision of their services, as well as preventing or minimising
+the impact of incidents on the recipients of their services and on other services;
+o) “Online marketplace” means an online marketplace within the meaning of point
+(n) of Article 3 of Decree-Law No. 57/2008, of 26 March, as currently worded,
+which establishes the regime applicable to unfair commercial practices;
+p) “Online search engine” means an online search engine within the combined
+meaning of point 5 of Article 2 of Regulation (EU) 2019/1150, of the European
+Parliament and of the Council, of 20 June 2019, and point (j) of Article 3 of
+Regulation (EU) 2022/2065, of the Parliament and of the Council, of 19 October
+2022;
+q) “Standard” means a standard within the meaning of point 1 of Article 2 of
+Regulation (EU) No 1025/2012, of the European Parliament and of the Council, of
+25 October 2012;
+r) “Cybersecurity operations” means actions to operationalise the cybersecurity
+risk-management measures;
+s) “Research organisation” means an entity whose primary goal is to conduct
+applied research or experimental development with a view to exploiting the results
+of that research for commercial or scientific purposes;
+t) “Social networking services platform” means an online platform, defined in
+accordance with point (i) of Article 3 of Regulation (EU) 2022/2065, of the
+European Parliament and of the Council, of 19 October 2022, that enables end-
+users to connect, share, discover and communicate with each other across multiple
+devices, in particular via chats, posts, videos and recommendations;
+u) “Internet exchange point” means a network facility which:
+i) Enables the interconnection of more than two independent networks
+(autonomous systems), primarily for the purpose of facilitating the exchange of
+Internet traffic;
+ii) Interconnects only autonomous systems;
+iii) Does not require Internet traffic passing between any pair of participating
+autonomous systems to pass through any third autonomous system, nor does it
+alter or otherwise interfere with such traffic;
+v) “DNS service provider” means an entity that provides publicly available
+recursive domain name resolution services for Internet end-users or authoritative
+domain name resolution services for third-party use, with the exception of root
+name servers;
+w) “Trust service provider” means a trust service provider within the meaning of
+point 19 of Article 3 of Regulation (EU) No 910/2014, of the European Parliament
+and of the Council, of 23 July 2014, as amended by Directive (EU) 2022/2555, of
+the European Parliament and of the Council, of 14 December 2022, and by
+Regulation (EU) 2024/1183, of the European Parliament and of the Council, of 11
+April 2024;
+x) “Managed security service provider” means a managed service provider that
+carries out or provides assistance for activities relating to cybersecurity risk
+management;
+y) “Managed service provider” means an entity that provides services related to
+the installation, management, operation or maintenance of ICT products, networks,
+infrastructure, applications or any other network and information systems, via
+assistance or active administration carried out either on customers’ premises or
+remotely;
+z) “Qualified trust service provider” means a qualified trust service provider within
+the meaning of point 20 of Article 3 of Regulation (EU) No 910/2014, of the
+European Parliament and of the Council, of 23 July 2014, as amended by Directive
+(EU) 2022/2555, of the European Parliament and of the Council, of 14 December
+2022, and by Regulation (EU) 2024/1183, of the European Parliament and of the
+Council, of 11 April 2024;
+aa) “ICT process” means an ICT process within the meaning of point 14 of Article 2
+of Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019;
+bb) “ICT product” means an ICT product within the meaning of point 12 of Article 2
+of Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019;
+cc) “Near miss” means an event that could have compromised the availability,
+authenticity, integrity or confidentiality of stored, transmitted or processed data or
+of services offered by, or accessible via, network and information systems, but that
+was successfully prevented or did not materialise;
+dd) “Content delivery network” means a network of geographically distributed
+servers for the purpose of ensuring high availability, accessibility or fast delivery of
+digital services and content to Internet users on behalf of content and service
+providers;
+ee) “Top-level domain name registry” or “TLD (top level domain, as the English
+expression and acronym) name registry” means an entity which has been delegated
+a specific TLD and is responsible for administering it, including the registration of
+domain names under the TLD and the technical operation of that TLD, including
+the operation of its name servers, the maintenance of its databases and the
+distribution of TLD zone files across name servers, irrespective of whether any of
+those operations are carried out by the entity itself or are outsourced, but
+excluding situations where TLD names are used by a registry only for its own use;
+ff) “Public electronic communications network” means a public electronic
+communications network within the meaning of point (oo) of paragraph 1 of Article
+3 of the Electronic Communications Law, approved by Law No. 16/2022, of 16
+August, as currently worded;
+gg) “Network and information systems” means:
+i) An electronic communications network within the meaning of point (mm) of
+paragraph 1 of Article 3 of the Electronic Communications Law, approved by Law
+No. 16/2022, of 16 August, as currently worded;
+ii) A device or a group of interconnected or related devices, one or more of which,
+pursuant to a programme, carry out automatic processing of digital data; or
+iii) Digital data stored, processed, retrieved or transmitted by elements referred to
+in the preceding sub-points for the purposes of their operation, use, protection and
+maintenance;
+hh) “Representative” means any natural or legal person established in the
+European Union, explicitly designated to act on behalf of a DNS service provider, a
+top-level domain name registry, an entity providing domain name registration
+services, a cloud computing service provider, a data centre service provider, a
+content delivery network provider, a managed service provider, a managed security
+service provider, or a provider of online marketplaces, of online search engines or
+of social networking services platforms that is not established in the European
+Union, which may be contacted by the competent entities in place of the
+represented entity with regard to the obligations incumbent on the latter under
+this Decree-Law;
+ii) “Risk” means the measure of the potential for loss or disruption caused by an
+incident, resulting from the combination of the magnitude of such loss or
+disruption and the likelihood of occurrence of the incident;
+jj) “Residual risk” means the measure of risk existing after the adoption of the
+minimum cybersecurity measures;
+kk) “Security of network and information systems” means the ability of network
+and information systems to resist, at a given level of confidence, events liable to
+compromise the availability, authenticity, integrity or confidentiality of the stored,
+transmitted or processed data, or of the services offered by, or accessible via, those
+network and information systems;
+ll) “Data centre service” means a service that encompasses structures, or groups of
+structures, dedicated to the centralised accommodation, interconnection and
+operation of IT and network equipment providing data storage, processing and
+transport services, together with all the facilities and infrastructures for power
+distribution and environmental control;
+mm) “Cloud computing service” means a digital service that enables on-demand
+administration and broad remote access to a scalable and elastic pool of shareable
+computing resources, including where such resources are distributed across
+several locations;
+nn) “Electronic communications service” means an electronic communications
+service within the meaning of point (ss) of paragraph 1 of Article 3 of the
+Electronic Communications Law, approved by Law No. 16/2022, of 16 August, as
+currently worded;
+oo) “Trust service” means a trust service within the meaning of point 16 of Article
+3 of Regulation (EU) No 910/2014, of the European Parliament and of the Council,
+of 23 July 2014, as amended by Directive (EU) 2022/2555, of the European
+Parliament and of the Council, of 14 December 2022, and by Regulation (EU)
+2024/1183, of the European Parliament and of the Council, of 11 April 2024;
+pp) “Qualified trust service” means a qualified trust service within the meaning of
+point 17 of Article 3 of Regulation (EU) No 910/2014, of the European Parliament
+and of the Council, of 23 July 2014, as amended by Directive (EU) 2022/2555, of
+the European Parliament and of the Council, of 14 December 2022, and by
+Regulation (EU) 2024/1183, of the European Parliament and of the Council, of 11
+April 2024;
+qq) “ICT service” means an ICT service within the meaning of point 13 of Article 2
+of Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019;
+rr) “Domain name system” or “DNS” means a hierarchical distributed naming
+system which enables the identification of Internet services and resources,
+allowing end-user devices to use Internet routing and connectivity services to
+reach those services and resources;
+ss) “Digital service” means a service within the meaning of point (g) of Article 3 of
+Decree-Law No. 30/2020, of 29 June, which lays down the rules governing the
+procedure for the provision of information in the field of technical regulations
+relating to products and of rules relating to information society services;
+tt) “Incident handling” means all actions and procedures aiming to prevent, detect,
+analyse, contain or respond to an incident and to recover from an incident;
+uu) “Vulnerability” means a weakness, susceptibility or flaw affecting network and
+information systems, information or communication technology (ICT) products or
+services, which can be exploited by a cyber threat.
+Article 3
+Personal scope of application
+1 — This Decree-Law applies to private entities of one of the types listed in
+Annexes I or II to this Decree-Law, which form an integral part of it, which, subject
+to the territorial scope criteria laid down in the following article:
+a) Qualify as medium-sized enterprises under Article 2 of Annex III to this Decree-
+Law, which forms an integral part of it, corresponding to the provisions of
+Commission Recommendation 2003/361/EC, of 6 May 2003, or exceed the ceilings
+for medium-sized enterprises provided for in paragraph 1 of that article; and
+b) Provide their services or carry out their activities in the European Union.
+2 — This Decree-Law also applies to entities of one of the types listed in Annexes I
+or II to this Decree-Law which, regardless of their nature and size and subject to
+the territorial scope criteria laid down in the following article, meet at least one of
+the following requirements:
+a) The entity concerned is:
+i) A provider of public electronic communications networks or a provider of
+publicly available electronic communications services;
+ii) A trust service provider;
+iii) A top-level domain name registry, a domain name registration service provider,
+and a domain name system service provider;
+b) The entity concerned is the sole provider of a service which is essential for the
+maintenance of critical societal or economic activities, namely the activities
+corresponding to the sectors, subsectors and types of entities referred to in
+Annexes I and II to this Decree-Law;
+c) A disruption of the service it provides could have a considerable impact on
+public safety, public security or public health;
+d) A disruption of the service it provides could induce considerable systemic risks,
+in particular for sectors where such disruption could have a cross-border impact;
+e) The entity is critical because of its specific importance at national or regional
+level for the particular sector or type of service, or for other interdependent
+sectors.
+3 — This Decree-Law applies to the Public Administration, covering:
+a) The services of the direct administration of the State, central and peripheral;
+b) The services of the direct administration of the Autonomous Regions, central
+and peripheral;
+c) The entities of the indirect administration of the State;
+d) The entities of the indirect administration of the Autonomous Regions;
+e) The entities of the autonomous administration;
+f) The independent administrative bodies and entities, with the exception of Banco
+de Portugal, the Securities Market Commission and the Insurance and Pension
+Funds Supervisory Authority.
+4 — This Decree-Law applies to the following entities:
+a) The Office of the Ombudsman;
+b) The Economic and Social Council;
+c) The technical and administrative services of the Presidency of the Republic, of
+the Assembly of the Republic, of the courts and of the registries with competence
+for processing procedures, of the Superior Council of the Judiciary, of the Superior
+Council of the Administrative and Tax Courts and of the Superior Council of the
+Public Prosecution Service, without prejudice to the provisions of paragraph 7.
+5 — This Decree-Law applies to entities which, regardless of their size, are
+identified as critical entities under the provisions of Directive (EU) 2022/2557, of
+the European Parliament and the Council, of 14 December 2022, on the resilience
+of critical entities, without prejudice to point (f) of paragraph 3.
+6 — This Decree-Law applies to higher education institutions.
+7 — This Decree-Law does not apply:
+a) To the General Staff of the Armed Forces and of the branches of the Armed
+Forces, as regards the network and information systems directly related to their
+command and control;
+b) To public entities with criminal investigation responsibilities and to criminal
+police and public security bodies, as regards the network and information systems
+directly related to their command and control;
+c) To public entities with exclusive responsibilities in matters of production of
+intelligence, namely the Intelligence System of the Portuguese Republic, the
+Strategic Defence Intelligence Service and the Security Intelligence Service, as
+regards the network and information systems directly related to their command
+and control;
+d) To public entities whose activity concerns network and information systems
+directly related to the production and dissemination of classified information,
+namely with national markings, of the North Atlantic Treaty Organisation (NATO),
+and of the European Union, or catalogued as a State secret, as regards those
+network and information systems;
+e) To other public entities that carry out their activity in the fields of national
+security, public security, including entities with criminal investigation
+responsibilities and criminal police bodies, defence and intelligence services, as
+regards the network and information systems directly related to the activities of
+production of intelligence and prevention, investigation, detection and repression
+of criminal offences;
+f) To private entities that provide services exclusively to one or more of the entities
+provided for in the preceding points and as regards those activities.
+8 — This Decree-Law applies to the entities referred to in point (b) of paragraph 2
+of Article 15 only as regards the exercise of their competences in their capacity as
+special national cybersecurity authorities.
+9 — This Decree-Law is without prejudice to the provisions of Regulation (EU)
+2022/2554, of the European Parliament and of the Council, of 14 December 2022,
+on digital operational resilience for the financial sector.
+Article 4
+Territorial delimitation of the personal scope of application
+1 — This Decree-Law applies to the entities referred to in paragraphs 1 and 2 of
+the preceding article which:
+a) Have an establishment in the national territory;
+b) In the case of undertakings providing public electronic communications
+networks or providing publicly available electronic communications services, make
+them available in the national territory;
+c) In the case of domain name system service providers, top-level domain name
+registries, entities providing domain name registration services, cloud computing
+service providers, data centre service providers, content delivery network
+providers, managed service providers, managed security service providers, as well
+as providers of online marketplaces, of online search engines or of social
+networking services platforms:
+i) Have their main establishment in the national territory;
+ii) Not having an establishment in the European Union, their representative has an
+establishment in the national territory.
+2 — For the purposes of sub-point (i) of point (c) of the preceding paragraph, the
+entity is considered to have its main establishment in the national territory when:
+a) The decisions related to the cybersecurity risk-management measures are
+predominantly taken in the national territory;
+b) The cybersecurity operations are carried out in the national territory, if it is not
+possible to determine whether the decisions related to the cybersecurity risk-
+management measures were predominantly taken there or in another Member
+State of the European Union;
+c) The establishment of the entity with the highest number of employees is located
+in the national territory, if it is not possible to determine whether the cybersecurity
+operations are carried out there.
+3 — Under the terms of Article 20, the CNCS, in the face of a request for mutual
+assistance from another Member State of the European Union and in relation to an
+entity referred to in point (c) of paragraph 1, may, within the limits of that request,
+take appropriate supervisory and enforcement measures in relation to the entity
+concerned.
+Article 5
+Extraterritorial scope
+1 — In order to prevent significant cyber threats to the security of the network and
+information systems of a large number of users, the CNCS may, after hearing the
+Higher Council for Cyberspace Security (CSSC), adopt corrective or restrictive
+enforcement measures, including an order to suspend the service in the national
+territory, addressed to a service provider without an establishment or
+representation in the national territory that does not offer adequate cybersecurity
+measures.
+2 — Except where the measures are urgent, the CNCS presents a preliminary
+statement of reasons for the decisions to the service provider, granting a period for
+reply of not less than 10 days.
+3 — For the purposes of determining and stating the reasons for the enforcement
+measures provided for in the preceding paragraphs, the CNCS shall take into
+consideration the actions and measures, as well as their effectiveness and extent,
+taken by European and international cybersecurity authorities.
+4 — The competent cybersecurity authority, under the terms of its competences
+and to the extent necessary, may, in relation to an entity with a relevant connection
+to the national territory, provide assistance to the competent authorities of the
+Member States of the European Union, at their reasoned request, namely by means
+of:
+a) Provision of information in relation to a supervisory or enforcement measure
+taken in relation to that entity, through the respective single point of contact;
+b) Application of supervisory or enforcement measures under the provisions of
+Chapter VI, if necessary jointly with the competent authority of the respective
+Member State of the European Union;
+c) Provision of support to the competent authority of the respective Member State
+of the European Union as regards its application of supervisory or enforcement
+measures, and such support may include the forms of assistance referred to in the
+preceding points.
+5 — The competent cybersecurity authority may only refuse the assistance
+requested under the preceding paragraph if it exceeds its competences, is
+disproportionate in relation to its supervisory tasks or compromises essential
+interests of the Portuguese State in matters of national security, public security or
+defence.
+Article 6
+Essential entities and important entities
+1 — For the purposes of this Decree-Law, the following are considered essential
+entities:
+a) Entities of one of the types referred to in Annex I to this Decree-Law which
+exceed the ceilings for medium-sized enterprises provided for in Article 2 of Annex
+III to this Decree-Law, corresponding to those of Commission Recommendation
+2003/361/EC, of 6 May 2003;
+b) Qualified trust service providers and top-level domain name registries, and
+domain name system service providers, regardless of their size;
+c) Undertakings providing public electronic communications networks or publicly
+available electronic communications services which are considered medium-sized
+enterprises under Article 2 of Annex III to this Decree-Law, corresponding to those
+of Commission Recommendation 2003/361/EC, of 6 May 2003;
+d) Public Administration entities whose attributions include the provision of
+services in the areas of development, maintenance and management of information
+and communication technology infrastructures, or those that present a particularly
+high degree of digital integration in the provision of their services, and also the
+public entity responsible for the area of educational assessment;
+e) Entities identified as critical entities under Directive (EU) 2022/2557, of the
+European Parliament and the Council, of 14 December 2022, on the resilience of
+critical entities and repealing Council Directive 2008/114/EC, regardless of their
+size;
+f) Any other entity of one of the types listed in Annexes I or II to this Decree-Law,
+referred to in points (b) to (e) of paragraph 2 of Article 3, which is qualified as an
+essential entity on the basis of the entity’s respective degree of exposure to risks,
+the size of the entity and the likelihood of occurrence of incidents and their
+severity, including their social and economic impact.
+2 — For the purposes of this Decree-Law, important entities are the entities of the
+types referred to in Annexes I and II to this Decree-Law which are not considered
+essential entities under the preceding paragraph.
+3 — For the purposes of this Decree-Law, important entities are also the entities of
+one of the types listed in Annexes I or II to this Decree-Law, referred to in points
+(b) to (e) of paragraph 2 of Article 3, which justify such qualification on the basis of
+the entity’s respective degree of exposure to risks, the size of the entity and the
+likelihood of occurrence of incidents and their severity, including their social and
+economic impact.
+4 — The assignment of the qualifications of essential entities and important entities
+provided for in the preceding paragraphs results from the mechanisms provided for
+in Article 8
+Article 7
+Relevant public entities
+1 — Public entities that are not qualified as essential or important entities under
+the preceding article are considered relevant public entities, being placed in two
+groups for the purposes of the application of specific regimes under this Decree-
+Law and the other regulations issued by the CNCS.
+2 — The following are considered Group A relevant public entities:
+a) The services of the direct administration of the State, central and peripheral,
+with 250 or more workers on their staff establishment;
+b) The services of the direct administration of the Autonomous Regions, central
+and peripheral, with 250 or more workers on their staff establishment;
+c) The entities of the indirect administration of the State, with more than 250
+workers on their staff establishment;
+d) The entities of the indirect administration of the Autonomous Regions, with
+more than 250 workers on their staff establishment;
+e) The entities of the autonomous administration, with more than 250 workers on
+their staff establishment;
+f) Public business entities that exceed the ceilings provided for in Article 2 of
+Annex III to this Decree-Law, corresponding to those of Commission
+Recommendation 2003/361/EC, of 6 May 2003;
+g) Independent administrative entities;
+h) The Economic and Social Council, the Office of the Ombudsman, the technical
+and administrative services of the Presidency of the Republic, of the Assembly of
+the Republic, of the courts and of the registries with competence for processing
+procedures, of the Superior Council of the Judiciary, of the Superior Council of the
+Administrative and Tax Courts and of the Superior Council of the Public
+Prosecution Service.
+3 — The following are considered Group B relevant public entities:
+a) The services of the direct administration of the State, central and peripheral,
+that have between 75 and 249 workers on their staff establishment;
+b) The services of the direct administration of the Autonomous Regions, central
+and peripheral, that have between 75 and 249 workers on their staff establishment;
+c) The entities of the indirect administration of the State, that have between 75 and
+249 workers on their staff establishment;
+d) The entities of the indirect administration of the Autonomous Regions, that have
+between 75 and 249 workers on their staff establishment;
+e) The entities of the autonomous administration, that have between 75 and 249
+workers on their staff establishment;
+f) Public business entities qualified as medium-sized enterprises under Annex III to
+this Decree-Law, corresponding to those of Commission Recommendation
+2003/361/EC, of 6 May 2003.
+4 — The assignment of the qualification of relevant public entity provided for in the
+preceding paragraphs results from the qualification mechanisms provided for in
+the following article.
+Article 8
+Procedure for the qualification of entities
+1 — The entities provided for in Article 3 identify themselves on an electronic
+platform made available by the CNCS, within 30 days after the start of their
+activity or, if the entity is already in activity upon the entry into force of this
+Decree-Law, within 60 days after that electronic platform is made available, being
+responsible for keeping that information duly updated.
+2 — The qualification of entities by the CNCS on the basis of the criteria provided
+for in points (a) to (c) and (e) of paragraph 1 and in paragraph 2 of Article 6, and
+also in Article 7, results from the mechanism provided for in the preceding
+paragraph.
+3 — The qualification of entities by the CNCS on the basis of the criteria provided
+for in points (d) and (f) of paragraph 1 and in paragraph 3 of Article 6 is
+communicated at least 60 days in advance to the member of the Government
+responsible for the area of cybersecurity and reviewed at least every two years.
+4 — The qualification provided for in the preceding paragraph is duly reasoned by
+the CNCS, being preceded by a prior hearing of the entity concerned and, where
+applicable, by an opinion of the national sectoral cybersecurity authorities referred
+to in point (a) of paragraph 2 of Article 15
+5 — The CNCS or, where applicable, the national sectoral cybersecurity authorities
+competent under point (a) of paragraph 2 of Article 15, notifies the entity of its
+qualification under paragraphs 2 and 3, within a maximum period of 30 days from
+the date of that qualification.
+6 — Domain name registration service providers must identify themselves and
+communicate the information provided for in paragraph 2 of Article 35 through the
+electronic platform made available by the CNCS, within 30 days after the start of
+their activity.
+7 — The operating rules of the electronic platform referred to in this article are
+defined by means of a regulation to be approved by the CNCS.
+8 — The qualification procedure referred to in this article is without prejudice, for
+the entities covered, to compliance with the duty provided for in Article 35
+Article 9
+Concurrence of qualifications and cybersecurity measures
+1 — Where an entity simultaneously falls within more than one qualification, the
+regime that proves most demanding for managing the risks posed to the security of
+network and information systems applies, in accordance with the following order:
+a) Essential entities;
+b) Important entities;
+c) Group A relevant public entities;
+d) Group B relevant public entities.
+2 — The CNCS may associate with the qualification of the entity, under the
+provisions of paragraph 4 of Article 26 and of Article 33, cybersecurity measures
+and other technical and organisational measures resulting from the instruments
+provided for in this Decree-Law, non-compliance with which may determine the
+application of the corresponding sanctions under the sanctions regime provided for
+in Chapter VII.
+Article 10
+Processing of personal data
+1 — The entities that make up the institutional framework for cyberspace security,
+under Article 15, process personal data to the extent strictly necessary to ensure
+compliance with legal obligations and the pursuit of missions in the public interest
+or in the exercise of official authority vested in them, under the provisions of points
+(c) or (e) of paragraph 1 and of paragraph 3 of Article 6 of the GDPR and in
+accordance with this Decree-Law and other applicable national legislation.
+2 — Without prejudice to the provisions of Article 29 of Law No. 58/2019, of 8
+August, the entities that make up the institutional framework for cyberspace
+security may process special categories of personal data in order, to the extent
+strictly necessary and under point (g) of paragraph 2 of Article 9 of the GDPR, to:
+a) Prevent the materialisation of a significant cyber threat to the security of
+network and information systems;
+b) Respond effectively to a cybersecurity incident.
+CHAPTER II
+Structuring instruments
+Article 11
+Structuring instruments of Cyberspace Security
+The following are structuring instruments of Cyberspace Security, in compliance
+with the applicable national and international legal and regulatory provisions:
+a) National Cyberspace Security Strategy (ENSC);
+b) National plan for response to large-scale cybersecurity crises and incidents;
+c) National Cybersecurity Reference Framework (QNRCS);
+d) National Cyber Defence Strategy;
+e) Strategic Concept of National Defence.
+Article 12
+National Cyberspace Security Strategy
+1 — The ENSC defines the framework, the priorities, the national strategic
+objectives and a governance framework defining the roles and responsibilities of
+the stakeholders at national level with relevance for the implementation of the
+ENSC.
+2 — The ENSC includes, namely:
+a) The objectives and priorities of the ENSC, covering, namely, the sectors in
+Annexes I and II to this Decree-Law;
+b) A governance framework to achieve the objectives and priorities referred to in
+the preceding point;
+c) A governance framework defining the roles and responsibilities of the
+stakeholders at national level with relevance for the implementation of the ENSC
+and consolidating institutional cooperation and coordination under this Decree-
+Law;
+d) A mechanism to identify relevant assets and an assessment of the risks in
+Portugal;
+e) The identification of the preparedness, response and recovery measures in the
+event of incidents, including cooperation between the public and private sectors;
+f) A list of the various authorities and stakeholders involved in the implementation
+of the ENSC;
+g) A policy framework for enhanced cooperation between the competent
+authorities under this Decree-Law and the competent authorities resulting from the
+transposition of Directive (EU) 2022/2557, of the European Parliament and of the
+Council, of 14 December 2022, for the purposes of sharing information on risks,
+cyber threats and incidents, as well as on non-cyber risks, threats and incidents,
+and of the exercise of supervisory tasks;
+h) A plan, including the necessary measures, to enhance the general level of
+cybersecurity and cyber hygiene education, training and awareness of citizens;
+i) A plan, including the necessary measures, appropriate to the specific
+cybersecurity needs of small and medium-sized enterprises, qualified under Article
+2 of Annex III to this Decree-Law, corresponding to those of Commission
+Recommendation 2003/361/EC, of 6 May 2003;
+j) The promotion of the development, research and integration of advanced
+technologies aimed at implementing innovative measures, good practices and
+controls, including the use of artificial intelligence, in matters of cybersecurity risk
+management and of detection and prevention of cyberattacks.
+3 — The ENSC is approved by resolution of the Council of Ministers, on a proposal
+from the CNCS, after hearing the CSSC and after a period of public consultation of
+not less than 30 days.
+4 — The approval referred to in the preceding paragraph is also preceded by an
+examination of the ENSC by the Assembly of the Republic.
+5 — The ENSC is reviewed and updated every five years, following an evaluation
+process based on key impact and performance indicators, and this period may be
+shortened by decision of the member of the Government responsible for the area of
+cybersecurity upon a reasoned proposal from the CNCS.
+6 — The ENSC is without prejudice to the approval by the competent entities,
+where necessary, of instruments establishing sectoral cybersecurity strategies,
+which must be reviewed and updated on the same terms as apply to the ENSC.
+Article 13
+National plan for response to large-scale cybersecurity crises and incidents
+1 — The national plan for response to large-scale cybersecurity crises and incidents
+establishes the objectives and arrangements for the management of this type of
+crises and incidents.
+2 — The national plan for response to large-scale cybersecurity crises and incidents
+is approved by resolution of the Council of Ministers, on a joint proposal from the
+Secretary-General of the Internal Security System, the Judiciary Police, the
+Security Intelligence Service, the Strategic Defence Intelligence Service, the Cyber
+Defence Operations Command and the CNCS, the latter being responsible for its
+implementation, follow-up and monitoring, in close collaboration with the entities
+that make up the crisis unit provided for in paragraph 4 of Article 16 of Law No.
+53/2008, of 29 August, in the wording given to it by this Decree-Law, and after
+hearing the CSSC.
+3 — The national plan for response to large-scale cybersecurity crises and incidents
+must ensure consistency with the existing frameworks for general crisis
+management at national level.
+Article 14
+National Cybersecurity Reference Framework
+1 — The QNRCS is the national reference instrument for the identification of the
+existing norms, standards and good practices in matters of cybersecurity and
+information security management.
+2 — The QNRCS is approved by regulation of the CNCS, after hearing the CSSC,
+and must be regularly updated, at least every five years.
+3 — Essential and important entities must take the QNRCS into account in the
+context of the adoption of the cybersecurity measures provided for in Articles 27 et
+seq.
+4 — The national sectoral cybersecurity authorities referred to in point (a) of
+paragraph 2 of Article 15 may adopt norms complementary to the QNRCS, by
+means of their own regulation, in coordination with the CNCS.
+5 — Without prejudice to the preceding paragraphs, the application of the QNRCS
+by essential, important and relevant public entities is the subject of a regulation to
+be approved by the CNCS, providing for specific cybersecurity measures and
+conformity levels.
+CHAPTER III
+Institutional framework for cyberspace security
+Article 15
+Organisation
+1 — The institutional framework for cyberspace security is composed of the
+following entities:
+a) The CSSC, in its capacity as advisory body to the Prime Minister in the field of
+cybersecurity;
+b) The CNCS, in its capacity as:
+i) National cybersecurity authority;
+ii) Single point of contact for the purposes of cooperation within the European
+Union and at international level, without prejudice to the competences assigned to
+other entities in matters of international cooperation;
+iii) National cybersecurity certification authority;
+iv) Entity forming part of the national cybersecurity incident response team;
+c) The Secretary-General of the Internal Security System, in the capacity of
+national authority for the management of large-scale cybersecurity crises and
+incidents.
+2 — The institutional framework for cyberspace security also includes:
+a) In the capacity of national sectoral cybersecurity authorities:
+i) The National Security Office (GNS), as regards trust services for electronic
+transactions in the internal market;
+ii) The National Communications Authority (ANACOM), as regards the matter of
+electronic communications and postal services;
+b) In the capacity of special national cybersecurity authorities, as regards the
+matter of digital operational resilience of the financial sector:
+i) The Insurance and Pension Funds Supervisory Authority;
+ii) The Securities Market Commission;
+iii) Banco de Portugal.
+c) The Cyberspace Security Assessment Commission;
+d) The Judiciary Police;
+e) The Security Intelligence Service;
+f) The Strategic Defence Intelligence Service;
+g) The Cyber Defence Operations Command.
+3 — The organisation of the institutional framework for cyberspace security is
+without prejudice to the informal coordination of the authorities referred to in this
+article, namely through participation in multilateral coordination fora as regards
+the defence of cyberspace security, such as the Office of Cyberspace Liaison
+Officers for tactical-operational cooperation (G5).
+Article 16
+Higher Council for Cyberspace Security
+1 — The CSSC is the strategic coordination body that supports the Prime Minister
+in matters of cyberspace security.
+2 — The CSSC is composed of:
+a) The Prime Minister, who chairs it, or the member of the Government responsible
+for the area of cybersecurity with delegated competence;
+b) Two Members of Parliament designated by the Assembly of the Republic using
+the d’Hondt method;
+c) The Secretary-General of the Internal Security System;
+d) The Secretary-General of the Intelligence System of the Portuguese Republic;
+e) The director of the Security Intelligence Service;
+f) The director of the Strategic Defence Intelligence Service;
+g) The director-general of the National Security Office;
+h) The coordinator of the CNCS;
+i) The ambassador for cyber diplomacy;
+j) The head of the Communications and Information, Cyberspace and Space Centre
+of the General Staff of the Armed Forces;
+k) The director of the National Unit for Combating Cybercrime and Technological
+Crime of the Judiciary Police;
+l) A representative of the Public Prosecution Service, designated by the Prosecutor
+General of the Republic;
+m) The president of the National Council for Civil Emergency Planning;
+n) The president of the board of directors of the Agency for the Technological
+Reform of the State, I. P.;
+o) A representative of the National Network of Computer Security Incident
+Response Teams;
+p) The highest-ranking officer of the national sectoral and special cybersecurity
+authorities, referred to in paragraph 2 of Article 15, not listed in the preceding
+points.
+3 — The CSSC is also composed of a representative of the Regional Government of
+the Azores and a representative of the Regional Government of Madeira.
+4 — The chair, on his or her own initiative or at the request of any of the members
+of the CSSC, may convene other holders of public bodies or invite other entities
+and personalities of recognised merit to participate in meetings.
+5 — The chair is replaced in his or her absences and impediments by the member
+of the Government whom he or she designates.
+Article 17
+Competences of the Higher Council for Cyberspace Security
+1 — The competences of the CSSC are:
+a) To ensure strategic coordination for cyberspace security;
+b) To issue a prior opinion on the ENSC, as well as to monitor its implementation
+and to draw up annually, or whenever necessary, an evaluation report on it;
+c) To issue a prior opinion on the national plan for response to large-scale
+cybersecurity crises and incidents;
+d) To issue opinions on matters relating to cyberspace security, at the request of
+the Prime Minister, or of the member of the Government to whom he or she
+delegates, within the scope of its competences;
+e) To respond to requests from the Prime Minister, or from the member of the
+Government to whom he or she delegates, within the scope of its competences;
+f) To propose to the member of the Government responsible for the area of
+cybersecurity that security assessments be carried out, under the provisions of the
+following article.
+2 — The annual report evaluating the implementation of the ENSC is sent to the
+Assembly of the Republic by 30 June of the year following that to which it refers.
+3 — The Intelligence Services brief the CSSC on the assessment of the current
+threat to national cyberspace and to international cyberspace, whenever
+appropriate or whenever the threat level assigned by the Security Intelligence
+Service is revised.
+Article 18
+Cyberspace Security Assessment Commission
+1 — The Cyberspace Security Assessment Commission operates alongside the
+CSSC and is responsible for carrying out security assessments of information and
+communication technology equipment, components or services, used in public or
+private network and information systems, from manufacturers or suppliers that
+may be considered high-risk for the security of cyberspace of national interest,
+namely in the contexts of internal and external security, national defence, the
+integrity of the democratic process and other sovereign functions, and also of the
+operation of critical infrastructures and the provision of essential services.
+2 — The Cyberspace Security Assessment Commission has the following
+composition:
+a) The director-general of the National Security Office, who chairs it;
+b) The coordinator of the CNCS;
+c) A representative of ANACOM;
+d) A representative of the Internal Security System;
+e) A representative of the Intelligence System of the Portuguese Republic;
+f) The ambassador for cyber diplomacy;
+g) A representative of the Judiciary Police;
+h) A representative of the Security Intelligence Service;
+i) A representative of the Strategic Defence Intelligence Service;
+j) A representative of the Cyber Defence Operations Command;
+k) A representative of the Directorate-General for Foreign Policy;
+l) A representative of the Directorate-General for National Defence Policy;
+m) A representative of the Competition Authority.
+3 — The member of the Government responsible for the area of cybersecurity may
+determine the application of provisional restrictions on the use, the cessation of
+use or the exclusion of information and communication technology equipment,
+components or services, used in public or private network and information systems,
+considered high-risk for the security of cyberspace of national interest, on a
+proposal from the Cyberspace Security Assessment Commission, based on a
+security assessment carried out under the provisions of the following paragraphs.
+4 — The security assessment must be duly reasoned, taking into account the
+technical risks of the equipment, components or services, their context of use or
+and the exposure of their manufacturers or suppliers to undue influence from
+foreign countries, considering for that purpose, namely, relevant information issued
+by the competent national and European Union entities or contained in the national
+or European assessments of risk to the security of network and information
+systems, as well as other relevant security risks.
+5 — In order to assess the level of exposure of manufacturers or suppliers to undue
+influence from a foreign country, the following elements may be considered:
+a) The manufacturer or supplier being subject, directly or indirectly, to interference
+by the government or administration of a foreign country;
+b) The manufacturer or supplier being domiciled in, or in any way relevantly linked
+to, countries recognised by Portugal, by the European Union, by the Organisation
+for Economic Co-operation and Development (OECD) or by NATO as responsible
+for or involved in actions hostile to the internal security and national defence of
+Portugal or of its allies, namely acts of espionage or sabotage;
+c) The manufacturer or supplier being domiciled in, or in any way relevantly linked
+to, countries that do not have legislation or diplomatic agreements with Portugal or
+with the European Union in matters of data protection, cybersecurity and
+protection of intellectual property;
+d) The manufacturer or supplier being associated with practices of introducing
+vulnerabilities or hidden access;
+e) The manufacturer or supplier adopting corporate governance models that do not
+clarify the degree of influence of, or linkage to, foreign countries in the conditions
+of the preceding points;
+f) The production and supply chains of the manufacturer or supplier showing
+systemic control and security failures.
+6 — Security assessments may be carried out or reviewed at the request of the
+member of the Government responsible for the area of cybersecurity, as well as, in
+application of the Portuguese mechanism for safeguarding essential strategic
+assets, at the request of the member of the Government responsible for the area in
+which the strategic asset concerned is integrated.
+7 — The proposal of the Cyberspace Security Assessment Commission made
+following the security assessment must, in its content, scope and intensity, respect
+the principle of proportionality, considering, namely, the degree of risk established,
+the degree of incidence, global and specific, on each item of equipment, component
+or service concerned, the loss suffered by the affected manufacturer and supplier,
+and also the economic and social losses potentially arising from the decision.
+8 — The Cyberspace Security Assessment Commission may request any entity,
+public or private, to provide any information necessary for the preparation of
+security assessments.
+9 — The decision of the member of the Government responsible for the area of
+cybersecurity provided for in paragraph 3 defines the reasonable time limits and,
+where applicable, the geographical scope of the measure to be applied, so that the
+public or private entities concerned proceed with its implementation.
+10 — The documents or information produced in the course of the work of the
+Cyberspace Security Assessment Commission are considered classified information
+at the “restricted” security level, unless the chair of the Commission considers it
+necessary to assign a higher security classification level, and without prejudice to
+these documents or information being classified as State secrets under Organic
+Law No. 2/2014, of 6 August, as currently worded.
+11 — In the exercise of its competences, the CNCS or, where applicable, the
+national sectoral or special national authority, monitors compliance with the
+requests of the Cyberspace Security Assessment Commission and with the decision
+of the member of the Government responsible for the area of cybersecurity
+provided for in this article, sanctioning non-compliance under point (d) of
+paragraph 1 of Article 63 and point (a) of paragraph 1 of Article 61, respectively.
+12 — The technical, administrative and logistical support of the Cyberspace
+Security Assessment Commission, as well as the respective associated costs, are
+provided and borne by the GNS.
+Article 19
+National Cybersecurity Centre
+1 — The CNCS is the national cybersecurity authority, its mission being to ensure
+that the country achieves and maintains a high level of cybersecurity, through the
+promotion of the continuous improvement of national cybersecurity and of
+international cooperation, as well as through the definition and implementation of
+the measures and instruments necessary for the anticipation, detection, reaction
+and recovery from situations which, in view of the imminence or occurrence of
+incidents, jeopardise the national interest and the functioning of essential entities,
+important entities and relevant public entities.
+2 — The CNCS is also the single point of contact for the purposes of cooperation at
+European Union level, as well as at international level, in matters of cybersecurity,
+without prejudice to the competences assigned to other authorities in matters of
+cooperation in criminal matters, namely the competences of the Judiciary Police for
+international cooperation conferred on it by the provisions of Articles 20 to 26 and
+29 of the Cybercrime Law, and in matters of production of intelligence concerning
+the internal and external security of the Portuguese State and of its allies.
+3 — The CNCS incorporates the “CERT.PT”, provided for in Article 22, which acts
+as the national cybersecurity incident response team.
+4 — The CNCS is likewise the national cybersecurity certification authority, namely
+for the purposes of the provisions of Article 58 of Regulation (EU) 2019/881, of the
+European Parliament and of the Council, of 17 April 2019, without prejudice to the
+competences of the GNS as regards the certification and accreditation of
+information and communication systems that process classified information, under
+Decree-Law No. 3/2012, of 16 January, as currently worded.
+Article 20
+Competences of the National Cybersecurity Centre
+1 — The CNCS, within the scope of the responsibilities assigned in paragraphs 1
+and 2 of Article 19, pursues the attributions and exercises the competences
+described in the following points:
+a) To develop the national capabilities for prevention, monitoring, detection,
+reaction, analysis and correction intended to deal with cybersecurity incidents,
+cyberattacks and cyber threats;
+b) To cooperate with the entities competent in the field of cyberspace security
+within the scope of their respective attributions;
+c) To communicate, within 24 hours, to the Judiciary Police all facts of criminal
+relevance of which it becomes aware in the course of its activity;
+d) To communicate, within 24 hours, to the Security Intelligence Service all facts
+concerning threats to internal security, cyber espionage and cyber sabotage, of
+which it becomes aware in the course of its activity;
+e) To adopt regulations and issue guidelines, recommendations and technical
+instructions relating to cybersecurity;
+f) To propose to the member of the Government responsible for the area of
+cybersecurity the definition of the national cybersecurity alert level, developed
+through the CNCS’s own regulation and disseminated in coordination with the
+entities competent in the field of cyberspace security, and to issue orders and
+instructions appropriate to the severity of the situation;
+g) To inform the Secretary-General of the Internal Security System of the
+verification of a significant cyber threat or of the occurrence of a large-scale
+cybersecurity crisis or incident, under points (d) and (k) of Article 2, respectively
+and without prejudice to the provisions of paragraph 2 of Article 21;
+h) To issue orders, guidelines, recommendations and technical instructions in
+matters of coordinated vulnerability disclosure;
+i) To prevent and mitigate the impact of cybersecurity incidents, namely through
+the detection and disclosure of vulnerabilities in network and information systems,
+in collaboration with public and private entities and natural and legal persons;
+j) To apply the supervisory and enforcement measures under the provisions of
+Chapter VI;
+k) To issue warnings, namely about vulnerabilities, relating to malware or other
+cybersecurity risks in ICT products, components or services;
+l) To ensure cross-border cooperation with the competent authorities of the
+Member States of the European Union, with the European Commission, with the
+European Union Agency for Cybersecurity (ENISA) and other institutions, bodies
+and agencies of the European Union that carry out activities in the field of
+cybersecurity and of the competences entrusted to it by this article, namely
+participation and national representation in multilateral and bilateral fora with its
+counterparts, without prejudice to the provisions of Articles 20 to 26 and 29 of the
+Cybercrime Law, including participation and national representation:
+i) In the Cooperation Group, provided for in Article 14 of Directive (EU) 2022/2555,
+of the European Parliament and of the Council, of 14 December 2022;
+ii) In the European Network of CSIRTs (Computer Security Incident Response
+Team, as the English expression and acronym), provided for in Article 15 of
+Directive (EU) 2022/2555, of the European Parliament and of the Council, of 14
+December 2022; and
+iii) In the Cyber Crisis Liaison Organisation Network (EU-CyCLONe) provided for
+in Article 16 of Directive (EU) 2022/2555, of the European Parliament and of the
+Council, of 14 December 2022;
+m) To issue a non-binding opinion, when requested, on any legislative measure
+relating to cybersecurity;
+n) To promote awareness, training and qualification of human resources in the area
+of cybersecurity, with a view to forming a knowledge community and a national
+culture of cybersecurity and cyber hygiene;
+o) To support the development of technical, scientific and industrial capabilities,
+promoting innovation and development projects in the area of cybersecurity;
+p) To publish studies and reports in the area of cybersecurity;
+q) To approve the forms that prove necessary appropriate for the exercise of its
+attributions.
+2 — The CNCS has, in the exercise of the responsibilities assigned by paragraph 4
+of Article 19, pursues the attributions and exercises the competences described in
+the following points:
+a) To request from conformity assessment bodies, holders of cybersecurity
+certificates and issuers of statements of conformity the information it needs for the
+exercise of its competences;
+b) To take appropriate measures to ensure that conformity assessment bodies,
+holders of national or European cybersecurity certificates and issuers of
+statements of conformity comply with the provisions of the legislation applicable in
+matters of cybersecurity certification;
+c) To exercise the other competences legally established for cybersecurity
+certification authorities, namely those arising from Regulation (EU) 2019/881, of
+the European Parliament and of the Council, of 17 April 2019, without prejudice to
+the competences of the GNS as regards the certification and accreditation of
+information and communication systems that process classified information, under
+Decree-Law No. 3/2012, of 16 January, as currently worded;
+d) To implement a national cybersecurity certification framework, establishing the
+provisions necessary for the preparation, implementation and execution of
+certification schemes, to which the provisions of Title III of Regulation (EU)
+2019/881, of the European Parliament and of the Council, of 17 April 2019, apply,
+with the necessary adaptations;
+e) To evaluate specific certification schemes, namely as to their adequacy,
+coordination with the Portuguese Accreditation Institute, I. P., in its capacity as
+national accreditation body, as well as with the Portuguese Quality Institute, I. P., in
+its capacity as national standardisation body, and with the other public entities with
+competences within the scope of the subject matter covered by the certification;
+f) To develop and implement specific cybersecurity certification schemes relating to
+information and communication technology entities, products, services and
+processes that are not yet covered by a European scheme, whenever the specificity
+of the object of certification so justifies;
+g) To promote the training of auditors in the field of cybersecurity, in collaboration
+with the Portuguese Accreditation Institute, I. P.
+3 — Any regulatory cybersecurity provision issued by the national sectoral or
+special cybersecurity authorities is preceded by an opinion of the CNCS.
+4 — Public and private entities provide their collaboration to the CNCS for the
+exercise of its respective attributions and competences under this Decree-Law, in
+compliance with the principle of proportionality.
+5 — The duty of cooperation provided for in the preceding paragraph may include
+physical access to the entities’ premises for the performance of steps forming part
+of supervisory or incident response actions, without prejudice to compliance with
+access requirements provided for in other special information security regimes and
+subject to the requirements provided for in the Code of Administrative Procedure.
+6 — The CNCS acts in close cooperation with the national structures responsible
+for cyber espionage, cyber defence, cybercrime and cyber terrorism.
+Article 21
+Cybersecurity crisis management authority
+1 — The Secretary-General of the Internal Security System is the national authority
+for the management of large-scale cybersecurity crises and incidents, also referred
+to as the cybersecurity crisis management authority.
+2 — The declaration of large-scale cybersecurity crises and incidents depends on
+the assignment of a high threat level by the Security Intelligence Service, under
+the terms provided for in the plan for coordination, control and operational
+command of the Security Forces and Services, approved by Council of Ministers
+Deliberation No. DB 14/2010, of 5 March, or on the communication, by the CNCS,
+of the occurrence of a large-scale cybersecurity crisis or incident, under point (g)
+of paragraph 1 of the preceding article.
+3 — The Secretary-General of the Internal Security System convenes the
+cybersecurity crisis unit, under paragraph 4 of Article 16 of Law No. 53/2008, of 29
+August, as currently worded.
+Article 22
+Cybersecurity Incident Response Team
+1 — The “CERT.PT” is the national cybersecurity incident response team.
+2 — The “CERT.PT” is integrated in the CNCS and has technical and operational
+autonomy.
+3 — The “CERT.PT” exercises the following competences:
+a) To ensure the operational response to incidents;
+b) To monitor and analyse cyber threats, vulnerabilities and incidents at national
+level and, upon request, to provide assistance to essential, important and relevant
+public entities regarding real-time or near real-time monitoring of their network
+and information systems;
+c) To activate rapid alert mechanisms, send alert messages, make communications
+and disseminate information to essential, important and relevant public entities, to
+competent authorities and to other stakeholders, on cyber threats, vulnerabilities
+and incidents, including in real time;
+d) To intervene in the event of incidents and provide assistance to essential,
+important and relevant public entities, namely, where applicable, by proposing to
+the CNCS the issuing of operational orders, instructions and guidelines as to
+measures to be adopted to contain, mitigate and resolve the incidents, as well as
+the appropriate time limits for their implementation;
+e) In situations of serious and proven risk, to propose to the competent
+cybersecurity authority the adoption of enforcement measures necessary for an
+immediate response to the cyber threat, incident or crisis, under paragraph 3 of
+Article 52, if the essential, important or relevant public entity concerned does not
+do so voluntarily;
+f) To collect and analyse forensic data, determine their preservation and carry out
+dynamic risk and incident analysis and develop situational awareness in matters of
+cybersecurity;
+g) To carry out, at the request of an essential, important or relevant public entity, a
+proactive scan of the entity’s respective network and information systems, in order
+to detect vulnerabilities with a potential significant impact;
+h) To implement tools and functionalities that enable the secure sharing of
+information with essential, important and relevant public entities, as well as with
+other stakeholders;
+i) To carry out, on its own initiative, proactive and non-intrusive scans of publicly
+accessible network and information systems of essential, important and relevant
+public entities, with the aim of detecting vulnerable or insecure network and
+information systems and informing the entities concerned, insofar as they have no
+negative impact on the functioning of those entities’ services;
+j) To promote the adoption and use of common or standardised practices;
+k) To ensure national representation in the network of national cybersecurity
+incident response teams under sub-point (ii) of point (l) of paragraph 1 of Article 20
+and other international fora for cooperation of cybersecurity incident response
+teams;
+l) To participate in national fora for cooperation of computer security incident
+response teams;
+m) To participate in national and international events and training actions;
+n) To collaborate and coordinate its action with sectoral, national and European
+CSIRT networks, whenever necessary or appropriate;
+o) To cooperate with the entities competent in the field of cyberspace security.
+4 — In the exercise of its competences, the “CERT.PT” may determine the
+prioritisation of certain tasks through a risk-based approach, considering, namely,
+the current threat assessment produced by the Security Intelligence Service.
+5 — Public and private entities provide their collaboration to the “CERT.PT” for the
+exercise of its respective attributions and competences under this Decree-Law.
+6 — The collaboration referred to in the preceding paragraph may include physical
+access to premises and the sharing of information between the entities that provide
+incident response services to third parties and the “CERT.PT”, and joint actions, on
+the latter’s initiative, for the purposes of point (e) of paragraph 3.
+Article 23
+Cooperation between national authorities
+1 — The CNCS, the Secretary-General of the Internal Security System and the
+national sectoral cybersecurity authorities, in the exercise of their attributions and
+competences under this Decree-Law, act in close cooperation with:
+a) The National Data Protection Commission (CNPD), whenever incidents that have
+given rise to personal data breaches are at issue, under Article 79;
+b) The Public Prosecution Service, the courts and the Judiciary Police, whenever
+incidents that may have given rise to the commission of cybercrimes are at issue,
+namely through:
+i) The communication, as soon as possible, of facts relating to the preparation and
+execution of cybercrimes of which they have become aware in the exercise of their
+functions, without prejudice to the provisions of Article 38;
+ii) The performance of the necessary and urgent precautionary acts to ensure the
+preservation of evidence and the sharing, under the legal terms, of other evidential
+elements necessary for the strict exercise of the competences provided for in
+points (a) to (e) of paragraph 3 of the preceding article;
+iii) The performance of the role of expert provided for in Article 153 of the Code of
+Criminal Procedure;
+c) The Cyber Defence Operations Command, namely when incident prevention,
+monitoring, detection, reaction, analysis and correction within the scope of cyber
+defence and of the cybersecurity of the Armed Forces are at issue;
+d) The Security Intelligence Service, namely in the sharing of information
+necessary for the preservation of the security of cyberspace of national interest, in
+particular as regards espionage, sabotage, terrorism and organised crime.
+2 — The obtaining of information under the cooperation provided for in the
+preceding paragraph must respect the legislation applicable in matters of personal
+data protection, namely the GDPR, Law No. 26/2016, of 22 August, as currently
+worded, Law No. 58/2019, of 8 August, and Law No. 59/2019, of 8 August.
+3 — The cooperation provided for in point (b) of paragraph 1 does not affect
+judicial secrecy.
+4 — Access to information under the cooperation provided for, namely, in sub-
+points (i) and (ii) of point (b) of paragraph 1, relating to proceedings under
+investigation, may be refused on the grounds provided for in paragraph 1 of Article
+89 of the Code of Criminal Procedure.
+5 — The Judiciary Police and the Security Intelligence Service each designate a
+permanent liaison officer to the CNCS.
+6 — The terms of technical and operational cooperation between the CNCS, the
+Cyber Defence Operations Command, the Judiciary Police, the Security Intelligence
+Service and the Strategic Defence Intelligence Service are defined by mutual
+agreement within the G5.
+7 — The authorities referred to in this article must respond to requests for
+information within five days after the date on which the information was requested,
+save for duly justified reasons.
+Article 24
+Cooperation with the private sector
+1 — The entities that form part of the institutional framework for cyberspace
+security, under Article 15, must establish cooperative relations with the entities
+covered by this Decree-Law and, where relevant, with other interested entities
+from the private sector, with a view to achieving the objectives of the legal regime
+for cybersecurity.
+2 — The cooperative relations must cover at least the following aspects relating to
+information sharing, adoption of good practices, and development or improvement
+of common or standardised classification systems and taxonomies as regards:
+a) Cybersecurity risk-management measures;
+b) Indicators of exposure to risks or cyber threats;
+c) Incident handling procedures;
+d) Crisis management; and
+e) Coordinated vulnerability disclosure, under Article 38
+3 — In order to promote the exchange of knowledge, the sharing of good practices
+and the mobilisation of specialised knowledge of private sector entities in support
+of the competent cybersecurity authority, public-private partnerships for
+cybersecurity may be adopted, defining the scope and the parties involved, the
+governance model, the available funding options and the interaction between the
+participating parties.
+4 — Cybersecurity information-sharing arrangements may be concluded between
+the entities referred to in paragraph 1 as well as, where relevant, with their
+suppliers or service providers, for the following purposes:
+a) To prevent, detect, respond to and recover from incidents or to mitigate their
+impact;
+b) To enhance the level of cybersecurity, in particular by raising awareness of cyber
+threats, limiting or impeding their ability to spread, supporting a range of
+defensive capabilities, vulnerability remediation and disclosure, threat detection,
+containment and prevention techniques, mitigation strategies or response and
+recovery stages, or promoting collaborative cyber-threat research between public
+and private entities.
+5 — The signatory parties to the information-sharing arrangements, where
+necessary, take measures to protect the sensitive nature of the information shared
+and to limit its distribution, in accordance with the so-called TLP (Traffic Light
+Protocol, as the English expression and acronym).
+6 — Essential and important entities are obliged to notify the competent
+cybersecurity authority of their participation in the arrangements referred to in
+paragraph 4, upon their conclusion, or, where applicable, of their withdrawal from
+such arrangements, as soon as that withdrawal takes effect.
+7 — The arrangements referred to in paragraph 4, when concluded by essential
+and important entities covered by Regulation (EU) 2022/2554, of the European
+Parliament and of the Council, of 14 December 2022, on digital operational
+resilience for the financial sector, are communicated to the respective special
+national cybersecurity authorities.
+8 — The CNCS ensures and manages an online platform for information sharing.
+CHAPTER IV
+Cybersecurity risk management and other duties
+SECTION I
+Cybersecurity and information security management
+Article 25
+Obligations of the management, direction and administration bodies
+1 — The management, direction and administration bodies of essential and
+important entities:
+a) Approve the cybersecurity risk-management measures, adopted in accordance
+with Article 27;
+b) Oversee the implementation of the cybersecurity risk-management measures;
+c) Ensure compliance with the supervisory and enforcement measures referred to
+in Chapter VI;
+d) Ensure that cybersecurity training actions are carried out on a regular basis, in
+order to promote an internal management culture regarding cybersecurity risk-
+management practices.
+2 — The holders of the management, direction and administration bodies may be
+held liable for an act or omission, with intent or gross negligence, under the
+applicable legislation, for the infringements provided for in this Decree-Law.
+3 — The responsibility and powers necessary for compliance with the obligations
+referred to in this article may not be delegated, except to one of the holders of the
+management, direction and administration bodies.
+Article 26
+Cybersecurity risk-management system
+1 — Essential and important entities are responsible for ensuring the security of
+network and information systems, taking appropriate technical, operational and
+organisational measures to manage the risks posed to the security of the network
+and information systems which they use for their operations and to prevent or
+minimise the impact of incidents on recipients of their services and on other
+services.
+2 — The cybersecurity measures adopted must be based on a systemic approach
+covering all risks to essential and important entities and aimed at protecting
+against incidents all assets that guarantee the continuity of the functioning of the
+networks and the information systems supporting essential services, including their
+physical environment.
+3 — The measures must also:
+a) Ensure a level of security of network and information systems appropriate to the
+risk concerned, taking into account the state of the art and, where applicable,
+relevant European and international standards, as well as the cost of
+implementation and its financial viability; and
+b) Be proportionate to the degree of the entity’s exposure to risks, the size of the
+entity and the likelihood of occurrence of incidents and their severity, including
+their social and economic impact, according to the technical criteria that may be
+defined by the CNCS.
+4 — In order to guide the cybersecurity risk-management policy of essential and
+important entities, the CNCS may issue technical harmonisation instructions and,
+whenever necessary, draw up and update the risk matrix applicable to those
+entities.
+5 — Considering the sector of activity and the size of the entity and the risk matrix
+defined, the CNCS, by means of a regulation to be approved by the CNCS, defines
+minimum and specific cybersecurity measures and conformity levels to be adopted
+by essential entities and important entities.
+6 — The minimum cybersecurity measures are without prejudice to the adoption of
+other measures that are necessary and proportionate, as a result of the analysis
+and management of residual cybersecurity risks, under the following article.
+7 — Relevant public entities must adopt the appropriate technical, operational and
+organisational measures determined by the CNCS, according to the group to which
+they belong, under Article 33
+8 — Whenever the qualification of entities under Article 8, or the minimum
+cybersecurity measures provided for in paragraph 5 of this article, are changed as
+a result of the updating of the risk matrix, essential and important entities have a
+period of six months to adapt to the new qualification or to the new minimum
+cybersecurity measures, and this period may be extended up to one year by the
+National Cybersecurity Authority, upon a reasoned request from the entity.
+Article 27
+Cybersecurity measures
+1 — The cybersecurity measures to be adopted by essential and important entities,
+taking into consideration the risk matrix within which they fall under the preceding
+article, cover, namely, the following areas:
+a) Incident handling;
+b) Business continuity, such as backup management and disaster recovery, and
+crisis management;
+c) Supply chain security, including security-related aspects concerning the
+relationships between each entity and its direct suppliers or service providers;
+d) Security in the acquisition, development and maintenance of network and
+information systems, including vulnerability handling and disclosure;
+e) Policies and procedures to assess the effectiveness of cybersecurity risk-
+management measures;
+f) Basic cyber hygiene practices and cybersecurity training, including the holders
+of the highest management bodies and workers;
+g) Policies and procedures regarding the use of cryptography and, where
+appropriate, encryption, without prejudice to the competences conferred on other
+entities in matters of cryptography at national level or before other international
+organisations of which Portugal is a member;
+h) Human resources security, access control policies and asset management;
+i) The use of multi-factor authentication or continuous authentication solutions,
+secured communications and secured emergency communication systems within
+the entity.
+2 — Essential and important entities must also adopt, without undue delay, all
+necessary, appropriate and proportionate corrective cybersecurity measures that
+are indispensable to remedy failures or omissions in compliance with the measures
+provided for in the preceding paragraph.
+3 — The national sectoral cybersecurity authorities may issue regulatory provisions
+for the adoption of sector-specific cybersecurity measures, without prejudice to the
+provisions of paragraph 3 of Article 20
+Article 28
+Supply chain
+The cybersecurity measures relating to supply chain security, including security-
+related aspects concerning the relationships between each entity and its direct
+suppliers or service providers, must consider, namely:
+a) The vulnerabilities specific to each direct supplier and each service provider;
+b) The overall quality of products in the cybersecurity component;
+c) The cybersecurity practices of their suppliers and service providers, including
+their secure development procedures;
+d) The coordinated security risk assessments of critical ICT product, ICT system or
+ICT service supply chains carried out under Article 22 of Directive (EU) 2022/2555,
+of the European Parliament and of the Council, of 14 December 2022;
+e) The decisions relating to the application of restrictions on the use, the cessation
+of use or the exclusion of information and communication technology equipment,
+components or services, under the provisions of paragraph 3 of Article 18
+Article 29
+Management of residual risk
+1 — Essential and important entities must carry out a risk analysis and
+management in relation to all assets that guarantee the continuity of the
+functioning of the network and information systems they use, including the assets
+that guarantee the provision of essential services, with the periodicity and the
+technical and documentary elements to be defined by regulation of the competent
+cybersecurity authority, in addition to compliance with the minimum cybersecurity
+measures under paragraph 5 of Article 26
+2 — On the basis of the risk analysis and management referred to in the preceding
+paragraph, essential and important entities must adopt appropriate and
+proportionate cybersecurity measures in order to manage the risks posed to the
+security of the network and information systems they use, including residual risks,
+taking into account the QNRCS, the state of the art and, where applicable, relevant
+European and international standards.
+3 — Essential and important entities must document the preparation, execution
+and presentation of the results of the risk analysis.
+Article 30
+Annual report
+1 — Essential and important entities must prepare and maintain an annual report
+containing the following elements in relation to the calendar year to which they
+refer:
+a) A summary description of the main activities carried out in matters of security of
+networks and information services;
+b) Quarterly statistics of all incidents, indicating the number and type of incidents;
+c) Aggregate analysis of incidents with a significant impact, with information on:
+i) Number of users affected by the service disruption;
+ii) Duration of the incidents;
+iii) Geographical distribution, as regards the area affected by the incidents,
+including an indication of cross-border impact;
+d) Recommendations of activities, measures or practices that promote the
+improvement of the security of network and information systems;
+e) Problems identified and measures implemented following the incidents;
+f) Any other information considered relevant.
+2 — Essential entities send the annual report to the competent cybersecurity
+authority, duly signed by the cybersecurity officer, on the following terms:
+a) The first annual report is submitted:
+i) By the last working day of the month of January of the calendar year following
+the first calendar year of activity, where the activity began in the first half of the
+year;
+ii) By the last working day of the month of January of the second calendar year
+following the first calendar year of activity, where the activity began in the second
+half of the year;
+b) Subsequent annual reports are submitted by the last working day of the month
+of January of the calendar year following the year to which they refer.
+3 — For the purposes of the provisions of sub-point (ii) of point (a) of the preceding
+paragraph, the annual report must also cover the period between the date of start
+of activity and the end of the calendar year preceding the one to which it refers.
+4 — Important entities must communicate the annual report to the CNCS whenever
+requested.
+5 — The CNCS, after hearing the national sectoral cybersecurity authorities, may
+adopt templates for the submission of the report referred to in the preceding
+paragraphs.
+Article 31
+Cybersecurity officer
+1 — Essential and important entities designate a cybersecurity officer for the
+management of cybersecurity and information security, who is a holder of the
+management, direction or administration bodies or reports to them organically and
+directly.
+2 — The cybersecurity officer has at least the following functions:
+a) To propose the cybersecurity risk-management measures, including at supply
+chain level, which must be approved under point (a) of paragraph 1 of Article 25;
+b) To provide information concerning the cybersecurity risk-management measures
+to the bodies of the entity responsible for overseeing them under point (b) of
+paragraph 1 of Article 25;
+c) To assist the bodies of the entity in complying with the supervisory and
+enforcement measures under point (c) of paragraph 1 of Article 25;
+d) To contribute to the promotion of a cybersecurity culture in the entity,
+proposing, namely, the cybersecurity training actions provided for in point (d) of
+paragraph 1 of Article 25;
+e) To ensure the risk management provided for in Article 29;
+f) To ensure compliance with the obligations concerning the preparation of the
+annual report under Article 30;
+g) To coordinate the actions of the permanent point of contact, provided for in
+Article 32, when this function is not ensured by the officer.
+3 — Essential and important entities communicate to the competent cybersecurity
+authority, within 20 working days of the start of functions, the person designated to
+exercise the functions of cybersecurity officer, including the information referred to
+in a regulation to be approved by the CNCS.
+4 — Essential and important entities that started activity before the date of entry
+into force of this Decree-Law make the communication provided for in the
+preceding paragraph within 20 working days of that date.
+5 — Essential and important entities communicate, without undue delay, to the
+competent cybersecurity authorities, the replacement of the cybersecurity officer.
+6 — In relation to essential and important entities belonging to the direct
+administration, the same cybersecurity officer may be designated for several
+ministries, government areas or regional secretariats.
+7 — In relation to essential and important entities within the same business group,
+each undertaking may establish a member who functions as point of contact for
+cybersecurity under the coordination of a security officer common to the group.
+8 — The exercise of the functions of cybersecurity officer is compatible with the
+accumulation of other functions within the same entity, without prejudice to the
+provisions of this article.
+Article 32
+Permanent point of contact
+1 — Essential and important entities ensure the function of permanent point of
+contact with continuous availability 24 hours a day and seven days a week, limited
+to activation periods, started and ended by communication from the competent
+cybersecurity authority.
+2 — Essential and important entities communicate to the CNCS at least one
+permanent point of contact, which may be ensured by one member or by a team, so
+as to ensure:
+a) Information flows at operational and technical level with the competent
+cybersecurity authority, namely:
+i) Cross-sectoral coordination, including the effectiveness of the response to
+security incidents with an impact at sector level;
+ii) The obtaining of operational and technical information, following a notification
+of incidents with a significant impact submitted by the same or by another entity;
+iii) The obtaining and updating of integrated situational information in the context
+of a significant incident;
+b) Information sharing with the competent cybersecurity authority, when civil
+protection emergency plans directly related to, or with an impact on, cybersecurity
+are activated, as well as plans within the scope of cybersecurity civil emergency
+planning, security plans for national or European critical infrastructures, or
+resilience plans of national or European critical entities;
+c) The operationalisation of the procedures laid down within the scope of a civil
+protection emergency plan when they have an impact on the functioning of
+network and information systems, or of cybersecurity civil emergency planning;
+d) The receipt of the guidelines, recommendations, technical instructions and
+orders issued by the competent cybersecurity authority.
+3 — Essential and important entities must indicate to the competent cybersecurity
+authority, within 20 working days of the start of functions, the person or persons
+making up the team that ensure the functions of permanent point of contact, as
+well as the respective main and alternative means of contact, containing the
+information referred to in a regulation to be approved by the CNCS.
+4 — Essential and important entities that started activity before the date of entry
+into force of this Decree-Law must make the communication provided for in the
+preceding paragraph within 20 working days of that date.
+5 — Essential and important entities must immediately communicate to the
+competent cybersecurity authority any change to the information provided for in
+paragraph 3.
+6 — Essential and important entities must ensure that the permanent point of
+contact has main and alternative means of contact for communication with the
+competent cybersecurity authority.
+Article 33
+Cybersecurity measures applicable to relevant public entities
+1 — Relevant public entities must comply with the cybersecurity measures
+established by the CNCS under the following paragraph.
+2 — The CNCS establishes, by means of a regulation, the cybersecurity measures
+that must be complied with by relevant public entities, considering the criteria
+provided for in paragraphs 2 and 3 of Article 26 and in terms proportionate and
+appropriate to the group to which they belong, in accordance with Article 7
+3 — Relevant public entities are subject to the supervisory and enforcement
+measures provided for in Articles 55 and 56, respectively.
+4 — The provisions of paragraph 8 of Article 26 apply to relevant public entities.
+Article 34
+Cybersecurity certification
+1 — The CNCS may require essential, important and relevant public entities to
+obtain certification, national, European or international, attesting compliance with
+the cybersecurity measures of this Decree-Law, namely in accordance with
+certification schemes drawn up on the basis of Portuguese Normative Document —
+Technical Specification (DNP TS) 4577-1, Digital Maturity — Digital Seal, and of
+the QNRCS, ensuring, in any case, an equivalence matrix with existing reference
+certification schemes.
+2 — The CNCS may also require essential, important and relevant public entities,
+under paragraph 1 of Article 24 of Directive (EU) 2022/2555, of the Parliament and
+of the Council, of 14 December 2022, to use ICT products, services and processes,
+developed by the entity or supplied by third parties, certified under national and
+European cybersecurity certification schemes adopted under Article 49 of
+Regulation (EU) 2019/881, of the European Parliament and of the Council, of 17
+April 2019.
+3 — Essential, important and relevant public entities may use the certification
+referred to in paragraph 1 to demonstrate the implementation of appropriate and
+proportionate technical, operational and organisational measures to manage the
+security risks of the network and information systems used in their respective
+operations or provision of services.
+SECTION II
+Other duties
+Article 35
+Duty of registration
+1 — For registration purposes, essential, important and relevant public entities
+have the duty to enter on the electronic platform referred to in paragraph 7 of
+Article 8 the elements that allow their complete identification, namely:
+a) Name of the entity concerned;
+b) Tax identification number;
+c) Address and up-to-date contact details, including email addresses, IP ranges and
+telephone numbers;
+d) Where applicable, the relevant sector and subsector referred to in Annexes I or
+II to this Decree-Law; and
+e) Where applicable, a list of the Member States of the European Union in which
+they provide services falling within the scope of this Decree-Law.
+2 — In addition to the data referred to in the preceding paragraph, the top-level
+domain name registry, as well as entities that are DNS service providers, domain
+name registration service providers, cloud computing service providers, data
+centre service providers, content delivery network providers, managed service
+providers, managed security service providers, as well as providers of online
+marketplaces, of online search engines and of social networking services platforms,
+have the duty to enter on the electronic platform referred to in paragraph 7 of
+Article 8 the following elements:
+a) The address of its main establishment and of the other legal establishments it
+has in the European Union or, if it is not established in the Union, of the designated
+representative;
+b) Up-to-date contact details, including email addresses and telephone numbers of
+the entity and, where applicable, of its designated representative;
+c) The Member States where it provides services; and
+d) The IP ranges.
+3 — Essential, important and relevant public entities and domain name registration
+service providers notify the CNCS of any change to the data referred to in the
+preceding paragraphs, within 30 working days of the change.
+4 — In the case of the TLD name registry, as well as entities that are DNS service
+providers, domain name registration service providers, cloud computing service
+providers, data centre service providers, content delivery network providers,
+managed service providers, managed security service providers, as well as
+providers of online marketplaces, of online search engines and of social networking
+services platforms, the change to the data referred to in paragraphs 1 and 2 is
+notified within three months of the change.
+Article 36
+Database of domain name registration data
+1 — The top-level domain name registry and the entities providing domain name
+registration services must collect and maintain accurate and complete domain
+name registration data in databases created specifically for that purpose.
+2 — The collection and maintenance of the data referred to in the preceding
+paragraph constitutes a legal obligation within the meaning and for the purposes of
+point (c) of paragraph 1 of Article 6 of the GDPR.
+3 — The database referred to in paragraph 1 contains the following information:
+a) The domain name;
+b) The date of registration;
+c) The name, contact email address and telephone number of the registrant;
+d) The contact address and contact telephone number of whoever administers the
+domain name, if different from the registrant.
+4 — The top-level domain name registry and the entities providing domain services
+adopt policies and procedures, including verification procedures, to ensure that
+their respective databases, under paragraph 1, contain accurate and complete
+information.
+5 — The domain name registration data and the policies and procedures referred to
+in the preceding paragraphs must be publicly available, where they are not
+personal data and are not protected under the legislation applicable in matters of
+personal data protection, namely the GDPR, Law No. 26/2016, of 22 August, as
+currently worded, Law No. 58/2019, of 8 August, and Law No. 59/2019, of 8
+August.
+Article 37
+Access to domain name registration data
+1 — The top-level domain name registry and the entities providing domain name
+registration services guarantee free access to specific domain name registration
+data to whoever submits a duly reasoned request for access and meets the legal
+requirements, in accordance with the legislation applicable in matters of personal
+data protection, namely the GDPR, Law No. 26/2016, of 22 August, as currently
+worded, Law No. 58/2019, of 8 August, and Law No. 59/2019, of 8 August.
+2 — The requests for access referred to in the preceding paragraph are granted
+within 72 hours of their receipt.
+CHAPTER V
+Incident prevention and handling
+SECTION I
+Prevention and monitoring of vulnerabilities
+Article 38
+Vulnerabilities in information systems
+1 — The “CERT.PT” is the national coordinating entity for the purposes of
+coordinated disclosure of vulnerabilities affecting network and information systems
+and information and communication technology products, components and
+services.
+2 — The “CERT.PT” acts as a trusted intermediary, facilitating the interaction
+between the reporting natural or legal person and the manufacturer or supplier of
+ICT products or provider of ICT services that are potentially vulnerable, at the
+request of either party.
+3 — The functions of the “CERT.PT” include, namely:
+a) The identification and contacting of the entities referred to in the preceding
+paragraph;
+b) The provision of support to natural or legal persons reporting vulnerabilities;
+c) The negotiation of the disclosure timeline and the management of vulnerabilities
+that affect multiple entities.
+4 — The “CERT.PT” preserves the anonymity of any natural or legal person
+reporting a vulnerability, if that person so requests, without prejudice to the
+provisions of the Cybercrime Law, approved by Law No. 109/2009, of 15
+September, in the wording introduced by this Decree-Law.
+5 — The data included in the communications made under this article must be
+deleted within 10 days, counted from the moment the vulnerability is corrected,
+their confidentiality having to be guaranteed throughout the procedure.
+Article 39
+Communication of vulnerabilities
+Where the vulnerability may have a significant impact on entities in more than one
+Member State of the European Union, the “CERT.PT” cooperates with its
+counterparts, both within the European Network of CSIRTs and within EU-
+CyCLONe.
+SECTION II
+Notification of incidents
+Article 40
+Mandatory notification
+1 — Essential, important and relevant public entities notify any significant incident
+to the competent cybersecurity authority.
+2 — Compliance with mere notification does not give rise to increased liability for
+the notifying entity.
+3 — In order to determine whether an incident has a significant impact under
+paragraph 1, the entities concerned must take into consideration, namely, the
+following parameters:
+a) Number of users affected by the service disruption;
+b) Total number of users of the disrupted service;
+c) The duration of the incident;
+d) The level of severity of the disruption of the functioning of the service;
+e) The extent of the impact on economic and social activities.
+4 — The entities must also take into consideration the parameters and thresholds
+defined, where applicable, by technical instruction of the CNCS and by the
+implementing acts of the Commission provided for in paragraph 11 of Article 23 of
+Directive (EU) 2022/2555, of the European Parliament and of the Council, of 14
+December 2022.
+5 — Compliance with the provisions of this Decree-Law does not exempt from
+compliance with the specific incident notification obligations on the terms defined
+by the authorities competent for that purpose, namely the Public Prosecution
+Service, the Judiciary Police, the CNPD, the State Secrets Oversight Entity and the
+GNS, in accordance with the applicable legal and regulatory provisions.
+6 — Notifications must be submitted on the electronic platform referred to in
+paragraph 7 of Article 8
+7 — Essential, important and relevant public entities are assured the possibility of
+notifying an incident simultaneously to the competent cybersecurity authority, to
+the special cybersecurity authorities, and to the entities provided for in paragraph
+5, through the platform provided for in paragraph 7 of Article 8, on terms to be
+defined by protocol concluded between the said authorities.
+Article 41
+Types of notifications
+1 — For each incident subject to mandatory notification, essential, important and
+relevant public entities submit:
+a) An initial notification, under Article 42;
+b) A notification of the end of the significant impact, under Article 43;
+c) A final report, under Articles 44
+2 — In cases where the incident is resolved within two hours of its detection, the
+said entities are only obliged to send the notification of the end of the significant
+impact.
+3 — Without prejudice to the provisions of the preceding paragraph, essential,
+important and relevant public entities may also be notified to submit an
+intermediate report, under Article 44
+4 — The format and procedure for the notification of incidents and the taxonomy of
+incidents, including the categories of causes of incidents and their effects, are
+defined by technical instruction of the CNCS, without prejudice to the
+implementing acts adopted by the Commission provided for in paragraph 11 of
+Article 23 of Directive (EU) 2022/2555, of the European Parliament and of the
+Council, of 14 December 2022.
+Article 42
+Initial notification
+1 — The initial notification must be sent to the competent cybersecurity authority
+as soon as the essential, important or relevant public entity concludes that there is,
+or may come to be, a significant incident, without undue delay and within 24 hours
+after that finding, except where this is incompatible with the mitigation or
+resolution of the incident.
+2 — The initial notification must include at least the following information:
+a) Name, telephone number and email address of a representative of the entity,
+where different from the permanent point of contact referred to in Article 32, for
+the purpose of possible contact by the competent cybersecurity authority;
+b) Date and time of the start or, where it is impossible to determine it, of the
+detection of the incident;
+c) Brief description of the incident, including an indication of the category of the
+cause and of the effects produced, in accordance with the taxonomy defined by the
+CNCS, whenever possible, the respective detail;
+d) Possible estimate of the impact, considering:
+i) Number of users affected by the service disruption;
+ii) Duration of the incident;
+iii) Geographical distribution, as regards the area affected by the incident,
+including an indication of the cross-border impact;
+iv) Other information that the essential and important entity considers relevant.
+3 — Where necessary, the essential, important or relevant public entity sends to
+the competent cybersecurity authority an update of the initial notification within 72
+hours after the finding of the significant incident, revising the information referred
+to in the preceding paragraph and providing an initial assessment of the significant
+incident, including its severity and impact, as well as, where available, the
+indicators of exposure to risks.
+Article 43
+Notification of the end of the significant impact
+1 — The notification of the end of the significant impact of the incident must be
+submitted to the competent cybersecurity authority, without undue delay and
+within 24 hours after the end of the impact.
+2 — The notification of the end of the significant impact must include at least the
+following information:
+a) Update of the information transmitted in the initial notification, if any;
+b) Brief description of the measures adopted for the resolution of the incident;
+c) Description of the impact situation existing at the time the significant impact
+ceased, namely:
+i) Number of users affected by the service disruption;
+ii) Duration of the incident;
+iii) Geographical distribution, as regards the area affected by the incident,
+including an indication of cross-border impact;
+iv) Estimated time for the full recovery of services.
+Article 44
+Final and intermediate reports
+1 — The final report must be submitted to the competent cybersecurity authority
+within 30 working days from the date of the notification of the end of the
+significant impact of the incident.
+2 — The final report must include the following information:
+a) Date and time at which the incident took on significant impact;
+b) Date and time at which the incident lost significant impact;
+c) Impact of the incident, considering:
+i) Number of users affected by the service disruption;
+ii) Duration of the incident;
+iii) Geographical distribution, as regards the area affected by the incident,
+including an indication of cross-border impact;
+iv) Description of the incident, with an indication of the category of the cause and
+of the effects produced, in accordance with the taxonomy defined by the CNCS, and
+the respective detail;
+d) Indication of the measures adopted to mitigate the incident;
+e) Description of the residual impact situation existing at the date of the final
+notification, namely:
+i) Number of users affected by the service disruption;
+ii) Geographical distribution, as regards the area affected by the incident, including
+an indication of cross-border impact;
+iii) Estimated time for the full recovery of the services still affected;
+iv) Indication, whenever applicable, of the submission of a notification of the
+incident concerned to the competent authorities, namely to the Public Prosecution
+Service or to the CNPD and to other sectoral authorities, under the terms provided
+for in the applicable legal and regulatory provisions;
+v) Other information that the essential and important entity considers relevant.
+3 — In the event that, once the time limit for submitting the final report has
+elapsed, the incident is still ongoing, the essential, important or relevant public
+entity concerned must submit an intermediate report to the competent
+cybersecurity authority, at the request of these entities and on a weekly basis until
+the time of submission of the final report.
+4 — The intermediate report must include the following information:
+a) Update of the information transmitted in the initial notification, if any;
+b) Brief description of the measures adopted for the resolution of the incident;
+c) Description of the impact situation existing at the time the significant impact
+ceased, namely:
+i) Number of users affected by the service disruption;
+ii) Duration of the incident;
+iii) Geographical distribution, as regards the area affected by the incident,
+including an indication of cross-border impact;
+iv) Estimated time for the full recovery of services.
+Article 45
+Voluntary notifications of relevant information
+1 — Without prejudice to the obligation to notify incidents provided for in this
+Decree-Law, any natural or legal person may notify, on a voluntary basis, the
+occurrence of incidents, cyber threats, near misses or vulnerabilities.
+2 — Voluntary notifications do not give rise to additional obligations for the
+notifying entity.
+3 — The provisions of Articles 42 to 44 apply, with the necessary adaptations, to
+voluntary notifications, without prejudice to the priority to be given to the handling
+of mandatory notifications.
+Article 46
+Requests for information
+The competent cybersecurity authority may request from essential, important or
+relevant public entities the relevant information or determine the necessary
+actions, under the legally applicable terms, when it becomes aware, by any means,
+of a potential incident, the provisions of Articles 42 to 44 applying with the
+necessary adaptations.
+Article 47
+Protection of information
+1 — The sending of information by the CNCS or, where applicable, by the national
+sectoral cybersecurity authorities, under this Decree-Law, to national, European
+Union or other Member State competent authorities or entities is limited to what is
+necessary and proportionate, in accordance with the legislation applicable in
+matters of personal data protection, namely the GDPR, Law No. 26/2016, of 22
+August, as currently worded, Law No. 58/2019, of 8 August, and Law No. 59/2019,
+of 8 August.
+2 — The competent cybersecurity authority guarantees the adequate protection of
+the information and data, whatever their nature, transmitted by essential,
+important and relevant public entities as regards confidentiality, business secrecy
+and professional secrecy.
+3 — Paragraph 2 applies, with the necessary adaptations, to the information
+provided by natural and legal persons who make a notification under the preceding
+article.
+Article 48
+Communication to the recipients of services
+1 — Essential, important and relevant public entities communicate to the recipients
+of their services, without undue delay, any incidents with a significant impact that
+are likely to adversely affect them.
+2 — Essential, important and relevant public entities communicate to the recipients
+of their services potentially affected by a significant cyber threat, without undue
+delay, the measures or remedies that those recipients can take in response to the
+threat and, where appropriate, communicate to them the cyber threat concerned.
+3 — The communication referred to in the preceding paragraph does not exempt
+the entities concerned from the duty to adopt, at their own expense, the
+appropriate and immediate measures to prevent or remedy any threats and to
+restore the normal level of security of the service they provide.
+4 — The information referred to in the preceding paragraphs must be provided free
+of charge and in easily comprehensible language.
+SECTION III
+Communication of incidents, information to the public and response
+Article 49
+Communication between authorities
+1 — The national sectoral and special cybersecurity authorities communicate to the
+CNCS all incidents of which they are notified under the provisions of Article 40,
+and inform that authority of their respective evolution.
+2 — For the purposes of Article 21, the CNCS communicates to the Secretary-
+General of the Internal Security System, without undue delay, the incidents of
+which they are notified under the provisions of Article 40 which are liable to be
+qualified as large-scale.
+3 — The CNCS informs, when it considers it necessary, the national sectoral and
+special cybersecurity authorities of voluntary notifications under Article 45
+4 — The provisions of this article apply, with the necessary adaptations, to
+notifications made under Article 42
+5 — The communications referred to in the preceding paragraphs are made
+immediately, by electronic means.
+Article 50
+Communication to entities within the European Union or its Member States
+1 — Whenever justified, namely when a significant incident involves at least one
+other Member State of the European Union, the CNCS must inform the other
+affected Member States, designated under Article 8 of Directive (EU) 2022/2555, of
+the European Parliament and of the Council, of 14 December 2022, and ENISA of
+its occurrence, with the involvement of the cooperation channels in matters of
+police cooperation and in matters of intelligence services.
+2 — The communication referred to in the preceding paragraph includes the
+information received through the notifications made under Articles 42 et seq.
+3 — It is incumbent on the CNCS, in its capacity as single point of contact, to
+submit quarterly to ENISA a summary report including anonymised and
+aggregated data on the significant incidents, incidents, cyber threats and near
+misses notified under Articles 40 and 45
+Article 51
+Information to the public
+1 — The competent cybersecurity authority must inform the public of the
+occurrence of a significant incident, after consulting the entity concerned, when:
+a) It is necessary to inform the public in order to prevent the incident or to deal
+with an ongoing incident;
+b) The disclosure of the significant incident is in the public interest.
+2 — The competent cybersecurity authority must also require the entity concerned
+to disclose the significant incident to the public, when the situations referred to in
+the preceding paragraph are at issue.
+3 — The competent cybersecurity authority must inform the public of a significant
+incident, upon a request from a competent authority of another Member State of
+the European Union.
+4 — The communication to the public provided for in this article is without
+prejudice to cooperation in the context of ongoing criminal investigations, or of
+those covered by the regimes of judicial secrecy and State secrecy.
+Article 52
+Response to notifications
+1 — The competent cybersecurity authority responds to the notifying entity without
+undue delay and, where possible, within 24 hours after receipt of the initial
+notification provided for in Article 42
+2 — The competent cybersecurity authority provides in its response, namely, its
+initial feedback on the significant incident and, at the request of the entity,
+guidance or operational advice on the implementation of possible mitigation
+measures.
+3 — In situations of serious and proven risk from the impact of the incident notified
+under Article 40, the competent cybersecurity authority may impose, as an
+immediate enforcement measure, the interruption of the provision of the service on
+the essential, important or relevant public entity concerned, or the cessation of
+conduct that infringes this Decree-Law, if the entity does not do so voluntarily.
+4 — In cases of well-founded suspicion of the criminal nature of the significant
+incident, the competent cybersecurity authority must also provide guidance on the
+notification of the significant incident to the police authorities.
+5 — The provisions of the preceding paragraphs apply, with the necessary
+adaptations, to incidents, near misses or cyber threats that have been notified on a
+voluntary basis under Article 45
+CHAPTER VI
+Supervision and enforcement
+SECTION I
+Supervisory and enforcement measures
+Article 53
+Principles
+1 — The competent cybersecurity authority, in its capacity as supervisory and
+enforcement authority, monitors and supervises compliance with this Decree-Law
+and adopts the measures necessary to ensure such compliance.
+2 — Supervisory and enforcement activities are guided, namely, by the principles of
+pursuit of the public interest, legality, efficiency, effectiveness and proportionality,
+and must minimise, whenever possible, their impact on the public, social and
+business activities of the supervised entities.
+3 — The supervisory activity is based on risk-assessment methodologies and, on the
+basis of that assessment and of the principles referred to in the preceding
+paragraph, may determine the priority allocation of resources and the measures to
+be adopted according to the risk matrix applicable to the entity concerned, namely
+as regards the conduct, frequency or type of on-site inspections, targeted security
+audits or security scans and the type of information to be requested.
+4 — Supervisory and enforcement activities are exercised with operational
+autonomy, including those directed at relevant public entities.
+5 — Supervisory and enforcement activities respect the guarantees of private
+persons legally and constitutionally provided for.
+Article 54
+Supervisory measures relating to essential entities
+1 — The competent cybersecurity authority has, in relation to essential entities,
+powers to subject them to the following measures:
+a) On-site inspections and remote supervision, including random checks conducted
+by qualified professionals;
+b) Regular or targeted security audits, carried out by the competent authority itself
+or, where justified, by an entity duly qualified for that purpose offering guarantees
+of independence;
+c) Ad hoc audits, namely on the grounds of the finding of a significant incident,
+non-compliance with orders, instructions and guidelines of the competent
+cybersecurity authority or infringement of this Decree-Law by the entity
+concerned;
+d) Security scans based on objective, non-discriminatory, fair and transparent risk-
+assessment criteria, if necessary in cooperation with the entity concerned;
+e) Requests for information necessary to assess compliance with the cybersecurity
+measures referred to in Articles 27 et seq. adopted by the entity concerned;
+f) Requests for access to data, documents and information necessary for the
+performance of its supervisory tasks;
+g) Requests for the submission of evidence of the implementation of cybersecurity
+policies and procedures.
+2 — The targeted audits referred to in point (b) of the preceding paragraph are
+based on the risk analysis carried out by the competent cybersecurity authority, on
+the risk analysis carried out by the audited entity or on other available risk-related
+information, namely that contained in the technical harmonisation instructions and
+the risk matrices drawn up by the CNCS, under paragraph 4 of Article 26, as well
+as in the orders, instructions and guidelines of the competent cybersecurity
+authority.
+3 — The costs of the targeted audits referred to in points (b) of paragraph 1 are
+borne by the audited entity, unless otherwise decided, with reasons, by the
+competent cybersecurity authority.
+4 — The requests for information and evidence referred to in points (e) to (g) of
+paragraph 1 must indicate their purpose, specify the information requested and set
+an appropriate and reasonable time limit for the essential entity to respond to
+them.
+Article 55
+Supervisory measures relating to important and relevant public entities
+1 — Whenever it obtains evidence, indications or information that an important or
+relevant public entity is not complying with this Decree-Law, the competent
+cybersecurity authority applies the ex post supervisory measures provided for in
+the following paragraphs.
+2 — The competent cybersecurity authority has, in relation to important entities,
+powers to subject them to the following measures:
+a) On-site inspections and remote ex post supervision conducted by qualified
+professionals;
+b) Targeted security audits carried out by the competent authority itself or, where
+justified, by an entity duly qualified for that purpose offering guarantees of
+independence;
+c) Ad hoc audits, namely on the grounds of the finding of a significant incident,
+non-compliance with orders, instructions and guidelines of the competent
+cybersecurity authority or infringement of this Decree-Law by the entity
+concerned;
+d) Security scans based on objective, non-discriminatory, fair and transparent risk-
+assessment criteria, if necessary in cooperation with the entity concerned;
+e) Requests for information necessary to assess compliance with the cybersecurity
+measures referred to in Articles 27 et seq. adopted by the entity concerned;
+f) Requests for access to data, documents and any information necessary for the
+performance of its supervisory tasks;
+g) Requests for the submission of evidence of the implementation of cybersecurity
+policies and procedures, including those inherent in obtaining the certificates
+referred to in paragraph 1 of Article 34
+3 — The targeted audits referred to in point (b) of the preceding paragraph are
+based on the risk analysis carried out by the competent cybersecurity authority, on
+the risk analysis carried out by the audited entity or on other available risk-related
+information, namely that contained in the technical harmonisation instructions and
+the risk matrices drawn up by the CNCS, under paragraph 4 of Article 26, as well
+as in the orders, instructions and guidelines of the competent cybersecurity
+authority.
+4 — The costs of the targeted audits referred to in point (b) of paragraph 2 are
+borne by the audited entity, unless otherwise decided, with reasons, by the
+competent cybersecurity authority.
+5 — The requests for information and evidence referred to in points (e) to (g) of
+paragraph 2 must indicate their purpose, specify the information requested and set
+an appropriate and reasonable time limit for the essential entity to respond to
+them.
+Article 56
+Enforcement measures
+1 — The competent cybersecurity authority may, in relation to essential, important
+and relevant public entities, adopt measures including the following:
+a) Warnings about infringements of the duties arising from this Decree-Law and
+from the respective applicable regulatory regime;
+b) Binding orders or instructions with a view to the adoption of the measures
+necessary to prevent, stop or correct an incident, setting the time limits for their
+implementation and the respective reporting;
+c) Binding orders or instructions with a view to the correction of deficiencies or
+infringements of this Decree-Law;
+d) Binding orders or instructions with a view to compliance with the provisions of
+Article 26 et seq. or, in the case of a relevant public entity, with the provisions of
+Article 33, or also with a view to compliance with the provisions of Articles 40 et
+seq.;
+e) Orders requiring the entities concerned to inform the natural or legal persons to
+whom they provide services or for whom they carry out activities that are
+potentially affected by a significant cyber threat of the nature of that threat, as well
+as of any protective or remedial measures that may be adopted in response to that
+cyber threat;
+f) Orders requiring the entity concerned to implement, within a reasonable time
+limit, the recommendations made as a result of a security audit;
+g) Designation of a monitoring officer with well-defined tasks, for a limited period,
+to oversee compliance by the entity concerned with the obligations provided for in
+Articles 26 et seq., and provided for in Articles 40 et seq.;
+h) Orders requiring the entity concerned to make public aspects of infringements
+of this Decree-Law in a specified manner;
+i) Imposition of fines under the following chapter.
+2 — In the event of non-compliance, by any essential entity, with the measures
+referred to in points (a) to (d) and (f) of the preceding paragraph within the time
+limit set by the competent cybersecurity authority, the latter may, to the extent
+strictly necessary:
+a) Suspend a certification, authorisation or licence concerning part or all of the
+relevant services provided or activities carried out by the entity, or order a
+certification body to suspend it;
+b) Request the competent body to suspend the authorisation or licence concerning
+part or all of the relevant services provided or activities carried out by the entity.
+3 — The temporary suspensions or prohibitions referred to in the preceding
+paragraph remain in place until the entity corrects the deficiencies or complies
+with the measures referred to in paragraph 1.
+4 — The measures referred to in paragraph 2 do not apply to the public entities
+covered by this Decree-Law, without prejudice to the exercise of powers of
+direction and oversight, under the general terms.
+Article 57
+Blocking and redirection measures
+1 — The competent cybersecurity authority may issue orders or instructions with a
+view to neutralising a cyber threat, cyberattack or incident to the network and
+information systems of essential, important or relevant public entities resulting
+from the abusive use of domain names or IP protocol addresses, under the
+following paragraphs.
+2 — The types of abuse referred to in the preceding paragraph include, namely:
+a) Distributed denial-of-service (DDoS) attacks;
+b) Malicious servers (Command and Control);
+c) Infected equipment (communication with Command and Control);
+d) Distribution of malicious code;
+e) Unlawful use of third parties’ names;
+f) Unsolicited electronic mail (SPAM).
+3 — To the extent strictly necessary to stop the abusive use of domain names, the
+competent cybersecurity authority may order, in a duly reasoned manner:
+a) The TLD name registry to request the holder of a domain name registration to
+adopt appropriate measures, within a set time limit, to repress a cyber threat or
+respond to a cyberattack or an incident;
+b) The TLD name registry or DNS service providers to block or redirect domain
+names to a secure server of the CNCS, when they are manifestly dedicated to or
+involved in cyberattacks or incidents and no other effective means are available to
+stop the cyberattack or incident.
+4 — To the extent strictly necessary to stop the abusive use of IP protocol
+addresses, the CNCS may order undertakings providing electronic communications
+networks and services to block or redirect a dynamic or static IP protocol address
+to a secure server of the CNCS, when those addresses are manifestly dedicated to
+or involved in the types of cyberattacks or incidents provided for in points (a) to (d)
+of paragraph 2.
+5 — The measures referred to in paragraphs 3 and 4 may not exceed a period of 60
+days, which may be renewed for an equal period where there is a strong likelihood,
+ascertained by means of a reasoned assessment, that the cyberattacks or incidents
+originating from the same addresses will persist or resume.
+6 — The provisions of this article apply equally to domain name registration service
+providers.
+Article 58
+Procedural safeguards
+1 — The competent cybersecurity authority provides an adequate statement of
+reasons for its decisions applying enforcement measures, and must also, under the
+general terms, hold a prior hearing of the entity concerned within a reasonable
+time limit, of not less than 10 days.
+2 — The prior hearing referred to in the preceding paragraph is dispensed with
+whenever there is a duly reasoned need to apply immediate measures to prevent or
+respond to significant incidents or cyber threats.
+3 — When applying any of the enforcement measures referred to in the preceding
+paragraphs, the competent cybersecurity authority must respect the procedural
+safeguards of the entity, having regard to the circumstances of the specific case,
+and weigh, namely:
+a) The seriousness of the infringement and the importance of the provisions
+infringed;
+b) The duration of the infringement;
+c) Any relevant previous infringements committed by the entity concerned;
+d) Any material or non-material damage caused, including any financial or
+economic losses, the effects on other services and the number of users affected;
+e) Any measures taken by the entity to prevent or mitigate the material or non-
+material damage;
+f) The culpability of the agent;
+g) The level of cooperation of the responsible natural or legal persons with the
+competent cybersecurity authority.
+4 — For the purposes of point (a) of the preceding paragraph, the following are
+presumed serious:
+a) Repeated violations of this Decree-Law;
+b) Failure to comply with the duty to notify incidents under Articles 40 et seq.;
+c) Failure to comply with the duty to remedy significant incidents;
+d) Failure to comply with the duty to remedy deficiencies following binding
+instructions of the competent cybersecurity authority;
+e) Obstruction of audits or monitoring activities ordered by the competent
+cybersecurity authority following the finding of an infringement of this Decree-Law;
+f) Provision of false or grossly inaccurate information in relation to the
+cybersecurity measures provided for in Articles 26 et seq., or to the notification
+obligations provided for in Articles 40 et seq.
+SECTION II
+Cooperation between authorities with supervisory competences
+Article 59
+Communication of incidents and application of measures
+1 — The national sectoral cybersecurity authorities and the special national
+cybersecurity authorities inform the CNCS of the occurrence of significant
+incidents or cyber threats, as well as of the application of supervisory and
+enforcement measures in matters of cybersecurity, under the applicable regime.
+2 — The application of supervisory and enforcement measures in matters of
+cybersecurity, under the applicable regime, by the national sectoral cybersecurity
+authorities and by the special national cybersecurity authorities is preceded by a
+non-binding opinion of the CNCS, with the exception, for the national sectoral
+cybersecurity authorities, of the measures provided for in point (i) of paragraph 1
+of Article 56
+3 — The national sectoral cybersecurity authorities and the special national
+cybersecurity authorities are exempt from requesting an opinion from the CNCS
+under the preceding paragraph when compliance with enforcement measures
+within a period of less than 24h is at issue, without prejudice to the measures being
+immediately communicated to the CNCS.
+4 — The competent cybersecurity authority informs the special national
+cybersecurity authorities of significant incidents that have occurred that may affect
+entities in the financial sector.
+5 — The transmission of the above-mentioned information must be carried out
+through the platform mentioned in paragraph 7 of Article 8
+Article 60
+Cooperation in the field of the security of critical infrastructures
+1 — Whenever the CNCS, the national sectoral cybersecurity authorities or the
+special national cybersecurity authorities, as the case may be, exercise their
+supervisory powers in relation to an entity referred to in paragraph 5 of Article 3,
+they must inform the competent authorities resulting from the transposition of
+Directive (EU) 2022/2557, of the European Parliament and the Council, of 14
+December 2022.
+2 — The competent authorities resulting from the transposition of Directive (EU)
+2022/2557, of the European Parliament and the Council, of 14 December 2022,
+may, if necessary, request that the CNCS, the national sectoral cybersecurity
+authorities or the special national cybersecurity authorities, as the case may be,
+exercise their supervisory powers in relation to an entity referred to in paragraph 5
+of Article 3
+CHAPTER VII
+Sanctions regime
+Article 61
+Very serious administrative offences
+1 — The following constitute very serious administrative offences under this
+Decree-Law:
+a) Failure to comply with the decisions of the member of the Government
+responsible for the area of cybersecurity provided for in paragraph 3 of Article 18;
+b) Failure to comply with the duty to adopt the cybersecurity measures under
+Articles 27 to 29;
+c) Failure to comply with the duties provided for in Article 30;
+d) Failure to comply with the duties provided for in Article 31;
+e) Failure to comply with the duties provided for in Article 32;
+f) Failure to comply with the duty to adopt the cybersecurity measures established
+by the CNCS under Article 33;
+g) Failure to comply with the duties provided for in Article 34;
+h) Failure to comply with the duties provided for in paragraphs 1 and 2 of Article
+36;
+i) Failure to comply with the duties provided for in Article 37;
+j) Failure to comply with the duty of notification under Articles 40 to 44;
+k) Failure to comply with the duty of communication under the provisions of Article
+48
+2 — The administrative offences referred to in the preceding paragraph are
+punishable with the following fines:
+a) In the case of an essential entity:
+i) From € 2,000.00 to € 10,000,000.00 or 2% of the total worldwide annual
+turnover, in the preceding financial year, of the essential entity concerned,
+whichever is higher, if committed by a legal person;
+ii) From € 350.00 to € 200,000.00, if committed by a natural person;
+b) In the case of an important entity:
+i) From € 1,250.00 to € 7,000,000.00 or in a maximum amount of not less than
+1.4% of the total worldwide annual turnover, in the preceding financial year, of the
+important entity concerned, whichever is higher, if committed by a legal person;
+ii) From € 350.00 to € 200,000.00, if committed by a natural person;
+c) In the case of a relevant public entity included in Group A provided for in
+paragraph 2 of Article 7:
+i) From € 16,000.00 to € 4,000,000.00, if committed by a legal person;
+ii) From € 500.00 to € 16,000.00, if committed by a natural person;
+d) In the case of a relevant public entity included in Group B provided for in
+paragraph 3 of Article 7:
+i) From € 8,000.00 to € 350,000.00, if committed by a legal person;
+ii) From € 500.00 to € 16,000.00, if committed by a natural person.
+Article 62
+Serious administrative offences
+1 — The following constitute serious administrative offences under this Decree-
+Law:
+a) Failure to comply with the duties provided for in Article 8;
+b) Failure to comply with the duties provided for in Article 35;
+c) Failure to comply with the duties provided for in paragraphs 4 and 5 of Article
+36;
+d) Failure to comply with the duties provided for in Article 46;
+e) Failure to comply with the obligation provided for in paragraph 2 of Article 51;
+f) Failure to comply with the immediate enforcement measure provided for in
+paragraph 3 of Article 52;
+g) Failure to comply with the warnings, binding orders or instructions given by the
+competent cybersecurity authority under the provisions of points (a) to (g) of
+paragraph 1 of Article 56;
+h) Breach of the suspension determined under the provisions of point (a) of
+paragraph 2 of Article 56;
+i) Breach of the suspension determined under the provisions of point (b) of
+paragraph 2 of Article 56;
+j) Failure to comply with the orders or instructions provided for in Article 57
+2 — The administrative offences referred to in the preceding paragraph are
+punishable with the following fines:
+a) In the case of an essential entity:
+i) From € 1,250.00 to € 5,000,000.00 or 1% of the total worldwide annual turnover,
+in the preceding financial year, of the essential entity concerned, whichever is
+higher, if committed by a legal person;
+ii) From € 250.00 to € 125,000.00, if committed by a natural person;
+b) In the case of an important entity:
+i) From € 875.00 to € 3,500,000.00 or in a maximum amount of not less than 0.7%
+of the total worldwide annual turnover, in the preceding financial year, of the
+important entity concerned, whichever is higher, if committed by a legal person;
+ii) From € 250.00 to € 125,000.00, if committed by a natural person;
+c) In the case of a relevant public entity included in “Group A” provided for in
+paragraph 2 of Article 7:
+i) From € 10,000.00 to € 2,500,000.00, if committed by a legal person;
+ii) From € 375.00 to € 10,000.00, if committed by a natural person;
+d) In the case of a relevant public entity included in “Group B” provided for in
+paragraph 3 of Article 7:
+i) From € 5,000.00 to € 225,000.00, if committed by a legal person;
+ii) From € 375.00 to € 10,000.00, if committed by a natural person.
+Article 63
+Minor administrative offences
+1 — The following are minor administrative offences:
+a) The use, by entities, of an invalid, expired or revoked cybersecurity certification
+mark;
+b) The use of an expression or graphic element that expressly or tacitly suggests
+the cybersecurity certification of a product, service or process that is not certified;
+c) The wilful omission of information or the provision of false information that is
+relevant to the cybersecurity certification process under way, under the terms
+defined in each certification scheme;
+d) Failure to comply with the requests of the Cyberspace Security Assessment
+Commission, provided for in paragraph 8 of Article 18
+2 — The administrative offences referred to in the preceding paragraph are
+punishable with the following fines:
+a) From € 875.00 to € 45,000.00, if committed by a legal person;
+b) From € 250.00 to € 3,750.00, if committed by a natural person.
+Article 64
+Negligence
+The administrative offences referred to in paragraph 1 of Article 61, in paragraph 1
+of Article 62 and in points (a) and (b) of paragraph 1 of Article 63 are likewise
+punishable when committed negligently, the minimum and maximum limits of the
+fines being reduced by half.
+Article 65
+Exemption from the application of fines
+All essential, important and relevant public entities may, by means of a duly
+reasoned request, ask the competent cybersecurity authority for exemption from
+the application of the fines referred to in paragraph 2 of Article 61 and in
+paragraph 2 of Article 62, on the grounds of the absence of an internal procedure
+for the adaptation of those entities to the new legal regime, during 12 months from
+the entry into force of this Decree-Law.
+Article 66
+Determination of the amount of the fine
+1 — The specific fine is determined according to the seriousness of the specific
+unlawfulness of the act, the culpability of the agent, the agent’s economic situation
+and the economic benefit that the agent derived from the commission of the
+administrative offence.
+2 — In determining the specific unlawfulness of the act and the culpability of the
+agent, regard is had to the following circumstances:
+a) The seriousness of the infringement;
+b) The duration of the infringement;
+c) The occasional or repeated nature of the infringement;
+d) The damage caused, including any financial or economic losses, the effects on
+other services and the number of users affected;
+e) The measures taken by the entity to prevent or mitigate the damage referred to
+in the preceding point;
+f) The level of cooperation of the responsible natural or legal persons with the
+competent cybersecurity authority.
+3 — For the purposes of point (a) of the preceding paragraph, the following are
+presumed serious:
+a) Repeated violations of this Decree-Law;
+b) Failure to notify incidents under Articles 40 et seq.;
+c) Failure to remedy significant incidents;
+d) Failure to remedy deficiencies following binding instructions of the competent
+authorities;
+e) Obstruction of audits or monitoring activities ordered by the competent
+cybersecurity authority following the finding of an infringement of this Decree-Law;
+f) The provision of false or grossly inaccurate information in relation to the
+cybersecurity measures and duties relating to the cybersecurity measures, under
+the provisions of Articles 27 et seq., or to the notification obligations, under the
+provisions of Articles 40 et seq.
+4 — The provisions of point (f) of the preceding paragraph are without prejudice to
+liability under the Penal Code.
+5 — Except in the case of intent, the institution of administrative offence
+proceedings depends on a prior warning to the agent, by the competent
+cybersecurity authority, to comply with the omitted obligation or to restore
+compliance with the prohibition breached within a reasonable time limit.
+Article 67
+Ancillary sanctions and other determinations
+Where the seriousness of the infringement and the culpability of the offender so
+justify, the competent cybersecurity authority may determine, simultaneously with
+the fine:
+a) The publication in the Diário da República and in one of the newspapers with the
+largest national, regional or local circulation, depending on the relevant
+geographical market, at the expense of the offender, of an extract of the conviction
+decision or, at least, of the operative part of the conviction decision handed down in
+proceedings instituted under this Decree-Law, after it has become final;
+b) A prohibition on participating in public procurement procedures, where
+applicable;
+c) The adoption and implementation of a cybersecurity training plan, to be
+implemented within six months;
+d) The adoption or amendment of a security plan, to be implemented within six
+months;
+e) The suspension of the provision of the service until the omitted duties are
+complied with;
+f) The temporary prohibition of the holders of the management, direction and
+administration bodies from exercising their respective functions.
+Article 68
+Periodic penalty payments
+1 — The addressees of a decision of the competent cybersecurity authority become
+liable to pay a pecuniary sum for each day of delay in compliance, counted from the
+date of the respective notification.
+2 — For the purposes of the preceding paragraph, a periodic penalty payment is
+the imposition on the agent of the payment of a pecuniary sum for each day of non-
+compliance occurring beyond the time limit set for compliance with the obligation.
+3 — The periodic penalty payment is set according to criteria of reasonableness
+and proportionality, the daily amount of the penalty provided for in the preceding
+paragraph being set at € 500.00 when committed by a legal person and at € 100.00
+when committed by a natural person.
+4 — The daily amounts set may increase for each day of non-compliance, and may
+not, in any case, exceed the maximum duration of 30 days.
+Article 69
+Limitation period for proceedings
+1 — Proceedings for serious and very serious administrative offences are
+extinguished by limitation once a period of five years has elapsed since the
+commission of the administrative offence, without prejudice to the causes of
+interruption and suspension provided for under the general terms.
+2 — Proceedings for minor administrative offences are extinguished by limitation
+once a period of three years has elapsed since the commission of the administrative
+offence, without prejudice to the causes of interruption and suspension provided
+for under the general terms.
+Article 70
+Limitation period for fines and ancillary sanctions
+1 — The limitation period for fines and ancillary sanctions is:
+a) Three years, in the case of serious and very serious administrative offences;
+b) Two years, in the case of minor administrative offences.
+2 — The period is counted from the date on which the conviction decision becomes
+definitive or final.
+Article 71
+Rule on the competence of the competent authorities
+The institution and investigation of administrative offence proceedings, as well as
+the application of fines, fall within the competence of the competent cybersecurity
+authority.
+Article 72
+Notifications
+1 — Notifications made by the competent cybersecurity authorities are made
+electronically or, at the reasoned request of the entity, by registered letter or in
+person.
+2 — Electronic notification is made by making it available in a digital area with
+access reserved to the addressee, integrated in the platform provided for in
+paragraph 7 of Article 8 and associated with the email address registered on it by
+the addressee, and also, cumulatively, through the public electronic notification
+service (SPNE), whenever it is found that the addressee has joined it, under
+Decree-Law No. 93/2017, of 1 August, as currently worded.
+3 — The making available is accompanied by the sending of a notice to the
+addressee to the email address registered on the platform provided for in
+paragraph 7 of Article 8, indicating the sending authority and the means of access
+to the addressee’s reserved area.
+4 — Electronic notification is deemed to have been made on the date of electronic
+consultation of the digital area with reserved access of the platform provided for in
+paragraph 7 of Article 8 or, if this does not occur within the first three days from
+receipt, at the end of that period.
+5 — Postal notification is presumed to have been made on the third working day
+after registration.
+Article 73
+Proceeds of fines
+The proceeds of fines revert:
+a) 60% to the State;
+b) 40% to the CNCS or to the competent national sectoral cybersecurity authority,
+depending on the entity that instituted and investigated the proceedings.
+Article 74
+Costs
+1 — Costs relating to the charges for processing, archiving and making available
+the administrative offence proceedings are also due for such proceedings.
+2 — The decisions of the competent cybersecurity authority on the substance of the
+proceedings must set the amount of the costs.
+3 — The costs are intended to cover the expenses incurred in the proceedings.
+4 — Reimbursement of the expenses with notifications and communications,
+audiovisual means and materials used in the proceedings is calculated:
+a) Where the proceedings are processed, totally or partially, on paper, at the rate of
+half of 0.5 UC for the first 50 sheets or fraction of the file and one tenth of a UC for
+each subsequent set of 25 sheets or fraction of the file, without prejudice to the
+provisions of the following paragraphs;
+b) Where the proceedings are processed primarily in digital form, up to a maximum
+of 5 UC, having regard to the complexity of the proceedings and the acts
+performed.
+5 — The costs also include the following charges:
+a) The remuneration of experts, translators, interpreters and technical consultants;
+b) The payment due for travel or payments to any entity for the cost of technical
+services, certificates or other elements of information and evidence.
+6 — Where copies or certificates of the proceedings or of parts thereof are
+provided, in physical or digital form, at the request of the defendant, an amount
+calculated under the terms provided for in the same paragraphs is added to the
+amount referred to in the preceding paragraphs.
+7 — The costs are borne by the defendant and co-liable parties under this Decree-
+Law, in the event of the application of an admonition, a fine or an ancillary
+sanction.
+8 — The costs revert to the CNCS or to the national sectoral cybersecurity
+authority, depending on the competence for processing the administrative offence
+proceedings.
+Article 75
+Compliance with an omitted duty
+Whenever the administrative offence results from the omission of a duty, the
+application of the sanction and the payment of the fine do not exempt the offender
+from complying with it, if compliance is still possible.
+Article 76
+Suspension of the enforcement of the fine
+1 — The competent cybersecurity authority suspends the enforcement of the fine
+imposed, having regard to the non-repeated nature of the agent’s unlawful
+conduct, to the circumstances of the commission of the infringement and to the
+agent’s conduct before and after the crime, whenever it concludes that the simple
+censure of the act, the subjection to ancillary sanctions and the threat of a fine
+adequately and sufficiently achieve the preventive and corrective purposes of the
+sanction.
+2 — The competent cybersecurity authority, if it deems it appropriate for achieving
+the purposes of the punishment, makes the suspension of the enforcement of the
+fine subject to compliance with the sanctions and determinations provided for in
+Article 67, or with other duties it considers relevant.
+3 — The conviction decision always specifies the grounds for the suspension and its
+conditions, including the respective duration.
+4 — The period of suspension is set between one and three years from the
+notification of the conviction decision or of the final judicial decision ruling on it.
+Article 77
+Revocation of the suspension of the enforcement of the fine
+1 — If, during the period of suspension, the convicted party fails to comply with any
+of the sanctions or determinations provided for in Article 67 or commits a very
+serious or serious administrative offence, the competent cybersecurity authority,
+after due procedure, revokes the decision suspending the enforcement of the fine.
+2 — Revocation determines the duty of immediate payment of the fine, without the
+defendant being able to demand reimbursement of any payments made or expenses
+incurred during the prior compliance with the ancillary sanctions imposed on the
+defendant.
+Article 78
+Extinction of the fine
+The fine is declared extinguished if, once the period of its suspension has elapsed,
+there are no grounds that could lead to its revocation.
+Article 79
+Personal data breach
+1 — Whenever the competent cybersecurity authority obtains a reasonable degree
+of certainty, in the course of a supervisory action or of the imposition of an
+enforcement measure, that the infringement of the obligations established in
+Articles 27 to 29 and in Articles 40 to 43 by an essential or important entity may
+entail a personal data breach, within the meaning of point 12 of Article 4 of the
+GDPR, which must be notified under Article 33 of that GDPR, that authority must,
+without undue delay, inform the CNPD.
+2 — Where the CNPD imposes a fine, under point (i) of paragraph 2 of Article 58 of
+the GDPR and the other applicable national law, the competent cybersecurity
+authority is prevented from imposing a fine as a result of the commission of the
+same infringement under this Decree-Law, without prejudice to the provisions of
+the following paragraph.
+3 — The competent cybersecurity authority may impose the enforcement measures
+provided for in points (a) to (h) of paragraph 1 of Article 56 on essential and
+important entities whose breach of the obligations arising from this Decree-Law
+results in a personal data breach incident.
+Article 80
+Challenge of the decisions of the competent cybersecurity authority
+1 — Without prejudice to the provisions of paragraph 3, once the decision handed
+down by the competent cybersecurity authority in administrative offence
+proceedings has been challenged, that authority forwards the respective case file
+to the Public Prosecution Service, preferably electronically, within 20 working
+days, and may attach submissions, as well as other elements or information it
+considers relevant for the decision of the case, and also offer means of evidence.
+2 — The forwarding of the case file electronically dispenses with the sending of the
+respective originals, without prejudice to the duty to produce the procedural
+documents on paper and the originals of the documents contained therein, where
+they exist, whenever the Public Prosecution Service or the judge so determines.
+3 — The decisions or any measures adopted and applied by the competent
+cybersecurity authority in administrative offence proceedings may be challenged
+before the courts of law, the appeal having to be lodged with the competent
+cybersecurity authority.
+4 — The challenge of any decisions handed down by the competent cybersecurity
+authority which, in administrative offence proceedings, determine the application
+of fines, ancillary sanctions or periodic penalty payments has suspensive effect.
+5 — The challenge of the other decisions or measures of the competent
+cybersecurity authority adopted in administrative offence proceedings has merely
+devolutive effect and complies with the rules provided for in this article.
+6 — The competent cybersecurity authority, the Public Prosecution Service and the
+defendants may object to the court deciding by order, without a trial hearing.
+7 — The competent cybersecurity authority has standing to appeal autonomously
+against any judgments and orders that are not merely procedural, including those
+concerning nullities and other preliminary or incidental questions, or the
+application of precautionary measures, as well as to respond to appeals lodged.
+8 — The decisions of the courts of law that admit appeal, under the terms provided
+for in the regime of administrative offences (ilícito de mera ordenação social),
+approved by Decree-Law No. 433/82, of 27 October, as currently worded, may be
+challenged before the Lisbon Court of Appeal.
+9 — The Court of Appeal, within the scope of the competence provided for in the
+preceding paragraph, decides as the court of last instance, no ordinary appeal lying
+against its judgments.
+Article 81
+Subsidiary law
+In matters of administrative offences, in all matters not provided for in this Decree-
+Law, the provisions of the regime of administrative offences (ilícito de mera
+ordenação social), approved by Decree-Law No. 433/82, of 27 October, as currently
+worded, apply subsidiarily.
+CHAPTER VIII
+Complementary provisions
+SECTION I
+Other provisions
+Article 82
+Supervisory fee
+1 — A supervisory fee may be charged to essential and important entities in return
+for the supervisory acts performed, to be set according to the costs necessary for
+the provision of supervisory services.
+2 — Supervisory fees comply with the principle of proportionality and are set in
+accordance with objective and transparent criteria.
+3 — The regime governing the fees referred to in the preceding paragraphs is set
+by ministerial order (portaria) of the members of the Government responsible for
+the areas of finance and cybersecurity.
+Article 83
+Communications
+1 — Communications between entities and the CNCS, or the national sectoral
+cybersecurity authorities referred to in point (a) of paragraph 2 of Article 15,
+including incident notifications under Articles 40 et seq., must follow the format
+and procedure defined by the CNCS in a regulation to be approved by the CNCS.
+2 — In the absence of an applicable regulatory provision, all communications
+addressed to the competent cybersecurity authority, within the scope of this
+Decree-Law, as well as the sending of information, must be carried out by
+electronic means.
+3 — In cases where the entity temporarily lacks the operational capacity to ensure
+the communication provided for in the preceding paragraphs, or in cases where the
+website of the competent cybersecurity authority is unavailable, as a result of the
+incident or for another duly justified reason of an eminently technical nature, the
+notification may be made, on an exceptional basis, by email or by telephone.
+4 — The format and procedure referred to in paragraph 1 are adopted by the
+CNCS, after prior hearing of the competent national sectoral cybersecurity
+authorities, which may also adopt their own formats and procedures, adapted to
+their specificities, as referred to in paragraph 1.
+5 — The cases referred to in paragraph 3 are the subject of technical instructions
+of the CNCS, adopted in coordination with the national sectoral cybersecurity
+authorities.
+Article 84
+Security and integrity of information
+1 — The CNCS and the national sectoral cybersecurity authorities competent under
+the provisions of point (a) of paragraph 2 of Article 15 keep and manage the
+information on security and integrity in a secure information system, in accordance
+with the provisions concerning the security of classified information at national
+level and within the international organisations to which Portugal is a party.
+2 — Access to the electronic systems and websites for the processing of the
+notifications provided for in this Decree-Law should preferably be made using an
+electronic identification system with a high level of assurance, under the terms
+defined by Articles 8 and 9 of Regulation (EU) No 910/2014, of the European
+Parliament and of the Council, of 23 July 2014, on electronic identification and
+trust services, namely by means of the Citizen Card and the Digital Mobile Key, as
+amended by Directive (EU) 2022/2555, of the European Parliament and of the
+Council, of 14 December 2022, and by Regulation (EU) 2024/1183, of the European
+Parliament and of the Council, of 11 April 2024.
+CHAPTER IX
+Final provisions
+Article 85
+Approval of the national plan for response to large-scale cybersecurity
+crises and incidents
+The plan referred to in Article 13 is approved within six months after the entry into
+force of this Decree-Law.
+Article 86
+Provision of resources and operational independence of the CNCS
+In order to pursue its attributions and exercise the competences provided for in
+this Decree-Law, the CNCS must be provided with the necessary resources and
+benefits from operational independence in relation to the supervised entities.
+Article 87
+Interoperability and access to information
+1 — The CNCS has free access to the national databases and registers relevant for
+the fulfilment of the attributions and exercise of the competences provided for in
+this Decree-Law and other legislation in matters of cybersecurity, in particular for
+the assignment or confirmation of the qualification of entities.
+2 — The public entities responsible for the national databases and registers
+provided for in the preceding paragraph provide access to them by means of an
+interoperability solution stipulated in a protocol and suitable for that purpose.
+3 — The failure to sign the protocols referred to in the preceding paragraph does
+not prevent access to the relevant information by the CNCS, and the public entities
+responsible for the national databases and registers must provide all the necessary
+information whenever requested by the CNCS.
+ANNEX I
+[referred to in paragraphs 1 and 2 and point (b) of paragraph 2 of Article 3, points
+(a) and (f) of paragraph 1 and paragraphs 2 and 3 of Article 6, point (a) of
+paragraph 2 of Article 12 and point (d) of paragraph 1 of Article 35]
+Sectors of high criticality
+Sector Subsector Type of entity
+1. Energy a) Electricity Electricity undertakings within the
+meaning of point 57 of Article 2 of
+Directive (EU) 2019/944 of the European
+Parliament and of the Council, which
+carry out the function of “supply” within
+the meaning of point 12 of Article 2 of
+that Directive
+Distribution system operators within the
+meaning of point 29 of Article 2 of
+Directive (EU) 2019/944
+Transmission system operators within the
+meaning of point 35 of Article 2 of
+Directive (EU) 2019/944
+Producers within the meaning of Article
+2, point 38 of Directive (EU) 2019/944
+Nominated electricity market operators
+within the meaning of point 8 of Article 2
+of Regulation (EU) 2019/943 of the
+European Parliament and of the Council
+Market participants within the meaning
+of point 25 of Article 2 of Regulation (EU)
+2019/943, providing aggregation,
+demand response or energy storage
+services within the meaning of points 18,
+20 and 59 of Article 2 of Directive (EU)
+2019/944
+The operators of a recharging point that
+are responsible for the management and
+operation of a recharging point which
+provides a recharging service to end
+users, including in the name and on
+behalf of a mobility service provider
+b) District heating Operators of district heating or district
+and cooling cooling within the meaning of point 19 of
+Article 2 of Directive (EU) 2018/2001, of
+the European Parliament and of the
+Council
+c) Oil Operators of oil transmission pipelines
+Operators of oil production, refining and
+treatment facilities, storage and
+transmission
+Central stockholding entities within the
+meaning of point (f) of Article 2 of
+Council Directive 2009/119/EC
+d) Gas Supply undertakings within the meaning
+of point 8 of Article 2 of Directive
+2009/73/EC of the European Parliament
+and of the Council
+Distribution system operators within the
+meaning of point 6 of Article 2 of
+Directive 2009/73/EC
+Transmission system operators within the
+meaning of point 4 of Article 2 of
+Directive 2009/73/EC
+Storage system operators within the
+meaning of point 10 of Article 2 of
+Directive 2009/73/EC
+LNG system operators within the
+meaning of point 12 of Article 2 of
+Directive 2009/73/EC
+Natural gas undertakings within the
+meaning of point 1 of Article 2 of
+Directive 2009/73/EC
+Operators of natural gas refining and
+treatment facilities
+e) Hydrogen Operators of hydrogen production,
+storage and transmission
+2. Transport a) Air Air carriers within the meaning of point 4
+of Article 3 of Regulation (EC) No
+300/2008 used for commercial purposes
+Airport managing bodies within the
+meaning of point 2 of Article 2 of
+Directive 2009/12/EC of the European
+Parliament and of the Council, airports
+within the meaning of point 1 of Article 2
+of that Directive, including the core
+airports listed in Section 2 of Annex II to
+Regulation (EU) No 1315/2013 of the
+European Parliament and of the Council,
+and entities operating ancillary
+installations contained within airports
+Traffic management control operators
+providing air traffic control (ATC)
+services within the meaning of point 1 of
+Article 2 of Regulation (EC) No 549/2004
+of the European Parliament and of the
+Council
+b) Rail Infrastructure managers within the
+meaning of point 2 of Article 3 of
+Directive 2012/34/EU of the European
+Parliament and of the Council
+Railway undertakings within the meaning
+of point 1 of Article 3 of Directive
+2012/34/EU, including operators of
+service facilities within the meaning of
+point 12 of Article 3 of that Directive
+c) Water Inland, sea and coastal passenger and
+freight water transport companies, as
+defined for maritime transport in Annex I
+to Regulation (EC) No 725/2004 of the
+European Parliament and of the Council,
+not including the individual vessels
+operated by those companies
+Managing bodies of ports within the
+meaning of point 1 of Article 3 of
+Directive 2005/65/EC of the European
+Parliament and of the Council, including
+their port facilities within the meaning of
+point 11 of Article 2 of Regulation (EC)
+No 725/2004, and entities operating
+works and equipment contained within
+ports
+Operators of vessel traffic services (VTS)
+within the meaning of point (o) of Article
+3 of Directive 2002/59/EC of the
+European Parliament and of the Council
+d) Road Road authorities within the meaning of
+point 12 of Article 2 of Commission
+Delegated Regulation (EU) 2015/962
+responsible for traffic management
+control, excluding public entities for
+which traffic management or the
+operation of intelligent transport systems
+is a non-essential part of their general
+activity
+Operators of Intelligent Transport
+Systems within the meaning of point 1 of
+Article 4 of Directive 2010/40/EU of the
+European Parliament and of the Council
+3. Banking Credit institutions, as defined in point 1
+of Article 4 of Regulation (EU) No
+575/2013 of the European Parliament and
+of the Council
+4. Financial market Operators of trading venues within the
+infrastructures meaning point 24 of Article 4 of Directive
+2014/65/EU of the European Parliament
+and of the Council
+Central counterparties (CCPs) within the
+meaning of point 1 of Article 2 of
+Regulation (EU) No 648/2012 of the
+European Parliament and of the Council
+5. Health Healthcare providers within the meaning
+of point (g) of Article 3 of Directive
+2011/24/EU of the European Parliament
+and of the Council
+EU reference laboratories referred to in
+Article 15 of Regulation (EU) 2022/2371,
+of the European Parliament and of the
+Council
+Entities carrying out research and
+development activities of medicinal
+products within the meaning of point 2 of
+Article 1 of Directive 2001/83/EC, of the
+European Parliament and of the Council
+6. Drinking water Suppliers and distributors of water
+intended for human consumption within
+the meaning of point 1(a) of Article 2 of
+Directive (EU) 2020/2184 of the
+European Parliament and of the Council,
+excluding distributors for which
+distribution of water for human
+consumption is a non-essential part of
+their general activity of distributing other
+commodities and goods
+7. Waste water Undertakings collecting, disposing of or
+treating urban waste water, domestic
+waste water or industrial waste water
+within the meaning of points 1, 2 and 3 of
+Article 2 of Council Directive
+91/271/EEC, excluding undertakings for
+which collecting, disposing of or treating
+urban waste water, domestic waste water
+or industrial waste water is a non-
+essential part of their general activity
+8. Digital Internet exchange point providers
+infrastructure
+DNS service providers, excluding
+operators of root name servers
+TLD name registries
+Cloud computing service providers
+Data centre service providers
+Content delivery network providers
+Trust service providers
+Providers of public electronic
+communications networks
+Providers of publicly available electronic
+communications services
+9. ICT service Managed service providers
+management
+(business-to-
+business)
+Managed security service providers
+10. Space Operators of ground-based
+infrastructure, owned, managed and
+operated by Member States or by private
+parties, that support the provision of
+space-based services, excluding
+providers of public electronic
+communications networks
+ANNEX II
+[referred to in paragraphs 1 and 2 and point (b) of paragraph 2 of Article 3, point
+(f) of paragraph 1 and paragraphs 2 and 3 of Article 6, point (a) of paragraph 2 of
+Article 12 and point (d) of paragraph 1 of Article 35]
+Other critical sectors
+Sector Subsector Type of entity
+1. Postal and courier Postal service providers within the
+services meaning of Law No. 17/2012, of 26 April,
+as currently worded, including providers
+of courier services
+2. Waste Undertakings carrying out waste
+management management within the meaning of point
+9 of Article 3 of Directive 2008/98/EC of
+the European Parliament and of the
+Council, excluding undertakings for
+which waste management is not their
+principal economic activity
+3. Manufacture, Undertakings carrying out the
+production and manufacture of substances and the
+distribution of distribution of substances or mixtures, as
+chemicals referred to in points 9 and 14 of Article 3
+of Regulation (EC) No 1907/2006 of the
+European Parliament and of the Council
+and undertakings carrying out the
+production of “articles”, within the
+meaning of point 3 of Article 3 of that
+Regulation, from substances or mixtures
+4. Production, Food businesses, within the meaning of
+processing and point 2 of Article 3 of Regulation (EC) No
+distribution of food 178/2002 of the European Parliament and
+of the Council, which are engaged in
+wholesale distribution and industrial
+production and processing
+5. Manufacturing a) Manufacture of Entities manufacturing medical devices
+medical devices within the meaning of point 1 of Article 2
+and in vitro of Regulation (EU) 2017/745 of the
+diagnostic medical European Parliament and of the Council,
+devices and entities manufacturing in vitro
+diagnostic medical devices within the
+meaning of point 2 of Article 2 of
+Regulation (EU) 2017/746 of the
+European Parliament and of the Council,
+with the exception of entities
+manufacturing medical devices referred
+to in the fifth indent of point 5 of Annex I
+to Directive (EU) 2022/2555 of the
+European Parliament and of the Council,
+of 14 December 2022, on measures for a
+high common level of cybersecurity
+across the Union, amending Regulation
+(EU) No 910/2014 and Directive (EU)
+2018/1972, and repealing Directive (EU)
+2016/1148 (NIS 1)
+b) Manufacture of Undertakings carrying out any of the
+computer, economic activities referred to in division
+electronic and 26 of section C of NACE Rev. 2
+optical products
+c) Manufacture of Undertakings carrying out any of the
+electrical economic activities referred to in division
+equipment 27 of section C of NACE Rev. 2
+d) Manufacture of Undertakings carrying out any of the
+machinery and economic activities referred to in division
+equipment (not 28 of section C of NACE Rev. 2
+specified)
+e) Manufacture of Undertakings carrying out any of the
+motor vehicles, economic activities referred to in division
+trailers and semi- 29 of section C of NACE Rev. 2
+trailers
+f) Manufacture of Undertakings carrying out any of the
+other transport economic activities referred to in division
+equipment 30 of section C of NACE Rev. 2
+6. Digital providers Providers of online marketplaces
+Providers of online search engines
+Providers of social networking services
+platforms
+7. Research Research organisations
+ANNEX III
+[referred to in point (a) of paragraph 1 of Article 3, points (a) and (c) of paragraph
+1 of Article 6, point (f) of paragraph 2 of Article 7 and point (i) of paragraph 2 of
+Article 12]
+Article 1
+Enterprise
+An enterprise is considered to be any entity which, irrespective of its legal form,
+carries out an economic activity. In particular, entities carrying out a craft activity
+or other activities on an individual or family basis, partnerships or associations
+regularly engaged in an economic activity are considered as such.
+Article 2
+Categories
+1 — The category of micro, small and medium-sized enterprises (SMEs) is made up
+of enterprises which employ fewer than 250 persons and which have an annual
+turnover not exceeding 50 million euros, or an annual balance sheet total not
+exceeding 43 million euros.
+2 — Within the SME category, a small enterprise is defined as an enterprise which
+employs fewer than 50 persons and whose annual turnover or annual balance sheet
+total does not exceed 10 million euros.
+3 — Within the SME category, a microenterprise is defined as an enterprise which
+employs fewer than 10 persons and whose annual turnover or annual balance sheet
+total does not exceed 2 million euros.
+119836937

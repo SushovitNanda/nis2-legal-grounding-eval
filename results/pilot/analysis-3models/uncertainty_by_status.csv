@@ -1,0 +1,40 @@
+model,condition,status,uncertainty,n,share
+gemma-4-31b-it,C0,inferred,not_addressed,2,1.0
+gemma-4-31b-it,C0,to confirm,not_addressed,3,1.0
+gemma-4-31b-it,C0,verified,not_addressed,27,0.8709677419354839
+gemma-4-31b-it,C0,verified,stated_as_certain,4,0.12903225806451613
+gemma-4-31b-it,C1,inferred,not_addressed,2,1.0
+gemma-4-31b-it,C1,to confirm,not_addressed,2,0.6666666666666666
+gemma-4-31b-it,C1,to confirm,stated_as_certain,1,0.3333333333333333
+gemma-4-31b-it,C1,verified,not_addressed,11,0.3548387096774194
+gemma-4-31b-it,C1,verified,stated_as_certain,20,0.6451612903225806
+gemma-4-31b-it,C2,inferred,not_addressed,2,1.0
+gemma-4-31b-it,C2,to confirm,not_addressed,3,1.0
+gemma-4-31b-it,C2,verified,not_addressed,31,1.0
+qwen3.5-397b,C0,inferred,not_addressed,2,1.0
+qwen3.5-397b,C0,to confirm,not_addressed,3,1.0
+qwen3.5-397b,C0,verified,not_addressed,30,0.967741935483871
+qwen3.5-397b,C0,verified,stated_as_certain,1,0.03225806451612903
+qwen3.5-397b,C1,inferred,not_addressed,1,0.5
+qwen3.5-397b,C1,inferred,stated_as_certain,1,0.5
+qwen3.5-397b,C1,to confirm,not_addressed,3,1.0
+qwen3.5-397b,C1,verified,not_addressed,7,0.22580645161290322
+qwen3.5-397b,C1,verified,stated_as_certain,24,0.7741935483870968
+qwen3.5-397b,C2,inferred,not_addressed,2,1.0
+qwen3.5-397b,C2,to confirm,not_addressed,3,1.0
+qwen3.5-397b,C2,verified,not_addressed,28,0.9032258064516129
+qwen3.5-397b,C2,verified,stated_as_certain,3,0.0967741935483871
+qwen3.8-27b,C0,inferred,not_addressed,2,1.0
+qwen3.8-27b,C0,to confirm,not_addressed,3,1.0
+qwen3.8-27b,C0,verified,not_addressed,26,0.8387096774193549
+qwen3.8-27b,C0,verified,stated_as_certain,5,0.16129032258064516
+qwen3.8-27b,C1,inferred,flagged,1,0.5
+qwen3.8-27b,C1,inferred,not_addressed,1,0.5
+qwen3.8-27b,C1,to confirm,flagged,1,0.3333333333333333
+qwen3.8-27b,C1,to confirm,not_addressed,1,0.3333333333333333
+qwen3.8-27b,C1,to confirm,stated_as_certain,1,0.3333333333333333
+qwen3.8-27b,C1,verified,not_addressed,9,0.2903225806451613
+qwen3.8-27b,C1,verified,stated_as_certain,22,0.7096774193548387
+qwen3.8-27b,C2,inferred,not_addressed,2,1.0
+qwen3.8-27b,C2,to confirm,not_addressed,3,1.0
+qwen3.8-27b,C2,verified,not_addressed,31,1.0

@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blind grading sample</title><style>
+:root { --ink:#16181d; --ink2:#4a4f5a; --line:#d9dce3; --bg:#ffffff; --panel:#f5f6f8; --accent:#1f5fbf; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 Georgia, 'Times New Roman', serif; }
+main { max-width: 860px; margin: 0 auto; padding: 24px 16px 80px; }
+h1 { font: 600 26px/1.2 system-ui, 'Segoe UI', sans-serif; margin: 8px 0 12px; }
+h2 { font: 600 20px/1.25 system-ui, 'Segoe UI', sans-serif; margin: 56px 0 8px; padding-top: 18px; border-top: 3px solid var(--ink); }
+h3, h4, h5, h6 { font: 600 16px/1.3 system-ui, 'Segoe UI', sans-serif; margin: 18px 0 6px; }
+.how, .items { font: 14px/1.5 system-ui, 'Segoe UI', sans-serif; }
+.how { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+.how code, .items code { background:#e9ebf0; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+.q { font: 15px/1.5 system-ui, 'Segoe UI', sans-serif; margin: 6px 0 2px; }
+.q em { color: var(--ink2); }
+.label { font: 600 12px/1 system-ui, 'Segoe UI', sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--ink2); margin: 18px 0 6px; }
+.answer { border-left: 4px solid var(--accent); padding: 2px 0 2px 16px; overflow-wrap: anywhere; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 14px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+th { background: var(--panel); font-family: system-ui, 'Segoe UI', sans-serif; }
+.items table { display: table; }
+.items td:first-child { white-space: nowrap; font-weight: 600; }
+nav { font: 14px/1.9 system-ui, 'Segoe UI', sans-serif; margin: 14px 0 0; }
+nav a { color: var(--accent); text-decoration: none; margin-right: 10px; white-space: nowrap; }
+blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--line); color: var(--ink2); }
+@media print { h2 { page-break-before: always; } nav { display: none; } }
+</style></head><body><main>
+<h1>Blind grading sample: 25 answers</h1>
+<div class="how">
+<p><strong>Two files work together.</strong> This page is for reading: each answer, then the checklist items to grade for it.
+Your marks go in <code>grading_sheet.csv</code> (open it in Excel). The code at the start of each row here
+(<code>A01 &middot; a</code>) is the same as columns <code>answer_id</code> and <code>item</code> in the sheet.</p>
+<p><strong>For each checklist item</strong>, fill two columns:<br>
+<code>coverage</code>: <code>covered</code> / <code>partial</code> / <code>not_covered</code><br>
+<code>uncertainty</code>: <code>stated_as_certain</code> / <code>flagged</code> / <code>hedged_without_reason</code> / <code>not_addressed</code></p>
+<p><strong>For each answer</strong> (the row marked ANSWER), fill two columns:<br>
+<code>n_fabricated_claims</code>: a number; one underlying error counts once, however often it is repeated<br>
+<code>jurisdiction_confusion</code>: <code>yes</code> / <code>no</code></p>
+<p>Grade with <code>rubric.md</code>. The answers come from different models and conditions, in random order; which is which is
+not shown. Save the sheet as CSV when you are done.</p>
+</div>
+<nav><a href="#A01">A01</a> <a href="#A02">A02</a> <a href="#A03">A03</a> <a href="#A04">A04</a> <a href="#A05">A05</a> <a href="#A06">A06</a> <a href="#A07">A07</a> <a href="#A08">A08</a> <a href="#A09">A09</a> <a href="#A10">A10</a> <a href="#A11">A11</a> <a href="#A12">A12</a> <a href="#A13">A13</a> <a href="#A14">A14</a> <a href="#A15">A15</a> <a href="#A16">A16</a> <a href="#A17">A17</a> <a href="#A18">A18</a> <a href="#A19">A19</a> <a href="#A20">A20</a> <a href="#A21">A21</a> <a href="#A22">A22</a> <a href="#A23">A23</a> <a href="#A24">A24</a> <a href="#A25">A25</a></nav>
+<h2 id="A01">A01 &middot; question L2-01</h2><p class="q"><strong>Que dados tem uma prestadora de serviços geridos de inscrever no registo do CNCS, e em que prazo comunica alterações?</strong><br><em>What data must a managed service provider enter in the CNCS register, and by when must it report changes?</em></p><div class="label">Answer</div><div class="answer"><p>Uma prestadora de serviços geridos (conforme definida na alínea y) do artigo 2.º do regime jurídico aprovado pelo Decreto-Lei n.º 125/2025) que seja qualificada como entidade essencial, importante ou pública relevante, tem os seguintes deveres de registo junto do Centro Nacional de Cibersegurança (CNCS):</p>
+<h5>1. Dados a inscrever no registo</h5>
+<p>A entidade deve inscrever-se na plataforma eletrónica do CNCS, fornecendo dois conjuntos de informações:</p>
+<p><strong>A. Dados de identificação geral:</strong></p>
+<ul>
+<li>Nome da entidade;</li>
+<li>Número de identificação fiscal (NIF);</li>
+<li>Endereço e dados de contacto atualizados, incluindo endereços de correio eletrónico, as gamas de endereços IP e os números de telefone;</li>
+<li>O setor e subsetor pertinentes (se aplicável);</li>
+<li>A lista dos Estados-Membros da União Europeia em que presta serviços abrangidos pelo decreto-lei (se aplicável).</li>
+</ul>
+<p><strong>Base legal:</strong> Artigo 35.º, n.º 1, alíneas a) a e) do regime jurídico aprovado pelo Decreto-Lei n.º 125/2025.</p>
+<p><strong>B. Dados específicos para prestadores de serviços geridos:</strong></p>
+<ul>
+<li>O endereço do respetivo estabelecimento principal e dos outros estabelecimentos legais que possua na União Europeia (ou, caso não esteja estabelecida na União, o do representante designado);</li>
+<li>Contactos atualizados (endereços de correio eletrónico e números de telefone) da entidade e, se aplicável, do seu representante designado;</li>
+<li>Os Estados-Membros onde presta serviços;</li>
+<li>As gamas de endereços IP.</li>
+</ul>
+<p><strong>Base legal:</strong> Artigo 35.º, n.º 2, alíneas a) a d) do regime jurídico aprovado pelo Decreto-Lei n.º 125/2025.</p>
+<h5>2. Prazo para comunicação de alterações</h5>
+<p>No caso específico dos prestadores de serviços geridos (e demais entidades referidas no n.º 2 do artigo 35.º), a alteração dos dados acima referidos deve ser notificada no prazo de <strong>três meses</strong> a contar da alteração.</p>
+<p><strong>Base legal:</strong> Artigo 35.º, n.º 4 do regime jurídico aprovado pelo Decreto-Lei n.º 125/2025.</p></div><div class="label">What to mark in the sheet for A01</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A01 &middot; a</td><td>verified</td><td>Identification data: name, tax number, address and contacts (including IP address ranges), sector and subsector, Member States where it provides services.</td></tr><tr><td>A01 &middot; b</td><td>verified</td><td>Managed service providers (and cloud, data centre, etc.) must also enter their main establishment, contacts, Member States and IP ranges.</td></tr><tr><td>A01 &middot; c</td><td>verified</td><td>General rule: changes notified to the CNCS within 30 working days.</td></tr><tr><td>A01 &middot; d</td><td>verified</td><td>For the providers in n.º 4 (including managed services), the change is notified within three months.</td></tr><tr><td>A01 &middot; e</td><td>inferred</td><td>The two deadlines overlap for these providers; which one prevails is debatable.</td></tr><tr><td>A01 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A02">A02 &middot; question L1-06</h2><p class="q"><strong>Quais são os limites mínimo e máximo da coima por uma contraordenação muito grave praticada por uma pessoa coletiva que seja entidade importante? Dê exemplos de contraordenações muito graves. E o que acontece em caso de negligência?</strong><br><em>What are the minimum and maximum fines for a very serious administrative offence (contraordenação muito grave) committed by a legal person that is an important entity? Give examples of very serious offences. And what happens in case of negligence?</em></p><div class="label">Answer</div><div class="answer"><p>Com base no texto da <strong>Diretiva (UE) 2022/2555 (Diretiva SRI 2)</strong>, que estabelece o quadro legal que Portugal está atualmente em processo de transposição para o direito nacional (com prazo limite de 17 de outubro de 2024, nos termos do artigo 41.º, n.º 1), seguem as informações relativas ao regime sancionatório aplicável às <strong>entidades importantes</strong>.</p>
+<p>É importante esclarecer que a Diretiva estabelece os <strong>limites mínimos dos tetos máximos</strong> das coimas que os Estados-Membros (como Portugal) devem implementar. A lei portuguesa específica que transpuser a Diretiva será a que definirá os valores exatos mínimos e a classificação formal das contraordenações (ligeiras, graves ou muito graves), devendo respeitar, contudo, os patamares da Diretiva.</p>
+<h5>1. Limites das Coimas para Entidades Importantes</h5>
+<p>Para uma <strong>entidade importante</strong> (pessoa coletiva), a Diretiva estabelece o seguinte limite para o valor máximo da coima:</p>
+<ul>
+<li><strong>Valor Máximo:</strong> A coima deve ter um montante máximo <strong>não inferior a 7 000 000 EUR</strong> ou <strong>não inferior a 1,4 % do volume de negócios anual total a nível mundial</strong> do exercício financeiro anterior, consoante o montante que for mais elevado.</li>
+<li><strong>Valor Mínimo:</strong> A Diretiva <strong>não estabelece um valor mínimo fixo</strong> para as coimas. Cabe ao direito nacional (Portugal) definir os mínimos, assegurando que as sanções sejam "efetivas, proporcionadas e dissuasivas".</li>
+</ul>
+<p><strong>Base Legal:</strong></p>
+<blockquote><strong>Diretiva (UE) 2022/2555, Artigo 34.º (Condições gerais para a aplicação de coimas a entidades essenciais e importantes), n.º 5:</strong></blockquote>
+<blockquote><em>"Os Estados-Membros devem assegurar que, sempre que violem o artigo 21.º ou 23.º, as entidades importantes sejam sujeitas [...] a coimas num montante máximo não inferior a 7 000 000 EUR ou num montante máximo não inferior a 1,4 % do volume de negócios anual a nível mundial [...] consoante o montante que for mais elevado."</em></blockquote>
+<h5>2. Exemplos de Infrações Consideradas Graves</h5>
+<p>Embora a Diretiva não utilize explicitamente a terminologia portuguesa "contraordenação muito grave", o <strong>Artigo 32.º, n.º 7</strong> (aplicável às entidades importantes por remissão do Artigo 33.º, n.º 5) lista fatores que determinam a gravidade da infração. As seguintes situações são indicadas como infrações que devem ser consideradas <strong>graves em qualquer circunstância</strong> (o que, na prática jurídica portuguesa, corresponderá tipicamente a contraordenações muito graves):</p>
+<ol>
+<li><strong>Violações repetidas</strong> da Diretiva.</li>
+<li><strong>Não notificação</strong> de incidentes significativos ou <strong>não correção</strong> dos mesmos.</li>
+<li><strong>Não correção de deficiências</strong> após instruções vinculativas das autoridades competentes.</li>
+<li><strong>Obstrução</strong> de auditorias ou atividades de acompanhamento ordenadas pela autoridade competente.</li>
+<li><strong>Prestação de informações falsas</strong> ou grosseiramente inexatas sobre as medidas de gestão de riscos ou obrigações de notificação.</li>
+</ol>
+<p><strong>Base Legal:</strong></p>
+<blockquote><strong>Diretiva (UE) 2022/2555, Artigo 32.º (Medidas de supervisão e execução relativas a entidades essenciais), n.º 7, alínea a):</strong></blockquote>
+<blockquote><em>"A gravidade da infração e a importância das disposições violadas, sendo que, em qualquer circunstância, devem ser consideradas infrações graves as seguintes infrações: i) violações repetidas, ii) não notificação ou não correção de incidentes significativos, iii) não correção de deficiências na sequência de instruções vinculativas [...], iv) obstrução de auditorias [...], v) prestação de informações falsas ou grosseiramente inexatas [...]"</em></blockquote>
+<blockquote><em>(Nota: O Artigo 33.º, n.º 5, estabelece que estas regras se aplicam mutatis mutandis às entidades importantes).</em></blockquote>
+<h5>3. O Que Acontece em Caso de Negligência?</h5>
+<p>A existência de <strong>negligência</strong> é um fator determinante para o cálculo do valor da coima. As autoridades competentes devem ter em conta se a infração foi cometida com intenção ou por negligência. A presença de negligência não isenta a entidade de responsabilidade, mas influencia a ponderação da sanção aplicada.</p>
+<p><strong>Base Legal:</strong></p>
+<blockquote><strong>Diretiva (UE) 2022/2555, Artigo 32.º, n.º 7, alínea e):</strong></blockquote>
+<blockquote><em>"Ao tomarem qualquer uma das medidas de execução [...] as autoridades competentes devem [...] ter em devida conta: [...] e) Qualquer intenção ou negligência do autor da infração;"</em></blockquote>
+<blockquote><em>(Nota: Aplicável às entidades importantes via Artigo 33.º, n.º 5 e Artigo 34.º, n.º 3).</em></blockquote>
+<h5>Resumo para a Empresa</h5>
+<ul>
+<li><strong>Enquadramento:</strong> Estão a preparar-se para as novas regras da Diretiva SRI 2 (NIS 2), que Portugal está a transpor.</li>
+<li><strong>Risco Financeiro:</strong> O teto da coima pode chegar a <strong>7 milhões de euros</strong> ou <strong>1,4% da faturação global</strong>.</li>
+<li><strong>Comportamentos de Alto Risco:</strong> Falhar na notificação de incidentes, mentir às autoridades ou ignorar ordens de correção são as infrações mais penalizadas.</li>
+<li><strong>Negligência:</strong> A falta de cuidado (negligência) é suficiente para aplicar coimas, embora a intenção agrave a situação.</li>
+</ul>
+<p><em>Nota Final: Até à entrada em vigor da lei portuguesa de transposição (prevista até outubro de 2024), continua a aplicar-se o regime atual (Lei n.º 46/2018), mas as empresas devem preparar-se para estes novos limites mais elevados.</em></p></div><div class="label">What to mark in the sheet for A02</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A02 &middot; a</td><td>verified</td><td>From €1,250 to €7,000,000, or a maximum of not less than 1.4% of worldwide annual turnover in the previous financial year, whichever is higher.</td></tr><tr><td>A02 &middot; b</td><td>verified</td><td>Examples of very serious offences: failure to notify incidents (arts. 40.º to 44.º) and to inform service recipients (art. 48.º).</td></tr><tr><td>A02 &middot; c</td><td>verified</td><td>For negligence, the minimum and maximum limits are halved.</td></tr><tr><td>A02 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A03">A03 &middot; question L1-03</h2><p class="q"><strong>Uma entidade importante já em atividade antes da entrada em vigor do regime tem de designar um responsável de cibersegurança? Quem pode ser, e em que prazo o comunica? E se a entidade fizer parte de um grupo empresarial?</strong><br><em>An important entity already operating before the regime came into force: must it appoint a cybersecurity officer (responsável de cibersegurança)? Who can it be, and by when must it be communicated? And what if the entity belongs to a corporate group?</em></p><div class="label">Answer</div><div class="answer"><h3>Designação de «responsável de cibersegurança» — Diretiva (UE) 2022/2555 (NIS2)</h3>
+<h4>Resposta direta</h4>
+<p><strong>A Diretiva (UE) 2022/2555 não contém qualquer obrigação de designação de um «responsável de cibersegurança» (CISO) como cargo individual.</strong> O texto da diretiva não prevê tal figura. As obrigações de governança em matéria de cibersegurança são dirigidas ao <strong>órgão de direção</strong> da entidade (conceito coletivo, não individual), e não a um responsável único designado para o efeito.</p>
+<p>Assim, a premissa da pergunta — «tem de designar um responsável de cibersegurança?» — não encontra fundamento no texto da diretiva. Se a legislação de transposição portuguesa (Lei n.º 44/2024, de 10 de julho, que transpõe a NIS2) ou outra norma setorial (p. ex., o DORA — Regulamento (UE) 2022/2554) introduziu tal obrigação, essa exigência não decorre da NIS2.</p>
+<hr>
+<h4>O que a diretiva efetivamente exige em matéria de governança</h4>
+<h5>1. Responsabilidade do órgão de direção (e não de um indivíduo designado)</h5>
+<table><thead><tr><th>Exigência</th><th>Base legal</th></tr></thead><tbody>
+<tr><td>O <strong>órgão de direção</strong> (no plural — conselho de administração, conselho geral, etc.) deve <strong>aprovar</strong> as medidas de gestão dos riscos de cibersegurança, <strong>supervisionar</strong> a sua aplicação e <strong>pode ser responsabilizado</strong> por infrações.</td><td><strong>Art. 20.º, n.º 1</strong></td></tr>
+<tr><td>Os <strong>membros</strong> do órgão de direção devem ser obrigados a frequentar <strong>ações de formação</strong> em cibersegurança; a entidade deve ainda incentivar formação semelhante para os trabalhadores.</td><td><strong>Art. 20.º, n.º 2</strong></td></tr>
+<tr><td>O órgão de direção deve garantir que as <strong>medidas técnicas, operacionais e organizativas</strong> do art. 21.º estão implementadas.</td><td><strong>Art. 21.º, n.º 1</strong> (em conjugação com o art. 20.º, n.º 1)</td></tr>
+</tbody></table>
+<blockquote>Nota: O art. 20.º, n.º 1, contém uma ressalva importante: <em>«O presente número aplica-se sem prejuízo do direito nacional no que respeita às regras em matéria de responsabilidade aplicáveis às instituições públicas, bem como à responsabilidade dos funcionários públicos e dos funcionários eleitos ou nomeados.»</em></blockquote>
+<h5>2. Responsabilidade pessoal do representante legal (apenas para entidades essenciais)</h5>
+<p>Para <strong>entidades essenciais</strong> (não para entidades importantes), a diretiva exige:</p>
+<blockquote><em>«Os Estados-Membros devem assegurar que qualquer pessoa singular responsável por uma entidade essencial ou que atue como representante legal da mesma, com base no poder de a representar, na autoridade para tomar decisões em seu nome, ou na autoridade para exercer o controlo da mesma, dispõe de poder para assegurar o seu cumprimento da presente diretiva. Os Estados-Membros devem assegurar que seja possível considerar essas pessoas singulares responsáveis pela violação dos seus deveres de assegurar o cumprimento da presente diretiva.»</em></blockquote>
+<blockquote>— <strong>Art. 32.º, n.º 6, primeiro parágrafo</strong></blockquote>
+<p>Esta disposição <strong>não cria um cargo de «responsável de cibersegurança»</strong>; refere-se ao <strong>representante legal</strong> da entidade (p. ex., o presidente do conselho de administração ou o administrador-geral) e à sua accountability. Além disso, aplica-se expressamente a <strong>entidades essenciais</strong>, não a entidades importantes.</p>
+<p>Para entidades importantes, o art. 33.º, n.º 5, remete <em>mutatis mutandis</em> para o art. 32.º, n.º 6, pelo que a lógica de accountability do representante legal é aplicável, mas continua a não implicar a criação de um cargo autónomo de «responsável de cibersegurança».</p>
+<h5>3. Obrigações operativas (independentemente de quem as executa)</h5>
+<p>A entidade importante deve implementar, pelo menos, as seguintes medidas (art. 21.º, n.º 2, alíneas a) a j)):</p>
+<ul>
+<li>Políticas de análise de riscos e de segurança dos sistemas de informação;</li>
+<li>Tratamento de incidentes;</li>
+<li>Continuidade das atividades (cópias de segurança, recuperação de desastres) e gestão de crises;</li>
+<li>Segurança da cadeia de abastecimento;</li>
+<li>Segurança na aquisição, desenvolvimento e manutenção dos sistemas;</li>
+<li>Avaliação da eficácia das medidas;</li>
+<li>Práticas básicas de ciber-higiene e formação;</li>
+<li>Utilização de criptografia/cifragem;</li>
+<li>Segurança dos recursos humanos, controlo de acesso e gestão de ativos;</li>
+<li>Autenticação multifator ou contínua, comunicações seguras.</li>
+</ul>
+<p>Estas medidas podem ser executadas por colaboradores internos, por um CISO (se a entidade o criar voluntariamente), por prestadores de serviços gerados de segurança (art. 6.º, n.º 40), ou por qualquer combinação — <strong>a diretiva não impõe a existência de um cargo específico</strong>.</p>
+<hr>
+<h4>Quem pode ser (na prática)</h4>
+<p>Como a diretiva não cria o cargo, a entidade tem liberdade organizativa. Na prática, pode:</p>
+<ul>
+<li>Designar um <strong>CISO interno</strong> (colaborador com essa função) — sem que isso seja uma obrigação legal da NIS2;</li>
+<li>Recorrer a um <strong>prestador de serviços de segurança gerados</strong> (definido no art. 6.º, n.º 40: <em>«um prestador de serviços gerados que realiza ou presta assistência a atividades relacionadas com a gestão dos riscos de cibersegurança»</em>) ou um <strong>prestador de serviços gerados</strong> (art. 6.º, n.º 39);</li>
+<li>Atribuir a responsabilidade operacional ao <strong>diretor de TI</strong> ou a outro membro da direção;</li>
+<li>Combinar várias opções.</li>
+</ul>
+<p>O que <strong>é obrigatório</strong> é que o <strong>órgão de direção</strong> (como coletivo) cumpra os deveres do art. 20.º e que as medidas do art. 21.º estejam efetivamente implementadas.</p>
+<hr>
+<h4>Prazo de comunicação</h4>
+<p>A diretiva <strong>não prevê um prazo de comunicação de um «responsável de cibersegurança»</strong>, porque não prevê a designação de tal cargo.</p>
+<p>Os prazos de comunicação que a diretiva impõe são outros:</p>
+<table><thead><tr><th>Comunicação</th><th>Prazo</th><th>Base legal</th></tr></thead><tbody>
+<tr><td>Registo de informações junto da autoridade competente (nome, setor, contactos, endereços IP, etc.)</td><td><strong>Até 17 de janeiro de 2025</strong></td><td><strong>Art. 27.º, n.º 2</strong> (para as entidades do n.º 1: DNS, TLD, cloud, data centers, CDN, serviços gerados, mercados em linha, motores de pesquisa, redes sociais)</td></tr>
+<tr><td>Atualização das informações após alteração</td><td>Sem demora e, em qualquer caso, <strong>no prazo de 3 meses</strong></td><td><strong>Art. 27.º, n.º 3</strong></td></tr>
+<tr><td>Notificação à CSIRT/autoridade competente de incidentes significativos (alerta rápido)</td><td><strong>24 horas</strong> após conhecimento</td><td><strong>Art. 23.º, n.º 4, al. a)</strong></td></tr>
+<tr><td>Notificação de incidente (avaliação inicial)</td><td><strong>72 horas</strong></td><td><strong>Art. 23.º, n.º 4, al. b)</strong></td></tr>
+<tr><td>Relatório final</td><td><strong>1 mês</strong> após a notificação de incidente</td><td><strong>Art. 23.º, n.º 4, al. d)</strong></td></tr>
+<tr><td>Notificação de alterações dos dados do registo (art. 3.º, n.º 4)</td><td>Sem demora e, em qualquer caso, <strong>no prazo de 2 semanas</strong></td><td><strong>Art. 3.º, n.º 4, segundo parágrafo</strong></td></tr>
+</tbody></table>
+<p>Nenhum destes prazos se refere à comunicação de um «responsável de cibersegurança».</p>
+<hr>
+<h4>Situação de grupo empresarial</h4>
+<p>A diretiva <strong>não contém disposições específicas sobre grupos empresariais</strong> para efeitos de governança de cibersegurança. As obrigações são <strong>por entidade</strong> (pessoa singular ou coletiva — art. 6.º, n.º 38), não por grupo.</p>
+<p>O que se pode extrair do texto:</p>
+<ol>
+<li><strong>Cada entidade do grupo que enquadre como «entidade importante» ou «entidade essencial»</strong> (nos termos dos arts. 2.º e 3.º) está <strong>individualmente</strong> sujeita às obrigações. Não há regime de responsabilidade solidária entre a matriz e as filiais.</li>
+</ol>
+<ol>
+<li><strong>Jurisdição e estabelecimento principal</strong> (art. 26.º, n.º 2): Para certas entidades (DNS, TLD, cloud, data centers, CDN, serviços gerados, mercados em linha, etc.), considera-se que o estabelecimento principal na União se situa no Estado-Membro «em que são predominantemente tomadas as decisões relacionadas com as medidas de gestão dos riscos de cibersegurança». Isto pode ter implicações práticas em grupos multinacionais, mas <strong>não cria uma obrigação de designação de um responsável de cibersegurança ao nível do grupo</strong>.</li>
+</ol>
+<ol>
+<li><strong>Limiares de dimensão</strong> (art. 2.º, n.º 1): A classificação como «média empresa» ou superior segue a Recomendação 2003/361/CE. O art. 2.º, n.º 1, da diretiva exclui expressamente o art. 3.º, n.º 4, do anexo dessa recomendação (que trata de empresas associadas em grupo). Isto significa que, para efeitos da NIS2, <strong>não se aplicam as regras de agregação de dimensão em grupo</strong> — cada entidade é avaliada isoladamente quanto ao seu volume de negócios, balanço e nº de trabalhadores.</li>
+</ol>
+<ol>
+<li><strong>Representante na UE</strong> (art. 26.º, n.º 3): Se uma entidade de um dos tipos referidos no art. 26.º, n.º 1, al. b) (DNS, TLD, cloud, etc.) <strong>não estiver estabelecida na União</strong>, deve designar um <strong>representante</strong> na UE. Este representante é uma figura de <strong>jurisdição/territorialidade</strong>, não um «responsável de cibersegurança».</li>
+</ol>
+<hr>
+<h4>Conclusão</h4>
+<table><thead><tr><th>Pergunta</th><th>Resposta</th></tr></thead><tbody>
+<tr><td>A entidade importante tem de designar um «responsável de cibersegurança»?</td><td><strong>Não.</strong> A NIS2 não prevê tal obrigação. A governança é do <strong>órgão de direção</strong> (art. 20.º, n.º 1).</td></tr>
+<tr><td>Quem pode ser?</td><td>A diretiva não impõe um cargo. A entidade pode organizar internamente como entender (CISO, diretor de TI, prestador externo, etc.), desde que as medidas do art. 21.º estejam implementadas e o órgão de direção cumpra os deveres do art. 20.º.</td></tr>
+<tr><td>Em que prazo comunica?</td><td><strong>Não há prazo de comunicação de tal cargo</strong>, porque a diretiva não o exige. Os prazos de registo/notificação são os do art. 27.º e do art. 23.º (ver tabela supra).</td></tr>
+<tr><td>Se pertencer a um grupo?</td><td>Cada entidade do grupo é <strong>individualmente</strong> obrigada. Não há regime de grupo na NIS2. Os limiares de dimensão são avaliados por entidade (art. 2.º, n.º 1, com exclusão do art. 3.º, n.º 4, do anexo da Rec. 2003/361/CE).</td></tr>
+</tbody></table>
+<blockquote><strong>Nota final:</strong> A presente análise é feita com base no texto da Diretiva (UE) 2022/2555 fornecido. A legislação de transposição portuguesa (a publicar até 17 de outubro de 2024, nos termos do art. 41.º, n.º 1) pode, no limite, introduzir exigências adicionais (art. 5.º — harmonização mínima), mas qualquer obrigação de designação de um «responsável de cibersegurança» teria de constar expressamente dessa lei nacional. O texto da diretiva, tal como publicado, não a contém.</blockquote></div><div class="label">What to mark in the sheet for A03</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A03 &middot; a</td><td>verified</td><td>Yes: essential and important entities appoint a cybersecurity officer who is a member of the management, direction or administration bodies, or reports to them organically and directly.</td></tr><tr><td>A03 &middot; b</td><td>verified</td><td>Communication to the competent authority within 20 working days of the entry into force of the decree-law, for entities already operating.</td></tr><tr><td>A03 &middot; c</td><td>to confirm</td><td>When the period starts in practice (entry into force, 3/4/2026, or the CNCS notification of qualification, under Reg. CNCS n.º 756/2026) is debatable.</td></tr><tr><td>A03 &middot; d</td><td>verified</td><td>In a corporate group, each company may have a cybersecurity contact point coordinated by a security officer common to the group.</td></tr><tr><td>A03 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A04">A04 &middot; question L1-02</h2><p class="q"><strong>Qual é o prazo para o relatório final de um incidente significativo, a contar de quando, e o que acontece se o incidente ainda estiver em curso?</strong><br><em>What is the deadline for the final report on a significant incident, counted from when, and what happens if the incident is still ongoing?</em></p><div class="label">Answer</div><div class="answer"><p>De acordo com o direito português em vigor, que transpôs a Diretiva (UE) 2022/2555 (Diretiva SRI 2) através do <strong>Decreto-Lei n.º 22/2025, de 20 de março</strong> (que altera o Decreto-Lei n.º 65/2021), as obrigações de notificação de incidentes significativos seguem exatamente os prazos e procedimentos estabelecidos na referida diretiva.</p>
+<p><strong>1. Prazo para o relatório final:</strong><br>O relatório final deve ser apresentado <strong>o mais tardar um mês (30 dias) após a apresentação da notificação de incidente</strong> (ou seja, a notificação completa que deve ser enviada no prazo de 72 horas após o conhecimento do incidente).</p>
+<p><strong>2. O que acontece se o incidente ainda estiver em curso:</strong><br>Se, no momento em que o prazo de um mês para o relatório final expirar, o incidente ainda estiver em curso, a entidade deve:</p>
+<ul>
+<li>Apresentar um <strong>relatório intercalar</strong> nessa data (no momento em que o relatório final seria devido);</li>
+<li>Apresentar o <strong>relatório final no prazo de um mês após a resolução do incidente</strong>.</li>
+</ul>
+<p><strong>Base legal:</strong></p>
+<ul>
+<li><strong>Diretiva (UE) 2022/2555</strong> (texto que forneceu):</li>
+<li><strong>Artigo 23.º, n.º 4, alínea d):</strong> "O mais tardar um mês após a apresentação da notificação de incidente mencionada na alínea b), um relatório final que contenha os seguintes elementos: [...]".</li>
+<li><strong>Artigo 23.º, n.º 4, alínea e):</strong> "Em caso de incidente em curso no momento da apresentação do relatório final referido na alínea d), os Estados-Membros devem assegurar que as entidades em causa apresentem um relatório intercalar nessa altura e um relatório final no prazo de um mês após terem resolvido o incidente."</li>
+</ul>
+<ul>
+<li><strong>Direito nacional (transposição):</strong></li>
+<li><strong>Decreto-Lei n.º 22/2025, de 20 de março</strong> (regime jurídico da cibersegurança que transpõe a Diretiva SRI 2), <strong>artigo 13.º, n.º 4, alíneas d) e e)</strong>, que reproduz fielmente o disposto nas alíneas d) e e) do n.º 4 do artigo 23.º da diretiva acima citada.</li>
+</ul></div><div class="label">What to mark in the sheet for A04</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A04 &middot; a</td><td>verified</td><td>Final report within 30 working days (dias úteis) of the date of the notification of the end of significant impact.</td></tr><tr><td>A04 &middot; b</td><td>verified</td><td>If the incident is still ongoing when that deadline passes, the entity submits an interim report, at the authority&#x27;s request, weekly, until the final report.</td></tr><tr><td>A04 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A05">A05 &middot; question L1-04</h2><p class="q"><strong>O que exige o regime quanto ao ponto de contacto permanente de uma entidade essencial ou importante?</strong><br><em>What does the regime require of the permanent point of contact of an essential or important entity?</em></p><div class="label">Answer</div><div class="answer"><p>O regime jurídico da cibersegurança, aprovado pelo Decreto-Lei n.º 125/2025, de 4 de dezembro, impõe obrigações específicas às entidades essenciais e importantes relativamente ao ponto de contacto permanente, conforme o disposto no <strong>artigo 32.º</strong> do regime anexo a este diploma.</p>
+<p>Com base no referido artigo, as obrigações são as seguintes:</p>
+<p><strong>1. Natureza e disponibilidade (n.º 1 do artigo 32.º)</strong><br>As entidades essenciais e importantes devem assegurar a função do ponto de contacto permanente com uma disponibilidade contínua de <strong>24 horas por dia e 7 dias por semana</strong>. Esta disponibilidade é limitada a períodos de ativação, que são iniciados e terminados mediante comunicação da autoridade de cibersegurança competente.</p>
+<p><strong>2. Comunicação ao CNCS (n.º 2 do artigo 32.º)</strong><br>As entidades devem comunicar ao Centro Nacional de Cibersegurança (CNCS) <strong>pelo menos um ponto de contacto permanente</strong>, que pode ser assegurado por um elemento ou uma equipa, com o objetivo de assegurar:</p>
+<ul>
+<li><strong>a)</strong> Os fluxos de informação de nível operacional e técnico com a autoridade de cibersegurança competente, nomeadamente:</li>
+<li><strong>i)</strong> A articulação intersectorial, incluindo a eficácia da resposta a incidentes de segurança com impacto a nível dos setores;</li>
+<li><strong>ii)</strong> A obtenção de informação operacional e técnica, na sequência de notificação de incidentes com impacto significativo;</li>
+<li><strong>iii)</strong> A obtenção e atualização de informação de situação integrada no contexto de um incidente significativo;</li>
+<li><strong>b)</strong> A partilha de informação com a autoridade de cibersegurança competente, quando estejam ativados planos de emergência de proteção civil diretamente relacionados ou com impacto ao nível da cibersegurança, bem como de planos no âmbito do planeamento civil de emergência da cibersegurança, dos planos de segurança das infraestruturas críticas nacionais ou europeias, ou dos planos de resiliência das entidades críticas nacionais ou europeias;</li>
+<li><strong>c)</strong> A operacionalização dos procedimentos fixados no âmbito de um plano de emergência de proteção civil quando tenham impacto no funcionamento das redes e sistemas de informação, ou do planeamento civil de emergência da cibersegurança;</li>
+<li><strong>d)</strong> A receção das orientações, recomendações, instruções técnicas e ordens emitidas pela autoridade de cibersegurança competente.</li>
+</ul>
+<p><strong>3. Prazo para indicação (n.º 3 e n.º 4 do artigo 32.º)</strong></p>
+<ul>
+<li><strong>Entidades em início de atividade:</strong> Devem indicar à autoridade de cibersegurança competente a pessoa ou pessoas que compõem a equipa que assegura as funções de ponto de contacto permanente, bem como os respetivos meios de contacto principal e alternativos, no prazo de <strong>20 dias úteis a contar do início de funções</strong>.</li>
+<li><strong>Entidades já em atividade:</strong> Devem efetuar a comunicação referida no n.º 3 no prazo de <strong>20 dias úteis a contar da data de entrada em vigor do decreto-lei</strong>.</li>
+</ul>
+<p><strong>4. Atualização da informação (n.º 5 do artigo 32.º)</strong><br>As entidades devem comunicar <strong>imediatamente</strong> à autoridade de cibersegurança competente qualquer alteração à informação prevista no n.º 3 (ou seja, alterações à composição da equipa ou aos meios de contacto).</p>
+<p><strong>5. Meios de contacto (n.º 6 do artigo 32.º)</strong><br>As entidades devem assegurar que o ponto de contacto permanente dispõe de <strong>meios de contacto principais e alternativos</strong> para a comunicação com a autoridade de cibersegurança competente.</p>
+<hr>
+<p><strong>Base legal completa:</strong></p>
+<ul>
+<li><strong>Decreto-Lei n.º 125/2025, de 4 de dezembro</strong>, anexo (Regime Jurídico da Cibersegurança), <strong>artigo 32.º, n.os 1 a 6</strong>.</li>
+</ul>
+<p>Complementarmente, importa referir que o <strong>artigo 31.º, n.º 2, alínea g)</strong> do mesmo regime estabelece que o responsável de cibersegurança designado pela entidade tem como função coordenar as ações do ponto de contacto permanente, quando esta função não seja assegurada por si próprio.</p></div><div class="label">What to mark in the sheet for A05</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A05 &middot; a</td><td>verified</td><td>Availability 24 hours a day, 7 days a week, limited to activation periods started and ended by communication from the authority.</td></tr><tr><td>A05 &middot; b</td><td>verified</td><td>At least one point of contact communicated to the CNCS; it may be one person or a team.</td></tr><tr><td>A05 &middot; c</td><td>verified</td><td>The persons and the main and alternative contact means are indicated within 20 working days; entities already operating count from the entry into force.</td></tr><tr><td>A05 &middot; d</td><td>verified</td><td>Any change to that information is communicated immediately.</td></tr><tr><td>A05 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A06">A06 &middot; question L1-07</h2><p class="q"><strong>Uma entidade pode pedir para não lhe serem aplicadas coimas enquanto se adapta ao novo regime? Até quando?</strong><br><em>Can an entity ask not to be fined while it adapts to the new regime? Until when?</em></p><div class="label">Answer</div><div class="answer"><p><strong>Resposta Direta</strong></p>
+<p><strong>Não.</strong> À luz do ordenamento jurídico português atualmente em vigor, <strong>não existe qualquer previsão legal</strong> que permita a uma entidade solicitar a isenção de aplicação de coimas (multas) alegando um "período de adaptação" ao novo regime de cibersegurança.</p>
+<p>As obrigações e o regime sancionatório entraram em vigor imediatamente após a publicação da lei, não havendo um período de carência legalmente previsto para o pagamento de coimas.</p>
+<p><strong>Fundamentação Legal e Detalhes</strong></p>
+<p>O "novo regime" a que se refere é a transposição da Diretiva NIS2 para a ordem jurídica nacional, efetuada através da <strong>Lei n.º 32/2024, de 2 de julho</strong>.</p>
+<p>Aqui estão os pontos legais cruciais que respondem à sua questão:</p>
+<p><strong>1. Entrada em Vigor Imediata</strong><br>A lei não prevê um período de vacatio legis (tempo entre publicação e entrada em vigor) para as obrigações de cibersegurança ou para o regime sancionatório.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Lei n.º 32/2024, de 2 de julho</strong>, <strong>Artigo 43.º</strong> (Entrada em vigor).</li>
+<li><strong>Texto:</strong> "A presente lei entra em vigor no dia seguinte ao da sua publicação."</li>
+<li><strong>Consequência:</strong> A lei está em vigor desde <strong>3 de julho de 2024</strong>. As obrigações são exigíveis a partir desta data.</li>
+</ul>
+<p><strong>2. Obrigação de Autoavaliação e Cumprimento Imediato</strong><br>Embora o Estado tenha um prazo para identificar formalmente as entidades, as empresas têm o dever de se autoavaliar e cumprir a lei imediatamente se se enquadrarem nos critérios. Não podem aguardar notificação para cumprir.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Lei n.º 32/2024, de 2 de julho</strong>, <strong>Artigo 6.º</strong> (Âmbito de aplicação) e <strong>Artigo 8.º</strong> (Identificação das entidades).</li>
+<li><strong>Nota:</strong> O Artigo 8.º, n.º 1, estabelece que o CNCS tem até <strong>17 de abril de 2025</strong> para proceder à identificação das entidades essenciais e importantes. <strong>Contudo</strong>, isto é um prazo para a Administração Pública, não uma suspensão de obrigações para as empresas. O dever de cumprimento nasce da lei, não da notificação.</li>
+</ul>
+<p><strong>3. Regime Sancionatório Ativo</strong><br>As coimas são aplicáveis a partir da entrada em vigor da lei. Não existe cláusula de "perdão" ou "isenção" por adaptação.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Lei n.º 32/2024, de 2 de julho</strong>, <strong>Artigos 35.º a 38.º</strong> (Regime sancionatório).</li>
+<li><strong>Detalhe:</strong> O Artigo 35.º define as contraordenações e os montantes das coimas (que podem chegar a 10 milhões de euros ou 2% do volume de negócios global, para entidades essenciais).</li>
+</ul>
+<p><strong>4. Atenuação vs. Isenção (O que é possível pedir)</strong><br>Embora não possa pedir <em>isenção</em>, a entidade pode, no âmbito de um processo de contraordenação, alegar medidas de mitigação. A autoridade (CNCS ou ANS) pode considerar o esforço de conformidade como fator de <strong>dosimetria da coima</strong> (redução do valor), mas nunca como causa de exclusão da ilicitude.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Lei n.º 50/2024, de 6 de agosto</strong> (Novo Regime Geral das Contraordenações), <strong>Artigo 18.º</strong> (Determinação da coima).</li>
+<li><strong>Aplicação:</strong> A autoridade deve considerar a gravidade da infração, o grau de culpa e a situação económica do infrator. Um esforço documentado de adaptação pode servir para argumentar menor culpa ou para reduzir o montante final, mas não evita a abertura do processo ou a aplicação da sanção se a violação for detetada.</li>
+</ul>
+<p><strong>Resumo para a Gestão da Empresa</strong></p>
+<ol>
+<li><strong>Não existe direito a pedir isenção:</strong> Não há suporte legal para um pedido formal de "não aplicação de coimas durante a adaptação".</li>
+<li><strong>Prazo do Estado vs. Prazo da Empresa:</strong> O Estado tem até <strong>17 de abril de 2025</strong> para finalizar a lista de entidades (Art. 8.º, Lei 32/2024), mas a sua empresa deve cumprir a lei desde <strong>3 de julho de 2024</strong> se se enquadrar nos critérios de setor e dimensão.</li>
+<li><strong>Risco:</strong> A não conformidade detetada a partir de 3 de julho de 2024 é punível com coima.</li>
+<li><strong>Recomendação:</strong> Em vez de pedir isenção (o que não tem enquadramento), a empresa deve documentar todo o plano de implementação de medidas de cibersegurança. Em caso de inspeção, este documento poderá ser usado para demonstrar boa-fé e esforço de conformidade, podendo influenciar a redução do valor da coima ao abrigo do Regime Geral das Contraordenações, mas não a sua eliminação.</li>
+</ol>
+<p><strong>Conclusão</strong><br>A adaptação deve ser imediata. Não existe base legal (diploma, artigo ou alínea) que sustente um período de graça para coimas em matéria de cibersegurança (NIS2) em Portugal.</p></div><div class="label">What to mark in the sheet for A06</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A06 &middot; a</td><td>verified</td><td>Yes: by a reasoned request, on the ground that no internal adaptation procedure exists, it can ask for exemption from the fines in arts. 61.º, n.º 2, and 62.º, n.º 2.</td></tr><tr><td>A06 &middot; b</td><td>verified</td><td>&quot;For 12 months from the entry into force&quot; of the decree-law.</td></tr><tr><td>A06 &middot; c</td><td>inferred</td><td>The decree-law entered into force 120 days after publication (4/12/2025), i.e. on 3/4/2026; the 12 months end on 3/4/2027.</td></tr><tr><td>A06 &middot; d</td><td>inferred</td><td>The exemption can be requested until 3/4/2027 (12 months from the entry into force).</td></tr><tr><td>A06 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A07">A07 &middot; question L2-06</h2><p class="q"><strong>Um pequeno prestador de serviços de DNS está abrangido? Em que categoria?</strong><br><em>Is a small DNS service provider covered? In which category?</em></p><div class="label">Answer</div><div class="answer"><h3>Pequeno prestador de serviços de DNS: abrangimento e categoria</h3>
+<h4>1. A entidade está abrangida? — <strong>Sim, independentemente da sua dimensão.</strong></h4>
+<p>Um prestador de serviços de DNS (resolução recursiva acessível ao público ou resolução com autoridade para terceiros, excluindo servidores de nomes raiz) está expressamente identificado como tipo de entidade no <strong>Anexo I</strong>, setor 8 – <em>Infraestruturas digitais</em>, tipo «Prestadores de serviços de DNS, excluindo operadores de servidores de nomes raiz».</p>
+<p>O <strong>artigo 3.º, n.º 2, alínea a) iii)</strong> do regime jurídico da cibersegurança (aprovado em anexo ao Decreto-Lei n.º 125/2025) estabelece que o decreto-lei se aplica, <strong>independentemente da natureza e dimensão</strong> da entidade, quando esta for, entre outros, um «prestador de serviços de sistemas de nomes de domínio» (expressão sinónima de «prestador de serviços de DNS», cfr. definições do artigo 2.º, alíneas v) e rr)).</p>
+<p>Assim, o facto de a empresa ser <em>pequena</em> (ou micro) <strong>não a exclui</strong> do âmbito de aplicação. O critério de dimensão (médias empresas) do artigo 3.º, n.º 1, alínea a), só se aplica às entidades que não preencham nenhum dos requisitos do n.º 2.</p>
+<h5>Critério territorial</h5>
+<p>Tratando-se de um prestador de serviços de DNS, o âmbito territorial é o previsto no <strong>artigo 4.º, n.º 1, alínea c) i)</strong>: a entidade deve ter o seu <strong>estabelecimento principal no território nacional</strong> (ou, não tendo estabelecimento na UE, o seu representante deve ter estabelecimento em Portugal — alínea c) ii)). Sendo a empresa «em Portugal», este requisito está, em princípio, satisfeito.</p>
+<hr>
+<h4>2. Em que categoria é classificada? — <strong>Entidade essencial</strong></h4>
+<p>O <strong>artigo 6.º, n.º 1, alínea b)</strong> do regime jurídico da cibersegurança dispõe:</p>
+<blockquote>«São entidades essenciais: (…)</blockquote>
+<blockquote>b) Os prestadores de serviços de confiança qualificados e registo de nomes de domínio de topo, <strong>e os prestadores de serviços de sistemas de nomes de domínio, independentemente da sua dimensão</strong>;»</blockquote>
+<p>Portanto, um prestador de serviços de DNS é <strong>entidade essencial por força da lei</strong>, sem necessidade de qualquer procedimento de qualificação adicional — a dimensão (pequena, média ou grande) é irrelevante.</p>
+<p>A qualificação resulta diretamente do mecanismo de identificação na plataforma eletrónica do CNCS previsto no <strong>artigo 8.º, n.º 2</strong> (que opera automaticamente com base nos critérios objetivos do artigo 6.º, n.º 1, alínea b)).</p>
+<hr>
+<h4>3. Obrigações principais decorrentes da qualificação de entidade essencial</h4>
+<p>Uma vez classificada como entidade essencial, a empresa está sujeita, entre outras, às seguintes obrigações:</p>
+<table><thead><tr><th>Obrigação</th><th>Base legal</th></tr></thead><tbody>
+<tr><td>Medidas de gestão dos riscos de cibersegurança (abordagem sistémica, proporcionalidade)</td><td>Art. 26.º, n.ºs 1 a 3</td></tr>
+<tr><td>Medidas de cibersegurança mínimas (incidentes, continuidade, cadeia de abastecimento, criptografia, autenticação multifator, etc.)</td><td>Art. 27.º, n.º 1, alíneas a) a i); Art. 28.º</td></tr>
+<tr><td>Análise e gestão do risco residual</td><td>Art. 29.º</td></tr>
+<tr><td>Relatório anual (submissão ao CNCS até ao último dia útil de janeiro do ano seguinte)</td><td>Art. 30.º, n.ºs 1 a 2</td></tr>
+<tr><td>Designação de <strong>responsável de cibersegurança</strong> (comunicar ao CNCS em 20 dias úteis)</td><td>Art. 31.º, n.ºs 1 a 4</td></tr>
+<tr><td><strong>Ponto de contacto permanente</strong> (24/7, comunicar ao CNCS em 20 dias úteis)</td><td>Art. 32.º, n.ºs 1 a 4</td></tr>
+<tr><td>Aprovação e supervisão das medidas pelos órgãos de gestão</td><td>Art. 25.º, n.º 1</td></tr>
+<tr><td>Registo na plataforma eletrónica do CNCS (dever de registo)</td><td>Art. 35.º, n.ºs 1 a 2</td></tr>
+<tr><td>Notificação de incidentes significativos (notificação inicial ≤ 24 h; fim de impacto ≤ 24 h; relatório final ≤ 30 dias úteis)</td><td>Art. 40.º; Art. 42.º; Art. 43.º; Art. 44.º</td></tr>
+<tr><td>Comunicação aos destinatários dos serviços de incidentes/ameaças</td><td>Art. 48.º</td></tr>
+</tbody></table>
+<p>A supervisão aplica-se nos termos do <strong>artigo 54.º</strong> (inspeções no local, auditorias de segurança regulares ou direcionadas, verificações de segurança, pedidos de informação e de prova).</p>
+<hr>
+<h4>4. Regime sancionatório aplicável</h4>
+<p>O incumprimento das obrigações acima referidas constitui <strong>contraordenação muito grave</strong> (artigo 61.º, n.º 1, alíneas b) a k)), punível, para uma <strong>pessoa coletiva</strong> qualificada como entidade essencial, com coima de <strong>€ 2 000,00 a € 10 000 000,00</strong> ou <strong>2 % do volume de negócios anual a nível mundial</strong> (exercício financeiro anterior), consoante o montante mais elevado (artigo 61.º, n.º 2, alínea a) i)).</p>
+<p>As contraordenações <strong>graves</strong> (artigo 62.º) — p. ex., incumprimento do dever de registo (art. 35.º) ou dos pedidos de informação (art. 46.º) — são punidas com coima de <strong>€ 1 250,00 a € 5 000 000,00</strong> ou <strong>1 % do volume de negócios anual a nível mundial</strong> (artigo 62.º, n.º 2, alínea a) i)).</p>
+<hr>
+<h4>5. Resumo da base legal</h4>
+<table><thead><tr><th>Questão</th><th>Norma</th></tr></thead><tbody>
+<tr><td>Tipo de entidade no setor crítico</td><td>Anexo I, setor 8, «Prestadores de serviços de DNS, excluindo operadores de servidores de nomes raiz»</td></tr>
+<tr><td>Abrangimento independentemente da dimensão</td><td>Art. 3.º, n.º 2, alínea a) iii)</td></tr>
+<tr><td>Critério territorial (estabelecimento principal em Portugal)</td><td>Art. 4.º, n.º 1, alínea c) i)</td></tr>
+<tr><td>Qualificação como <strong>entidade essencial</strong> (qualquer dimensão)</td><td>Art. 6.º, n.º 1, alínea b)</td></tr>
+<tr><td>Definição de «prestador de serviços de DNS»</td><td>Art. 2.º, alínea v)</td></tr>
+<tr><td>Definição de «sistema de nomes de domínio / DNS»</td><td>Art. 2.º, alínea rr)</td></tr>
+<tr><td>Obrigações de gestão de risco</td><td>Arts. 26.º a 29.º</td></tr>
+<tr><td>Responsável de cibersegurança / ponto de contacto</td><td>Arts. 31.º e 32.º</td></tr>
+<tr><td>Notificação de incidentes</td><td>Arts. 40.º a 44.º</td></tr>
+<tr><td>Supervisão</td><td>Art. 54.º</td></tr>
+<tr><td>Sanções (contraordenações muito graves)</td><td>Art. 61.º, n.º 2, alínea a) i)</td></tr>
+</tbody></table>
+<hr>
+<p><strong>Conclusão:</strong> Um pequeno prestador de serviços de DNS com estabelecimento principal em Portugal <strong>está abrangido</strong> pelo regime jurídico da cibersegurança aprovado pelo Decreto-Lei n.º 125/2025, e é classificado como <strong>entidade essencial</strong>, independentemente da sua dimensão, devendo cumprir integralmente o conjunto de obrigações de gestão de risco, notificação, supervisão e registo previstas para essa categoria.</p></div><div class="label">What to mark in the sheet for A07</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A07 &middot; a</td><td>verified</td><td>Yes: domain name system service providers are essential entities, regardless of size.</td></tr><tr><td>A07 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A08">A08 &middot; question L2-02</h2><p class="q"><strong>Quais são as obrigações dos órgãos de gestão de uma entidade importante, e podem delegá-las?</strong><br><em>What are the obligations of an important entity&#x27;s management bodies, and can they delegate them?</em></p><div class="label">Answer</div><div class="answer"><p>De acordo com o <strong>Decreto-Lei n.º 125/2025, de 4 de dezembro</strong>, os órgãos de gestão, direção e administração de uma <strong>entidade importante</strong> têm as seguintes obrigações e restrições quanto à delegação das mesmas:</p>
+<h5>1. Obrigações dos Órgãos de Gestão</h5>
+<p>Os órgãos de gestão, direção e administração devem assegurar as seguintes responsabilidades (Artigo 25.º, n.º 1):</p>
+<ul>
+<li><strong>Aprovação de Medidas:</strong> Aprovar as medidas de gestão dos riscos de cibersegurança, as quais devem ser adotadas em conformidade com o disposto no artigo 27.º do referido diploma (<strong>Artigo 25.º, n.º 1, alínea a)</strong>);</li>
+<li><strong>Supervisão:</strong> Supervisionar a aplicação das referidas medidas de gestão dos riscos de cibersegurança (<strong>Artigo 25.º, n.º 1, alínea b)</strong>);</li>
+<li><strong>Cumprimento de Medidas Externas:</strong> Assegurar o cumprimento das medidas de supervisão e de execução (previstas no Capítulo VI do diploma) (<strong>Artigo 25.º, n.º 1, alínea c)</strong>);</li>
+<li><strong>Formação e Cultura:</strong> Assegurar a realização regular de ações de formação em cibersegurança, com o objetivo de promover uma cultura de gestão interna sobre as práticas de gestão dos riscos de cibersegurança (<strong>Artigo 25.º, n.º 1, alínea d)</strong>).</li>
+</ul>
+<h5>2. Possibilidade de Delegação</h5>
+<p>No que diz respeito à delegação destas competências, a lei estabelece uma regra restritiva:</p>
+<ul>
+<li><strong>Regra Geral:</strong> A responsabilidade e os poderes necessários para o cumprimento das obrigações acima mencionadas <strong>não podem ser delegados</strong> (<strong>Artigo 25.º, n.º 3</strong>).</li>
+<li><strong>Exceção:</strong> A única exceção permitida é a delegação num dos <strong>titulares dos órgãos de gestão, direção e administração</strong> (<strong>Artigo 25.º, n.º 3</strong>).</li>
+</ul>
+<h5>Nota Adicional sobre Responsabilidade</h5>
+<p>É importante referir que os titulares dos órgãos de gestão, direção e administração podem ser responsabilizados por ação ou omissão, em casos de dolo ou culpa grave, pelas infrações previstas neste decreto-lei (<strong>Artigo 25.º, n.º 2</strong>).</p></div><div class="label">What to mark in the sheet for A08</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A08 &middot; a</td><td>verified</td><td>Approve the risk-management measures (art. 27.º), oversee their implementation, ensure compliance with supervision and enforcement measures, and ensure regular training.</td></tr><tr><td>A08 &middot; b</td><td>verified</td><td>Members may be held liable for acts or omissions, with intent or gross negligence, under applicable law.</td></tr><tr><td>A08 &middot; c</td><td>verified</td><td>They cannot delegate the responsibility, except to one of the members of those bodies.</td></tr><tr><td>A08 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A09">A09 &middot; question L2-08</h2><p class="q"><strong>E se notificar o incidente nas 24 horas atrapalhar a resposta, ou a plataforma do CNCS estiver em baixo?</strong><br><em>What if notifying the incident within 24 hours would hinder the response, or the CNCS platform is down?</em></p><div class="label">Answer</div><div class="answer"><p>De acordo com o <strong>Decreto-Lei n.º 125/2025, de 4 de dezembro</strong> (que aprova o regime jurídico da cibersegurança), existem previsões legais específicas para ambas as situações que menciona. A lei estabelece a regra geral, mas contempla exceções para garantir que a resposta ao incidente não seja prejudicada e que a notificação seja possível mesmo em falhas técnicas.</p>
+<p>Abaixo detalho a solução legal para cada cenário:</p>
+<h5>1. Se a notificação nas 24 horas atrapalhar a resposta ao incidente</h5>
+<p>A lei prevê explicitamente que o prazo de 24 horas para a notificação inicial não é absoluto se isso comprometer a gestão da crise.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Decreto-Lei n.º 125/2025, Artigo 42.º, n.º 1</strong>.</li>
+<li><strong>O que diz a lei:</strong> A notificação inicial deve ser enviada até 24 horas após a verificação do incidente significativo, <strong>«salvo quando tal for incompatível com a mitigação ou a resolução do incidente»</strong>.</li>
+<li><strong>Implicação:</strong> A sua empresa pode adiar a notificação formal para além das 24 horas se provar que o ato de notificar nesse momento específico iria interferir negativamente com os esforços técnicos para conter ou resolver o ataque. No entanto, a notificação deve ser feita assim que essa incompatibilidade deixar de existir.</li>
+</ul>
+<h5>2. Se a plataforma do CNCS estiver em baixo (indisponível)</h5>
+<p>Caso a plataforma eletrónica oficial esteja indisponível, seja devido ao próprio incidente cibernético ou a falhas técnicas, a lei permite meios de comunicação alternativos.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Decreto-Lei n.º 125/2025, Artigo 83.º, n.º 3</strong>.</li>
+<li><strong>O que diz a lei:</strong> Nos casos em que «o sítio na Internet da autoridade de cibersegurança competente esteja indisponível, em resultado do incidente ou por outro motivo de natureza eminentemente técnica devidamente justificado, <strong>a notificação pode ser efetuada, a título excecional, através de correio eletrónico ou telefonicamente</strong>».</li>
+<li><strong>Implicação:</strong> A sua empresa não fica impedida de cumprir o dever de notificação devido a falhas na infraestrutura do CNCS. Deve utilizar email ou telefone como medida excecional.</li>
+</ul>
+<h5>Resumo das Obrigações Gerais (Contexto)</h5>
+<p>Para enquadramento completo, relembro que a regra geral (quando não se verificam as exceções acima) é a seguinte:</p>
+<ul>
+<li><strong>Obrigação de Notificar:</strong> As entidades essenciais, importantes e públicas relevantes devem notificar qualquer incidente significativo (Decreto-Lei n.º 125/2025, <strong>Artigo 40.º, n.º 1</strong>).</li>
+<li><strong>Meio de Notificação:</strong> As notificações devem ser submetidas na plataforma eletrónica disponibilizada pelo CNCS (Decreto-Lei n.º 125/2025, <strong>Artigo 40.º, n.º 6</strong>).</li>
+<li><strong>Prazo:</strong> Até 24 horas após a verificação do incidente significativo (Decreto-Lei n.º 125/2025, <strong>Artigo 42.º, n.º 1</strong>).</li>
+</ul>
+<p><strong>Recomendação Prática:</strong><br>Caso recorra a estas exceções (adiar por mitigação ou usar email/telefone por falha da plataforma), recomenda-se que documente internamente os motivos que levaram a essa decisão (ex: registos de logs que mostram que a notificação interromperia um processo de contenção, ou <em>screenshots</em> da indisponibilidade da plataforma), pois a autoridade de cibersegurança competente pode solicitar fundamentação sobre o cumprimento dos deveres de notificação.</p></div><div class="label">What to mark in the sheet for A09</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A09 &middot; a</td><td>verified</td><td>The initial notification is made within 24 hours, unless that is incompatible with mitigating or resolving the incident.</td></tr><tr><td>A09 &middot; b</td><td>verified</td><td>If the entity lacks capacity or the authority&#x27;s website is unavailable, notification may exceptionally be made by email or telephone.</td></tr><tr><td>A09 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A10">A10 &middot; question L1-01</h2><p class="q"><strong>Um incidente com impacto significativo numa entidade importante fica resolvido uma hora depois de ser detetado. Que notificações tem a entidade de enviar à autoridade de cibersegurança, e por que meio as submete?</strong><br><em>A significant incident at an important entity is resolved one hour after it is detected. Which notifications must the entity send to the cybersecurity authority, and through what channel must it submit them?</em></p><div class="label">Answer</div><div class="answer"><p>Para responder a esta questão, é fundamental primeiro clarificar que a terminologia <strong>"entidade importante"</strong> provém da <strong>Diretiva (UE) 2022/2555 (conhecida como NIS2)</strong>, a qual está a ser transposta para o ordenamento jurídico português.</p>
+<p>O facto de o incidente ter sido resolvido rapidamente (uma hora após a deteção) <strong>não isenta</strong> a entidade da obrigação de notificar, desde que o incidente tenha sido classificado como tendo um <strong>"impacto significativo"</strong>.</p>
+<p>Aqui estão as notificações obrigatórias, os prazos e os meios de submissão:</p>
+<h5>1. Que notificações tem a entidade de enviar?</h5>
+<p>De acordo com o regime da NIS2 (que define as obrigações para entidades essenciais e importantes), a entidade deve seguir um processo de notificação em três etapas:</p>
+<ul>
+<li><strong>Aviso Prévio (Early Warning):</strong> Deve ser enviado no prazo máximo de <strong>24 horas</strong> após a deteção do incidente significativo. Este aviso deve indicar se o incidente é suspeito de ter um impacto significativo e se foi causado por atos maliciosos.</li>
+<li><strong>Notificação de Incidente (Incident Notification):</strong> Deve ser enviada no prazo máximo de <strong>72 horas</strong> após a deteção. Esta notificação deve atualizar as informações do aviso prévio, apresentar uma avaliação inicial da severidade e do impacto do incidente.</li>
+<li><strong>Relatório Final (Final Report):</strong> Deve ser enviado no prazo máximo de <strong>um mês</strong> após a notificação do incidente. Este relatório deve descrever a causa raiz, a cronologia detalhada, as medidas de mitigação aplicadas e a lição aprendida.</li>
+</ul>
+<p><strong>Nota sobre a resolução rápida:</strong> O facto de o incidente ter sido resolvido numa hora é um dado relevante que deve constar na "Notificação de Incidente" e no "Relatório Final", mas não anula a obrigação de reportar, pois a lei foca-se no <strong>impacto</strong> (potencial ou real) e não apenas na duração da indisponibilidade.</p>
+<h5>2. Por que meio as submete?</h5>
+<p>As notificações devem ser submetidas ao <strong>Centro Nacional de Cibersegurança (CNCS)</strong>, que é a autoridade nacional competente em Portugal.</p>
+<ul>
+<li><strong>Meio de Submissão:</strong> As notificações são efetuadas preferencialmente através do <strong>Portal do CNCS</strong> (via formulários eletrónicos específicos para a notificação de incidentes), garantindo a celeridade e a rastreabilidade da comunicação.</li>
+</ul>
+<hr>
+<h5>3. Base Legal</h5>
+<p>A fundamentação legal para estas obrigações assenta nos seguintes diplomas:</p>
+<p><strong>A. Nível Europeu (Diretamente aplicável via transposição):</strong></p>
+<ul>
+<li><strong>Diretiva (UE) 2022/2555 (NIS2), Artigo 23.º, número 4, alíneas a), b) e c).</strong></li>
+<li>Este artigo estabelece explicitamente a obrigação de notificar incidentes significativos em três etapas (aviso prévio em 24h, notificação em 72h e relatório final em 1 mês).</li>
+</ul>
+<p><strong>B. Nível Nacional (Portugal):</strong></p>
+<ul>
+<li><strong>Lei n.º 46/2018 (Lei da Cibersegurança), Artigo 18.º.</strong></li>
+<li>Este artigo estabelece o dever de notificação de incidentes de cibersegurança graves às autoridades competentes.</li>
+<li>Embora a Lei 46/2018 seja anterior à NIS2, ela estabelece a estrutura de supervisão do CNCS. A classificação de "entidade importante" e a cadência de prazos (24h/72h/1mês) derivam da aplicação direta da transposição da Diretiva NIS2, que atualiza e expande as obrigações previstas no Artigo 18.º da lei nacional.</li>
+</ul>
+<p><strong>Resumo da Base Legal para citação:</strong></p>
+<blockquote><em>"Nos termos do <strong>Artigo 23.º, n.º 4 da Diretiva (UE) 2022/2555</strong>, conjugado com o dever de notificação previsto no <strong>Artigo 18.º da Lei n.º 46/2018</strong>, as entidades importantes devem notificar incidentes significativos ao CNCS através do portal oficial, respeitando os prazos de 24 horas (aviso prévio), 72 horas (notificação) e um mês (relatório final)."</em></blockquote></div><div class="label">What to mark in the sheet for A10</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A10 &middot; a</td><td>verified</td><td>General rule: for each incident subject to mandatory notification, an initial notification, a notification of the end of significant impact, and a final report.</td></tr><tr><td>A10 &middot; b</td><td>verified</td><td>If the incident is resolved within two hours of detection, the entity only has to send the notification of the end of significant impact.</td></tr><tr><td>A10 &middot; c</td><td>verified</td><td>That notification is sent without undue delay and within 24 hours of the end of the impact.</td></tr><tr><td>A10 &middot; d</td><td>verified</td><td>Notifications are submitted on the electronic platform referred to in art. 8.º, n.º 7.</td></tr><tr><td>A10 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A11">A11 &middot; question L1-07</h2><p class="q"><strong>Uma entidade pode pedir para não lhe serem aplicadas coimas enquanto se adapta ao novo regime? Até quando?</strong><br><em>Can an entity ask not to be fined while it adapts to the new regime? Until when?</em></p><div class="label">Answer</div><div class="answer"><p>Sim, uma entidade pode solicitar a dispensa da aplicação de coimas enquanto se adapta ao novo regime, desde que cumpra certos requisitos e dentro de um prazo específico.</p>
+<p>De acordo com o <strong>Decreto-Lei n.º 125/2025, de 4 de dezembro</strong>, que aprova o regime jurídico da cibersegurança, existe uma medida transitória que permite essa dispensa.</p>
+<h5>Base Legal e Condições</h5>
+<p>A possibilidade de dispensa está prevista no <strong>Artigo 65.º</strong> do referido diploma, intitulado "Dispensa de aplicação das coimas".</p>
+<p><strong>O que diz a lei:</strong></p>
+<blockquote>"Todas as entidades essenciais, importantes e públicas relevantes podem, mediante pedido devidamente fundamentado, solicitar à autoridade de cibersegurança competente a dispensa da aplicação de coimas referidas no n.º 2 do artigo 61.º e no n.º 2 do artigo 62.º, com fundamento na inexistência de um procedimento interno de adaptação dessas entidades ao novo regime jurídico, durante 12 meses a contar da entrada em vigor do presente decreto-lei."</blockquote>
+<p><strong>Resumo das condições:</strong></p>
+<ol>
+<li><strong>Entidades Abrangidas:</strong> Entidades essenciais, entidades importantes e entidades públicas relevantes.</li>
+<li><strong>Requisito:</strong> A entidade deve apresentar um <strong>pedido devidamente fundamentado</strong> à autoridade de cibersegurança competente (CNCS ou autoridade setorial).</li>
+<li><strong>Motivo:</strong> O pedido deve basear-se na <strong>inexistência de um procedimento interno de adaptação</strong> da entidade ao novo regime jurídico.</li>
+<li><strong>Tipo de Coimas:</strong> A dispensa aplica-se às coimas previstas para contraordenações muito graves (Artigo 61.º, n.º 2) e graves (Artigo 62.º, n.º 2).</li>
+</ol>
+<h5>Prazo de Vigência da Dispensa</h5>
+<p>A dispensa pode ser solicitada <strong>durante 12 meses a contar da entrada em vigor do decreto-lei</strong>.</p>
+<p>Para saber quando inicia este período, deve consultar o <strong>Artigo 11.º</strong> (Entrada em vigor):</p>
+<blockquote>"O presente decreto-lei entra em vigor 120 dias após a sua publicação."</blockquote>
+<p><strong>Conclusão temporal:</strong><br>O período de 12 meses para solicitar esta dispensa começa a contar 120 dias após a publicação do decreto-lei no Diário da República.</p>
+<h5>Referências Legais</h5>
+<ul>
+<li><strong>Diploma:</strong> Decreto-Lei n.º 125/2025, de 4 de dezembro.</li>
+<li><strong>Dispensa de Coimas:</strong> Artigo 65.º.</li>
+<li><strong>Entrada em Vigor:</strong> Artigo 11.º, n.º 1.</li>
+<li><strong>Tipos de Coimas Abrangidos:</strong> Artigo 61.º, n.º 2 (Contraordenações muito graves) e Artigo 62.º, n.º 2 (Contraordenações graves).</li>
+</ul></div><div class="label">What to mark in the sheet for A11</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A11 &middot; a</td><td>verified</td><td>Yes: by a reasoned request, on the ground that no internal adaptation procedure exists, it can ask for exemption from the fines in arts. 61.º, n.º 2, and 62.º, n.º 2.</td></tr><tr><td>A11 &middot; b</td><td>verified</td><td>&quot;For 12 months from the entry into force&quot; of the decree-law.</td></tr><tr><td>A11 &middot; c</td><td>inferred</td><td>The decree-law entered into force 120 days after publication (4/12/2025), i.e. on 3/4/2026; the 12 months end on 3/4/2027.</td></tr><tr><td>A11 &middot; d</td><td>inferred</td><td>The exemption can be requested until 3/4/2027 (12 months from the entry into force).</td></tr><tr><td>A11 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A12">A12 &middot; question L2-09</h2><p class="q"><strong>O que deve considerar a entidade na segurança da cadeia de abastecimento, e essa regra já produz efeitos?</strong><br><em>What must the entity consider for supply-chain security, and does that rule already take effect?</em></p><div class="label">Answer</div><div class="answer"><p>Para responder a esta questão, é fundamental focar na norma que redefine a cibersegurança na União Europeia e que está a ser transposta para o ordenamento jurídico português: a <strong>Diretiva (UE) 2022/2555</strong>, vulgarmente conhecida como <strong>Diretiva NIS2</strong>.</p>
+<p>A segurança da cadeia de abastecimento (<em>supply chain security</em>) é um dos pilares centrais desta nova legislação, elevando a responsabilidade das empresas para além das suas próprias redes, abrangendo agora os seus fornecedores.</p>
+<h5>1. O que a entidade deve considerar na segurança da cadeia de abastecimento?</h5>
+<p>De acordo com as obrigações de gestão de riscos, a entidade não deve olhar apenas para a sua segurança interna, mas sim avaliar a segurança de todo o ecossistema de fornecedores que suportam as suas operações críticas. A entidade deve considerar, especificamente:</p>
+<ul>
+<li><strong>Avaliação de Risco de Fornecedores:</strong> Analisar a robustez da cibersegurança dos fornecedores de serviços e produtos (especialmente aqueles que têm acesso a dados sensíveis ou sistemas críticos).</li>
+<li><strong>Qualidade e Segurança dos Produtos:</strong> Verificar se os produtos e serviços adquiridos cumprem normas de segurança reconhecidas e se foram desenvolvidos seguindo princípios de <em>security-by-design</em>.</li>
+<li><strong>Gestão de Vulnerabilidades dos Fornecedores:</strong> Avaliar a capacidade do fornecedor em detetar, reportar e corrigir vulnerabilidades nos produtos ou serviços fornecidos.</li>
+<li><strong>Dependências e Concentração:</strong> Analisar o risco de dependência excessiva de um único fornecedor (risco de concentração), que poderá causar a interrupção do serviço em caso de incidente no fornecedor.</li>
+<li><strong>Cláusulas Contratuais:</strong> Implementar obrigações contratuais que exijam que os fornecedores mantenham níveis adequados de segurança e reportem incidentes de cibersegurança que possam afetar a entidade contratante.</li>
+</ul>
+<h5>2. Base Legal</h5>
+<p>A base legal detalhada para estas obrigações encontra-se na:</p>
+<ul>
+<li><strong>Diploma:</strong> Diretiva (UE) 2022/2555 do Parlamento Europeu e do Conselho, de 14 de dezembro de 2022 (Diretiva NIS2).</li>
+<li><strong>Artigo:</strong> Artigo 21.º ("Medidas de gestão de riscos de cibersegurança").</li>
+<li><strong>Número:</strong> Número 2.</li>
+<li><strong>Alínea:</strong> <strong>Alínea d)</strong>.</li>
+</ul>
+<p>O texto da referida alínea estabelece explicitamente que as medidas de gestão de riscos de cibersegurança devem incluir:</p>
+<blockquote><em>"...a segurança da cadeia de abastecimento, incluindo a avaliação da relação de confiança com os fornecedores e a vigilância do ciclo de vida dos produtos e serviços"</em>.</blockquote>
+<h5>3. Esta regra já produz efeitos?</h5>
+<p><strong>Sim, mas com a seguinte nuance jurídica:</strong></p>
+<ol>
+<li><strong>Vigência da Diretiva:</strong> A Diretiva NIS2 entrou em vigor a 16 de janeiro de 2023.</li>
+<li><strong>Prazo de Transposição:</strong> Sendo uma "Diretiva" (e não um Regulamento), ela não tem aplicação direta imediata a todas as empresas, mas obriga os Estados-Membros a transpondo-a para a lei nacional. O prazo limite para Portugal transpor a NIS2 para o direito interno é <strong>17 de outubro de 2024</strong>.</li>
+<li><strong>Efeito Prático Atual:</strong> Embora o diploma nacional final esteja em fase de conclusão/implementação, as empresas já devem considerar estas regras como <strong>vigentes para efeitos de conformidade e gestão de risco</strong>. A negligência na implementação destas medidas agora poderá resultar em sanções graves assim que a lei nacional esteja plenamente operacional, dado que a NIS2 prevê coimas elevadas (semelhantes ao RGPD) e a responsabilidade direta dos órgãos de gestão (administradores).</li>
+</ol>
+<p><strong>Resumo para a empresa:</strong><br>A entidade deve começar imediatamente a auditar os seus fornecedores e a rever os contratos de prestação de serviços, pois a obrigação legal de garantir a segurança da cadeia de abastecimento torna-se mandatória e fiscalizável em Portugal até outubro de 2024, com base no <strong>Artigo 21.º, n.º 2, alínea d) da Diretiva (UE) 2022/2555</strong>.</p></div><div class="label">What to mark in the sheet for A12</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A12 &middot; a</td><td>verified</td><td>Vulnerabilities of each direct supplier, product quality, suppliers&#x27; cybersecurity practices (including secure development), coordinated risk assessments and restriction decisions.</td></tr><tr><td>A12 &middot; b</td><td>verified</td><td>Art. 28.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.</td></tr><tr><td>A12 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A13">A13 &middot; question L1-05</h2><p class="q"><strong>Uma entidade importante tem de enviar um relatório anual de cibersegurança ao CNCS? Desde quando?</strong><br><em>Must an important entity send an annual cybersecurity report to the CNCS? From when?</em></p><div class="label">Answer</div><div class="answer"><h3>Relatório anual de cibersegurança ao CNCS – Entidades Importantes</h3>
+<h4>Resposta curta</h4>
+<p><strong>Sim.</strong> As entidades importantes (e essenciais) sujeitas ao regime do NIS em Portugal estão obrigadas a submeter ao <strong>Centro Nacional de Cibersegurança (CNCS)</strong> um relatório periódico (anual) sobre as medidas de segurança de sistemas de rede e de informação que implementaram. A obrigação está em vigor desde a entrada em vigor da <strong>Lei n.º 46/2018, de 10 de agosto</strong>.</p>
+<hr>
+<h4>Enquadramento legal</h4>
+<h5>1. Diploma-quadro</h5>
+<ul>
+<li><strong>Lei n.º 46/2018, de 10 de agosto</strong> (Diário da República, 1.ª série, n.º 154, de 10 de agosto de 2018) – transpõe a Diretiva (UE) 2016/1148 (NIS Directive) para o direito português.</li>
+<li>Publicação: 10-08-2018.</li>
+<li>Entrada em vigor: 11-08-2018 (art. 25.º, n.º 1 – «A presente lei entra em vigor no dia seguinte ao da sua publicação»).</li>
+</ul>
+<blockquote>Nota: a Lei foi posteriormente alterada pela <strong>Lei n.º 23/2021, de 24 de março</strong> (entre outras), que introduziu ajustes pontuais, mas a estrutura do reporte anual manteve-se.</blockquote>
+<h5>2. Quem é "entidade importante"?</h5>
+<ul>
+<li><strong>Art. 3.º, n.º 1, al. a)</strong> da Lei n.º 46/2018 – define <em>entidade importante</em> como a entidade que opera um sistema de rede e de informação que, pela sua natureza, dimensão ou volume de dados, é suscetível de causar um impacto significativo em caso de incidente.</li>
+<li>A lista de entidades importantes (e essenciais) é aprovada por <strong>Portaria</strong> (a primeira foi a <strong>Portaria n.º 131/2019, de 10 de abril</strong>, com subsequentes alterações), publicada em anexo à Lei ou em diploma próprio.</li>
+</ul>
+<h5>3. Obrigação de reporte anual / periódico</h5>
+<p>A obrigação de comunicação periódica ao CNCS encontra-se no <strong>art. 12.º</strong> da Lei n.º 46/2018 («Medidas de segurança»):</p>
+<ul>
+<li><strong>Art. 12.º, n.º 1</strong> – impõe às entidades importantes e essenciais a implementação de medidas técnicas e organizacionais adequadas e proporcionais para gerir o risco à segurança dos sistemas de rede e de informação.</li>
+<li><strong>Art. 12.º, n.º 2</strong> – determina que as entidades devem <strong>comunicar ao CNCS, de forma periódica e pelo menos uma vez por ano</strong>, as informações relativas às medidas de segurança implementadas, à sua eficácia e a quaisquer alterações relevantes.</li>
+</ul>
+<p>Complementarmente:</p>
+<ul>
+<li><strong>Art. 13.º</strong> («Comunicação de incidentes») – impõe a comunicação de incidentes significativos ao CNCS no prazo de <strong>72 horas</strong> (n.º 1) e a prestação de informações adicionais sob pedido da autoridade (n.º 3). Este é um dever <em>ad hoc</em>, distinto do reporte anual, mas que se sobrepõe a ele.</li>
+</ul>
+<h5>4. Competência do CNCS</h5>
+<ul>
+<li><strong>Art. 14.º</strong> – o CNCS é a autoridade nacional competente para a supervisão e o acompanhamento do cumprimento das obrigações das entidades importantes e essenciais, incluindo a receção e análise dos relatórios anuais.</li>
+<li><strong>Art. 15.º</strong> – faculdades de inspeção e de exigência de informações adicionais pelo CNCS.</li>
+</ul>
+<h5>5. Sanções pelo incumprimento</h5>
+<ul>
+<li><strong>Art. 21.º</strong> – o não cumprimento das obrigações de comunicação (incluindo o relatório anual) pode ser punido como contraordenação, com coima de <strong>5 000 € a 50 000 €</strong> (para entidades importantes) ou até <strong>75 000 €</strong> (para entidades essenciais), consoante a gravidade.</li>
+<li><strong>Art. 22.º</strong> – regime de contraordenações (tipificação, graduação, procedimento).</li>
+</ul>
+<hr>
+<h4>Desde quando?</h4>
+<table><thead><tr><th>Marco</th><th>Data</th></tr></thead><tbody>
+<tr><td>Publicação da Lei 46/2018</td><td>10-08-2018</td></tr>
+<tr><td><strong>Entrada em vigor (início da obrigação)</strong></td><td><strong>11-08-2018</strong></td></tr>
+<tr><td>Primeira Portaria com a lista de entidades (Portaria 131/2019)</td><td>10-04-2019</td></tr>
+<tr><td>Alterações pela Lei 23/2021</td><td>24-03-2021</td></tr>
+</tbody></table>
+<p>Portanto, a obrigação de submissão do <strong>relatório anual ao CNCS</strong> está em vigor, no mínimo, desde <strong>11 de agosto de 2018</strong>, data de entrada em vigor da Lei n.º 46/2018. Na prática operacional, as primeiras listas de entidades importantes só foram concretizadas em 2019 (Portaria 131/2019), o que significa que, para a maioria das empresas, o primeiro ciclo de reporte anual prático terá tido lugar em 2019/2020.</p>
+<hr>
+<h4>Resumo prático para a empresa</h4>
+<ol>
+<li><strong>Verificar</strong> se consta na lista de entidades importantes (ou essenciais) publicada em anexo à Portaria aplicável (atualizada periodicamente).</li>
+<li><strong>Implementar</strong> as medidas de segurança exigidas pelo art. 12.º, n.º 1.</li>
+<li><strong>Submeter ao CNCS, uma vez por ano</strong>, o relatório de cibersegurança previsto no art. 12.º, n.º 2, dentro dos prazos e no formato que o CNCS indicar (o CNCS publica, no seu sítio, formulários e orientações para o reporte).</li>
+<li><strong>Comunicar incidentes</strong> significativos em ≤ 72 h (art. 13.º).</li>
+<li><strong>Guardar</strong> a documentação de segurança durante pelo menos 2 anos (prática do CNCS, alinhada com o art. 12.º).</li>
+<li><strong>Atentar</strong> para as sanções do art. 21.º em caso de omissão.</li>
+</ol>
+<hr>
+<h4>Nota de cautela</h4>
+<p>A Lei n.º 46/2018 está a ser progressivamente substituída pela transposição da <strong>Diretiva (UE) 2022/2555 (NIS 2)</strong>, que alargará o âmbito a mais setores e reforçará as obrigações de reporte. A Portugal ainda não transpôs integralmente a NIS 2; quando o novo diploma entrar em vigor, as regras de reporte anual serão atualizadas. Recomenda-se acompanhar os anúncios do CNCS e do Ministério da Economia.</p>
+<hr>
+<p><em>Esta resposta tem carácter informativo e não substitui aconselhamento jurídico. Em caso de dúvida sobre a aplicabilidade concreta à sua entidade, deve consultar o CNCS (www.cncs.pt) ou um advogado especializado em cibersegurança.</em></p></div><div class="label">What to mark in the sheet for A13</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A13 &middot; a</td><td>verified</td><td>Essential and important entities prepare and keep an annual report.</td></tr><tr><td>A13 &middot; b</td><td>verified</td><td>Only essential entities send it on their own initiative (by the last working day of January); important entities provide it to the CNCS whenever requested.</td></tr><tr><td>A13 &middot; c</td><td>verified</td><td>Art. 30.º only takes effect 24 months after publication of the regulation referred to in arts. 8.º, 14.º, 26.º, 31.º, 32.º and 83.º.</td></tr><tr><td>A13 &middot; d</td><td>to confirm</td><td>The duty applies from 22/06/2028 (24 months after Reg. CNCS n.º 756/2026 of 22/06/2026).</td></tr><tr><td>A13 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A14">A14 &middot; question L1-10</h2><p class="q"><strong>Se o CNCS alterar a qualificação de uma entidade importante, ou as medidas mínimas mudarem, quanto tempo tem a entidade para se adaptar? E quem define essas medidas mínimas, e segundo que critérios?</strong><br><em>If the CNCS changes the qualification of an important entity, or the minimum measures change, how long does the entity have to adapt? And who sets those minimum measures, and on what criteria?</em></p><div class="label">Answer</div><div class="answer"><p>Com base no Decreto-Lei n.º 125/2025, seguem as respostas detalhadas às suas questões:</p>
+<p><strong>1. Prazo para adaptação em caso de alteração de qualificação ou de medidas mínimas</strong><br>Sempre que ocorra a alteração da qualificação de uma entidade (por exemplo, de "importante" para "essencial") ou quando as medidas de cibersegurança mínimas sejam alteradas em função da atualização da matriz de risco, a entidade dispõe de um prazo de <strong>seis meses</strong> para a respetiva adaptação.</p>
+<p>Este prazo pode ser prorrogado até <strong>um ano</strong> pela Autoridade Nacional de Cibersegurança (CNCS), mediante a apresentação de um pedido fundamentado por parte da entidade.</p>
+<ul>
+<li><strong>Base legal:</strong> Decreto-Lei n.º 125/2025, Artigo 26.º, n.º 8.</li>
+</ul>
+<p><strong>2. Entidade responsável pela definição das medidas mínimas</strong><br>As medidas de cibersegurança mínimas e específicas, bem como os respetivos níveis de conformidade, são definidas pelo <strong>Centro Nacional de Cibersegurança (CNCS)</strong>, através de regulamento a aprovar pelo próprio CNCS.</p>
+<ul>
+<li><strong>Base legal:</strong> Decreto-Lei n.º 125/2025, Artigo 26.º, n.º 5.</li>
+</ul>
+<p><strong>3. Critérios para a definição das medidas mínimas</strong><br>Para a definição destas medidas, o CNCS considera os seguintes critérios:</p>
+<ul>
+<li>O <strong>setor de atividade</strong> da entidade;</li>
+<li>A <strong>dimensão da entidade</strong>;</li>
+<li>A <strong>matriz de risco definida</strong> (que é o quadro referencial de valores de risco para cenários de risco de um setor/subsetor, considerando ativos comuns, ameaças e vulnerabilidades, conforme definido no Artigo 2.º, alínea m).</li>
+</ul>
+<ul>
+<li><strong>Base legal:</strong> Decreto-Lei n.º 125/2025, Artigo 26.º, n.º 5.</li>
+</ul></div><div class="label">What to mark in the sheet for A14</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A14 &middot; a</td><td>verified</td><td>Six months to adapt to the new qualification or the new minimum measures.</td></tr><tr><td>A14 &middot; b</td><td>verified</td><td>Extendable up to one year by the National Cybersecurity Authority, on the entity&#x27;s reasoned request.</td></tr><tr><td>A14 &middot; c</td><td>verified</td><td>The minimum measures and compliance levels are set by the CNCS by regulation, according to sector, size and the risk matrix.</td></tr><tr><td>A14 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A15">A15 &middot; question L1-09</h2><p class="q"><strong>Uma empresa já em atividade quando o regime entrou em vigor tem de se identificar junto do CNCS? Em que prazo? Quem decide se é essencial ou importante? E o que acontece se não cumprir esses deveres?</strong><br><em>A company already operating when the regime came into force: must it identify itself to the CNCS? By when? Who decides whether it is essential or important? And what happens if it does not comply with these duties?</em></p><div class="label">Answer</div><div class="answer"><p>Com base no texto da <strong>Diretiva (UE) 2022/2555 (Diretiva SRI 2)</strong>, que estabelece as regras que Portugal, enquanto Estado-Membro, é obrigado a transpor e fazer cumprir na sua ordem jurídica interna, eis as respostas às suas questões:</p>
+<h5>1. A empresa tem de se identificar junto da autoridade competente (em Portugal, o CNCS)?</h5>
+<p><strong>Sim.</strong> As entidades abrangidas pelo âmbito de aplicação da diretiva têm a obrigação de se identificar perante as autoridades nacionais competentes.</p>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Artigo 3.º, n.º 4</strong>, da Diretiva (UE) 2022/2555.</li>
+</ul>
+<blockquote><em>"Para efeitos do estabelecimento da lista [...], os Estados-Membros requerem às entidades referidas nesse número que apresentem às autoridades competentes, pelo menos, as seguintes informações: a) Nome da entidade; b) O endereço e os dados de contacto atualizados..."</em></blockquote>
+<ul>
+<li><strong>Nota Contextual:</strong> Em Portugal, o <strong>Centro Nacional de Cibersegurança (CNCS)</strong> é a entidade designada para assumir as funções de autoridade competente e CSIRT (Equipas de Resposta a Incidentes de Segurança Informática), conforme o regime anterior (NIS1) e a estrutura prevista na transposição da SRI 2.</li>
+</ul>
+<h5>2. Em que prazo deve ser feita esta identificação?</h5>
+<p>Existem dois prazos relevantes a considerar: o prazo para o Estado transpor a lei e o prazo para o Estado ter a lista de entidades definida.</p>
+<ol>
+<li><strong>Transposição Nacional:</strong> Os Estados-Membros (incluindo Portugal) tiveram de adotar as disposições nacionais até <strong>17 de outubro de 2024</strong>. A partir desta data, as obrigações tornam-se efetivas na lei nacional.</li>
+</ol>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Artigo 41.º, n.º 1</strong>.</li>
+<li>&gt; <em>"Os Estados-Membros devem adotar e publicar, até 17 de outubro de 2024, as disposições necessárias para dar cumprimento à presente diretiva."</em></li>
+</ul>
+<ol>
+<li><strong>Lista de Entidades:</strong> Os Estados-Membros devem estabelecer a lista das entidades essenciais e importantes até <strong>17 de abril de 2025</strong>.</li>
+</ol>
+<ul>
+<li><strong>Base Legal:</strong> <strong>Artigo 3.º, n.º 3</strong>.</li>
+<li>&gt; <em>"Até 17 de abril de 2025, os Estados-Membros estabelecem uma lista das entidades essenciais e importantes..."</em></li>
+</ul>
+<p><strong>Conclusão para a empresa:</strong> A empresa deve estar preparada para se registar assim que o mecanismo nacional de registo estiver disponível (previsto após a transposição de outubro de 2024) e, obrigatoriamente, antes da consolidação da lista nacional em abril de 2025. O <strong>Artigo 3.º, n.º 4</strong>, estabelece ainda que as entidades devem notificar alterações aos dados no prazo de <strong>duas semanas</strong>.</p>
+<h5>3. Quem decide se a empresa é "Essencial" ou "Importante"?</h5>
+<p>A classificação não é feita pela empresa, mas sim pelo <strong>Estado-Membro (Autoridade Competente)</strong>, com base em critérios objetivos definidos na Diretiva.</p>
+<ul>
+<li><strong>Critérios de Classificação:</strong></li>
+<li><strong>Entidades Essenciais:</strong> São definidas principalmente pelo setor (Anexo I), dimensão (médias empresas ou superiores) e natureza do serviço (ex: administração pública central, prestadores de serviços de confiança, DNS, etc.).</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 3.º, n.º 1</strong>.</li>
+<li><strong>Entidades Importantes:</strong> São as entidades dos setores críticos (Anexos I e II) que não cumpram os critérios para ser "Essencial" (geralmente pequenas e médias empresas em setores menos críticos, ou que não se enquadrem nas exceções do n.º 1).</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 3.º, n.º 2</strong>.</li>
+<li><strong>Identificação por Criticidade:</strong> Independentemente da dimensão, o Estado pode identificar uma entidade como Essencial se uma perturbação do seu serviço puder afetar consideravelmente a segurança pública, gerar riscos sistémicos ou se for crítica a nível nacional/regional.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 2.º, n.º 2, alíneas b) a e)</strong>.</li>
+</ul>
+<ul>
+<li><strong>Quem decide:</strong> A <strong>Autoridade Competente</strong> do Estado-Membro (em Portugal, sob a coordenação do CNCS e setorais), que notifica a Comissão Europeia.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 3.º, n.º 5</strong>.</li>
+</ul>
+<h5>4. O que acontece se não cumprir esses deveres?</h5>
+<p>O incumprimento das obrigações de gestão de riscos (Artigo 21.º) e de notificação de incidentes (Artigo 23.º), bem como o não registo/identificação, está sujeito a medidas de supervisão e sanções financeiras pesadas.</p>
+<ul>
+<li><strong>Medidas de Supervisão e Execução:</strong> As autoridades podem realizar inspeções, auditorias, emitir advertências e ordens vinculativas para corrigir deficiências.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 32.º, n.º 2 e n.º 4</strong> (para entidades essenciais) e <strong>Artigo 33.º</strong> (para entidades importantes).</li>
+</ul>
+<ul>
+<li><strong>Coimas (Sanções Financeiras):</strong></li>
+<li><strong>Para Entidades Essenciais:</strong> Coimas até <strong>10.000.000 EUR</strong> ou <strong>2% do volume de negócios anual mundial</strong>, o que for mais elevado.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 34.º, n.º 4</strong>.</li>
+<li><strong>Para Entidades Importantes:</strong> Coimas até <strong>7.000.000 EUR</strong> ou <strong>1,4% do volume de negócios anual mundial</strong>, o que for mais elevado.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 34.º, n.º 5</strong>.</li>
+</ul>
+<ul>
+<li><strong>Responsabilidade dos Gestores:</strong> Os membros do órgão de direção podem ser considerados responsáveis e obrigados a frequentar formação específica.</li>
+<li><strong>Base Legal:</strong> <strong>Artigo 20.º, n.º 1 e n.º 2</strong>.</li>
+</ul>
+<h5>Resumo para a Gestão da Empresa</h5>
+<ol>
+<li><strong>Verifique o Âmbito:</strong> Confirme se a sua empresa se enquadra nos <strong>Anexos I ou II</strong> da Diretiva (ex: Energia, Transportes, Saúde, Digital, etc.).</li>
+<li><strong>Aguarde/Procure o Registo Nacional:</strong> Esteja atenta aos comunicados do <strong>CNCS</strong> sobre o mecanismo de registo nacional, que deve estar ativo desde <strong>outubro de 2024</strong>.</li>
+<li><strong>Prepare a Conformidade:</strong> Implemente medidas de gestão de risco (Artigo 21.º) e processos de notificação de incidentes (Artigo 23.º) imediatamente, pois as sanções são aplicáveis a partir da entrada em vigor das medidas nacionais de transposição.</li>
+</ol>
+<p><em>Nota: Embora esta resposta se baseie estritamente no texto da Diretiva (UE) 2022/2555 fornecido, recomenda-se a consulta da lei nacional de transposição (Lei de Cibersegurança) assim que publicada em Diário da República para confirmação de procedimentos administrativos específicos em Portugal.</em></p></div><div class="label">What to mark in the sheet for A15</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A15 &middot; a</td><td>verified</td><td>Yes: it identifies itself on the CNCS electronic platform within 60 days of the platform being made available (30 days after starting activity, for new entities) and keeps the information up to date.</td></tr><tr><td>A15 &middot; b</td><td>to confirm</td><td>The date the platform was made available, and therefore the end of the period, is not in the decree.</td></tr><tr><td>A15 &middot; c</td><td>verified</td><td>The CNCS qualifies: under the criteria of art. 6.º, n.º 1, a) to c) and e), and n.º 2, qualification results from the identification; under n.º 1, d) and f), and n.º 3, it is communicated to the Government member 60 days in advance and reviewed at least every two years.</td></tr><tr><td>A15 &middot; d</td><td>verified</td><td>Failure to comply with the duties in art. 8.º is a serious offence (contraordenação grave).</td></tr><tr><td>A15 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A16">A16 &middot; question L2-12</h2><p class="q"><strong>Com que periodicidade tem a entidade de repetir a análise de riscos?</strong><br><em>How often must the entity repeat its risk analysis?</em></p><div class="label">Answer</div><div class="answer"><p><strong>Resposta:</strong></p>
+<p>A periodicidade para a repetição da análise de riscos não está fixada diretamente no Decreto-Lei n.º 125/2025, de 4 de dezembro. O regime jurídico da cibersegurança, aprovado nesse diploma, determina que as entidades essenciais e importantes devem realizar essa análise com a periodicidade que vier a ser definida por regulamento da autoridade de cibersegurança competente (o Centro Nacional de Cibersegurança – CNCS).</p>
+<p><strong>Base legal:</strong></p>
+<ul>
+<li><strong>Diploma:</strong> Decreto-Lei n.º 125/2025, de 4 de dezembro (Regime Jurídico da Cibersegurança, aprovado em anexo).</li>
+<li><strong>Artigo 29.º, n.º 1</strong>: “As entidades essenciais e importantes devem realizar uma análise e gestão de riscos em relação a todos os ativos que garantam a continuidade do funcionamento das redes e sistemas de informação que utilizam, incluindo aos ativos que garantam a prestação dos serviços essenciais, <strong>com a periodicidade e os elementos técnicos e documentais a definir por regulamento da autoridade de cibersegurança competente</strong>, para além do cumprimento das medidas de cibersegurança mínimas nos termos do n.º 5 do artigo 26.º”.</li>
+</ul>
+<p>Assim, enquanto não for publicado o referido regulamento do CNCS, não existe uma periodicidade legalmente definida, devendo as entidades aguardar essa regulamentação para conhecer os prazos exatos. No entanto, note-se que o artigo 26.º, n.º 8, prevê um prazo de adaptação (seis meses, prorrogável até um ano) quando houver alteração de qualificação ou das medidas de cibersegurança mínimas, mas isso não estabelece a periodicidade da análise de riscos em si.</p></div><div class="label">What to mark in the sheet for A16</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A16 &middot; a</td><td>verified</td><td>The decree does not set the frequency: it leaves it to a regulation of the competent cybersecurity authority.</td></tr><tr><td>A16 &middot; b</td><td>verified</td><td>The preparation, execution and results of the analysis must be documented.</td></tr><tr><td>A16 &middot; c</td><td>verified</td><td>Art. 29.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.</td></tr><tr><td>A16 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A17">A17 &middot; question L2-05</h2><p class="q"><strong>Uma empresa pequena designada como entidade crítica ao abrigo da Diretiva (UE) 2022/2557 fica fora do regime por ser pequena?</strong><br><em>Is a small company designated as a critical entity under Directive (EU) 2022/2557 outside the regime because it is small?</em></p><div class="label">Answer</div><div class="answer"><p>Não, a empresa <strong>não fica fora do regime</strong>. Mesmo sendo uma empresa pequena, se tiver sido identificada como uma entidade crítica ao abrigo da Diretiva (UE) 2022/2557, ela está abrangida pelas obrigações da Diretiva SRI 2.</p>
+<p><strong>Base Legal:</strong><br>A fundamentação encontra-se na <strong>Diretiva (UE) 2022/2555, Artigo 2.º, n.º 3</strong>, que estabelece explicitamente:</p>
+<blockquote><em>"Independentemente da dimensão que tenham, a presente diretiva é aplicável às entidades identificadas como entidades críticas nos termos da Diretiva (UE) 2022/2557."</em></blockquote>
+<p><strong>Explicação Complementar:</strong><br>Embora a regra geral (prevista no Artigo 2.º, n.º 1) indique que a diretiva se aplica a entidades que sejam médias empresas ou que excedam os limiares de médias empresas, a lei cria exceções onde a dimensão da empresa é irrelevante. A designação como "entidade crítica" (ao abrigo da Diretiva de Resiliência de Entidades Críticas - CER) é uma dessas exceções, prevalecendo sobre o critério do tamanho da empresa.</p></div><div class="label">What to mark in the sheet for A17</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A17 &middot; a</td><td>verified</td><td>No: it is an essential entity, regardless of size.</td></tr><tr><td>A17 &middot; b</td><td>verified</td><td>The qualification results from the mechanisms in art. 8.º.</td></tr><tr><td>A17 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A18">A18 &middot; question L2-04</h2><p class="q"><strong>Que áreas têm de cobrir as medidas de cibersegurança de uma entidade importante, e essas regras já produzem efeitos?</strong><br><em>Which areas must an important entity&#x27;s cybersecurity measures cover, and do those rules already take effect?</em></p><div class="label">Answer</div><div class="answer"><p>As medidas de cibersegurança para uma <strong>entidade importante</strong> devem cobrir um conjunto abrangente de áreas técnicas, operacionais e organizativas. De acordo com o texto da <strong>Diretiva (UE) 2022/2555 (Diretiva SRI 2)</strong>, as respostas às suas questões são as seguintes:</p>
+<h5>1. Áreas que as medidas de cibersegurança têm de cobrir</h5>
+<p>As entidades importantes devem adotar medidas adequadas e proporcionadas para gerir os riscos de segurança dos seus sistemas de rede e informação. De acordo com o <strong>Artigo 21.º, n.º 2</strong>, estas medidas devem basear-se numa abordagem de risco e abranger, no mínimo, as seguintes áreas:</p>
+<ul>
+<li><strong>a) Políticas de análise de riscos e de segurança</strong> dos sistemas de informação;</li>
+<li><strong>b) Tratamento de incidentes</strong> (procedimentos de resposta e gestão);</li>
+<li><strong>c) Continuidade das atividades</strong>, incluindo a gestão de cópias de segurança (<em>backups</em>), a recuperação de desastres e a gestão de crises;</li>
+<li><strong>d) Segurança da cadeia de abastecimento</strong>, abrangendo a segurança nas relações com fornecedores ou prestadores de serviços diretos;</li>
+<li><strong>e) Segurança na aquisição, desenvolvimento e manutenção</strong> dos sistemas de rede e informação, incluindo o tratamento e a divulgação de vulnerabilidades;</li>
+<li><strong>f) Políticas e procedimentos para avaliar a eficácia</strong> das medidas de gestão dos riscos de cibersegurança;</li>
+<li><strong>g) Práticas básicas de ciber-higiene</strong> e a realização de formação em cibersegurança;</li>
+<li><strong>h) Políticas e procedimentos relativos à utilização de criptografia</strong> e, se aplicável, de cifragem;</li>
+<li><strong>i) Segurança dos recursos humanos</strong>, bem como políticas de controlo de acesso e gestão de ativos;</li>
+<li><strong>j) Utilização de soluções de autenticação multifatores</strong> (MFA) ou de autenticação contínua, comunicações seguras de voz, vídeo e texto, e sistemas seguros de comunicações de emergência no seio da entidade (quando aplicável).</li>
+</ul>
+<p><strong>Base Legal:</strong> Diretiva (UE) 2022/2555, Artigo 21.º, n.º 1 e n.º 2, alíneas a) a j).</p>
+<hr>
+<h5>2. Vigência e Produção de Efeitos</h5>
+<p><strong>Sim, estas regras já produzem efeitos.</strong></p>
+<p>Sendo a SRI 2 uma Diretiva, ela obriga os Estados-Membros a transpor as suas exigências para o direito nacional. O calendário de aplicação definido no documento é o seguinte:</p>
+<ul>
+<li>Os Estados-Membros tinham a obrigação de adotar e publicar as disposições necessárias para dar cumprimento à diretiva até <strong>17 de outubro de 2024</strong>.</li>
+<li>A aplicação efetiva dessas disposições deveria começar a partir de <strong>18 de outubro de 2024</strong>.</li>
+</ul>
+<p>Portanto, a partir de 18 de outubro de 2024, as entidades identificadas como "importantes" em Portugal já estão sujeitas ao cumprimento destas obrigações legais.</p>
+<p><strong>Base Legal:</strong> Diretiva (UE) 2022/2555, Artigo 41.º, n.º 1.</p></div><div class="label">What to mark in the sheet for A18</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A18 &middot; a</td><td>verified</td><td>Areas in art. 27.º, n.º 1: incidents, continuity, supply chain, secure acquisition and development, effectiveness assessment, cyber hygiene and training, cryptography, HR and access control, multi-factor authentication.</td></tr><tr><td>A18 &middot; b</td><td>verified</td><td>Art. 27.º, n.os 1 and 2, only take effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.</td></tr><tr><td>A18 &middot; c</td><td>inferred</td><td>The general duty in art. 26.º, n.º 1 (appropriate measures to manage risks) already applies.</td></tr><tr><td>A18 &middot; d</td><td>to confirm</td><td>The exact date of effect (22/06/2028, if Reg. CNCS n.º 756/2026 is all of the regulation) is not certain.</td></tr><tr><td>A18 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A19">A19 &middot; question L2-11</h2><p class="q"><strong>Que nível de conformidade (por exemplo, básico, substancial ou elevado) se aplica a uma prestadora de serviços geridos de média dimensão?</strong><br><em>Which compliance level (for example basic, substantial or high) applies to a mid-sized managed service provider?</em></p><div class="label">Answer</div><div class="answer"><p>Em Portugal, o enquadramento jurídico da cibersegurança foi recentemente reformulado pelo <strong>Decreto-Lei n.º 62/2024, de 29 de julho</strong>, que transpõe a Diretiva (UE) 2022/2555 (Diretiva NIS 2) e revoga a anterior Lei n.º 23/2018.</p>
+<p>De acordo com este regime, a classificação de uma <strong>prestadora de serviços geridos (MSP)</strong> e o respetivo nível de conformidade dependem da sua dimensão, nos termos expressos no próprio diploma.</p>
+<h5>1. Âmbito de Aplicação (Inclusão dos MSP)</h5>
+<p>A prestadora de serviços geridos está abrangida pelo regime, conforme o <strong>artigo 3.º, n.º 1</strong>, que remete para o <strong>Anexo I</strong> do Decreto-Lei n.º 62/2024. No <strong>Anexo I, ponto 9, alínea i)</strong>, são explicitamente incluídos os "prestadores de serviços geridos" (que inclui os prestadores de serviços de segurança geridos e os prestadores de serviços de rede geridos).</p>
+<h5>2. Classificação da Entidade (Essencial vs. Importante)</h5>
+<p>O <strong>artigo 4.º</strong> estabelece a distinção entre entidades essenciais e importantes:</p>
+<ul>
+<li><strong>Artigo 4.º, n.º 1</strong>: São consideradas <strong>entidades essenciais</strong> as entidades referidas no Anexo I que preencham os critérios de dimensão previstos no <strong>artigo 5.º</strong>.</li>
+<li><strong>Artigo 4.º, n.º 2</strong>: São consideradas <strong>entidades importantes</strong> as entidades referidas no Anexo I que <strong>não</strong> preencham os critérios de dimensão do artigo 5.º, bem como as entidades do Anexo II.</li>
+</ul>
+<p>O <strong>artigo 5.º, n.º 1</strong> define o critério de dimensão para efeitos de "exceder o limiar das médias empresas":</p>
+<blockquote>"Considera-se que uma entidade excede o limiar das médias empresas quando tenha, <strong>pelo menos, 50 trabalhadores</strong> e um <strong>volume de negócios anual ou um balanço total que exceda 10 milhões de euros</strong>."</blockquote>
+<h5>3. Nível de Conformidade Aplicável</h5>
+<p>O <strong>artigo 12.º, n.º 2</strong> do Decreto-Lei n.º 62/2024 determina os níveis de segurança consoante a classificação:</p>
+<blockquote>"O nível de segurança a aplicar é o seguinte:</blockquote>
+<blockquote>a) <strong>Nível elevado</strong>, para as entidades essenciais;</blockquote>
+<blockquote>b) <strong>Nível substancial</strong>, para as entidades importantes;</blockquote>
+<blockquote>c) <strong>Nível básico</strong>, para as demais entidades abrangidas pelo presente decreto-lei."</blockquote>
+<h5>Resposta Final</h5>
+<p>Para uma <strong>prestadora de serviços geridos de média dimensão</strong> (que, por definição, normalmente possui 50 ou mais trabalhadores e um volume de negócios superior a 10 milhões de euros), a empresa <strong>preenche os critérios do artigo 5.º, n.º 1</strong>. Consequentemente, é classificada como <strong>entidade essencial</strong> (artigo 4.º, n.º 1) e está sujeita ao <strong>nível de conformidade elevado</strong> (artigo 12.º, n.º 2, alínea a)).</p>
+<p><strong>Base legal completa:</strong></p>
+<ul>
+<li><strong>Diploma</strong>: Decreto-Lei n.º 62/2024, de 29 de julho.</li>
+<li><strong>Âmbito</strong>: Artigo 3.º, n.º 1, conjugado com o Anexo I, ponto 9, alínea i).</li>
+<li><strong>Classificação</strong>: Artigo 4.º, n.º 1, conjugado com o Artigo 5.º, n.º 1.</li>
+<li><strong>Nível de segurança</strong>: Artigo 12.º, n.º 2, alínea a).</li>
+</ul>
+<p><strong>Nota</strong>: Se a MSP tiver menos de 50 trabalhadores ou um volume de negócios/balanço igual ou inferior a 10 milhões de euros, não excederia o limiar do artigo 5.º, passando a ser considerada <strong>entidade importante</strong> e sujeita ao <strong>nível substancial</strong> (artigo 12.º, n.º 2, alínea b)). No entanto, para uma empresa de "média dimensão" no sentido comum (tipicamente acima desses limiares), o nível é o <strong>elevado</strong>.</p></div><div class="label">What to mark in the sheet for A19</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A19 &middot; a</td><td>verified</td><td>The decree does not set the level: the CNCS defines minimum measures and compliance levels by regulation, according to sector, size and risk matrix.</td></tr><tr><td>A19 &middot; b</td><td>to confirm</td><td>The specific level depends on CNCS regulation and the risk matrix applied to the entity.</td></tr><tr><td>A19 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A20">A20 &middot; question L2-01</h2><p class="q"><strong>Que dados tem uma prestadora de serviços geridos de inscrever no registo do CNCS, e em que prazo comunica alterações?</strong><br><em>What data must a managed service provider enter in the CNCS register, and by when must it report changes?</em></p><div class="label">Answer</div><div class="answer"><p>Em Portugal, as prestadoras de serviços geridos (MSP) estão obrigadas ao registo no Centro Nacional de Cibersegurança (CNCS) nos termos da Lei da Cibersegurança, sendo os dados e prazos detalhados no regulamento específico do CNCS.</p>
+<p>A base legal e os dados/prazos são os seguintes:</p>
+<p><strong>1. Obrigação de registo e delegação legal:</strong></p>
+<ul>
+<li><strong>Diploma:</strong> Lei n.º 46/2018, de 13 de agosto (regime jurídico da segurança do ciberespaço), alterada pela Lei n.º 20/2023, de 22 de agosto (que transpõe a Diretiva NIS 2).</li>
+<li><strong>Artigo 9.º, n.º 1:</strong> "As entidades referidas no artigo anterior devem registar-se no CNCS."</li>
+<li><strong>Artigo 9.º, n.º 2:</strong> "O CNCS define, por regulamento, os dados a inscrever no registo e os prazos para comunicação de alterações."</li>
+</ul>
+<p><strong>2. Regulamento aplicável (fonte dos dados e prazos):</strong></p>
+<ul>
+<li><strong>Diploma:</strong> Regulamento n.º 1/2019 do CNCS, publicado no Diário da República, 2.ª série, n.º 10, de 14 de janeiro de 2019.</li>
+</ul>
+<p><strong>3. Dados a inscrever no registo (Artigo 3.º do Regulamento n.º 1/2019):</strong><br>De acordo com o <strong>artigo 3.º</strong> do regulamento, os dados a inscrever incluem, nomeadamente:</p>
+<ul>
+<li><strong>a)</strong> A identificação da entidade: denominação social, NIPC, código de atividade económica (CAE) e morada da sede;</li>
+<li><strong>b)</strong> A identificação do representante legal e dos pontos de contacto em matéria de segurança da informação (nome, cargo, endereço eletrónico e número de telefone);</li>
+<li><strong>c)</strong> O setor de atividade;</li>
+<li><strong>d)</strong> A descrição dos serviços prestados, designadamente os serviços digitais (no caso das MSP, a descrição dos serviços geridos);</li>
+<li><strong>e)</strong> A identificação dos ativos de informação relevantes para a prestação desses serviços (sistemas, redes, infraestruturas);</li>
+<li><strong>f)</strong> A data de início de atividade.</li>
+</ul>
+<p><strong>4. Prazo para comunicação de alterações (Artigo 4.º do Regulamento n.º 1/2019):</strong></p>
+<ul>
+<li><strong>Artigo 4.º</strong> do regulamento estabelece que: "As entidades devem comunicar ao CNCS, <strong>no prazo de 30 dias a contar da data da ocorrência</strong>, qualquer alteração dos dados inscritos no registo."</li>
+</ul>
+<p><strong>Resumo prático para a empresa:</strong></p>
+<ul>
+<li>Deve registar-se no CNCS indicando os dados do artigo 3.º (identificação da empresa, representantes legais e de segurança, setor, descrição dos serviços e ativos).</li>
+<li>Sempre que algum destes dados mudar (por exemplo, alteração de endereço, representante legal, ou mudança de serviços), deve comunicar a alteração ao CNCS <strong>dentro de 30 dias</strong> após a mudança ocorrer.</li>
+</ul></div><div class="label">What to mark in the sheet for A20</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A20 &middot; a</td><td>verified</td><td>Identification data: name, tax number, address and contacts (including IP address ranges), sector and subsector, Member States where it provides services.</td></tr><tr><td>A20 &middot; b</td><td>verified</td><td>Managed service providers (and cloud, data centre, etc.) must also enter their main establishment, contacts, Member States and IP ranges.</td></tr><tr><td>A20 &middot; c</td><td>verified</td><td>General rule: changes notified to the CNCS within 30 working days.</td></tr><tr><td>A20 &middot; d</td><td>verified</td><td>For the providers in n.º 4 (including managed services), the change is notified within three months.</td></tr><tr><td>A20 &middot; e</td><td>inferred</td><td>The two deadlines overlap for these providers; which one prevails is debatable.</td></tr><tr><td>A20 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A21">A21 &middot; question L1-08</h2><p class="q"><strong>Além das entidades essenciais e importantes, o regime português prevê outra categoria de entidades? Quais? Como são qualificadas, e que medidas e coimas se lhes aplicam?</strong><br><em>Besides essential and important entities, does the Portuguese regime provide for another category of entities? Which? How are they qualified, and which measures and fines apply to them?</em></p><div class="label">Answer</div><div class="answer"><h3>Categorias de entidades no regime português de cibersegurança (transposição da Diretiva NIS2)</h3>
+<h4>1. Resposta direta: não existe terceira categoria</h4>
+<p>O regime português de cibersegurança, transposto pela <strong>Lei n.º 44/2024, de 19 de junho</strong> (Diário da República, 1.ª série, n.º 115), segue a estrutura dicotómica da Diretiva (UE) 2022/2555 e <strong>não cria uma terceira categoria</strong> de entidades além das <strong>entidades essenciais</strong> e das <strong>entidades importantes</strong>.</p>
+<p>A Diretiva, no seu artigo 3.º, define exatamente duas categorias:</p>
+<ul>
+<li><strong>Artigo 3.º, n.º 1</strong> – «entidades essenciais»;</li>
+<li><strong>Artigo 3.º, n.º 2</strong> – «entidades importantes» (as entidades dos tipos referidos nos Anexos I ou II que <em>não</em> sejam consideradas essenciais).</li>
+</ul>
+<p>A transposição portuguesa mantém esta dicotomia. Não existe, no ordenamento português em vigor, uma categoria autónoma (como, por exemplo, «entidades de menor dimensão» ou «entidades de vigilância reduzida») que se sobreponha ou se adicione a estas duas.</p>
+<hr>
+<h4>2. Qualificação das duas categorias</h4>
+<h5>2.1. Entidades essenciais (art. 3.º, n.º 1, da Diretiva; transposto na Lei n.º 44/2024)</h5>
+<p>São entidades essenciais, independentemente ou com base em critérios de dimensão:</p>
+<table><thead><tr><th>Alínea do art. 3.º, n.º 1</th><th>Critério</th></tr></thead><tbody>
+<tr><td>a)</td><td>Entidades dos tipos do <strong>Anexo I</strong> que excedam os limiares de média empresa (art. 2.º, n.º 1, do anexo da Recomendação 2003/361/CE)</td></tr>
+<tr><td>b)</td><td>Prestadores de serviços de confiança qualificados, registos de nomes de domínio de topo (TLD) e prestadores de serviços de DNS, <strong>independentemente da dimensão</strong></td></tr>
+<tr><td>c)</td><td>Fornecedores de redes públicas de comunicações eletrónicas / prestadores de serviços de comunicações eletrónicas acessíveis ao público que sejam <strong>médias empresas</strong></td></tr>
+<tr><td>d)</td><td>Entidades da administração pública a nível <strong>central</strong> (art. 2.º, n.º 2, al. f), i))</td></tr>
+<tr><td>e)</td><td>Qualquer outra entidade dos Anexos I ou II que o Estado-Membro tenha identificado como essencial nos termos do art. 2.º, n.º 2, al. b) a e) (serviço essencial único, perturbação com impacto na segurança pública, riscos sistémicos, importância setorial)</td></tr>
+<tr><td>f)</td><td>Entidades identificadas como <strong>entidades críticas</strong> nos termos da Diretiva (UE) 2022/2557 (CER)</td></tr>
+<tr><td>g)</td><td>Entidades identificadas como operadores de serviços essenciais antes de 16/01/2023 (transição)</td></tr>
+</tbody></table>
+<h5>2.2. Entidades importantes (art. 3.º, n.º 2, da Diretiva; transposto na Lei n.º 44/2024)</h5>
+<p>São todas as entidades dos tipos referidos nos <strong>Anexos I ou II</strong> que <strong>não</strong> sejam consideradas entidades essenciais. Inclui expressamente as entidades identificadas pelos Estados-Membros nos termos do art. 2.º, n.º 2, al. b) a e), que não cheguem a ser classificadas como essenciais.</p>
+<p>Em termos práticos, trata-se, por exemplo, de:</p>
+<ul>
+<li>Médias empresas dos setores do Anexo I (energia, transportes, setor bancário, infraestruturas do mercado financeiro, saúde, água, águas residuais, infraestruturas digitais, gestão de serviços TIC, administração pública, espaço) que não excedam os limiares de grande empresa;</li>
+<li>Entidades dos setores do Anexo II (serviços postais, gestão de resíduos, produtos químicos, produtos alimentares, indústria transformadora, prestadores de serviços digitais, investigação) que cumpram o limiar de média empresa (art. 2.º, n.º 1, da Diretiva);</li>
+<li>Entidades identificadas como importantes por Portugal nos termos do art. 2.º, n.º 2, al. b) a e).</li>
+</ul>
+<h5>2.3. Observação sobre a dimensão mínima</h5>
+<p>O <strong>artigo 2.º, n.º 1</strong>, da Diretiva estabelece que o âmbito de aplicação abrange entidades que sejam <strong>médias empresas</strong> (ou que excedam os limiares de média empresa) nos termos da Recomendação 2003/361/CE. Pequenas empresas e microempresas <strong>não</strong> estão abrangidas, salvo nas exceções do art. 2.º, n.º 2 (aplicação independentemente da dimensão) e nas extensões facultativas do art. 2.º, n.º 5 (administração pública local, instituições de ensino).</p>
+<p>Portanto, <strong>não existe uma categoria de «pequenas empresas sujeitas a regime atenuado»</strong> – estão simplesmente fora do âmbito, salvo exceção.</p>
+<hr>
+<h4>3. Medidas de supervisão e execução aplicáveis a cada categoria</h4>
+<p>A distinção fundamental está na <strong>modalidade de supervisão</strong>:</p>
+<h5>3.1. Entidades essenciais – supervisão <em>ex ante</em> (art. 32.º da Diretiva)</h5>
+<p>O artigo 32.º, n.º 2, atribui às autoridades competentes poderes para, <strong>de forma proativa e contínua</strong>, submeter as entidades essenciais a:</p>
+<ul>
+<li><strong>a)</strong> Inspeções no local e supervisão remota, incluindo controlos aleatórios;</li>
+<li><strong>b)</strong> <strong>Auditorias de segurança regulares e específicas</strong> (por organismo independente ou autoridade competente);</li>
+<li><strong>c)</strong> Auditorias <em>ad hoc</em> (justificadas por incidente significativo ou infração);</li>
+<li><strong>d)</strong> Verificações de segurança com base em critérios objetivos;</li>
+<li><strong>e)</strong> Pedidos de informações sobre medidas de gestão de riscos;</li>
+<li><strong>f)</strong> Pedidos de acesso a dados, documentos e informações;</li>
+<li><strong>g)</strong> Pedidos de provas da aplicação das políticas de cibersegurança.</li>
+</ul>
+<p>No plano de <strong>execução</strong> (art. 32.º, n.º 4), as autoridades competentes podem, <em>nomeadamente</em>:</p>
+<ul>
+<li>Emitir advertências (al. a));</li>
+<li>Adotar <strong>instruções vinculativas</strong> e ordens de correção (al. b));</li>
+<li>Ordenar a cessação de condutas infrativas (al. c));</li>
+<li>Ordenar o cumprimento do art. 21.º ou do art. 23.º em forma e prazo especificados (al. d));</li>
+<li>Ordenar a informação de utilizadores sobre ciberameaças significativas (al. e));</li>
+<li>Ordenar a aplicação de recomendações de auditoria (al. f));</li>
+<li><strong>Designar um supervisor</strong> com funções bem definidas durante determinado período (al. g));</li>
+<li>Ordenar a publicação de infrações (al. h));</li>
+<li>Imposer coimas (al. i)).</li>
+</ul>
+<p>Em caso de <strong>ineficácia</strong> das medidas acima (art. 32.º, n.º 5), podem ainda:</p>
+<ul>
+<li><strong>Suspender temporariamente</strong> uma certificação ou autorização de parte ou totalidade dos serviços (al. a));</li>
+<li><strong>Proibir temporariamente</strong> qualquer pessoa singular com responsabilidades de gestão (nível de diretor executivo ou representante legal) de exercer funções nessa entidade (al. b)).</li>
+</ul>
+<blockquote><strong>Nota:</strong> Estas suspensões/proibições temporárias <strong>não são aplicáveis a entidades da administração pública</strong> (art. 32.º, n.º 5, 3.º parágrafo).</blockquote>
+<h5>3.2. Entidades importantes – supervisão <em>ex post</em> (art. 33.º da Diretiva)</h5>
+<p>O artigo 33.º, n.º 1, estabelece que as autoridades competentes atuam <strong>após</strong> a apresentação de provas, indícios ou informações de incumprimento. Os poderes de supervisão (art. 33.º, n.º 2) são substancialmente idênticos aos do art. 32.º, n.º 2, com a exceção de que:</p>
+<ul>
+<li>As inspeções são <strong>ex post</strong> (al. a));</li>
+<li><strong>Não há auditorias regulares</strong> – apenas auditorias de segurança <strong>específicas</strong> (al. b));</li>
+<li>Não há auditorias <em>ad hoc</em> autónomas (al. c) do art. 32.º).</li>
+</ul>
+<p>No plano de execução (art. 33.º, n.º 4), os poderes são os mesmos do art. 32.º, n.º 4, <strong>exceto</strong>:</p>
+<ul>
+<li><strong>Não existe o poder de designar um supervisor</strong> (correspondente à al. g) do art. 32.º, n.º 4);</li>
+<li><strong>Não existem as suspensões temporárias de certificações/autorizações nem as proibições temporárias de gestão</strong> (art. 32.º, n.º 5, inaplicável por força do art. 33.º, n.º 5, que remuta apenas para os n.ºs 6, 7 e 8 do art. 32.º).</li>
+</ul>
+<h5>3.3. Quadro comparativo</h5>
+<table><thead><tr><th>Aspecto</th><th>Entidades essenciais (art. 32.º)</th><th>Entidades importantes (art. 33.º)</th></tr></thead><tbody>
+<tr><td>Modalidade</td><td><em>Ex ante</em> (contínua)</td><td><em>Ex post</em> (por indício)</td></tr>
+<tr><td>Auditorias regulares</td><td>Sim (art. 32.º, n.º 2, b))</td><td>Não</td></tr>
+<tr><td>Designação de supervisor</td><td>Sim (art. 32.º, n.º 4, g))</td><td>Não</td></tr>
+<tr><td>Suspensão de certificação/autorização</td><td>Sim (art. 32.º, n.º 5, a))</td><td>Não</td></tr>
+<tr><td>Proibição temporária de gestão</td><td>Sim (art. 32.º, n.º 5, b))</td><td>Não</td></tr>
+<tr><td>Instruções vinculativas</td><td>Sim (art. 32.º, n.º 4, b))</td><td>Sim (art. 33.º, n.º 4, b))</td></tr>
+<tr><td>Publicação de infração</td><td>Sim (art. 32.º, n.º 4, h))</td><td>Sim (art. 33.º, n.º 4, g))</td></tr>
+<tr><td>Coimas</td><td>Sim (art. 32.º, n.º 4, i))</td><td>Sim (art. 33.º, n.º 4, h))</td></tr>
+</tbody></table>
+<hr>
+<h4>4. Coimas (art. 34.º da Diretiva)</h4>
+<p>O artigo 34.º, n.º 2, estabelece que as coimas são impostas <strong>em complemento</strong> de qualquer das medidas de execução referidas nos artigos 32.º, n.º 4, al. a) a h), 32.º, n.º 5, e 33.º, n.º 4, al. a) a g).</p>
+<p>Os <strong>tectos máximos</strong> são:</p>
+<table><thead><tr><th>Categoria</th><th>Teto máximo (art. 34.º)</th></tr></thead><tbody>
+<tr><td><strong>Entidades essenciais</strong> – violação do art. 21.º ou 23.º</td><td><strong>10 000 000 EUR</strong> ou <strong>2 %</strong> do volume de negócios anual a nível mundial (exercício financeiro anterior), <strong>consoante o montante mais elevado</strong> (art. 34.º, n.º 4)</td></tr>
+<tr><td><strong>Entidades importantes</strong> – violação do art. 21.º ou 23.º</td><td><strong>7 000 000 EUR</strong> ou <strong>1,4 %</strong> do volume de negócios anual a nível mundial (exercício financeiro anterior), <strong>consoante o montante mais elevado</strong> (art. 34.º, n.º 5)</td></tr>
+</tbody></table>
+<h5>Critérios de determinação do montante (art. 34.º, n.º 3, que remete para o art. 32.º, n.º 7):</h5>
+<ul>
+<li>Gravidade da infração e importância das disposições violadas (al. a));</li>
+<li>Duração da infração (al. b));</li>
+<li>Infrações anteriores (al. c));</li>
+<li>Danos materiais ou imateriais causados (al. d));</li>
+<li>Intenção ou negligência (al. e));</li>
+<li>Medidas de prevenção/atenuação adotadas (al. f));</li>
+<li>Cumprimento de códigos de conduta ou procedimentos de certificação (al. g));</li>
+<li>Nível de cooperação com as autoridades (al. h)).</li>
+</ul>
+<h5>Infrações consideradas <strong>graves</strong> (art. 32.º, n.º 7, al. a), i) a v)):</h5>
+<ul>
+<li>Violações repetidas;</li>
+<li>Não notificação ou não correção de incidentes significativos;</li>
+<li>Não correção de deficiências após instruções vinculativas;</li>
+<li>Obstrução de auditorias ou atividades de acompanhamento;</li>
+<li>Prestação de informações falsas ou grosseiramente inexatas.</li>
+</ul>
+<h5>Regime de sanções pecuniárias compulsórias (art. 34.º, n.º 6)</h5>
+<p>Os Estados-Membros podem prever <strong>sanções pecuniárias compulsórias</strong> (astreintes) para obrigar a cessação de uma violação, em conformidade com uma decisão prévia da autoridade competente.</p>
+<h5>Entidades da administração pública (art. 34.º, n.º 7)</h5>
+<p>Os Estados-Membros podem adotar regras específicas para determinar se e em que medida se aplicam coimas a entidades da administração pública.</p>
+<h5>Sistemas jurídicos sem coimas (art. 34.º, n.º 8)</h5>
+<p>Se o sistema jurídico nacional não prever coimas, a sanção pecuniária é <strong>proposta pela autoridade de controlo</strong> e <strong>aplicada pelos tribunais nacionais</strong>, devendo ser eficaz e ter efeito equivalente.</p>
+<hr>
+<h4>5. Extensões facultativas do âmbito (não constituem nova categoria)</h4>
+<p>O artigo 2.º, n.º 5, da Diretiva permite que os Estados-Membros estendam o âmbito de aplicação a:</p>
+<ul>
+<li><strong>a)</strong> Entidades da administração pública a nível <strong>local</strong>;</li>
+<li><strong>b)</strong> Instituições de ensino, em especial quando realizam atividades críticas no domínio da investigação.</li>
+</ul>
+<p>Estas entidades, quando abrangidas, são <strong>classificadas como essenciais ou importantes</strong> nos termos do artigo 3.º – não constituem uma categoria autónoma. A transposição portuguesa pode ter optado por incluir estas extensões, mas a qualificação (essencial/importante) segue os critérios do art. 3.º.</p>
+<hr>
+<h4>6. Síntese</h4>
+<table><thead><tr><th>Questão</th><th>Resposta</th></tr></thead><tbody>
+<tr><td>Existe terceira categoria?</td><td><strong>Não.</strong> O regime português (Lei n.º 44/2024, transpondo a Diretiva (UE) 2022/2555) reconhece apenas <strong>entidades essenciais</strong> e <strong>entidades importantes</strong> (art. 3.º, n.ºs 1 e 2).</td></tr>
+<tr><td>Como se qualificam?</td><td>Essenciais: art. 3.º, n.º 1, al. a) a g). Importantes: art. 3.º, n.º 2 (residual – tudo o que for dos Anexos I/II e não for essencial).</td></tr>
+<tr><td>Supervisão</td><td>Essenciais: <em>ex ante</em>, com auditorias regulares, designação de supervisor, suspensão de certificação, proibição de gestão (art. 32.º). Importantes: <em>ex post</em>, sem auditorias regulares, sem supervisor, sem suspensão/proibição (art. 33.º).</td></tr>
+<tr><td>Coimas máximas</td><td>Essenciais: 10 M EUR ou 2 % (art. 34.º, n.º 4). Importantes: 7 M EUR ou 1,4 % (art. 34.º, n.º 5).</td></tr>
+</tbody></table>
+<hr>
+<h4>7. Base legal</h4>
+<ul>
+<li><strong>Diretiva (UE) 2022/2555</strong>, de 14 de dezembro de 2022 (Jornal Oficial da UE, L 333/80, de 27.12.2022): artigos 2.º, 3.º, 21.º, 23.º, 32.º, 33.º, 34.º, 36.º, 37.º; Anexos I e II.</li>
+<li><strong>Lei n.º 44/2024, de 19 de junho</strong> (Diário da República, 1.ª série, n.º 115), que transpõe a Diretiva (UE) 2022/2555 para o direito português e estabelece o regime de cibersegurança aplicável em Portugal, com entrada em vigor no dia seguinte à publicação e aplicação a partir de 18 de outubro de 2024 (conforme art. 41.º, n.º 1, da Diretiva).</li>
+</ul>
+<blockquote><strong>Nota de cautela:</strong> A presente resposta baseia-se no texto integral da Diretiva (UE) 2022/2555 fornecido e no conhecimento da estrutura da transposição portuguesa. Para a verificação dos artigos exatos da Lei n.º 44/2024 que correspondem a cada disposição da Diretiva, recomenda-se a consulta do texto consolidado disponível no site da Presidência do Conselho de Ministros ou na base de dados do Diário da República.</blockquote></div><div class="label">What to mark in the sheet for A21</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A21 &middot; a</td><td>verified</td><td>Yes: relevant public entities (entidades públicas relevantes), i.e. public entities not qualified as essential or important.</td></tr><tr><td>A21 &middot; b</td><td>verified</td><td>They are split into Group A (as a rule, 250 or more workers, or above the medium-sized enterprise thresholds) and Group B (as a rule, 75 to 249 workers, or medium-sized enterprises).</td></tr><tr><td>A21 &middot; c</td><td>verified</td><td>The qualification results from the mechanisms in art. 8.º.</td></tr><tr><td>A21 &middot; d</td><td>verified</td><td>They have their own measures set by the CNCS by regulation (art. 33.º) and their own fines by group.</td></tr><tr><td>A21 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A22">A22 &middot; question L2-10</h2><p class="q"><strong>Quanto paga uma entidade importante de taxa de supervisão ao CNCS?</strong><br><em>How much supervision fee does an important entity pay the CNCS?</em></p><div class="label">Answer</div><div class="answer"><p>De acordo com a legislação portuguesa em vigor, a obrigação de pagamento de taxas de supervisão ao Centro Nacional de Cibersegurança (CNCS) e os respetivos montantes estão estabelecidos da seguinte forma:</p>
+<h5>1. Valor da Taxa</h5>
+<p>Atualmente, o montante da taxa de supervisão para entidades que se enquadram na categoria equivalente à de <strong>Operadores de Serviços Essenciais</strong> (categoria que, com a transposição da Diretiva NIS2, abrange as novas designações de <strong>Entidades Essenciais</strong> e <strong>Entidades Importantes</strong>) é de <strong>5.000,00 € (cinco mil euros)</strong>.</p>
+<p><em>Nota: Existe um montante reduzido de 2.500,00 € apenas para Prestadores de Serviços Digitais, categoria que, na prática, foi absorvida e redefinida no novo regime das Entidades Essenciais e Importantes.</em></p>
+<h5>2. Base Legal</h5>
+<p>A obrigação e a definição dos valores assentam nos seguintes diplomas legais:</p>
+<p><strong>A. Obrigação de Pagamento:</strong></p>
+<ul>
+<li><strong>Diploma:</strong> Lei n.º 46/2018, de 13 de agosto (Lei de Cibersegurança), com as alterações introduzidas pela Lei n.º 4/2024, de 2 de janeiro (transposição da Diretiva NIS2).</li>
+<li><strong>Artigo:</strong> Artigo 19.º (Taxas de supervisão).</li>
+<li><strong>Número e Alínea:</strong> <strong>N.º 1</strong> e <strong>N.º 2</strong>.</li>
+<li><em>Texto legal (parcial):</em> "A prestação de serviços de supervisão pelo CNCS... está sujeita ao pagamento de taxas... cujos montantes são fixados por portaria..."</li>
+</ul>
+<p><strong>B. Fixação dos Montantes:</strong></p>
+<ul>
+<li><strong>Diploma:</strong> Portaria n.º 239/2019, de 31 de julho (que fixa os montantes das taxas de supervisão).</li>
+<li><strong>Artigo:</strong> Artigo 3.º (Montantes das taxas).</li>
+<li><strong>Número e Alínea:</strong> <strong>Alínea a)</strong>.</li>
+<li><em>Texto legal:</em> "a) 5000 euros, no caso de operadores de serviços essenciais;"</li>
+</ul>
+<h5>3. Contexto Importante (Transposição da NIS2)</h5>
+<p>É crucial notar que a <strong>Lei n.º 4/2024, de 2 de janeiro</strong>, que transpôs a Diretiva (UE) 2022/2555 (Diretiva NIS2), alterou a Lei n.º 46/2018. Esta nova lei substituiu as antigas categorias de "Operadores de Serviços Essenciais" (OSE) e "Prestadores de Serviços Digitais" (PSD) pelas novas categorias de <strong>Entidades Essenciais</strong> e <strong>Entidades Importantes</strong>.</p>
+<p>Embora a terminologia tenha evoluído com a Lei n.º 4/2024, a <strong>Portaria n.º 239/2019</strong> mantém-se em vigor como o regulamento que fixa os valores das taxas até que seja publicada nova portaria que especifique montantes diferenciados para as novas categorias. Portanto, uma "Entidade Importante" está sujeita à supervisão do CNCS e, na ausência de nova regulamentação específica sobre valores, aplica-se o montante geral de supervisão estabelecido para as entidades não digitais (5.000,00 €).</p>
+<h5>Resumo para a Empresa</h5>
+<ul>
+<li><strong>Obrigação:</strong> Pagar taxa anual de supervisão ao CNCS.</li>
+<li><strong>Montante:</strong> 5.000,00 €.</li>
+<li><strong>Fundamento:</strong> Art. 19.º da Lei n.º 46/2018 (alterada pela Lei n.º 4/2024) e Art. 3.º da Portaria n.º 239/2019.</li>
+</ul>
+<p><em>Recomenda-se acompanhar o Diário da República, pois a publicação de uma nova portaria atualizada à luz da NIS2 poderá ocorrer para ajustar especificamente as taxas às categorias de "Entidade Essencial" e "Entidade Importante".</em></p></div><div class="label">What to mark in the sheet for A22</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A22 &middot; a</td><td>verified</td><td>The decree allows a supervision fee to be charged, proportionate and based on objective criteria.</td></tr><tr><td>A22 &middot; b</td><td>to confirm</td><td>The amount is not in the decree: it is set by a ministerial order (portaria) of the finance and cybersecurity ministers. We have not read any such order.</td></tr><tr><td>A22 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A23">A23 &middot; question L2-07</h2><p class="q"><strong>O decreto obriga a ter a certificação ISO/IEC 27001?</strong><br><em>Does the decree require ISO/IEC 27001 certification?</em></p><div class="label">Answer</div><div class="answer"><h3>O Decreto-Lei n.º 125/2025 obriga à certificação ISO/IEC 27001?</h3>
+<h4>Resposta curta</h4>
+<p><strong>Não.</strong> O regime jurídico da cibersegurança aprovado pelo Decreto-Lei n.º 125/2025, de 4 de dezembro, <strong>não impõe, de forma direta e genérica, a obtenção da certificação ISO/IEC 27001</strong> (ou de qualquer outra norma específica) como obrigação autónoma. O que o regime obriga é à adoção de <strong>medidas de gestão dos riscos de cibersegurança</strong> (técnicas, operacionais e organizacionais), e a certificação é um instrumento <em>facultativo</em> ou <em>condicional</em> que o CNCS pode, mas não deve, exigir.</p>
+<hr>
+<h4>Análise detalhada com base legal</h4>
+<h5>1. A obrigação central é a de medidas de cibersegurança, não a de certificação</h5>
+<p>O dever essencial das entidades essenciais e importantes é garantir a segurança das redes e sistemas de informação mediante medidas técnicas, operacionais e organizacionais:</p>
+<blockquote><strong>Art. 26.º, n.º 1:</strong> <em>«As entidades essenciais e importantes são responsáveis por garantir a segurança das redes e dos sistemas de informação, tomando as medidas técnicas, operacionais e organizativas adequadas para gerir os riscos que se colocam à segurança das redes e dos sistemas de informação que utilizam nas suas operações e para impedir ou minimizar o impacto de incidentes nos destinatários dos seus serviços e noutros serviços.»</em></blockquote>
+<p>As áreas mínimas que essas medidas devem abranger estão enumeradas no <strong>art. 27.º, n.º 1</strong> (tratamento de incidentes, continuidade de atividades, segurança da cadeia de abastecimento, segurança na aquisição e desenvolvimento, avaliação de eficácia, ciber-higiene e formação, criptografia, segurança dos recursos humanos, autenticação multifator, etc.). <strong>Nenhuma destas alíneas refere a certificação ISO/IEC 27001.</strong></p>
+<h5>2. A certificação é um instrumento que o CNCS <em>pode</em> exigir — não uma obrigação automática</h5>
+<blockquote><strong>Art. 34.º, n.º 1:</strong> <em>«O CNCS <strong>pode exigir</strong> às entidades essenciais, importantes e públicas relevantes a obtenção de certificação, nacional, europeia ou internacional, que ateste o cumprimento das medidas de cibersegurança do presente decreto-lei, nomeadamente em conformidade com esquemas de certificação elaborados a partir do Documento Normativo Português — Especificação Técnica (DNP TS) 4577-1, Maturidade Digital — Selo Digital e do QNRCS, assegurando, em todo o caso, uma matriz de equivalência com esquemas de certificação de referência existentes.»</em></blockquote>
+<p>Três elementos relevantes:</p>
+<ul>
+<li>O verbo é <strong>«pode exigir»</strong>, não «deve exigir». Trata-se de uma faculdade discricionária da autoridade, não de um dever automático de todas as entidades.</li>
+<li>Os esquemas de certificação referidos são o <strong>DNP TS 4577-1</strong>, o <strong>Selo Digital</strong> e o <strong>QNRCS</strong> — não a ISO/IEC 27001 em si.</li>
+<li>A certificação visa atestar o <em>cumprimento das medidas de cibersegurança do decreto-lei</em>, não a conformidade com uma norma internacional específica.</li>
+</ul>
+<h5>3. A certificação como via de presunção de conformidade (facultativa)</h5>
+<blockquote><strong>Art. 34.º, n.º 3:</strong> <em>«As entidades essenciais, importantes e públicas relevantes <strong>podem recorrer</strong> à certificação referida n.º 1 para comprovar a implementação de medidas técnicas, operacionais e organizativas adequadas e proporcionadas para gerir os riscos de segurança dos sistemas de rede e informação utilizados nas respetivas operações ou prestação de serviços.»</em></blockquote>
+<p>Aqui o verbo é <strong>«podem recorrer»</strong>: a certificação é um meio <em>opcional</em> que a entidade pode utilizar para demonstrar conformidade, mas não é o único meio nem é obrigatória.</p>
+<h5>4. O QNRCS como referência — e não como imposição de uma norma concreta</h5>
+<blockquote><strong>Art. 14.º, n.º 1:</strong> <em>«O QNRCS é o instrumento nacional de referência para a identificação das normas, padrões e boas práticas existentes em matéria de gestão da cibersegurança e da segurança da informação.»</em></blockquote>
+<blockquote><strong>Art. 14.º, n.º 3:</strong> <em>«As entidades essenciais e importantes devem ter em conta o QNRCS no âmbito da adoção de medidas de cibersegurança previstas nos artigos 27.º e seguintes.»</em></blockquote>
+<p>O QNRCS <strong>reúne e divulga</strong> normas e boas práticas (que podem incluir, entre outras, a ISO/IEC 27001), mas o dever da entidade é «ter em conta» esse quadro referencial, não obter certificação numa norma específica. O QNRCS é aprovado por regulamento do CNCS (art. 14.º, n.º 2) e ainda não foi aprovado à data do presente decreto-lei.</p>
+<h5>5. Menção genérica a «normas europeias e internacionais pertinentes»</h5>
+<blockquote><strong>Art. 26.º, n.º 3, al. a):</strong> <em>«Garantir um nível de segurança das redes e dos sistemas de informação adequado ao risco em causa, tendo em conta os progressos técnicos mais recentes e, <strong>se aplicáveis</strong>, as normas europeias e internacionais pertinentes, bem como os custos de execução e a viabilidade financeira destes.»</em></blockquote>
+<p>Esta referência é genérica e condicional («se aplicáveis»), servindo como critério de adequação do nível de segurança. Não constitui uma obrigação de certificação em ISO/IEC 27001.</p>
+<h5>6. O regime sancionatório não prevê coima pela ausência de ISO 27001</h5>
+<p>As contraordenações muito graves (art. 61.º, n.º 1) punem, designadamente, o incumprimento das medidas de cibersegurança (al. b), o incumprimento do dever de notificação (al. j), etc. — mas <strong>não punem a ausência de certificação ISO/IEC 27001</strong>. O que é punível no domínio da certificação é:</p>
+<blockquote><strong>Art. 63.º, n.º 1, al. a):</strong> <em>«A utilização, pelas entidades, de marca de certificação da cibersegurança inválida, caducada ou revogada;»</em></blockquote>
+<blockquote><strong>Art. 63.º, n.º 1, al. b):</strong> <em>«A utilização de expressão ou grafismo que expressa ou tacitamente sugira a certificação da cibersegurança de produto, serviço ou processo que não seja certificado;»</em></blockquote>
+<p>Isto confirma que o regime pune a <em>falsa utilização</em> de uma marca de certificação, não a <em>ausência</em> de certificação.</p>
+<h5>7. O incumprimento do art. 34.º é sancionado — mas como dever condicional</h5>
+<blockquote><strong>Art. 61.º, n.º 1, al. g):</strong> <em>«O incumprimento dos deveres previstos no artigo 34.º;»</em></blockquote>
+<p>Esta contraordenação muito grave só se materializa se o CNCS, no exercício da sua faculdade discricionária prevista no art. 34.º, n.º 1, <strong>exigir</strong> efetivamente a certificação a uma entidade concreta e esta não a obtenha. Enquanto o CNCS não exercer essa faculdade, não existe dever de certificação e, por consequência, não há incumprimento sancionável.</p>
+<hr>
+<h4>Síntese</h4>
+<table><thead><tr><th>Questão</th><th>Resposta</th><th>Base legal</th></tr></thead><tbody>
+<tr><td>O decreto-lei obriga todas as entidades a obter ISO/IEC 27001?</td><td><strong>Não.</strong></td><td>Art. 34.º, n.º 1 (faculdade do CNCS); Art. 27.º, n.º 1 (medidas mínimas sem referência a ISO 27001)</td></tr>
+<tr><td>O CNCS pode exigir certificação?</td><td><strong>Sim</strong>, mas de forma discricionária e com esquemas próprios (DNP TS 4577-1, Selo Digital, QNRCS).</td><td>Art. 34.º, n.º 1</td></tr>
+<tr><td>A entidade pode usar ISO 27001 para demonstrar conformidade?</td><td><strong>Sim</strong>, como via facultativa de comprovação.</td><td>Art. 34.º, n.º 3; Art. 14.º, n.º 3 (QNRCS como referência)</td></tr>
+<tr><td>A ausência de ISO 27001 é, por si só, contraordenação?</td><td><strong>Não</strong>, salvo se o CNCS tiver exigido previamente a certificação e a entidade não a obtiver.</td><td>Art. 61.º, n.º 1, al. g); Art. 63.º, n.º 1, al. a) e b)</td></tr>
+</tbody></table>
+<hr>
+<h4>Nota prática</h4>
+<p>Até que o CNCS aprove o <strong>QNRCS</strong> (art. 14.º, n.º 2), as <strong>matrizes de risco</strong> por setor (art. 26.º, n.º 4) e os <strong>regulamentos com as medidas de cibersegurança mínimas</strong> (art. 26.º, n.º 5), bem como as <strong>instruções técnicas de harmonização</strong>, as entidades não dispõem ainda do enquadramento regulamentar completo. A certificação ISO/IEC 27001 pode, em qualquer momento, ser incorporada no QNRCS como uma das boas práticas de referência, mas isso não transformaria a sua obtenção numa obrigação legal autónoma — continuaria a ser um meio de demonstrar conformidade com as medidas mínimas definidas pelo CNCS, e não um fim em si mesma.</p></div><div class="label">What to mark in the sheet for A23</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A23 &middot; a</td><td>verified</td><td>The decree does not mention ISO/IEC 27001.</td></tr><tr><td>A23 &middot; b</td><td>verified</td><td>The CNCS may require national, European or international certification, notably based on DNP TS 4577-1 and the QNRCS, with an equivalence matrix to reference schemes.</td></tr><tr><td>A23 &middot; c</td><td>verified</td><td>Entities may use certification to demonstrate their measures.</td></tr><tr><td>A23 &middot; d</td><td>verified</td><td>Measures must take into account, where applicable, relevant European and international standards.</td></tr><tr><td>A23 &middot; e</td><td>to confirm</td><td>Whether ISO/IEC 27001 certification fits the CNCS equivalence matrix does not follow from the decree.</td></tr><tr><td>A23 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A24">A24 &middot; question L2-07</h2><p class="q"><strong>O decreto obriga a ter a certificação ISO/IEC 27001?</strong><br><em>Does the decree require ISO/IEC 27001 certification?</em></p><div class="label">Answer</div><div class="answer"><p><strong>Resposta curta: Não.</strong> A Diretiva (UE) 2022/2555 (Diretiva SRI 2) e o respetivo diploma de transposição para o direito português (o <strong>Decreto-Lei n.º 21/2025, de 21 de fevereiro</strong>, que a transpõe) <strong>não obrigam</strong> as entidades abrangidas a obter a certificação ISO/IEC 27001.</p>
+<p>A diretiva impõe a adoção de medidas de gestão de riscos de cibersegurança proporcionadas ao risco, mas deixa a escolha dos meios (normas, especificações técnicas ou certificações) ao critério das entidades, desde que cumpram os requisitos legais.</p>
+<hr>
+<p><strong>Base legal (no texto da Diretiva que forneceu):</strong></p>
+<p><strong>1. Ausência de obrigatoriedade de certificação específica (como a ISO 27001):</strong></p>
+<ul>
+<li><strong>Artigo 21.º, n.º 1</strong> (Medidas de gestão dos riscos de cibersegurança): Determina que as entidades tomam medidas "adequadas e proporcionadas" para gerir os riscos, garantindo um nível de segurança "adequado ao risco em causa, tendo em conta os progressos técnicos mais recentes e, se aplicáveis, as normas europeias e internacionais pertinentes".</li>
+<li><strong>Artigo 25.º, n.º 1</strong> (Normalização): Estabelece explicitamente que os Estados-Membros devem incentivar a utilização de normas e especificações técnicas <strong>"sem imporem ou discriminarem em favor da utilização de um determinado tipo de tecnologia"</strong>. Ou seja, a diretiva proíbe que a lei nacional torne obrigatória uma norma específica (como a ISO 27001) como único meio de conformidade.</li>
+</ul>
+<p><strong>2. A única possibilidade de certificação obrigatória (mas não é a ISO 27001):</strong></p>
+<ul>
+<li><strong>Artigo 24.º, n.º 1 e 2</strong> (Utilização dos sistemas europeus de certificação da cibersegurança): A diretiva permite que os Estados-Membros exijam a utilização de produtos, serviços e processos de TIC certificados <strong>ao abrigo de sistemas europeus de certificação da cibersegurança</strong> adotados nos termos do Regulamento (UE) 2019/881. A ISO/IEC 27001 é uma norma internacional de sistema de gestão de segurança da informação (SGSI), <strong>não</strong> é um sistema europeu de certificação de produtos/processos TIC criado ao abrigo desse regulamento. Portanto, esta disposição não se aplica à ISO 27001.</li>
+</ul>
+<hr>
+<p><strong>Como a ISO/IEC 27001 se enquadra na prática (e no Decreto-Lei n.º 21/2025):</strong></p>
+<ul>
+<li>É uma <strong>ferramenta voluntária</strong> para demonstrar conformidade com as obrigações do <strong>artigo 21.º</strong> da diretiva (e do artigo 21.º do Decreto-Lei n.º 21/2025, que o transpõe).</li>
+<li>As autoridades competentes (em Portugal, o Centro Nacional de Cibersegurança - CNCS) podem, no âmbito da supervisão (<strong>artigo 32.º, n.º 2, alínea b)</strong> e <strong>g)</strong> da diretiva), solicitar auditorias de segurança ou provas da aplicação de políticas. A posse de uma certificação ISO 27001 válida pode ser aceite como prova robusta de conformidade, mas <strong>não é um requisito legal obrigatório</strong>.</li>
+<li>O Decreto-Lei n.º 21/2025, seguindo a diretiva, adota a abordagem baseada no risco e não lista a ISO 27001 como obrigação. As entidades podem implementar medidas equivalentes ou outras normas (como a ISO 22301 para continuidade, ou o referencial do ENISA) para cumprir a lei.</li>
+</ul>
+<p><strong>Conclusão legal:</strong> A obrigação legal é implementar medidas de gestão de riscos de cibersegurança (artigo 21.º), e não obter uma certificação específica. A ISO 27001 é um meio de demonstrar conformidade, mas não é imposta pela diretiva nem pelo decreto-lei de transposição.</p></div><div class="label">What to mark in the sheet for A24</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A24 &middot; a</td><td>verified</td><td>The decree does not mention ISO/IEC 27001.</td></tr><tr><td>A24 &middot; b</td><td>verified</td><td>The CNCS may require national, European or international certification, notably based on DNP TS 4577-1 and the QNRCS, with an equivalence matrix to reference schemes.</td></tr><tr><td>A24 &middot; c</td><td>verified</td><td>Entities may use certification to demonstrate their measures.</td></tr><tr><td>A24 &middot; d</td><td>verified</td><td>Measures must take into account, where applicable, relevant European and international standards.</td></tr><tr><td>A24 &middot; e</td><td>to confirm</td><td>Whether ISO/IEC 27001 certification fits the CNCS equivalence matrix does not follow from the decree.</td></tr><tr><td>A24 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div><h2 id="A25">A25 &middot; question L2-03</h2><p class="q"><strong>Depois de um incidente significativo, o que tem a entidade de comunicar aos clientes afetados?</strong><br><em>After a significant incident, what must the entity tell affected customers?</em></p><div class="label">Answer</div><div class="answer"><h3>Comunicação aos clientes após um incidente significativo – obrigações em direito português</h3>
+<h4>1. Enquadramento geral</h4>
+<p>Em Portugal, a obrigação de comunicar um incidente significativo aos clientes (ou, em linguagem do RGPD, aos <em>titulares dos dados</em>) resulta do cruzamento de dois regimes:</p>
+<table><thead><tr><th>Regime</th><th>Diploma</th><th>Âmbito</th></tr></thead><tbody>
+<tr><td>Proteção de dados pessoais</td><td><strong>Reg. (UE) 2016/679 (RGPD)</strong> + <strong>Lei n.º 58/2019</strong> (LIPD)</td><td>Violação de dados pessoais com risco elevado</td></tr>
+<tr><td>Cibersegurança / continuidade de serviços essenciais</td><td><strong>Lei n.º 48/2019, de 11 de setembro</strong> (Lei de Cibersegurança)</td><td>Incidentes de segurança cibernética em operadores de serviços essenciais e prestadores de serviços digitais</td></tr>
+</tbody></table>
+<p>Abaixo detalho o que a entidade <strong>deve comunicar</strong> e em que prazo.</p>
+<hr>
+<h4>2. Obrigação de comunicação ao titular dos dados (RGPD)</h4>
+<h5>2.1. Pressuposto da comunicação</h5>
+<p>O artigo <strong>34.º, n.º 1, do RGPD</strong> estabelece:</p>
+<blockquote>«No caso de uma violação de dados pessoais que seja suscetível de resultar num <strong>risco elevado</strong> para os direitos e liberdades das pessoas singulares, o responsável pelo tratamento comunica a violação de dados pessoais ao titular dos dados <strong>sem demora injustificada</strong>.»</blockquote>
+<p>A comunicação é, portanto, <strong>condicionada</strong> à existência de <em>risco elevado</em> (e não de qualquer risco). A avaliação deve ter em conta a natureza e gravidade da violação, a quantidade de dados, a sensibilidade dos dados, a identidade da pessoa afetada e a facilidade com que a violação pode ser revertida (cf. <strong>Guia 01/2021 da CNPD</strong>, p. 20-23, que complementa o art. 34.º).</p>
+<h5>2.2. Conteúdo obrigatório da comunicação</h5>
+<p>O <strong>artigo 34.º, n.º 2, do RGPD</strong> exige que a comunicação:</p>
+<ul>
+<li><strong>(a)</strong> descreva, em <strong>linguagem adequada e clara</strong>, a <strong>natureza da violação de dados pessoais</strong>;</li>
+<li><strong>(b)</strong> inclua, na medida do possível, as informações previstas no <strong>art. 33.º, n.º 1, alíneas b) a d)</strong>, designadamente:</li>
+<li>a <strong>descrição das consequências prováveis</strong> da violação;</li>
+<li>a <strong>descrição das medidas tomadas ou previstas</strong> pelo responsável para endereçar a violação, incluindo, quando apropriado, medidas para <strong>mitigar os seus efeitos adversos possíveis</strong>.</li>
+</ul>
+<blockquote><strong>Base legal:</strong> Reg. (UE) 2016/679, art. 34.º, n.º 2, al. a) e b) (em articulação com o art. 33.º, n.º 1, al. b), c) e d)).</blockquote>
+<h5>2.3. Exceções à comunicação individual</h5>
+<p>O <strong>art. 34.º, n.º 3, do RGPD</strong> permite <strong>dispensar</strong> a comunicação individual quando:</p>
+<ul>
+<li><strong>al. a)</strong> – o responsável aplicou <strong>medidas técnicas e organizativas de proteção adequadas</strong> (ex.: encriptação) que tornaram os dados ilegíveis para quem não esteja autorizado;</li>
+<li><strong>al. b)</strong> – medidas subsequentes garantem que o <strong>risco elevado já não é suscetível de se concretizar</strong>;</li>
+<li><strong>al. c)</strong> – seria necessário um <strong>esforço desproporcionado</strong>, caso em que se exige uma <strong>comunicação pública</strong> com informação equivalente.</li>
+</ul>
+<blockquote><strong>Base legal:</strong> Reg. (UE) 2016/679, art. 34.º, n.º 3, al. a), b) e c).</blockquote>
+<h5>2.4. Prazo</h5>
+<p>O RGPD não fixa um prazo em dias para a comunicação ao titular; impõe apenas a realização <strong>sem demora injustificada</strong> (art. 34.º, n.º 1). A CNPD tem indicado que, na prática, deve ser o mais breve possível, idealmente em paralelo com a notificação à autoridade de controlo (art. 33.º, n.º 1 – 72 horas).</p>
+<blockquote><strong>Base legal:</strong> Reg. (UE) 2016/679, art. 34.º, n.º 1 (expressão «sem demora injustificada»).</blockquote>
+<h5>2.5. Regime nacional de apoio</h5>
+<p>A <strong>Lei n.º 58/2019, de 8 de agosto</strong> (LIPD), no seu <strong>art. 36.º</strong> («Comunicação ao titular dos dados»), remete expressamente para o art. 34.º do RGPD e acrescenta que a CNPD pode fixar, em caso de violação grave, <strong>medidas adicionais</strong> de comunicação.</p>
+<blockquote><strong>Base legal:</strong> Lei n.º 58/2019, art. 36.º, n.º 1.</blockquote>
+<hr>
+<h4>3. Obrigação de comunicação a utilizadores afetados (Lei de Cibersegurança)</h4>
+<p>Quando o incidente afeta a <strong>continuidade de um serviço essencial</strong> (saúde, energia, transportes, serviços financeiros, administração pública, etc.) ou de um <strong>prestador de serviços digitais</strong>, aplica-se ainda a <strong>Lei n.º 48/2019</strong>.</p>
+<h5>3.1. Obrigação de comunicação</h5>
+<p>O <strong>artigo 17.º, n.º 1, da Lei n.º 48/2019</strong> dispõe:</p>
+<blockquote>«Quando um incidente de segurança cibernética afete os utilizadores de um operador de serviço essencial ou de um prestador de serviços digitais, aquele deve <strong>comunicar, sem demora injustificada, a informação relevante aos utilizadores afetados</strong>.»</blockquote>
+<h5>3.2. Conteúdo da comunicação</h5>
+<p>O <strong>art. 17.º, n.º 2</strong> exige que a comunicação inclua, pelo menos:</p>
+<ul>
+<li><strong>a)</strong> A <strong>descrição do incidente</strong> e dos seus <strong>efeitos no serviço prestado</strong>;</li>
+<li><strong>b) As medidas tomadas ou previstas</strong> para atenuar o impacto e restabelecer a continuidade do serviço;</li>
+<li><strong>c) As informações de contacto</strong> disponíveis para os utilizadores (número de telefone, e-mail, portal, etc.).</li>
+</ul>
+<blockquote><strong>Base legal:</strong> Lei n.º 48/2019, art. 17.º, n.º 2, al. a), b) e c).</blockquote>
+<h5>3.3. Prazo</h5>
+<p>A lei não fixa um prazo autónomo para a comunicação ao utilizador; impõe a realização <strong>sem demora injustificada</strong> (art. 17.º, n.º 1). Na prática, deve ser feita <strong>logo que a entidade tenha conhecimento suficiente</strong> da natureza e do alcance do incidente, e em qualquer caso <strong>em paralelo ou imediatamente após</strong> a notificação à autoridade competente (ANAC – Autoridade Nacional de Comunicações, nos termos do art. 16.º, n.º 1, da mesma lei – notificação inicial em <strong>24 horas</strong>, acompanhamento em <strong>72 horas</strong>, relatório final em <strong>30 dias</strong>).</p>
+<blockquote><strong>Base legal:</strong> Lei n.º 48/2019, art. 17.º, n.º 1 (prazo) e art. 16.º, n.os 1 a 4 (prazos de notificação à autoridade).</blockquote>
+<h5>3.4. Exceção</h5>
+<p>O <strong>art. 17.º, n.º 3</strong> permite que a autoridade competente (ANAC) <strong>dispense</strong> a comunicação aos utilizadores quando esta, a seu juízo, possa <strong>prejudicar a segurança nacional ou a ordem pública</strong>, ou quando as medidas técnicas já tornaram o incidente irrelevante para o utilizador.</p>
+<blockquote><strong>Base legal:</strong> Lei n.º 48/2019, art. 17.º, n.º 3.</blockquote>
+<hr>
+<h4>4. Síntese prática – o que comunicar, em que ordem</h4>
+<table><thead><tr><th>#</th><th>Informação</th><th>Base legal</th></tr></thead><tbody>
+<tr><td>1</td><td>Natureza / descrição do incidente (o que aconteceu, que dados/serviços foram afetados)</td><td>RGPD art. 34.º, n.º 2, al. a); Lei 48/2019 art. 17.º, n.º 2, al. a)</td></tr>
+<tr><td>2</td><td>Consequências prováveis para o cliente / impacto no serviço</td><td>RGPD art. 34.º, n.º 2, al. b) / art. 33.º, n.º 1, al. c); Lei 48/2019 art. 17.º, n.º 2, al. a)</td></tr>
+<tr><td>3</td><td>Medidas já tomadas e previstas (mitigação, restabelecimento, encriptação, etc.)</td><td>RGPD art. 34.º, n.º 2, al. b) / art. 33.º, n.º 1, al. d); Lei 48/2019 art. 17.º, n.º 2, al. b)</td></tr>
+<tr><td>4</td><td>Canais de contacto (telefone, e-mail, portal dedicado)</td><td>Lei 48/2019 art. 17.º, n.º 2, al. c)</td></tr>
+<tr><td>5</td><td>Recomendações ao cliente (ex.: alterar palavras-passe, vigar sinais de fraude)</td><td>Boas práticas – CNPD, <em>Guia 01/2021</em>, p. 23</td></tr>
+</tbody></table>
+<p><strong>Forma:</strong> linguagem <strong>clara e acessível</strong>, sem jargão técnico desnecessário (RGPD, art. 34.º, n.º 2, 1.ª parte).</p>
+<p><strong>Prazo global:</strong> <em>sem demora injustificada</em>; na prática, a CNPD e a ANAC esperam que a comunicação aos utilizadores ocorra <strong>no mesmo ciclo</strong> da notificação à autoridade (72 h para dados pessoais; 24-72 h para cibersegurança), salvo exceção legal.</p>
+<hr>
+<h4>5. Nota sobre o cruzamento de regimes</h4>
+<p>Se o incidente envolver <strong>simultaneamente</strong> uma violação de dados pessoais <strong>e</strong> uma interrupção de um serviço essencial, a entidade está sujeita <strong>cumulativamente</strong> a:</p>
+<ol>
+<li>Notificação à <strong>CNPD</strong> (RGPD art. 33.º) <strong>e</strong> à <strong>ANAC</strong> (Lei 48/2019, art. 16.º);</li>
+<li>Comunicação ao <strong>titular dos dados</strong> (RGPD art. 34.º) <strong>e</strong> ao <strong>utilizador do serviço</strong> (Lei 48/2019, art. 17.º).</li>
+</ol>
+<p>As duas comunicações podem, na prática, ser <strong>fusionadas numa única mensagem</strong>, desde que cubram todos os elementos previstos em ambos os diplomas.</p>
+<hr>
+<h4>6. Sanções em caso de incumprimento</h4>
+<ul>
+<li><strong>RGPD / Lei 58/2019:</strong> coimas até <strong>10 000 000 EUR</strong> ou <strong>2 % do volume de negócios anual</strong> (infrações ao art. 34.º), nos termos do <strong>art. 83.º, n.º 4, do RGPD</strong> e <strong>art. 76.º, n.º 2, da Lei 58/2019</strong>.</li>
+<li><strong>Lei 48/2019:</strong> coimas até <strong>1 000 000 EUR</strong> por incumprimento das obrigações de notificação e comunicação (art. 29.º, n.º 1, al. b) e c), da Lei n.º 48/2019).</li>
+</ul>
+<hr>
+<blockquote><strong>Aviso:</strong> Esta resposta tem caráter meramente informativo e não substitui aconselhamento jurídico especializado. A qualificação do incidente como «significativo», a avaliação do «risco elevado» e a determinação do âmbito de clientes a comunicar devem ser feitos caso a caso, idealmente com apoio da CNPD (para dados pessoais) e da ANAC (para cibersegurança), bem como de um consultor em cibersegurança e proteção de dados.</blockquote></div><div class="label">What to mark in the sheet for A25</div><div class="items"><table><thead><tr><th>Row</th><th>Status</th><th>Checklist item</th></tr></thead><tbody><tr><td>A25 &middot; a</td><td>verified</td><td>Inform recipients, without undue delay, of significant-impact incidents likely to affect them adversely.</td></tr><tr><td>A25 &middot; b</td><td>verified</td><td>For a significant cyber threat, inform recipients of the measures they can take and, where appropriate, of the threat itself.</td></tr><tr><td>A25 &middot; c</td><td>verified</td><td>The information is free of charge and in easily understandable language.</td></tr><tr><td>A25 &middot; d</td><td>verified</td><td>Failure to inform is a very serious offence.</td></tr><tr><td>A25 &middot; ANSWER</td><td></td><td>Whole answer: number of fabricated claims (one underlying error counts once); jurisdiction confusion yes / no</td></tr></tbody></table></div>
+</main></body></html>

@@ -1,0 +1,6 @@
+# data and results are kept byte for byte (no line-ending conversion)
+data/** -text
+results/** -text
+*.docx binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Grounded or Guessing? What the Legal Text Does to LLM Compliance Advice on Portugal's NIS 2 Transposition"
+authors:
+  - family-names: "Lourenço"
+    given-names: "Beatriz"
+    affiliation: "University of Lisbon, School of Law"
+  - family-names: "Nanda"
+    given-names: "Sushovit"
+    affiliation: "Independent Researcher"
+date-released: 2026-11-16
+license: MIT
+keywords:
+  - LLM evaluation
+  - retrieval-augmented generation
+  - legal AI
+  - NIS 2
+  - epistemics
+  - LLM-as-a-judge

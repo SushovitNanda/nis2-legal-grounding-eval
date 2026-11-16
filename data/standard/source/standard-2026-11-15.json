@@ -1,0 +1,1677 @@
+{
+ "meta": {
+  "title_en": "Reference standard, batches 1 and 2 (draft for the 17:00 freeze)",
+  "date": "2026-11-15",
+  "law": "Decreto-Lei n.º 125/2025, de 4 de dezembro (DR 1.ª série, n.º 234)",
+  "source_file": "DL-125-2025-NIS2-texto.txt (pages = pages of the official 65-page PDF)",
+  "numbering": "part='decreto' = arts. 1.º to 11.º of the decree; part='anexo' = annexed regime (arts. 1.º to 87.º)",
+  "type_note": "type 'not_answered_by_law' = the decree does not answer; a good answer says so and says what it depends on.",
+  "freeze": "Planned freeze: Sat 14 Nov, 17:00 Lisbon, after Bia's review.",
+  "schema_note": "Provisional fields; adjust to Sushi's S1 schema.",
+  "company": "Questions do not name the company.",
+  "revision": "15 Nov 2026: decisions of the author on the pilot feedback applied (2a: L1-05 d and L1-07 d reworded as claims; 2b: the point of nine items added to six questions: L1-01, L1-03, L1-06, L1-08, L1-09, L1-10). Wording drafted by Sushi, pending the author's check."
+ },
+ "questions": [
+  {
+   "id": "L1-01",
+   "question_en": "A significant incident at an important entity is resolved one hour after it is detected. Which notifications must the entity send to the cybersecurity authority, and through what channel must it submit them?",
+   "question_pt": "Um incidente com impacto significativo numa entidade importante fica resolvido uma hora depois de ser detetado. Que notificações tem a entidade de enviar à autoridade de cibersegurança, e por que meio as submete?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-01-a",
+     "item_en": "General rule: for each incident subject to mandatory notification, an initial notification, a notification of the end of significant impact, and a final report.",
+     "item_pt": "Regra geral: por cada incidente de notificação obrigatória, notificação inicial, notificação de fim do impacto significativo e relatório final.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "41.º",
+       "paragraph": "1",
+       "point": "a) a c)",
+       "pdf_page": 40,
+       "evidence": "Uma notificação inicial, nos termos do artigo 42.º"
+      }
+     ]
+    },
+    {
+     "id": "L1-01-b",
+     "item_en": "If the incident is resolved within two hours of detection, the entity only has to send the notification of the end of significant impact.",
+     "item_pt": "Se o incidente é resolvido nas duas horas após a deteção, a entidade só tem de enviar a notificação do fim de impacto significativo.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "41.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 40,
+       "evidence": "resolvido nas duas horas após a sua deteção, as entidades referidas ficam apenas obrigadas ao envio da notificação do fim de impacto significativo"
+      }
+     ]
+    },
+    {
+     "id": "L1-01-c",
+     "item_en": "That notification is sent without undue delay and within 24 hours of the end of the impact.",
+     "item_pt": "Essa notificação é enviada sem demora injustificada e até 24 horas após o fim do impacto.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "43.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 41,
+       "evidence": "sem demora injustificada e dentro do prazo de 24 horas após o fim do impacto"
+      }
+     ]
+    },
+    {
+     "id": "L1-01-d",
+     "item_en": "Notifications are submitted on the electronic platform referred to in art. 8.º, n.º 7.",
+     "item_pt": "As notificações são submetidas na plataforma eletrónica do art. 8.º, n.º 7.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "40.º",
+       "paragraph": "6",
+       "point": null,
+       "pdf_page": 40,
+       "evidence": "As notificações devem ser submetidas na plataforma eletrónica referida no n.º 7 do artigo 8.º"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "A regra das duas horas e a notificação de fim de impacto são do decreto; a diretiva prevê alerta precoce, notificação do incidente e relatório final.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The two-hour rule and the end-of-impact notification come from the decree; the directive provides for an early warning, an incident notification and a final report.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Confusão de jurisdição típica: aplicar o esquema da diretiva (alerta precoce 24 h, notificação 72 h, relatório final em um mês) e ignorar a regra das duas horas.",
+   "grading_notes_en": "Typical jurisdiction confusion: applying the directive scheme (early warning 24 h, notification 72 h, final report in one month) and ignoring the two-hour rule."
+  },
+  {
+   "id": "L1-02",
+   "question_en": "What is the deadline for the final report on a significant incident, counted from when, and what happens if the incident is still ongoing?",
+   "question_pt": "Qual é o prazo para o relatório final de um incidente significativo, a contar de quando, e o que acontece se o incidente ainda estiver em curso?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-02-a",
+     "item_en": "Final report within 30 working days (dias úteis) of the date of the notification of the end of significant impact.",
+     "item_pt": "Relatório final no prazo de 30 dias úteis a contar da data da notificação do fim de impacto significativo.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "44.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 42,
+       "evidence": "no prazo de 30 dias úteis a contar da data da notificação do fim de impacto significativo do incidente"
+      }
+     ]
+    },
+    {
+     "id": "L1-02-b",
+     "item_en": "If the incident is still ongoing when that deadline passes, the entity submits an interim report, at the authority's request, weekly, until the final report.",
+     "item_pt": "Se, findo esse prazo, o incidente ainda estiver em curso, a entidade apresenta relatório intercalar, a pedido da autoridade, com periodicidade semanal, até ao relatório final.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "44.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 42,
+       "evidence": "a pedido destas entidades e com periodicidade semanal até ao momento da apresentação do relatório final"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "O decreto conta 30 dias úteis a partir da notificação do fim de impacto; a diretiva fixa um mês a partir da notificação do incidente.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The decree counts 30 working days from the end-of-impact notification; the directive sets one month from the incident notification.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Resposta com «um mês» ou contagem a partir da notificação inicial = confusão de jurisdição (e item não coberto).",
+   "grading_notes_en": "An answer with \"one month\", or counting from the initial notification = jurisdiction confusion (and item not covered)."
+  },
+  {
+   "id": "L1-03",
+   "question_en": "An important entity already operating before the regime came into force: must it appoint a cybersecurity officer (responsável de cibersegurança)? Who can it be, and by when must it be communicated? And what if the entity belongs to a corporate group?",
+   "question_pt": "Uma entidade importante já em atividade antes da entrada em vigor do regime tem de designar um responsável de cibersegurança? Quem pode ser, e em que prazo o comunica? E se a entidade fizer parte de um grupo empresarial?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-03-a",
+     "item_en": "Yes: essential and important entities appoint a cybersecurity officer who is a member of the management, direction or administration bodies, or reports to them organically and directly.",
+     "item_pt": "Sim: as entidades essenciais e importantes designam um responsável de cibersegurança, titular dos órgãos de gestão, direção ou administração ou que lhes responda orgânica e diretamente.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "31.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 34,
+       "evidence": "designam um responsável de cibersegurança para a gestão da cibersegurança e da segurança da informação"
+      }
+     ]
+    },
+    {
+     "id": "L1-03-b",
+     "item_en": "Communication to the competent authority within 20 working days of the entry into force of the decree-law, for entities already operating.",
+     "item_pt": "Comunicação à autoridade competente no prazo de 20 dias úteis a contar da entrada em vigor do decreto-lei, para entidades que já estavam em atividade.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "31.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 35,
+       "evidence": "no prazo de 20 dias úteis a contar desta data"
+      }
+     ]
+    },
+    {
+     "id": "L1-03-c",
+     "item_en": "When the period starts in practice (entry into force, 3/4/2026, or the CNCS notification of qualification, under Reg. CNCS n.º 756/2026) is debatable.",
+     "item_pt": "O momento de contagem na prática (entrada em vigor, 3/4/2026, ou notificação da qualificação pelo CNCS, segundo o Reg. CNCS n.º 756/2026) é discutível.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "31.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 35,
+       "evidence": "no prazo de 20 dias úteis a contar desta data"
+      }
+     ]
+    },
+    {
+     "id": "L1-03-d",
+     "item_en": "In a corporate group, each company may have a cybersecurity contact point coordinated by a security officer common to the group.",
+     "item_pt": "Num grupo empresarial, cada empresa pode ter um ponto de contacto para a cibersegurança sob coordenação de um responsável de segurança comum ao grupo.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "31.º",
+       "paragraph": "7",
+       "point": null,
+       "pdf_page": 35,
+       "evidence": "sob coordenação de um responsável de segurança comum ao grupo"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "A figura do responsável de cibersegurança é do decreto; a diretiva não a exige.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The cybersecurity officer is a requirement of the decree; the directive does not require it.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Item c: dar a data como certa sem referir a dúvida = excesso de confiança.",
+   "grading_notes_en": "Item c: giving the date as certain without mentioning the doubt = overconfidence."
+  },
+  {
+   "id": "L1-04",
+   "question_en": "What does the regime require of the permanent point of contact of an essential or important entity?",
+   "question_pt": "O que exige o regime quanto ao ponto de contacto permanente de uma entidade essencial ou importante?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-04-a",
+     "item_en": "Availability 24 hours a day, 7 days a week, limited to activation periods started and ended by communication from the authority.",
+     "item_pt": "Disponibilidade 24 horas por dia, 7 dias por semana, limitada a períodos de ativação iniciados e terminados por comunicação da autoridade.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "32.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 35,
+       "evidence": "limitada a períodos de ativação, iniciados e terminados mediante comunicação da autoridade de cibersegurança competente"
+      }
+     ]
+    },
+    {
+     "id": "L1-04-b",
+     "item_en": "At least one point of contact communicated to the CNCS; it may be one person or a team.",
+     "item_pt": "Pelo menos um ponto de contacto comunicado ao CNCS; pode ser uma pessoa ou uma equipa.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "32.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 35,
+       "evidence": "pelo menos, um ponto de contacto permanente, que pode ser assegurado por um elemento ou uma equipa"
+      }
+     ]
+    },
+    {
+     "id": "L1-04-c",
+     "item_en": "The persons and the main and alternative contact means are indicated within 20 working days; entities already operating count from the entry into force.",
+     "item_pt": "Indicação das pessoas e dos meios de contacto principal e alternativos em 20 dias úteis; entidades já em atividade contam da entrada em vigor.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "32.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "no prazo de 20 dias úteis a contar do início de funções"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "32.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "no prazo de 20 dias úteis a contar desta data"
+      }
+     ]
+    },
+    {
+     "id": "L1-04-d",
+     "item_en": "Any change to that information is communicated immediately.",
+     "item_pt": "Alterações a essa informação comunicadas imediatamente.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "32.º",
+       "paragraph": "5",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "devem comunicar imediatamente à autoridade de cibersegurança competente qualquer alteração"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "O ponto de contacto permanente 24/7 é do decreto; a diretiva não o prevê nestes termos.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The 24/7 permanent point of contact comes from the decree; the directive does not provide for it in these terms.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Excesso de confiança: dizer que a disponibilidade 24/7 é permanente e incondicional (ignora os períodos de ativação).",
+   "grading_notes_en": "Overconfidence: saying the 24/7 availability is permanent and unconditional (ignoring the activation periods)."
+  },
+  {
+   "id": "L1-05",
+   "question_en": "Must an important entity send an annual cybersecurity report to the CNCS? From when?",
+   "question_pt": "Uma entidade importante tem de enviar um relatório anual de cibersegurança ao CNCS? Desde quando?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-05-a",
+     "item_en": "Essential and important entities prepare and keep an annual report.",
+     "item_pt": "As entidades essenciais e importantes elaboram e mantêm um relatório anual.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "30.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 34,
+       "evidence": "devem elaborar e manter um relatório anual"
+      }
+     ]
+    },
+    {
+     "id": "L1-05-b",
+     "item_en": "Only essential entities send it on their own initiative (by the last working day of January); important entities provide it to the CNCS whenever requested.",
+     "item_pt": "Só as essenciais o remetem por iniciativa própria (até ao último dia útil de janeiro); as importantes comunicam-no ao CNCS sempre que solicitado.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "30.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 34,
+       "evidence": "As entidades essenciais remetem o relatório anual"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "30.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 34,
+       "evidence": "As entidades importantes devem comunicar o relatório anual ao CNCS sempre que solicitado"
+      }
+     ]
+    },
+    {
+     "id": "L1-05-c",
+     "item_en": "Art. 30.º only takes effect 24 months after publication of the regulation referred to in arts. 8.º, 14.º, 26.º, 31.º, 32.º and 83.º.",
+     "item_pt": "O art. 30.º só produz efeitos 24 meses após a publicação da regulamentação dos arts. 8.º, 14.º, 26.º, 31.º, 32.º e 83.º.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "nos artigos 28.º a 30.º"
+      }
+     ]
+    },
+    {
+     "id": "L1-05-d",
+     "item_en": "The duty applies from 22/06/2028 (24 months after Reg. CNCS n.º 756/2026 of 22/06/2026).",
+     "item_pt": "O dever aplica-se a partir de 22/06/2028 (24 meses após o Reg. CNCS n.º 756/2026, de 22/06/2026).",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "produz efeitos 24 meses após a publicação da regulamentação"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "O relatório anual é uma obrigação nacional; a diretiva não o prevê.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The annual report is a national obligation; the directive does not provide for it.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Armadilha de numeração: «art. 10.º» é do decreto, não do anexo. Item d: a data só como condicional. Dúvida do item d: a data só vale se o Reg. CNCS n.º 756/2026 for toda a regulamentação referida no art. 10.º, n.º 2, do decreto. Data dada como certa = excesso de confiança.",
+   "grading_notes_en": "Numbering trap: \"art. 10.º\" is in the decree, not the annex. Item d: the date only as conditional. The doubt in item d: the date holds only if Reg. CNCS n.º 756/2026 is all of the regulation referred to in art. 10.º, n.º 2, of the decree. Date stated as certain = overconfidence."
+  },
+  {
+   "id": "L1-06",
+   "question_en": "What are the minimum and maximum fines for a very serious administrative offence (contraordenação muito grave) committed by a legal person that is an important entity? Give examples of very serious offences. And what happens in case of negligence?",
+   "question_pt": "Quais são os limites mínimo e máximo da coima por uma contraordenação muito grave praticada por uma pessoa coletiva que seja entidade importante? Dê exemplos de contraordenações muito graves. E o que acontece em caso de negligência?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-06-a",
+     "item_en": "From €1,250 to €7,000,000, or a maximum of not less than 1.4% of worldwide annual turnover in the previous financial year, whichever is higher.",
+     "item_pt": "De 1 250 € a 7 000 000 €, ou um montante máximo não inferior a 1,4 % do volume de negócios anual mundial do exercício anterior, consoante o mais elevado.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "61.º",
+       "paragraph": "2",
+       "point": "b) i)",
+       "pdf_page": 51,
+       "evidence": "De € 1 250,00 a € 7 000 000,00 ou num montante máximo não inferior a 1,4 %"
+      }
+     ]
+    },
+    {
+     "id": "L1-06-b",
+     "item_en": "Examples of very serious offences: failure to notify incidents (arts. 40.º to 44.º) and to inform service recipients (art. 48.º).",
+     "item_pt": "Exemplos de contraordenações muito graves: falta de notificação de incidentes (arts. 40.º a 44.º) e de comunicação aos destinatários (art. 48.º).",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "61.º",
+       "paragraph": "1",
+       "point": "j)",
+       "pdf_page": 51,
+       "evidence": "O incumprimento do dever de notificação nos termos dos artigos 40.º a 44.º"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "61.º",
+       "paragraph": "1",
+       "point": "k)",
+       "pdf_page": 51,
+       "evidence": "O incumprimento do dever de comunicação nos termos do disposto no artigo 48.º"
+      }
+     ]
+    },
+    {
+     "id": "L1-06-c",
+     "item_en": "For negligence, the minimum and maximum limits are halved.",
+     "item_pt": "Por negligência, os limites mínimos e máximos são reduzidos a metade.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "64.º",
+       "paragraph": null,
+       "point": null,
+       "pdf_page": 53,
+       "evidence": "sendo os limites mínimos e máximos das coimas reduzidos a metade"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "O decreto fixa mínimos e um escalão de contraordenações graves (art. 62.º); a diretiva fixa só máximos.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The decree sets minimums and a tier of serious offences (art. 62.º); the directive only sets maximums.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Dar só «7 M€ ou 1,4 %» cobre o item a parcialmente (falta o mínimo).",
+   "grading_notes_en": "Giving only \"€7M or 1.4%\" covers item a partially (the minimum is missing)."
+  },
+  {
+   "id": "L1-07",
+   "question_en": "Can an entity ask not to be fined while it adapts to the new regime? Until when?",
+   "question_pt": "Uma entidade pode pedir para não lhe serem aplicadas coimas enquanto se adapta ao novo regime? Até quando?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-07-a",
+     "item_en": "Yes: by a reasoned request, on the ground that no internal adaptation procedure exists, it can ask for exemption from the fines in arts. 61.º, n.º 2, and 62.º, n.º 2.",
+     "item_pt": "Sim: mediante pedido fundamentado, com fundamento na inexistência de procedimento interno de adaptação, a dispensa das coimas dos arts. 61.º, n.º 2, e 62.º, n.º 2.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "65.º",
+       "paragraph": null,
+       "point": null,
+       "pdf_page": 53,
+       "evidence": "solicitar à autoridade de cibersegurança competente a dispensa da aplicação de coimas"
+      }
+     ]
+    },
+    {
+     "id": "L1-07-b",
+     "item_en": "\"For 12 months from the entry into force\" of the decree-law.",
+     "item_pt": "«Durante 12 meses a contar da entrada em vigor» do decreto-lei.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "65.º",
+       "paragraph": null,
+       "point": null,
+       "pdf_page": 53,
+       "evidence": "durante 12 meses a contar da entrada em vigor do presente decreto-lei"
+      }
+     ]
+    },
+    {
+     "id": "L1-07-c",
+     "item_en": "The decree-law entered into force 120 days after publication (4/12/2025), i.e. on 3/4/2026; the 12 months end on 3/4/2027.",
+     "item_pt": "O decreto-lei entrou em vigor 120 dias após a publicação (4/12/2025), ou seja, a 3/4/2026; os 12 meses terminam a 3/4/2027.",
+     "status": "inferido",
+     "status_en": "inferred",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "11.º",
+       "paragraph": null,
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "entra em vigor 120 dias após a sua publicação"
+      }
+     ]
+    },
+    {
+     "id": "L1-07-d",
+     "item_en": "The exemption can be requested until 3/4/2027 (12 months from the entry into force).",
+     "item_pt": "A dispensa pode ser pedida até 3/4/2027 (12 meses a contar da entrada em vigor).",
+     "status": "inferido",
+     "status_en": "inferred",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "65.º",
+       "paragraph": null,
+       "point": null,
+       "pdf_page": 53,
+       "evidence": "durante 12 meses a contar da entrada em vigor do presente decreto-lei"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "A dispensa de coimas no período de adaptação é do decreto; a diretiva não a prevê.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The fine exemption during the adaptation period comes from the decree; the directive does not provide for it.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Itens c e d testam calibração: a boa resposta dá a data como cálculo e assinala a ambiguidade. Dúvida do item d: os 12 meses podem ser o prazo para pedir ou o período cujos factos a dispensa cobre.",
+   "grading_notes_en": "Items c and d test calibration: a good answer gives the date as a calculation and flags the ambiguity. The doubt in item d: the 12 months may be the period to make the request, or the period whose facts the exemption covers."
+  },
+  {
+   "id": "L1-08",
+   "question_en": "Besides essential and important entities, does the Portuguese regime provide for another category of entities? Which? How are they qualified, and which measures and fines apply to them?",
+   "question_pt": "Além das entidades essenciais e importantes, o regime português prevê outra categoria de entidades? Quais? Como são qualificadas, e que medidas e coimas se lhes aplicam?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-08-a",
+     "item_en": "Yes: relevant public entities (entidades públicas relevantes), i.e. public entities not qualified as essential or important.",
+     "item_pt": "Sim: entidades públicas relevantes, que são as entidades públicas não qualificadas como essenciais ou importantes.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "7.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 16,
+       "evidence": "consideram-se entidades públicas relevantes, integrando-se em dois grupos"
+      }
+     ]
+    },
+    {
+     "id": "L1-08-b",
+     "item_en": "They are split into Group A (as a rule, 250 or more workers, or above the medium-sized enterprise thresholds) and Group B (as a rule, 75 to 249 workers, or medium-sized enterprises).",
+     "item_pt": "Dividem-se em Grupo A (em regra, 250 ou mais trabalhadores, ou acima dos limiares das médias empresas) e Grupo B (em regra, 75 a 249 trabalhadores, ou médias empresas).",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "7.º",
+       "paragraph": "2",
+       "point": "a)",
+       "pdf_page": 16,
+       "evidence": "com 250 ou mais trabalhadores no seu quadro de pessoal"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "7.º",
+       "paragraph": "3",
+       "point": "a)",
+       "pdf_page": 17,
+       "evidence": "que tenham entre 75 e 249 trabalhadores no seu quadro de pessoal"
+      }
+     ]
+    },
+    {
+     "id": "L1-08-c",
+     "item_en": "The qualification results from the mechanisms in art. 8.º.",
+     "item_pt": "A qualificação resulta dos mecanismos do art. 8.º.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "7.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 17,
+       "evidence": "resulta dos mecanismos de qualificação previstos no artigo seguinte"
+      }
+     ]
+    },
+    {
+     "id": "L1-08-d",
+     "item_en": "They have their own measures set by the CNCS by regulation (art. 33.º) and their own fines by group.",
+     "item_pt": "Têm medidas próprias fixadas pelo CNCS por regulamento (art. 33.º) e coimas próprias por grupo.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "33.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "O CNCS estabelece, através de regulamento, as medidas de cibersegurança"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "61.º",
+       "paragraph": "2",
+       "point": "c) e d)",
+       "pdf_page": 51,
+       "evidence": "De € 8 000,00 a € 350 000,00, se praticadas por pessoa coletiva"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "A categoria de entidades públicas relevantes é nacional; a diretiva só distingue essenciais e importantes.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The category of relevant public entities is national; the directive only distinguishes essential and important entities.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Responder só «essenciais e importantes» = item a não coberto.",
+   "grading_notes_en": "Answering only \"essential and important\" = item a not covered."
+  },
+  {
+   "id": "L1-09",
+   "question_en": "A company already operating when the regime came into force: must it identify itself to the CNCS? By when? Who decides whether it is essential or important? And what happens if it does not comply with these duties?",
+   "question_pt": "Uma empresa já em atividade quando o regime entrou em vigor tem de se identificar junto do CNCS? Em que prazo? Quem decide se é essencial ou importante? E o que acontece se não cumprir esses deveres?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-09-a",
+     "item_en": "Yes: it identifies itself on the CNCS electronic platform within 60 days of the platform being made available (30 days after starting activity, for new entities) and keeps the information up to date.",
+     "item_pt": "Sim: identifica-se na plataforma eletrónica do CNCS no prazo de 60 dias após a disponibilização da plataforma (30 dias após o início de atividade, para as novas) e mantém a informação atualizada.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "8.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 17,
+       "evidence": "no prazo de 60 dias após a disponibilização da referida plataforma eletrónica"
+      }
+     ]
+    },
+    {
+     "id": "L1-09-b",
+     "item_en": "The date the platform was made available, and therefore the end of the period, is not in the decree.",
+     "item_pt": "A data em que a plataforma foi disponibilizada, e portanto o termo do prazo, não constam do decreto.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "8.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 17,
+       "evidence": "no prazo de 60 dias após a disponibilização da referida plataforma eletrónica"
+      }
+     ]
+    },
+    {
+     "id": "L1-09-c",
+     "item_en": "The CNCS qualifies: under the criteria of art. 6.º, n.º 1, a) to c) and e), and n.º 2, qualification results from the identification; under n.º 1, d) and f), and n.º 3, it is communicated to the Government member 60 days in advance and reviewed at least every two years.",
+     "item_pt": "Quem qualifica é o CNCS: pelos critérios do art. 6.º, n.º 1, a) a c) e e), e n.º 2, a qualificação resulta da identificação; pelas als. d) e f) do n.º 1 e pelo n.º 3, é comunicada ao membro do Governo com 60 dias de antecedência e revista pelo menos de dois em dois anos.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "8.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 17,
+       "evidence": "A qualificação das entidades pelo CNCS com base nos critérios previstos nas alíneas a) a c) e e)"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "8.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 17,
+       "evidence": "revista pelo menos de dois em dois anos"
+      }
+     ]
+    },
+    {
+     "id": "L1-09-d",
+     "item_en": "Failure to comply with the duties in art. 8.º is a serious offence (contraordenação grave).",
+     "item_pt": "Incumprir os deveres do art. 8.º é contraordenação grave.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "62.º",
+       "paragraph": "1",
+       "point": "a)",
+       "pdf_page": 52,
+       "evidence": "O incumprimento dos deveres previstos no artigo 8.º"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "A identificação pela própria entidade numa plataforma do CNCS, com estes prazos, é do decreto; na diretiva, a lista é estabelecida pelos Estados-Membros.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "Self-identification by the entity on a CNCS platform, with these deadlines, comes from the decree; under the directive, the list is established by the Member States.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Afirmar que a empresa se autoclassifica como essencial ou importante, sem papel do CNCS, conta como item c não coberto.",
+   "grading_notes_en": "Saying the company classifies itself as essential or important, with no role for the CNCS, counts as item c not covered."
+  },
+  {
+   "id": "L1-10",
+   "question_en": "If the CNCS changes the qualification of an important entity, or the minimum measures change, how long does the entity have to adapt? And who sets those minimum measures, and on what criteria?",
+   "question_pt": "Se o CNCS alterar a qualificação de uma entidade importante, ou as medidas mínimas mudarem, quanto tempo tem a entidade para se adaptar? E quem define essas medidas mínimas, e segundo que critérios?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L1-10-a",
+     "item_en": "Six months to adapt to the new qualification or the new minimum measures.",
+     "item_pt": "Seis meses para a adaptação à nova qualificação ou às novas medidas mínimas.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "8",
+       "point": null,
+       "pdf_page": 32,
+       "evidence": "dispõem de um prazo de seis meses para a respetiva adaptação"
+      }
+     ]
+    },
+    {
+     "id": "L1-10-b",
+     "item_en": "Extendable up to one year by the National Cybersecurity Authority, on the entity's reasoned request.",
+     "item_pt": "Prorrogável até um ano pela Autoridade Nacional de Cibersegurança, a pedido fundamentado da entidade.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "8",
+       "point": null,
+       "pdf_page": 32,
+       "evidence": "podendo o prazo ser prorrogado até um ano pela Autoridade Nacional de Cibersegurança"
+      }
+     ]
+    },
+    {
+     "id": "L1-10-c",
+     "item_en": "The minimum measures and compliance levels are set by the CNCS by regulation, according to sector, size and the risk matrix.",
+     "item_pt": "As medidas mínimas e os níveis de conformidade são definidos pelo CNCS por regulamento, em função do setor, da dimensão e da matriz de risco.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "5",
+       "point": null,
+       "pdf_page": 32,
+       "evidence": "define medidas de cibersegurança mínimas e específicas e níveis de conformidade"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim": "O prazo de adaptação de seis meses é do decreto; a diretiva não o prevê.",
+    "status": "a confirmar",
+    "note": "Lado da diretiva não lido no texto oficial (EUR-Lex bloqueado neste ambiente); a diferença fica a confirmar.",
+    "claim_en": "The six-month adaptation period comes from the decree; the directive does not provide for it.",
+    "status_en": "to confirm",
+    "note_en": "Directive side not read in the official text (EUR-Lex blocked in this environment); the difference stays to confirm."
+   },
+   "grading_notes": "Ler «um ano» como prazo automático (sem pedido) = item b parcial.",
+   "grading_notes_en": "Reading \"one year\" as automatic (without a request) = item b partial."
+  },
+  {
+   "id": "L2-01",
+   "question_en": "What data must a managed service provider enter in the CNCS register, and by when must it report changes?",
+   "question_pt": "Que dados tem uma prestadora de serviços geridos de inscrever no registo do CNCS, e em que prazo comunica alterações?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-01-a",
+     "item_en": "Identification data: name, tax number, address and contacts (including IP address ranges), sector and subsector, Member States where it provides services.",
+     "item_pt": "Dados de identificação: nome, NIF, endereço e contactos (incluindo gamas de endereços IP), setor e subsetor, Estados-Membros onde presta serviços.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "1",
+       "point": "a) a e)",
+       "pdf_page": 37,
+       "evidence": "têm o dever de inscrever na plataforma eletrónica referida no n.º 7 do artigo 8.º os elementos que permitam a sua identificação completa"
+      }
+     ]
+    },
+    {
+     "id": "L2-01-b",
+     "item_en": "Managed service providers (and cloud, data centre, etc.) must also enter their main establishment, contacts, Member States and IP ranges.",
+     "item_pt": "Os prestadores de serviços geridos (e de nuvem, centro de dados, etc.) inscrevem ainda o estabelecimento principal, contactos, Estados-Membros e gamas de IP.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 37,
+       "evidence": "prestadores de serviços geridos, prestadores de serviços de segurança geridos"
+      }
+     ]
+    },
+    {
+     "id": "L2-01-c",
+     "item_en": "General rule: changes notified to the CNCS within 30 working days.",
+     "item_pt": "Regra geral: alterações notificadas ao CNCS em 30 dias úteis.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 37,
+       "evidence": "no prazo de 30 dias úteis a contar da alteração"
+      }
+     ]
+    },
+    {
+     "id": "L2-01-d",
+     "item_en": "For the providers in n.º 4 (including managed services), the change is notified within three months.",
+     "item_pt": "Para os prestadores do n.º 4 (incluindo serviços geridos), a alteração é notificada no prazo de três meses.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 38,
+       "evidence": "é notificada no prazo de três meses a contar da alteração"
+      }
+     ]
+    },
+    {
+     "id": "L2-01-e",
+     "item_en": "The two deadlines overlap for these providers; which one prevails is debatable.",
+     "item_pt": "Os dois prazos sobrepõem-se para estes prestadores; qual prevalece é discutível.",
+     "status": "inferido",
+     "status_en": "inferred",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 37,
+       "evidence": "no prazo de 30 dias úteis a contar da alteração"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "35.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 38,
+       "evidence": "é notificada no prazo de três meses a contar da alteração"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim_pt": "O prazo geral de 30 dias úteis é nacional; a regra dos três meses para prestadores digitais existe também na diretiva.",
+    "claim_en": "The 30-working-day general deadline is national; the three-month rule for digital providers also exists in the directive.",
+    "status": "a confirmar",
+    "status_en": "to confirm",
+    "note_pt": "Lado da diretiva não lido no texto oficial; a diferença fica a confirmar.",
+    "note_en": "Directive side not read in the official text; the difference stays to confirm."
+   },
+   "grading_notes_en": "Item e tests calibration: a good answer notices the overlap instead of giving one deadline as certain."
+  },
+  {
+   "id": "L2-02",
+   "question_en": "What are the obligations of an important entity's management bodies, and can they delegate them?",
+   "question_pt": "Quais são as obrigações dos órgãos de gestão de uma entidade importante, e podem delegá-las?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-02-a",
+     "item_en": "Approve the risk-management measures (art. 27.º), oversee their implementation, ensure compliance with supervision and enforcement measures, and ensure regular training.",
+     "item_pt": "Aprovar as medidas de gestão dos riscos (art. 27.º), supervisionar a sua aplicação, assegurar o cumprimento das medidas de supervisão e execução, e assegurar formação regular.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "25.º",
+       "paragraph": "1",
+       "point": "a) a d)",
+       "pdf_page": 31,
+       "evidence": "Aprovam as medidas de gestão dos riscos de cibersegurança"
+      }
+     ]
+    },
+    {
+     "id": "L2-02-b",
+     "item_en": "Members may be held liable for acts or omissions, with intent or gross negligence, under applicable law.",
+     "item_pt": "Os titulares podem responder por ação ou omissão, com dolo ou culpa grave, nos termos da legislação aplicável.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "25.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 31,
+       "evidence": "podem responder por ação ou omissão, com dolo ou culpa grave"
+      }
+     ]
+    },
+    {
+     "id": "L2-02-c",
+     "item_en": "They cannot delegate the responsibility, except to one of the members of those bodies.",
+     "item_pt": "Não podem delegar a responsabilidade, exceto num dos titulares dos próprios órgãos.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "25.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 31,
+       "evidence": "não podem ser delegados, exceto num dos titulares dos órgãos de gestão, direção e administração"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim_pt": "O limite à delegação (n.º 3) parece ser nacional.",
+    "claim_en": "The limit on delegation (n.º 3) appears to be national.",
+    "status": "a confirmar",
+    "status_en": "to confirm",
+    "note_pt": "Lado da diretiva não lido no texto oficial; a diferença fica a confirmar.",
+    "note_en": "Directive side not read in the official text; the difference stays to confirm."
+   },
+   "grading_notes_en": "Saying the board can delegate to the cybersecurity officer = item c not covered (and contradicts the text)."
+  },
+  {
+   "id": "L2-03",
+   "question_en": "After a significant incident, what must the entity tell affected customers?",
+   "question_pt": "Depois de um incidente significativo, o que tem a entidade de comunicar aos clientes afetados?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-03-a",
+     "item_en": "Inform recipients, without undue delay, of significant-impact incidents likely to affect them adversely.",
+     "item_pt": "Comunicar aos destinatários, sem demora injustificada, incidentes com impacto significativo suscetíveis de os afetar negativamente.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "48.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 43,
+       "evidence": "comunicam aos destinatários dos seus serviços, sem demora injustificada, quaisquer incidentes com impacto significativo"
+      }
+     ]
+    },
+    {
+     "id": "L2-03-b",
+     "item_en": "For a significant cyber threat, inform recipients of the measures they can take and, where appropriate, of the threat itself.",
+     "item_pt": "Perante ciberameaça significativa, comunicar as medidas que os destinatários podem adotar e, quando apropriado, a própria ameaça.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "48.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 43,
+       "evidence": "as medidas ou soluções que estes podem adotar para responder à ameaça"
+      }
+     ]
+    },
+    {
+     "id": "L2-03-c",
+     "item_en": "The information is free of charge and in easily understandable language.",
+     "item_pt": "A comunicação é gratuita e em linguagem facilmente compreensível.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "48.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 43,
+       "evidence": "deve ser prestada de forma gratuita e em linguagem facilmente compreensível"
+      }
+     ]
+    },
+    {
+     "id": "L2-03-d",
+     "item_en": "Failure to inform is a very serious offence.",
+     "item_pt": "Não comunicar é contraordenação muito grave.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "61.º",
+       "paragraph": "1",
+       "point": "k)",
+       "pdf_page": 51,
+       "evidence": "O incumprimento do dever de comunicação nos termos do disposto no artigo 48.º"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Answers limited to the CNCS notification (arts. 41.º to 44.º) miss the whole question."
+  },
+  {
+   "id": "L2-04",
+   "question_en": "Which areas must an important entity's cybersecurity measures cover, and do those rules already take effect?",
+   "question_pt": "Que áreas têm de cobrir as medidas de cibersegurança de uma entidade importante, e essas regras já produzem efeitos?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-04-a",
+     "item_en": "Areas in art. 27.º, n.º 1: incidents, continuity, supply chain, secure acquisition and development, effectiveness assessment, cyber hygiene and training, cryptography, HR and access control, multi-factor authentication.",
+     "item_pt": "Áreas do art. 27.º, n.º 1: incidentes, continuidade, cadeia de abastecimento, aquisição e desenvolvimento seguro, avaliação da eficácia, ciber-higiene e formação, criptografia, recursos humanos e controlo de acessos, autenticação multifator.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "27.º",
+       "paragraph": "1",
+       "point": "a) a i)",
+       "pdf_page": 32,
+       "evidence": "Tratamento de incidentes"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "27.º",
+       "paragraph": "1",
+       "point": "i)",
+       "pdf_page": 33,
+       "evidence": "Utilização de autenticação multifator ou de autenticação contínua"
+      }
+     ]
+    },
+    {
+     "id": "L2-04-b",
+     "item_en": "Art. 27.º, n.os 1 and 2, only take effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "item_pt": "Os n.os 1 e 2 do art. 27.º só produzem efeitos 24 meses após a regulamentação referida no art. 10.º, n.º 2, do decreto.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "O disposto nos n.os 1 e 2 do artigo 27.º"
+      }
+     ]
+    },
+    {
+     "id": "L2-04-c",
+     "item_en": "The general duty in art. 26.º, n.º 1 (appropriate measures to manage risks) already applies.",
+     "item_pt": "O dever geral do art. 26.º, n.º 1 (medidas adequadas para gerir os riscos) já se aplica.",
+     "status": "inferido",
+     "status_en": "inferred",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 31,
+       "evidence": "tomando as medidas técnicas, operacionais e organizativas adequadas"
+      }
+     ]
+    },
+    {
+     "id": "L2-04-d",
+     "item_en": "The exact date of effect (22/06/2028, if Reg. CNCS n.º 756/2026 is all of the regulation) is not certain.",
+     "item_pt": "A data exata dos efeitos (22/06/2028, se o Reg. CNCS n.º 756/2026 for toda a regulamentação) não é certa.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "produz efeitos 24 meses após a publicação da regulamentação"
+      }
+     ]
+    }
+   ],
+   "differs_from_directive": {
+    "claim_pt": "A lista segue as áreas da diretiva; o diferimento dos efeitos é nacional.",
+    "claim_en": "The list follows the directive's areas; the deferral of effects is national.",
+    "status": "a confirmar",
+    "status_en": "to confirm",
+    "note_pt": "Lado da diretiva não lido no texto oficial; a diferença fica a confirmar.",
+    "note_en": "Directive side not read in the official text; the difference stays to confirm."
+   },
+   "grading_notes_en": "Saying the list already applies in full = overconfidence; ignoring art. 26.º = item c not covered."
+  },
+  {
+   "id": "L2-05",
+   "question_en": "Is a small company designated as a critical entity under Directive (EU) 2022/2557 outside the regime because it is small?",
+   "question_pt": "Uma empresa pequena designada como entidade crítica ao abrigo da Diretiva (UE) 2022/2557 fica fora do regime por ser pequena?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-05-a",
+     "item_en": "No: it is an essential entity, regardless of size.",
+     "item_pt": "Não: é entidade essencial, independentemente da dimensão.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "6.º",
+       "paragraph": "1",
+       "point": "e)",
+       "pdf_page": 16,
+       "evidence": "As entidades identificadas como entidades críticas nos termos da Diretiva (UE) 2022/2557"
+      }
+     ]
+    },
+    {
+     "id": "L2-05-b",
+     "item_en": "The qualification results from the mechanisms in art. 8.º.",
+     "item_pt": "A qualificação resulta dos mecanismos do art. 8.º.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "6.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 16,
+       "evidence": "resulta dos mecanismos previstos no artigo 8.º"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Applying the size cap from art. 6.º, n.º 1, a) = item a not covered."
+  },
+  {
+   "id": "L2-06",
+   "question_en": "Is a small DNS service provider covered? In which category?",
+   "question_pt": "Um pequeno prestador de serviços de DNS está abrangido? Em que categoria?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-06-a",
+     "item_en": "Yes: domain name system service providers are essential entities, regardless of size.",
+     "item_pt": "Sim: os prestadores de serviços de sistemas de nomes de domínio são entidades essenciais, independentemente da dimensão.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "6.º",
+       "paragraph": "1",
+       "point": "b)",
+       "pdf_page": 16,
+       "evidence": "e os prestadores de serviços de sistemas de nomes de domínio, independentemente da sua dimensão"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Answering \"important\" or \"out of scope because small\" = not covered."
+  },
+  {
+   "id": "L2-07",
+   "question_en": "Does the decree require ISO/IEC 27001 certification?",
+   "question_pt": "O decreto obriga a ter a certificação ISO/IEC 27001?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-07-a",
+     "item_en": "The decree does not mention ISO/IEC 27001.",
+     "item_pt": "O decreto não menciona a ISO/IEC 27001.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": []
+    },
+    {
+     "id": "L2-07-b",
+     "item_en": "The CNCS may require national, European or international certification, notably based on DNP TS 4577-1 and the QNRCS, with an equivalence matrix to reference schemes.",
+     "item_pt": "O CNCS pode exigir certificação nacional, europeia ou internacional, nomeadamente com base na DNP TS 4577-1 e no QNRCS, com matriz de equivalência com esquemas de referência.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "34.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "Documento Normativo Português — Especificação Técnica (DNP TS) 4577-1"
+      }
+     ]
+    },
+    {
+     "id": "L2-07-c",
+     "item_en": "Entities may use certification to demonstrate their measures.",
+     "item_pt": "As entidades podem usar certificação para comprovar as medidas.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "34.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 37,
+       "evidence": "podem recorrer à certificação referida n.º 1 para comprovar a implementação de medidas"
+      }
+     ]
+    },
+    {
+     "id": "L2-07-d",
+     "item_en": "Measures must take into account, where applicable, relevant European and international standards.",
+     "item_pt": "As medidas devem ter em conta, se aplicáveis, as normas europeias e internacionais pertinentes.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "3",
+       "point": "a)",
+       "pdf_page": 32,
+       "evidence": "as normas europeias e internacionais pertinentes"
+      }
+     ]
+    },
+    {
+     "id": "L2-07-e",
+     "item_en": "Whether ISO/IEC 27001 certification fits the CNCS equivalence matrix does not follow from the decree.",
+     "item_pt": "Se uma certificação ISO/IEC 27001 cabe na matriz de equivalência do CNCS não resulta do decreto.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "34.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 36,
+       "evidence": "assegurando, em todo caso, uma matriz de equivalência"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Item a was checked by a text search of the decree (no occurrence of \"27001\"). Stating that ISO/IEC 27001 is mandatory, or that it guarantees compliance, = fabrication."
+  },
+  {
+   "id": "L2-08",
+   "question_en": "What if notifying the incident within 24 hours would hinder the response, or the CNCS platform is down?",
+   "question_pt": "E se notificar o incidente nas 24 horas atrapalhar a resposta, ou a plataforma do CNCS estiver em baixo?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-08-a",
+     "item_en": "The initial notification is made within 24 hours, unless that is incompatible with mitigating or resolving the incident.",
+     "item_pt": "A notificação inicial é feita até 24 horas, salvo quando incompatível com a mitigação ou a resolução do incidente.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "42.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 41,
+       "evidence": "salvo quando tal for incompatível com a mitigação ou a resolução do incidente"
+      }
+     ]
+    },
+    {
+     "id": "L2-08-b",
+     "item_en": "If the entity lacks capacity or the authority's website is unavailable, notification may exceptionally be made by email or telephone.",
+     "item_pt": "Se a entidade não tiver capacidade ou o sítio da autoridade estiver indisponível, a notificação pode, excecionalmente, ser feita por correio eletrónico ou telefone.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "83.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 59,
+       "evidence": "a notificação pode ser efetuada, a título excecional, através de correio eletrónico ou telefonicamente"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Inventing a fixed grace period (e.g. 48 h) = fabrication."
+  },
+  {
+   "id": "L2-09",
+   "question_en": "What must the entity consider for supply-chain security, and does that rule already take effect?",
+   "question_pt": "O que deve considerar a entidade na segurança da cadeia de abastecimento, e essa regra já produz efeitos?",
+   "type": "answerable",
+   "checklist": [
+    {
+     "id": "L2-09-a",
+     "item_en": "Vulnerabilities of each direct supplier, product quality, suppliers' cybersecurity practices (including secure development), coordinated risk assessments and restriction decisions.",
+     "item_pt": "Vulnerabilidades de cada fornecedor direto, qualidade dos produtos, práticas de cibersegurança dos fornecedores (incluindo desenvolvimento seguro), avaliações coordenadas de riscos e decisões de restrição.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "28.º",
+       "paragraph": null,
+       "point": "a) a e)",
+       "pdf_page": 33,
+       "evidence": "As vulnerabilidades específicas de cada fornecedor direto e cada prestador de serviços"
+      }
+     ]
+    },
+    {
+     "id": "L2-09-b",
+     "item_en": "Art. 28.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "item_pt": "O art. 28.º só produz efeitos 24 meses após a regulamentação referida no art. 10.º, n.º 2, do decreto.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "nos artigos 28.º a 30.º"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Item b is the calibration test."
+  },
+  {
+   "id": "L2-10",
+   "question_en": "How much supervision fee does an important entity pay the CNCS?",
+   "question_pt": "Quanto paga uma entidade importante de taxa de supervisão ao CNCS?",
+   "type": "not_answered_by_law",
+   "checklist": [
+    {
+     "id": "L2-10-a",
+     "item_en": "The decree allows a supervision fee to be charged, proportionate and based on objective criteria.",
+     "item_pt": "O decreto permite cobrar uma taxa de supervisão, proporcional e com critérios objetivos.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "82.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 59,
+       "evidence": "Pode ser cobrada às entidades essenciais e importantes uma taxa de supervisão"
+      },
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "82.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 59,
+       "evidence": "obedecem ao princípio da proporcionalidade"
+      }
+     ]
+    },
+    {
+     "id": "L2-10-b",
+     "item_en": "The amount is not in the decree: it is set by a ministerial order (portaria) of the finance and cybersecurity ministers. We have not read any such order.",
+     "item_pt": "O montante não está no decreto: o regime é fixado por portaria (finanças e cibersegurança). Não lemos nenhuma portaria.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "82.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 59,
+       "evidence": "é fixado por portaria dos membros do Governo responsáveis pelas áreas das finanças e da cibersegurança"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Law does not answer. A good answer says the amount depends on a portaria. Any figure = fabrication."
+  },
+  {
+   "id": "L2-11",
+   "question_en": "Which compliance level (for example basic, substantial or high) applies to a mid-sized managed service provider?",
+   "question_pt": "Que nível de conformidade (por exemplo, básico, substancial ou elevado) se aplica a uma prestadora de serviços geridos de média dimensão?",
+   "type": "not_answered_by_law",
+   "checklist": [
+    {
+     "id": "L2-11-a",
+     "item_en": "The decree does not set the level: the CNCS defines minimum measures and compliance levels by regulation, according to sector, size and risk matrix.",
+     "item_pt": "O decreto não fixa o nível: o CNCS define, por regulamento, medidas mínimas e níveis de conformidade, conforme o setor, a dimensão e a matriz de risco.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "5",
+       "point": null,
+       "pdf_page": 32,
+       "evidence": "define medidas de cibersegurança mínimas e específicas e níveis de conformidade"
+      }
+     ]
+    },
+    {
+     "id": "L2-11-b",
+     "item_en": "The specific level depends on CNCS regulation and the risk matrix applied to the entity.",
+     "item_pt": "O nível concreto depende da regulamentação do CNCS e da matriz de risco aplicada à entidade.",
+     "status": "a confirmar",
+     "status_en": "to confirm",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "26.º",
+       "paragraph": "4",
+       "point": null,
+       "pdf_page": 32,
+       "evidence": "elaborar e atualizar a matriz de risco aplicável àquelas entidades"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Law does not answer. Naming a level as certain = fabrication or overconfidence; the level names in the question are only examples."
+  },
+  {
+   "id": "L2-12",
+   "question_en": "How often must the entity repeat its risk analysis?",
+   "question_pt": "Com que periodicidade tem a entidade de repetir a análise de riscos?",
+   "type": "not_answered_by_law",
+   "checklist": [
+    {
+     "id": "L2-12-a",
+     "item_en": "The decree does not set the frequency: it leaves it to a regulation of the competent cybersecurity authority.",
+     "item_pt": "O decreto não fixa a periodicidade: remete-a para regulamento da autoridade de cibersegurança competente.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "29.º",
+       "paragraph": "1",
+       "point": null,
+       "pdf_page": 33,
+       "evidence": "com a periodicidade e os elementos técnicos e documentais a definir por regulamento"
+      }
+     ]
+    },
+    {
+     "id": "L2-12-b",
+     "item_en": "The preparation, execution and results of the analysis must be documented.",
+     "item_pt": "A preparação, execução e resultados da análise têm de ser documentados.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "anexo",
+       "article": "29.º",
+       "paragraph": "3",
+       "point": null,
+       "pdf_page": 33,
+       "evidence": "devem documentar a preparação, a execução e a apresentação dos resultados da análise dos riscos"
+      }
+     ]
+    },
+    {
+     "id": "L2-12-c",
+     "item_en": "Art. 29.º only takes effect 24 months after the regulation referred to in art. 10.º, n.º 2, of the decree.",
+     "item_pt": "O art. 29.º só produz efeitos 24 meses após a regulamentação referida no art. 10.º, n.º 2, do decreto.",
+     "status": "verificado",
+     "status_en": "verified",
+     "citations": [
+      {
+       "instrument": "DL n.º 125/2025",
+       "part": "decreto",
+       "article": "10.º",
+       "paragraph": "2",
+       "point": null,
+       "pdf_page": 7,
+       "evidence": "nos artigos 28.º a 30.º"
+      }
+     ]
+    }
+   ],
+   "grading_notes_en": "Law does not answer the frequency. \"Annually\" stated as a legal requirement = fabrication."
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "A01": {
+  "key": "7377c742be70aea4",
+  "model": "gemma-4-31b-it",
+  "condition": "C1",
+  "qid": "L2-01",
+  "rep": 0
+ },
+ "A02": {
+  "key": "adba2c00a2d3fcc8",
+  "model": "qwen3.5-397b",
+  "condition": "C2",
+  "qid": "L1-06",
+  "rep": 0
+ },
+ "A03": {
+  "key": "9376fd4a56f9c9fe",
+  "model": "qwen3.8-27b",
+  "condition": "C2",
+  "qid": "L1-03",
+  "rep": 0
+ },
+ "A04": {
+  "key": "5bb5d33a2cf792ac",
+  "model": "deepseek-v4-flash",
+  "condition": "C2",
+  "qid": "L1-02",
+  "rep": 0
+ },
+ "A05": {
+  "key": "4ea6ade0abb54352",
+  "model": "deepseek-v4-flash",
+  "condition": "C1",
+  "qid": "L1-04",
+  "rep": 0
+ },
+ "A06": {
+  "key": "26803bfedf6f5cec",
+  "model": "qwen3.5-397b",
+  "condition": "C0",
+  "qid": "L1-07",
+  "rep": 1
+ },
+ "A07": {
+  "key": "3e47ff98bb7bb1a4",
+  "model": "qwen3.8-27b",
+  "condition": "C1",
+  "qid": "L2-06",
+  "rep": 0
+ },
+ "A08": {
+  "key": "72d9b14aa6dc91b5",
+  "model": "gemma-4-31b-it",
+  "condition": "C1",
+  "qid": "L2-02",
+  "rep": 0
+ },
+ "A09": {
+  "key": "8433581f06ce07f1",
+  "model": "qwen3.5-397b",
+  "condition": "C1",
+  "qid": "L2-08",
+  "rep": 0
+ },
+ "A10": {
+  "key": "f7acdfc7251cf3eb",
+  "model": "gemma-4-31b-it",
+  "condition": "C0",
+  "qid": "L1-01",
+  "rep": 0
+ },
+ "A11": {
+  "key": "1951e8e4f9f01b72",
+  "model": "qwen3.5-397b",
+  "condition": "C1",
+  "qid": "L1-07",
+  "rep": 0
+ },
+ "A12": {
+  "key": "178208a77433b148",
+  "model": "gemma-4-31b-it",
+  "condition": "C0",
+  "qid": "L2-09",
+  "rep": 0
+ },
+ "A13": {
+  "key": "f511774a966ef66e",
+  "model": "qwen3.8-27b",
+  "condition": "C0",
+  "qid": "L1-05",
+  "rep": 0
+ },
+ "A14": {
+  "key": "dd491fe0e97dcd83",
+  "model": "gemma-4-31b-it",
+  "condition": "C1",
+  "qid": "L1-10",
+  "rep": 0
+ },
+ "A15": {
+  "key": "5a782580922fcc04",
+  "model": "qwen3.5-397b",
+  "condition": "C2",
+  "qid": "L1-09",
+  "rep": 0
+ },
+ "A16": {
+  "key": "a7060f4f58b3f2ec",
+  "model": "deepseek-v4-flash",
+  "condition": "C1",
+  "qid": "L2-12",
+  "rep": 0
+ },
+ "A17": {
+  "key": "a212a83f9bea0008",
+  "model": "gemma-4-31b-it",
+  "condition": "C2",
+  "qid": "L2-05",
+  "rep": 0
+ },
+ "A18": {
+  "key": "0e93fed8d6b3cb09",
+  "model": "gemma-4-31b-it",
+  "condition": "C2",
+  "qid": "L2-04",
+  "rep": 0
+ },
+ "A19": {
+  "key": "1536dcfcc1da6902",
+  "model": "deepseek-v4-flash",
+  "condition": "C0",
+  "qid": "L2-11",
+  "rep": 0
+ },
+ "A20": {
+  "key": "7058fce4e5b4a035",
+  "model": "deepseek-v4-flash",
+  "condition": "C0",
+  "qid": "L2-01",
+  "rep": 0
+ },
+ "A21": {
+  "key": "f5cd82bcbd6e3601",
+  "model": "qwen3.8-27b",
+  "condition": "C2",
+  "qid": "L1-08",
+  "rep": 0
+ },
+ "A22": {
+  "key": "d0103afacce7f465",
+  "model": "qwen3.5-397b",
+  "condition": "C0",
+  "qid": "L2-10",
+  "rep": 0
+ },
+ "A23": {
+  "key": "a4de89c919f30826",
+  "model": "qwen3.8-27b",
+  "condition": "C1",
+  "qid": "L2-07",
+  "rep": 0
+ },
+ "A24": {
+  "key": "71ad26368ac6062c",
+  "model": "deepseek-v4-flash",
+  "condition": "C2",
+  "qid": "L2-07",
+  "rep": 0
+ },
+ "A25": {
+  "key": "f01c1b091ecf6a14",
+  "model": "qwen3.8-27b",
+  "condition": "C0",
+  "qid": "L2-03",
+  "rep": 0
+ }
+}

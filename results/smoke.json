@@ -1,0 +1,509 @@
+{
+ "ts": "2026-11-14 16:31:35",
+ "available": [
+  "glm-5.3-flash",
+  "glm-5.2",
+  "qwen3.5-397b",
+  "gemma-4-26b-a4b-it",
+  "qwen3.8-27b",
+  "deepseek-v4-flash",
+  "gemma-4-31b-it"
+ ],
+ "models": {
+  "qwen3.5-397b": {
+   "listed": true,
+   "pt_quality": {
+    "text": "Uma contraordenação é um ilícito administrativo, menos grave que um crime, que consiste na violação de normas legais ou regulamentares. A sua sanção é geralmente pecuniária, traduzindo-se no pagamento de uma coima aplicada pelas autoridades competentes.",
+    "usage": {
+     "input_tokens": 29,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 1348,
+     "output_tokens_details": {
+      "reasoning_tokens": 1292,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 1377,
+     "cost": 0.00473395
+    },
+    "latency_s": 19.89,
+    "incomplete": null
+   },
+   "knows_decree": {
+    "text": "Não sei. A data indicada (4 de dezembro de 2025) é futura em relação ao momento atual, pelo que não tenho informação sobre esse decreto-lei, uma vez que a minha base de conhecimento não inclui eventos ou publicações oficiais que ainda não ocorreram.",
+    "usage": {
+     "input_tokens": 55,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 1660,
+     "output_tokens_details": {
+      "reasoning_tokens": 1600,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 1715,
+     "cost": 0.00584025
+    },
+    "latency_s": 26.11,
+    "incomplete": null
+   },
+   "training_cutoff": {
+    "text": "January 2024",
+    "usage": {
+     "input_tokens": 26,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 450,
+     "output_tokens_details": {
+      "reasoning_tokens": 441,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 476,
+     "cost": 0.0015893
+    },
+    "latency_s": 8.56,
+    "incomplete": null
+   },
+   "full_decree": {
+    "fits": true,
+    "answer_correct": true,
+    "text": "O relatório final deve ser submetido no prazo de 30 dias úteis a contar da data da notificação do fim de impacto significativo do incidente.",
+    "input_tokens": 52176,
+    "usage": {
+     "input_tokens": 52176,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 50112,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 1064,
+     "output_tokens_details": {
+      "reasoning_tokens": 1031,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 53240,
+     "cost": 0.0324208
+    },
+    "credits_this_call": 0.0324,
+    "latency_s": 20.89,
+    "incomplete": null
+   }
+  },
+  "qwen3.8-27b": {
+   "listed": true,
+   "pt_quality": {
+    "text": "Uma contraordenação é uma infração administrativa, geralmente prevista em legislação de polícia ou regulamentos, que viola uma norma de conduta sem constituir crime. É punida, em regra, com coima ou outras sanções administrativas, após processo próprio.",
+    "usage": {
+     "input_tokens": 71,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 140,
+     "output_tokens_details": {
+      "reasoning_tokens": 84,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 211,
+     "cost": 0.00017776900000000004
+    },
+    "latency_s": 3.57,
+    "incomplete": null
+   },
+   "knows_decree": {
+    "text": "Não sei com certeza. Não tenho informação fiável sobre o **Decreto-Lei n.º 125/2025, de 4 de dezembro**, nem sobre a sua data de entrada em vigor.\n\nPara confirmar, deve consultar o texto oficial no **Diário da República** ou outra base de dados legislativa portuguesa.",
+    "usage": {
+     "input_tokens": 97,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 879,
+     "output_tokens_details": {
+      "reasoning_tokens": 805,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 976,
+     "cost": 0.001102533
+    },
+    "latency_s": 12.81,
+    "incomplete": null
+   },
+   "training_cutoff": {
+    "text": "2026",
+    "usage": {
+     "input_tokens": 68,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 569,
+     "output_tokens_details": {
+      "reasoning_tokens": 562,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 637,
+     "cost": 0.0007139020000000001
+    },
+    "latency_s": 8.74,
+    "incomplete": null
+   },
+   "full_decree": {
+    "fits": true,
+    "answer_correct": true,
+    "text": "O prazo é de 30 dias úteis, contado a partir da data da notificação do fim de impacto significativo do incidente.",
+    "input_tokens": 52218,
+    "usage": {
+     "input_tokens": 52218,
+     "input_tokens_details": {
+      "cached_tokens": 51744,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 173,
+     "output_tokens_details": {
+      "reasoning_tokens": 144,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 52391,
+     "cost": 0.0004365376
+    },
+    "credits_this_call": 0.0023,
+    "latency_s": 5.39,
+    "incomplete": null
+   }
+  },
+  "gemma-4-31b-it": {
+   "listed": true,
+   "pt_quality": {
+    "text": "Uma contraordenação é uma infração administrativa que consiste na violação de normas legais, não chegando a constituir um crime. O seu incumprimento resulta, geralmente, na aplicação de uma coima ou na perda de algum privilégio.",
+    "usage": {
+     "input_tokens": 32,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 50,
+     "output_tokens_details": {
+      "reasoning_tokens": 0,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 82,
+     "cost": 1.988e-05
+    },
+    "latency_s": 1.86,
+    "incomplete": null
+   },
+   "knows_decree": {
+    "text": "Não tenho informação sobre a existência de um Decreto-Lei n.º 125/2025, de 4 de dezembro.\n\nÉ provável que este documento não exista ou que a data referida seja futura, uma vez que, de acordo com os meus dados, ainda não chegámos a dezembro de 2025.",
+    "usage": {
+     "input_tokens": 59,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 74,
+     "output_tokens_details": {
+      "reasoning_tokens": 0,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 133,
+     "cost": 3.0469999999999998e-05
+    },
+    "latency_s": 2.31,
+    "incomplete": null
+   },
+   "training_cutoff": {
+    "text": "October 2023",
+    "usage": {
+     "input_tokens": 29,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 7,
+     "output_tokens_details": {
+      "reasoning_tokens": 0,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 36,
+     "cost": 4.99e-06
+    },
+    "latency_s": 1.9,
+    "incomplete": null
+   },
+   "full_decree": {
+    "fits": true,
+    "answer_correct": true,
+    "text": "O relatório final deve ser submetido no prazo de 30 dias úteis a contar da data da notificação do fim de impacto significativo do incidente.",
+    "input_tokens": 52831,
+    "usage": {
+     "input_tokens": 52831,
+     "input_tokens_details": {
+      "cached_tokens": 52736,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 33,
+     "output_tokens_details": {
+      "reasoning_tokens": 0,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 52864,
+     "cost": 0.00265657
+    },
+    "credits_this_call": 0.0048,
+    "latency_s": 3.16,
+    "incomplete": null
+   }
+  },
+  "deepseek-v4-flash": {
+   "listed": true,
+   "pt_quality": {
+    "text": "Uma contraordenação é um ato ilícito de natureza não criminal, punido com uma coima, e que corresponde a uma violação das normas de ordenação social. Este tipo de infração é processado e decidido por entidades administrativas, não por tribunais criminais, salvo impugnação judicial.",
+    "usage": {
+     "input_tokens": 106,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 211,
+     "output_tokens_details": {
+      "reasoning_tokens": 138,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 317,
+     "cost": 3.284116e-05
+    },
+    "latency_s": 2.86,
+    "incomplete": null
+   },
+   "knows_decree": {
+    "text": "Não tenho conhecimento específico sobre o **Decreto-Lei n.º 125/2025, de 4 de dezembro**, nem sobre a sua data de entrada em vigor. Não tenho certeza e prefiro não arriscar uma resposta errada.\n\nPara obter informação fiável, recomendo consultar o **Diário da República Eletrónico** (diariodarepublica.pt) ou a página oficial do governo.",
+    "usage": {
+     "input_tokens": 130,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 395,
+     "output_tokens_details": {
+      "reasoning_tokens": 298,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 525,
+     "cost": 5.8438600000000007e-05
+    },
+    "latency_s": 4.25,
+    "incomplete": null
+   },
+   "training_cutoff": {
+    "text": "June 2024",
+    "usage": {
+     "input_tokens": 99,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 33,
+     "output_tokens_details": {
+      "reasoning_tokens": 27,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 132,
+     "cost": 8.79912e-06
+    },
+    "latency_s": 1.9,
+    "incomplete": null
+   },
+   "full_decree": {
+    "fits": true,
+    "answer_correct": true,
+    "text": "O prazo é de 30 dias úteis, contado a partir da data da notificação do fim de impacto significativo do incidente.",
+    "input_tokens": 55841,
+    "usage": {
+     "input_tokens": 55841,
+     "input_tokens_details": {
+      "cached_tokens": 55808,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 134,
+     "output_tokens_details": {
+      "reasoning_tokens": 101,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 55975,
+     "cost": 9.8243912e-05
+    },
+    "credits_this_call": 0.0025,
+    "latency_s": 3.18,
+    "incomplete": null
+   }
+  },
+  "glm-5.2": {
+   "listed": true,
+   "pt_quality": {
+    "text": "Uma contraordenação é uma infração legal que, por não ter a gravidade de um crime, é punida com o pagamento de uma coima. Estas violações de normas administrativas abrangem situações do quotidiano, como as infrações de trânsito ou o incumprimento de regras ambientais.",
+    "usage": {
+     "input_tokens": 34,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 1169,
+     "output_tokens_details": {
+      "reasoning_tokens": 1095,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 1203,
+     "cost": 0.0051912
+    },
+    "latency_s": 46.15,
+    "incomplete": null
+   },
+   "knows_decree": {
+    "text": "Não tenho a certeza e não sei do que se trata. \n\nA data que indica (4 de dezembro de 2025) corresponde a uma data futura. Como o meu conhecimento está atualizado até ao início de 2024 e não tenho capacidade de prever o futuro, esse diploma legal ainda não existe na minha base de dados ou ainda não foi publicado.\n\nSe houver um erro de digitação e estiver a referir-se a um Decreto-Lei de outro ano (como 2023 ou 2024), por favor indique o ano correto para que eu possa tentar ajudar.",
+    "usage": {
+     "input_tokens": 56,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 821,
+     "output_tokens_details": {
+      "reasoning_tokens": 694,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 877,
+     "cost": 0.0036908
+    },
+    "latency_s": 32.91,
+    "incomplete": null
+   },
+   "training_cutoff": {
+    "text": "",
+    "usage": {
+     "input_tokens": 28,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 2000,
+     "output_tokens_details": {
+      "reasoning_tokens": 2000,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 2028,
+     "cost": 0.0088392
+    },
+    "latency_s": 77.92,
+    "incomplete": "max_output_tokens"
+   },
+   "full_decree": {
+    "fits": true,
+    "answer_correct": true,
+    "text": "O relatório final deve ser submetido à autoridade de cibersegurança competente no prazo de 30 dias úteis a contar da data da notificação do fim de impacto significativo do incidente.",
+    "input_tokens": 54835,
+    "usage": {
+     "input_tokens": 54835,
+     "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 54784,
+      "input_tokens_per_turn": [],
+      "cached_tokens_per_turn": []
+     },
+     "output_tokens": 183,
+     "output_tokens_details": {
+      "reasoning_tokens": 136,
+      "tool_output_tokens": 0,
+      "output_tokens_per_turn": [],
+      "tool_output_tokens_per_turn": []
+     },
+     "total_tokens": 55018,
+     "cost": 0.0775742
+    },
+    "credits_this_call": 0.0776,
+    "latency_s": 14.92,
+    "incomplete": null
+   }
+  }
+ }
+}

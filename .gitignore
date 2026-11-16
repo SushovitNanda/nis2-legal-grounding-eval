@@ -1,0 +1,24 @@
+.env
+# results: the full run and the pilot are published; trials, synthetic demo output and process files are not
+results/dry/
+results/demo-mock/
+results/**/*.pid
+results/**/*.err
+results/**/*.out
+results/**/*.tmp
+results/**/analysis-interim/
+results/**/gen-core.*
+__pycache__/
+*.pyc
+.DS_Store
+data/stretch/artifact-anonymised.txt
+# outbox for Bia: copies of files that live elsewhere in the repo, plus a coordination note
+share_with_bia/
+Share_with_Bia/
+# internal coordination during the sprint (plan, notes to each other)
+Plan.md
+for-bia/
+# signed statement: carries a personal identification number; publish only with the signer's consent
+data/decree/translation/translation-review-signed-*.pdf
+# files exchanged with B.L. during the sprint (include contact details and drafts)
+Shared_by_bia/

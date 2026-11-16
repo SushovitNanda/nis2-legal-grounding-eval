@@ -1,0 +1,93 @@
+model,condition,status,uncertainty,n,share
+deepseek-v4-flash,C0,inferred,not_addressed,12,1.0
+deepseek-v4-flash,C0,to confirm,not_addressed,21,1.0
+deepseek-v4-flash,C0,verified,not_addressed,139,0.7722222222222223
+deepseek-v4-flash,C0,verified,stated_as_certain,41,0.22777777777777777
+deepseek-v4-flash,C1,inferred,not_addressed,5,0.4166666666666667
+deepseek-v4-flash,C1,inferred,stated_as_certain,7,0.5833333333333334
+deepseek-v4-flash,C1,to confirm,flagged,15,0.7142857142857143
+deepseek-v4-flash,C1,to confirm,not_addressed,6,0.2857142857142857
+deepseek-v4-flash,C1,verified,flagged,2,0.011111111111111112
+deepseek-v4-flash,C1,verified,not_addressed,27,0.15
+deepseek-v4-flash,C1,verified,stated_as_certain,151,0.8388888888888889
+deepseek-v4-flash,C2,inferred,not_addressed,12,1.0
+deepseek-v4-flash,C2,to confirm,not_addressed,19,0.9047619047619048
+deepseek-v4-flash,C2,to confirm,stated_as_certain,2,0.09523809523809523
+deepseek-v4-flash,C2,verified,not_addressed,109,0.6055555555555555
+deepseek-v4-flash,C2,verified,stated_as_certain,71,0.39444444444444443
+gemma-4-26b-a4b-it,C0,inferred,not_addressed,12,1.0
+gemma-4-26b-a4b-it,C0,to confirm,flagged,1,0.047619047619047616
+gemma-4-26b-a4b-it,C0,to confirm,not_addressed,19,0.9047619047619048
+gemma-4-26b-a4b-it,C0,to confirm,stated_as_certain,1,0.047619047619047616
+gemma-4-26b-a4b-it,C0,verified,flagged,1,0.005555555555555556
+gemma-4-26b-a4b-it,C0,verified,not_addressed,142,0.7888888888888889
+gemma-4-26b-a4b-it,C0,verified,stated_as_certain,37,0.20555555555555555
+gemma-4-26b-a4b-it,C1,inferred,not_addressed,11,0.9166666666666666
+gemma-4-26b-a4b-it,C1,inferred,stated_as_certain,1,0.08333333333333333
+gemma-4-26b-a4b-it,C1,to confirm,flagged,8,0.38095238095238093
+gemma-4-26b-a4b-it,C1,to confirm,not_addressed,12,0.5714285714285714
+gemma-4-26b-a4b-it,C1,to confirm,stated_as_certain,1,0.047619047619047616
+gemma-4-26b-a4b-it,C1,verified,flagged,2,0.011111111111111112
+gemma-4-26b-a4b-it,C1,verified,not_addressed,34,0.18888888888888888
+gemma-4-26b-a4b-it,C1,verified,stated_as_certain,144,0.8
+gemma-4-26b-a4b-it,C2,inferred,not_addressed,12,1.0
+gemma-4-26b-a4b-it,C2,to confirm,not_addressed,21,1.0
+gemma-4-26b-a4b-it,C2,verified,flagged,1,0.005555555555555556
+gemma-4-26b-a4b-it,C2,verified,not_addressed,128,0.7111111111111111
+gemma-4-26b-a4b-it,C2,verified,stated_as_certain,51,0.2833333333333333
+gemma-4-31b-it,C0,inferred,not_addressed,11,0.9166666666666666
+gemma-4-31b-it,C0,inferred,stated_as_certain,1,0.08333333333333333
+gemma-4-31b-it,C0,to confirm,flagged,1,0.047619047619047616
+gemma-4-31b-it,C0,to confirm,not_addressed,19,0.9047619047619048
+gemma-4-31b-it,C0,to confirm,stated_as_certain,1,0.047619047619047616
+gemma-4-31b-it,C0,verified,not_addressed,117,0.65
+gemma-4-31b-it,C0,verified,stated_as_certain,63,0.35
+gemma-4-31b-it,C1,inferred,not_addressed,12,1.0
+gemma-4-31b-it,C1,to confirm,flagged,8,0.38095238095238093
+gemma-4-31b-it,C1,to confirm,not_addressed,13,0.6190476190476191
+gemma-4-31b-it,C1,verified,flagged,4,0.022222222222222223
+gemma-4-31b-it,C1,verified,not_addressed,27,0.15
+gemma-4-31b-it,C1,verified,stated_as_certain,149,0.8277777777777777
+gemma-4-31b-it,C2,inferred,not_addressed,11,0.9166666666666666
+gemma-4-31b-it,C2,inferred,stated_as_certain,1,0.08333333333333333
+gemma-4-31b-it,C2,to confirm,not_addressed,21,1.0
+gemma-4-31b-it,C2,verified,not_addressed,123,0.6833333333333333
+gemma-4-31b-it,C2,verified,stated_as_certain,57,0.31666666666666665
+qwen3.5-397b,C0,inferred,not_addressed,11,0.9166666666666666
+qwen3.5-397b,C0,inferred,stated_as_certain,1,0.08333333333333333
+qwen3.5-397b,C0,to confirm,not_addressed,19,0.9047619047619048
+qwen3.5-397b,C0,to confirm,stated_as_certain,2,0.09523809523809523
+qwen3.5-397b,C0,verified,hedged_without_reason,1,0.005555555555555556
+qwen3.5-397b,C0,verified,not_addressed,125,0.6944444444444444
+qwen3.5-397b,C0,verified,stated_as_certain,54,0.3
+qwen3.5-397b,C1,inferred,not_addressed,9,0.75
+qwen3.5-397b,C1,inferred,stated_as_certain,3,0.25
+qwen3.5-397b,C1,to confirm,flagged,13,0.6190476190476191
+qwen3.5-397b,C1,to confirm,not_addressed,8,0.38095238095238093
+qwen3.5-397b,C1,verified,flagged,3,0.016666666666666666
+qwen3.5-397b,C1,verified,not_addressed,27,0.15
+qwen3.5-397b,C1,verified,stated_as_certain,150,0.8333333333333334
+qwen3.5-397b,C2,inferred,not_addressed,11,0.9166666666666666
+qwen3.5-397b,C2,inferred,stated_as_certain,1,0.08333333333333333
+qwen3.5-397b,C2,to confirm,not_addressed,21,1.0
+qwen3.5-397b,C2,verified,not_addressed,113,0.6277777777777778
+qwen3.5-397b,C2,verified,stated_as_certain,67,0.37222222222222223
+qwen3.8-27b,C0,inferred,not_addressed,12,1.0
+qwen3.8-27b,C0,to confirm,flagged,1,0.047619047619047616
+qwen3.8-27b,C0,to confirm,not_addressed,20,0.9523809523809523
+qwen3.8-27b,C0,verified,not_addressed,148,0.8222222222222222
+qwen3.8-27b,C0,verified,stated_as_certain,32,0.17777777777777778
+qwen3.8-27b,C1,inferred,flagged,2,0.16666666666666666
+qwen3.8-27b,C1,inferred,not_addressed,6,0.5
+qwen3.8-27b,C1,inferred,stated_as_certain,4,0.3333333333333333
+qwen3.8-27b,C1,to confirm,flagged,14,0.6666666666666666
+qwen3.8-27b,C1,to confirm,not_addressed,7,0.3333333333333333
+qwen3.8-27b,C1,verified,flagged,3,0.016666666666666666
+qwen3.8-27b,C1,verified,not_addressed,23,0.12777777777777777
+qwen3.8-27b,C1,verified,stated_as_certain,154,0.8555555555555555
+qwen3.8-27b,C2,inferred,not_addressed,11,0.9166666666666666
+qwen3.8-27b,C2,inferred,stated_as_certain,1,0.08333333333333333
+qwen3.8-27b,C2,to confirm,not_addressed,21,1.0
+qwen3.8-27b,C2,verified,flagged,1,0.005555555555555556
+qwen3.8-27b,C2,verified,not_addressed,130,0.7222222222222222
+qwen3.8-27b,C2,verified,stated_as_certain,49,0.2722222222222222

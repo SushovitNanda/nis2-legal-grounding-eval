@@ -1,0 +1,114 @@
+contrast,model,metric,diff,ci_lo,ci_hi,n_questions
+C1 - C0,deepseek-v4-flash,coverage,0.6625,0.4875000000000001,0.825,10
+C1 - C0,gemma-4-31b-it,coverage,0.5333333333333333,0.30833333333333335,0.7458333333333333,10
+C1 - C0,qwen3.5-397b,coverage,0.6041666666666667,0.4541666666666666,0.7083333333333333,10
+C1 - C0,qwen3.8-27b,coverage,0.8208333333333334,0.7333333333333334,0.9083333333333334,10
+C1 - C0,ALL (mean over models),coverage,0.6552083333333333,0.5333333333333333,0.76875,10
+C1 - C0,deepseek-v4-flash,fab_claims,-4.1,-5.3,-3.1,10
+C1 - C0,gemma-4-31b-it,fab_claims,-3.1,-4.4,-1.9,10
+C1 - C0,qwen3.5-397b,fab_claims,-4.5,-5.7,-3.3,10
+C1 - C0,qwen3.8-27b,fab_claims,-3.7,-4.5,-2.8,10
+C1 - C0,ALL (mean over models),fab_claims,-3.85,-4.65,-3.174375000000009,10
+C1 - C0,deepseek-v4-flash,fab_any,-0.9,-1.0,-0.7,10
+C1 - C0,gemma-4-31b-it,fab_any,-1.0,-1.0,-1.0,10
+C1 - C0,qwen3.5-397b,fab_any,-0.9,-1.0,-0.7,10
+C1 - C0,qwen3.8-27b,fab_any,-0.7,-1.0,-0.4,10
+C1 - C0,ALL (mean over models),fab_any,-0.875,-0.95,-0.8,10
+C1 - C0,deepseek-v4-flash,cit_invalid_rate,-0.4358974358974359,-1.0,0.0,3
+C1 - C0,gemma-4-31b-it,cit_invalid_rate,-0.5,,,1
+C1 - C0,qwen3.5-397b,cit_invalid_rate,0.0,0.0,0.0,2
+C1 - C0,qwen3.8-27b,cit_invalid_rate,-1.0,,,1
+C1 - C0,ALL (mean over models),cit_invalid_rate,-0.42628205128205127,-0.7596153846153846,-0.10256410256410257,6
+C1 - C0,deepseek-v4-flash,flag_rate,0.25,0.0,0.75,4
+C1 - C0,gemma-4-31b-it,flag_rate,0.0,0.0,0.0,4
+C1 - C0,qwen3.5-397b,flag_rate,0.0,0.0,0.0,4
+C1 - C0,qwen3.8-27b,flag_rate,0.375,0.0,0.75,4
+C1 - C0,ALL (mean over models),flag_rate,0.15625,0.0,0.375,4
+C1 - C0,deepseek-v4-flash,hedge_rate,0.0,0.0,0.0,3
+C1 - C0,gemma-4-31b-it,hedge_rate,0.0,0.0,0.0,5
+C1 - C0,qwen3.5-397b,hedge_rate,0.0,0.0,0.0,3
+C1 - C0,qwen3.8-27b,hedge_rate,0.0,0.0,0.0,3
+C1 - C0,ALL (mean over models),hedge_rate,0.0,0.0,0.0,7
+C1 - C0,deepseek-v4-flash,juris_confusion,-0.5,-0.8,-0.2,10
+C1 - C0,gemma-4-31b-it,juris_confusion,-0.8,-1.0,-0.5,10
+C1 - C0,qwen3.5-397b,juris_confusion,-0.6,-0.9,-0.3,10
+C1 - C0,qwen3.8-27b,juris_confusion,-1.0,-1.0,-1.0,10
+C1 - C0,ALL (mean over models),juris_confusion,-0.725,-0.85,-0.6,10
+C1 - C0,deepseek-v4-flash,flags_mismatch,0.0,0.0,0.0,10
+C1 - C0,gemma-4-31b-it,flags_mismatch,-0.1,-0.3,0.0,10
+C1 - C0,qwen3.5-397b,flags_mismatch,0.0,0.0,0.0,10
+C1 - C0,qwen3.8-27b,flags_mismatch,0.0,0.0,0.0,10
+C1 - C0,ALL (mean over models),flags_mismatch,-0.025,-0.075,0.0,10
+C2 - C1,deepseek-v4-flash,coverage,-0.6875,-0.8291666666666666,-0.5415625000000015,10
+C2 - C1,gemma-4-31b-it,coverage,-0.6249999999999999,-0.8,-0.45,10
+C2 - C1,qwen3.5-397b,coverage,-0.6291666666666667,-0.7875,-0.4541666666666666,10
+C2 - C1,qwen3.8-27b,coverage,-0.8666666666666668,-0.95,-0.7916666666666667,10
+C2 - C1,ALL (mean over models),coverage,-0.7020833333333333,-0.8323177083333334,-0.5697916666666666,10
+C2 - C1,deepseek-v4-flash,fab_claims,3.9,3.1,4.8,10
+C2 - C1,gemma-4-31b-it,fab_claims,1.5,0.6,2.4,10
+C2 - C1,qwen3.5-397b,fab_claims,3.2,2.5,3.8,10
+C2 - C1,qwen3.8-27b,fab_claims,2.6,1.6,3.5,10
+C2 - C1,ALL (mean over models),fab_claims,2.8,2.325,3.325,10
+C2 - C1,deepseek-v4-flash,fab_any,0.9,0.7,1.0,10
+C2 - C1,gemma-4-31b-it,fab_any,0.6,0.3,0.9,10
+C2 - C1,qwen3.5-397b,fab_any,0.9,0.7,1.0,10
+C2 - C1,qwen3.8-27b,fab_any,0.6,0.1,1.0,10
+C2 - C1,ALL (mean over models),fab_any,0.75,0.6,0.9,10
+C2 - C1,deepseek-v4-flash,cit_invalid_rate,0.30104166666666665,0.14583333333333331,0.4916666666666667,4
+C2 - C1,gemma-4-31b-it,cit_invalid_rate,0.0,,,1
+C2 - C1,qwen3.8-27b,cit_invalid_rate,0.9915254237288136,0.9830508474576272,1.0,2
+C2 - C1,ALL (mean over models),cit_invalid_rate,0.44928201506591336,0.23122645951035778,0.7041666666666666,6
+C2 - C1,deepseek-v4-flash,flag_rate,-0.25,-0.75,0.0,4
+C2 - C1,gemma-4-31b-it,flag_rate,0.0,0.0,0.0,4
+C2 - C1,qwen3.5-397b,flag_rate,0.0,0.0,0.0,4
+C2 - C1,qwen3.8-27b,flag_rate,-0.375,-0.75,0.0,4
+C2 - C1,ALL (mean over models),flag_rate,-0.15625,-0.375,0.0,4
+C2 - C1,deepseek-v4-flash,hedge_rate,0.0,0.0,0.0,2
+C2 - C1,qwen3.5-397b,hedge_rate,0.0,0.0,0.0,2
+C2 - C1,qwen3.8-27b,hedge_rate,0.0,,,1
+C2 - C1,ALL (mean over models),hedge_rate,0.0,0.0,0.0,3
+C2 - C1,deepseek-v4-flash,juris_confusion,0.7,0.4,1.0,10
+C2 - C1,gemma-4-31b-it,juris_confusion,1.0,1.0,1.0,10
+C2 - C1,qwen3.5-397b,juris_confusion,1.0,1.0,1.0,10
+C2 - C1,qwen3.8-27b,juris_confusion,1.0,1.0,1.0,10
+C2 - C1,ALL (mean over models),juris_confusion,0.925,0.85,1.0,10
+C2 - C1,deepseek-v4-flash,flags_mismatch,0.0,0.0,0.0,10
+C2 - C1,gemma-4-31b-it,flags_mismatch,0.2,0.0,0.5,10
+C2 - C1,qwen3.5-397b,flags_mismatch,0.4,0.1,0.7,10
+C2 - C1,qwen3.8-27b,flags_mismatch,0.2,0.0,0.5,10
+C2 - C1,ALL (mean over models),flags_mismatch,0.2,0.075,0.325,10
+C2 - C0,deepseek-v4-flash,coverage,-0.02499999999999999,-0.11666666666666663,0.05,10
+C2 - C0,gemma-4-31b-it,coverage,-0.09166666666666666,-0.1708333333333333,-0.025,10
+C2 - C0,qwen3.5-397b,coverage,-0.025,-0.1,0.05,10
+C2 - C0,qwen3.8-27b,coverage,-0.04583333333333334,-0.1375,0.03333333333333332,10
+C2 - C0,ALL (mean over models),coverage,-0.04687499999999999,-0.084375,-0.01875,10
+C2 - C0,deepseek-v4-flash,fab_claims,-0.2,-1.7,1.1,10
+C2 - C0,gemma-4-31b-it,fab_claims,-1.6,-3.0,-0.2,10
+C2 - C0,qwen3.5-397b,fab_claims,-1.3,-2.6,0.0,10
+C2 - C0,qwen3.8-27b,fab_claims,-1.1,-2.6,0.2,10
+C2 - C0,ALL (mean over models),fab_claims,-1.05,-1.875,-0.15,10
+C2 - C0,deepseek-v4-flash,fab_any,0.0,0.0,0.0,10
+C2 - C0,gemma-4-31b-it,fab_any,-0.4,-0.7,-0.1,10
+C2 - C0,qwen3.5-397b,fab_any,0.0,0.0,0.0,10
+C2 - C0,qwen3.8-27b,fab_any,-0.1,-0.3,0.0,10
+C2 - C0,ALL (mean over models),fab_any,-0.125,-0.225,-0.025,10
+C2 - C0,deepseek-v4-flash,cit_invalid_rate,-0.27051282051282055,-0.4,-0.1410256410256411,2
+C2 - C0,ALL (mean over models),cit_invalid_rate,-0.27051282051282055,-0.4,-0.1410256410256411,2
+C2 - C0,deepseek-v4-flash,flag_rate,0.0,0.0,0.0,4
+C2 - C0,gemma-4-31b-it,flag_rate,0.0,0.0,0.0,4
+C2 - C0,qwen3.5-397b,flag_rate,0.0,0.0,0.0,4
+C2 - C0,qwen3.8-27b,flag_rate,0.0,0.0,0.0,4
+C2 - C0,ALL (mean over models),flag_rate,0.0,0.0,0.0,4
+C2 - C0,deepseek-v4-flash,hedge_rate,0.0,,,1
+C2 - C0,qwen3.5-397b,hedge_rate,0.0,,,1
+C2 - C0,ALL (mean over models),hedge_rate,0.0,0.0,0.0,2
+C2 - C0,deepseek-v4-flash,juris_confusion,0.2,-0.3,0.7,10
+C2 - C0,gemma-4-31b-it,juris_confusion,0.2,0.0,0.5,10
+C2 - C0,qwen3.5-397b,juris_confusion,0.4,0.1,0.7,10
+C2 - C0,qwen3.8-27b,juris_confusion,0.0,0.0,0.0,10
+C2 - C0,ALL (mean over models),juris_confusion,0.2,0.075,0.35,10
+C2 - C0,deepseek-v4-flash,flags_mismatch,0.0,0.0,0.0,10
+C2 - C0,gemma-4-31b-it,flags_mismatch,0.1,0.0,0.3,10
+C2 - C0,qwen3.5-397b,flags_mismatch,0.4,0.1,0.7,10
+C2 - C0,qwen3.8-27b,flags_mismatch,0.2,0.0,0.5,10
+C2 - C0,ALL (mean over models),flags_mismatch,0.175,0.05,0.3,10
